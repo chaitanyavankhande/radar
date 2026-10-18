@@ -624,7 +624,7 @@ function cardHtml(tab, it, data) {
   const chips = [];
   if (isNew(it, data) && !closed) chips.push('<span class="chip new">New</span>');
   if (closed) chips.push('<span class="chip closed">Closed</span>');
-  chips.push(`<span class="chip ${STATUS_CHIP[st] ?? ''}">${esc(titleCase(st))}</span>`);
+  if (st !== 'new') chips.push(`<span class="chip ${STATUS_CHIP[st] ?? ''}">${esc(titleCase(st))}</span>`);
   for (const [t, c] of tab.chips(it)) chips.push(`<span class="chip ${c}">${esc(t)}</span>`);
   chips.push(`<span class="chip" title="${it.verified === '✅' ? 'Official page read' : it.verified === '🚫' ? 'Could not access' : 'Unverified or estimated'}">${esc(it.verified || '⚠️')}</span>`);
   const facts = tab.facts(it).filter(([, v]) => v !== '' && v != null)

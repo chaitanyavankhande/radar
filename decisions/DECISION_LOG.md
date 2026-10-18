@@ -169,3 +169,13 @@ When a later answer overrides an earlier one, the later one wins; the notes say 
 | WS2 | Closed or expired listings | Mark as Closed | Chat 17 Oct: mark closed; a filter excludes closed items and is ON by default. |
 | WS3 | Website layout | One tab per section | Casual & part-time, Internships, Hackathons, Accommodation, plus a Uni deadlines tab (public). |
 | WS4 | Website device and features | Phone and Mac equally; Search box; 'New since yesterday' badge; Shareable filter links; Deadline countdown | Chat 17 Oct |
+
+## Change log (18 Oct 2026)
+
+| Date | Change | Why |
+|---|---|---|
+| 18 Oct 2026 | Scout times staggered: casual 4:22, internships 4:38, accommodation 4:54, hackathons Mon/Wed/Fri 5:12 (Sydney) | Chrome sources run one at a time, so runs must not overlap |
+| 18 Oct 2026 | Skills: if the shared rules can't be fetched, carry on with the skill file and say so | The repo can't be pushed yet |
+| 18 Oct 2026 | Public site and repo never show his own class rooms, tutorial sections, residence or visa details | Repo and site are public |
+| 18 Oct 2026 | Source access protocol step 9: refused direct fetches go through WebSearch | Learned in the seed runs |
+

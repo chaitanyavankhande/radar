@@ -129,7 +129,7 @@
       "status": "new",
       "closed": false,
       "verified": "✅",
-      "notes": "Pay $50,000 to $60,000 (listed as $52,400 tax-free). Starts around Oct 2026, during Term 3, and is in Melbourne. QA role. GradConnection 'Accepts International' tag conflicts with the Citizen/PR list; confirm.",
+      "notes": "Pay $50,000 to $60,000 (listed as $52,400 tax-free). Starts around Oct 2026, during Term 3, and is in Melbourne. QA role. GradConnection 'Accepts International' tag conflicts with the Citizen/PR list; confirm. Eligibility list was cut off on the page: it names Australian citizens or PR, so international eligibility is unclear.",
       "location": "Melbourne",
       "country": "Australia",
       "role_type": "Software",
@@ -137,7 +137,7 @@
       "start_window": "Oct 2026 (approx); duration not stated",
       "fits_break": false,
       "work_rights": "Australian Citizen or PR listed (list truncated); open to undergraduate or postgraduate students",
-      "accepts_international": "yes"
+      "accepts_international": "unknown"
     },
     {
       "id": "gradconnection:citadel-securities-2026-2027-software-engineering-internship-57",
