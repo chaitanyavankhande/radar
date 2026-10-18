@@ -191,7 +191,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -215,7 +216,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place, brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2032114). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2032114). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -226,7 +227,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P2032114",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1446422",
@@ -268,7 +277,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -282,7 +292,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: only 2 photos"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1446422). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1446422). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -293,7 +303,15 @@
         "rate": "Response rate: 67%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1446422",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1304066",
@@ -335,7 +353,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -344,7 +363,7 @@
           "reason": "Several people share one bedroom (bunks or 3 or more per room) (listing says: \"furnished bedrooms (with bunk beds and a nice, spaciou\")"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1304066). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1304066). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -355,7 +374,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1304066",
+        "mobile_on_listing": false
+      },
+      "laundry": "likely",
+      "laundry_evidence": "complete bathrooms, a fully supplied laundry space, a nice fully"
     },
     {
       "id": "flatmates:P1703311",
@@ -411,7 +438,15 @@
         "rate": "Response rate: 99%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1703311",
+        "mobile_on_listing": false
+      },
+      "laundry": "yes",
+      "laundry_evidence": "Spacious layout • Laundry with washer & dryer ✨ Perfect"
     },
     {
       "id": "flatmates:P1998233",
@@ -453,10 +488,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1998233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1998233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -467,7 +503,15 @@
         "rate": "Response rate: 85%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1998233",
+        "mobile_on_listing": false
+      },
+      "laundry": "likely",
+      "laundry_evidence": "living area, kitchen and internal laundry and a large backyard."
     },
     {
       "id": "flatmates:P2017441",
@@ -529,7 +573,15 @@
         "rate": "Response rate: 85%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2017441",
+        "mobile_on_listing": true
+      },
+      "laundry": "yes",
+      "laundry_evidence": "Fully equipped kitchen with refrigerator, washing machine, microwave, and electric"
     },
     {
       "id": "flatmates:P2036233",
@@ -571,10 +623,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2036233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2036233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -585,7 +638,15 @@
         "rate": "Response rate: 98%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P2036233",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1121520",
@@ -627,7 +688,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -636,7 +698,7 @@
           "reason": "6 bedrooms and 6 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1121520). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1121520). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -647,7 +709,15 @@
         "rate": "Response rate: 85%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1121520",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1774225",
@@ -689,7 +759,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -698,7 +769,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1774225). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1774225). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -709,7 +780,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1774225",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P256918",
@@ -751,10 +830,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P256918). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P256918). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -765,7 +845,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P256918",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -825,7 +913,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344812669",
+        "mobile_on_listing": null
+      },
+      "laundry": "yes",
+      "laundry_evidence": "Coin operated washing machine $4 per load"
     },
     {
       "id": "flatmates:P2017007",
@@ -866,7 +962,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -875,7 +972,7 @@
           "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2017007). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2017007). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -886,7 +983,15 @@
         "rate": "Response rate: 98%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2017007",
+        "mobile_on_listing": false
+      },
+      "laundry": "likely",
+      "laundry_evidence": "socialising. • Clean bathroom. • Laundry facilities. 📍PRIME LOCATION: •"
     },
     {
       "id": "flatmates:P444075",
@@ -928,10 +1033,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P444075). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P444075). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -942,7 +1048,15 @@
         "rate": "Response rate: 72%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P444075",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P218737",
@@ -984,7 +1098,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1003,7 +1118,7 @@
           "reason": "Says \"Anyone except couples\" but is tagged as an all-female flat: ask who can actually apply"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P218737). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P218737). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -1014,7 +1129,15 @@
         "rate": "Response rate: 0%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P218737",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1794639",
@@ -1056,10 +1179,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1794639). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1794639). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1070,7 +1194,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1794639",
+        "mobile_on_listing": false
+      },
+      "laundry": "likely",
+      "laundry_evidence": "(dishwasher, oven, cooker), brand-new bathroom, laundry with an extra shower"
     },
     {
       "id": "flatmates:P1261986",
@@ -1112,7 +1244,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1121,7 +1254,7 @@
           "reason": "The ad text says $400/week for one person, but the listed rent is $350: confirm the real price"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1261986). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1261986). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1132,7 +1265,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1261986",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2029439",
@@ -1174,7 +1315,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1193,7 +1335,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029439). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029439). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1204,7 +1346,15 @@
         "rate": "Response rate: 68%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2029439",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -1242,7 +1392,7 @@
         "Can I inspect before paying the booking fee, deposit or first rent?",
         "How much is the non-refundable booking fee?",
         "Who would I share the twin room with, and is the building a registered boarding house?",
-        "Can a stay start in early January 2027, and what is the minimum term?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1277,7 +1427,15 @@
       "bills_included_count": 4,
       "trust": "C",
       "women_only": null,
-      "risk": "high"
+      "risk": "high",
+      "contact": {
+        "channel": "Casita booking team (UK, India or US phone, or Contact Us form): a marketplace, not the operator",
+        "business": "Casita",
+        "url": "https://www.casita.com/contact-us",
+        "mobile_on_listing": null
+      },
+      "laundry": "shared",
+      "laundry_evidence": "Laundry facilities are available at this Sydney student accommodation"
     },
     {
       "found_at": "2026-10-18",
@@ -1315,7 +1473,7 @@
         "Who would I share the twin room with, and is $250 per person?",
         "Is the building registered as a boarding house with NSW Fair Trading?",
         "Is water included as the description says, and is there any cap on electricity or internet?",
-        "How many residents share each bathroom and the kitchen?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1338,7 +1496,15 @@
       "bills_included_count": 4,
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Study Stays message (needs UNSW login)",
+        "business": "Private operator (former hostel); description mentions 'Semester in Australia' service package, not confirmed as operator",
+        "url": "https://studystays.unsw.edu.au/Listings/Detail/380722",
+        "mobile_on_listing": null
+      },
+      "laundry": "shared",
+      "laundry_evidence": "Laundry room with washers and dryers (AUD $4 per wash and dry)"
     },
     {
       "found_at": "2026-10-18",
@@ -1376,7 +1542,7 @@
         "What is the street address, and how long is the walk or bus to UNSW?",
         "How much bond is asked, and is it lodged with NSW Rental Bonds Online?",
         "How many people share each flat's bathroom and kitchen?",
-        "Is a 6 to 12 month stay acceptable given the preference for 2+ years?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1393,7 +1559,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344988766",
+        "mobile_on_listing": null
+      },
+      "laundry": "shared",
+      "laundry_evidence": "FREE laundry – no coins required for washing machine!"
     },
     {
       "id": "flatmates:P1984902",
@@ -1435,10 +1609,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P1984902). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P1984902). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1449,7 +1624,15 @@
         "rate": "Response rate: 96%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1984902",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P439828",
@@ -1491,10 +1674,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P439828). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P439828). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -1505,7 +1689,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P439828",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -1543,7 +1735,7 @@
         "How many residents share the 3 bathrooms and the kitchen?",
         "Can the room be held for an early January 2027 start?",
         "Is the $596 bond (2 weeks) lodged with NSW Rental Bonds Online?",
-        "Does 'all utilities' cover electricity, gas and water with no cap?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1566,7 +1758,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Gumtree message or phone (number in your Sheet)",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345141884",
+        "mobile_on_listing": null
+      },
+      "laundry": "shared",
+      "laundry_evidence": "coin-operated laundry"
     },
     {
       "id": "flatmates:P1946423",
@@ -1608,7 +1808,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1627,7 +1828,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: last online 14 days ago, replies to 0% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P1946423). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P1946423). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1638,7 +1839,15 @@
         "rate": "Response rate: 0%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-coogee-2034-P1946423",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -1676,7 +1885,7 @@
         "Does '$300 incl. bills' cover gas and water as well as electricity and Wi-Fi, with no usage cap?",
         "How many people live in the house now, and how many share each bathroom and kitchen?",
         "How much bond do you ask, is it lodged with NSW Rental Bonds Online, and what agreement do I sign?",
-        "Which stop is closest for the 303 bus to UNSW, and how long is the ride?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1693,7 +1902,15 @@
       "bills_included_count": 4,
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344228914",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1937524",
@@ -1735,7 +1952,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1749,7 +1967,7 @@
           "reason": "Only 2 photos: ask for a live video walk-through you start, then inspect in person"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1937524). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1937524). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1760,7 +1978,15 @@
         "rate": "Response rate: 64%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P1937524",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1931805",
@@ -1802,10 +2028,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1931805). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1931805). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -1816,7 +2043,15 @@
         "rate": "Response rate: 93%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/student-accommodation-sydney-randwick-2031-P1931805",
+        "mobile_on_listing": false
+      },
+      "laundry": "shared",
+      "laundry_evidence": "worry about. The apartment features shared laundry facilities and a clean"
     },
     {
       "id": "flatmates:P2018185",
@@ -1858,7 +2093,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1872,7 +2108,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 11% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2018185). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2018185). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -1883,7 +2119,15 @@
         "rate": "Response rate: 11%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2018185",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2021362",
@@ -1924,7 +2168,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -1933,7 +2178,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Coogee (listing P2021362). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Coogee (listing P2021362). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -1944,7 +2189,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-coogee-2034-P2021362",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1654205",
@@ -1986,10 +2239,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1654205). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1654205). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2000,7 +2254,15 @@
         "rate": "Response rate: 88%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1654205",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1722761",
@@ -2042,7 +2304,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2066,7 +2329,7 @@
           "reason": "Deposit $1,280 is more than 2 weeks' fee ($640), the NSW limit for a boarding house"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Randwick (listing P1722761). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Randwick (listing P1722761). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2077,7 +2340,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "high"
+      "risk": "high",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/student-accommodation-sydney-randwick-2031-P1722761",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2026141",
@@ -2119,7 +2390,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2138,7 +2410,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 11% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P2026141). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P2026141). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -2149,7 +2421,15 @@
         "rate": "Response rate: 11%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-coogee-2034-P2026141",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2034077",
@@ -2190,7 +2470,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2199,7 +2480,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2034077). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2034077). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -2210,7 +2491,15 @@
         "rate": "Response rate: 33%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2034077",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1362953",
@@ -2252,10 +2541,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1362953). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1362953). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2266,7 +2556,15 @@
         "rate": "Response rate: 94%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1362953",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2031888",
@@ -2308,7 +2606,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2317,7 +2616,7 @@
           "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P2031888). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P2031888). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2328,7 +2627,15 @@
         "rate": "Response rate: 97%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P2031888",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1678070",
@@ -2369,7 +2676,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2378,7 +2686,7 @@
           "reason": "Sub-let or lease takeover: ask for the owner's or agent's written consent, and for the bond to be lodged (listing says: \"st Residence * Temporary sublease Just 150m to ocean rock\")"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1678070). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1678070). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2389,7 +2697,15 @@
         "rate": "Response rate: 71%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P1678070",
+        "mobile_on_listing": true
+      },
+      "laundry": "shared",
+      "laundry_evidence": "own bathroom to share also. Shared kitchen and yard, laundry and house kitty cat"
     },
     {
       "id": "flatmates:P1980008",
@@ -2431,10 +2747,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1980008). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1980008). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2445,7 +2762,15 @@
         "rate": "Response rate: 89%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1980008",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2024587",
@@ -2486,7 +2811,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2500,7 +2826,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2024587). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2024587). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2511,7 +2837,15 @@
         "rate": "Response rate: 38%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2024587",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1224376",
@@ -2552,7 +2886,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2561,7 +2896,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1224376). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1224376). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2572,7 +2907,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1224376",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -2609,9 +2952,16 @@
         "How many people live in the house and how many share the bathroom?",
         "Can I start in early January 2027 instead of now?",
         "How much is the bond, and is it lodged with NSW Rental Bonds Online?",
-        "Who is the landlord or head tenant I would sign with (the ad gives a different name to call than the poster's)?"
+        "Who is the landlord or head tenant I would sign with (the ad gives a different name to call than the poster's)?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
+        {
+          "code": "inconsistent_details",
+          "level": "low",
+          "reason": "The poster's profile name differs from the name given in the ad to call: ask who you are dealing with before arranging a viewing",
+          "manual": true
+        },
         {
           "code": "high_risk_classifieds",
           "level": "low",
@@ -2626,7 +2976,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345196105",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1356556",
@@ -2668,10 +3026,11 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1356556). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1356556). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2682,7 +3041,15 @@
         "rate": "Response rate: 80%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1356556",
+        "mobile_on_listing": true
+      },
+      "laundry": "likely",
+      "laundry_evidence": "dining area, kitchen, 1 bathroom, laundry and lounge area. Located"
     },
     {
       "id": "flatmates:P1615657",
@@ -2724,7 +3091,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2733,7 +3101,7 @@
           "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Maroubra (listing P1615657). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Maroubra (listing P1615657). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2744,7 +3112,15 @@
         "rate": "Response rate: 79%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/student-accommodation-sydney-maroubra-2035-P1615657",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1072460",
@@ -2786,7 +3162,8 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2800,7 +3177,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 0% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1072460). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1072460). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -2811,7 +3188,15 @@
         "rate": "Response rate: 0%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1072460",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P835365",
@@ -2872,7 +3257,15 @@
         "rate": "Response rate: 66%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P835365",
+        "mobile_on_listing": true
+      },
+      "laundry": "yes",
+      "laundry_evidence": "4 bathrooms, 2 kitchens Dryer n washer available"
     },
     {
       "id": "flatmates:P1952589",
@@ -2913,7 +3306,8 @@
       "inspection_questions": [
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -2922,7 +3316,7 @@
           "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1952589). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1952589). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -2933,7 +3327,15 @@
         "rate": "Response rate: 84%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P1952589",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2032950",
@@ -2994,7 +3396,15 @@
         "rate": "Response rate: 74%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2032950",
+        "mobile_on_listing": false
+      },
+      "laundry": "yes",
+      "laundry_evidence": "and laundry room. Access to washing machine and dryer. Free street"
     },
     {
       "id": "flatmates:P2010858",
@@ -3036,7 +3446,8 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3050,7 +3461,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 15% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2010858). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2010858). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -3061,7 +3472,15 @@
         "rate": "Response rate: 15%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2010858",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1750765",
@@ -3104,10 +3523,10 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1750765). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1750765). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3118,7 +3537,15 @@
         "rate": "Response rate: 73%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1750765",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -3156,7 +3583,7 @@
         "Is electricity included too, or split between the three of us, and roughly how much a week?",
         "Is the $1,360 deposit lodged with NSW Rental Bonds Online?",
         "Are you the head tenant, and does the landlord or agent approve a new sub-tenant?",
-        "Are the two current flatmates students or workers?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3184,7 +3611,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Study Stays message (needs UNSW login)",
+        "business": "Private provider (Residential, self-managed deposit); no name shown",
+        "url": "https://studystays.unsw.edu.au/Listings/Detail/381028",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1499898",
@@ -3227,7 +3662,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3236,7 +3671,7 @@
           "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1499898). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1499898). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3247,7 +3682,15 @@
         "rate": "Response rate: 70%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1499898",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -3285,7 +3728,7 @@
         "What is the minimum stay, and can I start on a set date in early January 2027?",
         "Who would I share the room with, and is a private room ever offered under $350?",
         "Is the matching fee (about $370 in 2027) refundable if no suitable host is found?",
-        "What are the house rules for kitchen use when 'no meals' is chosen?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a homestay from early January 2027. I'm looking at the No Meals package and would prefer a host within walking distance of UNSW Kensington. Could you tell me the minimum stay, whether a private room is possible near my budget of $350 a week, and confirm that utilities and internet are included? I'd also like to know how the matching fee works. Thank you.",
@@ -3296,7 +3739,15 @@
       "about": "",
       "trust": "A",
       "women_only": null,
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Phone or email (in your Sheet), or the enquiry form on the contact page",
+        "business": "Australian Homestay Network",
+        "url": "https://www.homestaynetwork.org/contact",
+        "mobile_on_listing": null
+      },
+      "laundry": "likely",
+      "laundry_evidence": "Packages prices include internet access, laundry facilities and utilities"
     },
     {
       "id": "flatmates:P2025382",
@@ -3339,10 +3790,10 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Maroubra (listing P2025382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Maroubra (listing P2025382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3353,7 +3804,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2025382",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -3391,7 +3850,7 @@
         "Is the twin-share room still free, and who would I share it with?",
         "Is water included along with electricity, gas and internet?",
         "Is the $350 deposit lodged with NSW Rental Bonds Online?",
-        "How many people share each bathroom and the kitchen?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3418,7 +3877,7 @@
           "reason": "UNSW does not check Study Stays properties: anyone can register as a provider"
         }
       ],
-      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the twin-share room at your Alfreda St house in Coogee. Is it still available, and could I move in early January 2027 for about 6 months? Could you confirm whether water is included along with electricity, gas and internet, and how the bond is handled? I'd also like to arrange an inspection. Thank you.",
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the twin-share room at your Alfreda St house in Coogee. Is it still available, and could I move in early January 2027 for about 6 months? Could you confirm whether water is included along with electricity, gas and internet, and how the bond is handled? Is there a washing machine I can use? I'd also like to arrange an inspection. Thank you.",
       "notes": "Twin share $350 (single room $450, over budget). 1-week deposit ($350). Water not mentioned; tenants usually pay $0 ⚠️ estimate. Stale dates (available 10 May 2025) so confirm it is live. Bus to UNSW ⚠️ estimate.",
       "bills_included_count": 3,
       "who_can_apply": null,
@@ -3426,7 +3885,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Study Stays message (needs UNSW login)",
+        "business": "Myola Coogee Accommodation (named in description)",
+        "url": "https://studystays.unsw.edu.au/Listings/Detail/376475",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2036562",
@@ -3468,10 +3935,11 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2036562). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2036562). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3482,7 +3950,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2036562",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -3520,7 +3996,7 @@
         "How many family members live there, and do I share their bathroom?",
         "Are gas and water also included?",
         "Can I start in early January 2027, and what notice period and agreement apply?",
-        "Is there a bond, and how is it held?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3537,7 +4013,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344512334",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2032382",
@@ -3579,7 +4063,8 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3593,7 +4078,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place, brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2032382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2032382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3604,7 +4089,15 @@
         "rate": "",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2032382",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2020368",
@@ -3647,10 +4140,10 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2020368). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2020368). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -3661,7 +4154,15 @@
         "rate": "Response rate: 48%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2020368",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1999692",
@@ -3704,10 +4205,10 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1999692). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1999692). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -3718,7 +4219,15 @@
         "rate": "Response rate: 50%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1999692",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -3755,7 +4264,8 @@
         "Is the room private, and how many people share the flat and bathroom?",
         "How are electricity, gas and water split, and roughly how much a week?",
         "What bond and lease length do you want, and is the bond lodged with NSW Rental Bonds Online?",
-        "Can the room be held for an early January 2027 start?"
+        "Can the room be held for an early January 2027 start?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3772,7 +4282,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345049509",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2034126",
@@ -3814,7 +4332,8 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3823,7 +4342,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2034126). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2034126). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3834,7 +4353,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2034126",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2023218",
@@ -3877,7 +4404,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -3891,7 +4418,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2023218). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2023218). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -3902,7 +4429,15 @@
         "rate": "Response rate: 42%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P2023218",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "rea:444682392",
@@ -3945,13 +4480,21 @@
         "Is the kitchenette enough to cook in, or is the shared kitchen needed for most meals?",
         "How is electricity billed: separate meter or shared?",
         "Is internet available in the building, and what does it cost?",
-        "Is the bond lodged with NSW Rental Bonds Online?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW student interested in the studio at Bunnerong Road, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me the lease length on offer, how electricity and internet are billed, and when the next inspection is? Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW student interested in the studio at Bunnerong Road, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me the lease length on offer, how electricity and internet are billed, and when the next inspection is? Is there a washing machine I can use? Thanks, [your name]",
       "trust": "A",
       "women_only": null,
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Agent via realestate.com.au: use the enquiry button on the listing",
+        "business": null,
+        "url": "https://www.realestate.com.au/property-studio-nsw-kingsford-444682392",
+        "mobile_on_listing": null
+      },
+      "laundry": "shared",
+      "laundry_evidence": "shared kitchen and laundry ( washer and dryer). Only water"
     },
     {
       "id": "flatmates:P2025773",
@@ -4008,7 +4551,15 @@
         "rate": "Response rate: 45%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/whole-property-sydney-kingsford-2032-P2025773",
+        "mobile_on_listing": true
+      },
+      "laundry": "yes",
+      "laundry_evidence": "storage - Internal laundry with washer/dryer - Secure car"
     },
     {
       "found_at": "2026-10-18",
@@ -4045,7 +4596,8 @@
         "Can a current resident re-contract for Term 1 2027 without a gap after 31 Dec 2026?",
         "Are electricity, gas and water included in the weekly rate?",
         "Which apartment sizes are at the $404 end of the range?",
-        "Is the 4-week deposit carried over from the current contract?"
+        "Is the 4-week deposit carried over from the current contract?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm [your name], a current UNSW Village resident. I'd like to know whether I can book a shared apartment for Term 1 2027 starting 1 January, so there is no gap after my current contract ends. Could you confirm the cheapest weekly rate for 2027, whether utilities are included, and how the security deposit is handled? Thank you.",
@@ -4056,7 +4608,15 @@
       "about": "",
       "trust": "A",
       "women_only": null,
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Phone or email (in your Sheet), or the enquiry form on the contact page",
+        "business": "Campus Living Villages (UNSW Village)",
+        "url": "https://campuslivingvillages.com/australia/contact",
+        "mobile_on_listing": null
+      },
+      "laundry": "shared",
+      "laundry_evidence": "On-site Laundry"
     },
     {
       "id": "flatmates:P1663483",
@@ -4098,7 +4658,8 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4112,7 +4673,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 11% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Eastlakes (listing P1663483). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Eastlakes (listing P1663483). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -4123,7 +4684,15 @@
         "rate": "Response rate: 11%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1663483",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1855905",
@@ -4165,7 +4734,8 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Who would I share the room with, and is there storage for each person?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4174,7 +4744,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1855905). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1855905). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -4185,7 +4755,15 @@
         "rate": "Response rate: 25%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1855905",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -4223,7 +4801,7 @@
         "Can I start in early January 2027 instead of now, and is a holding fee involved?",
         "How are electricity, gas, water, Wi-Fi and the fortnightly cleaner split, and what is the usual weekly total?",
         "Will the 3-week deposit be lodged with NSW Rental Bonds Online, and is the house a registered boarding house?",
-        "What is the exact address and walking route to UNSW?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4252,7 +4830,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Phone, email or WhatsApp (in your Sheet), or the 'Register your interest' form on the room page",
+        "business": "Down Under Stay",
+        "url": "https://downunderstay.com.au/contact/",
+        "mobile_on_listing": null
+      },
+      "laundry": "likely",
+      "laundry_evidence": "Laundry (with dryer)"
     },
     {
       "id": "flatmates:P2009506",
@@ -4295,7 +4881,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4314,7 +4900,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 9% of messages, no description of the place"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2009506). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2009506). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -4325,7 +4911,15 @@
         "rate": "Response rate: 9%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2009506",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1337165",
@@ -4368,7 +4962,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4377,7 +4971,7 @@
           "reason": "5 bedrooms and 7 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1337165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1337165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -4388,7 +4982,15 @@
         "rate": "Response rate: 100%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1337165",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -4426,7 +5028,7 @@
         "Can I take the Room 3 bed ($285), which is shared with a male student?",
         "Roughly how much do electricity, gas, water, internet and the fortnightly cleaner add per week?",
         "Will the 3-week bond be lodged with NSW Rental Bonds Online rather than self-managed?",
-        "The listing is a sub-let: does the owner approve new sub-tenants?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4455,7 +5057,15 @@
       "bills_included_count": 0,
       "trust": "B",
       "women_only": "likely",
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Study Stays message (needs UNSW login)",
+        "business": "Down Under Stay (named only in attachment file names)",
+        "url": "https://studystays.unsw.edu.au/Listings/Detail/380549",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -4492,7 +5102,8 @@
         "Is Room 2 $225 or $255 a week per person?",
         "Who would I share the room with, and can I start in early January 2027?",
         "How are bills and the fortnightly cleaner split, and what is the usual weekly total?",
-        "Will the 3-week deposit be lodged with NSW Rental Bonds Online?"
+        "Will the 3-week deposit be lodged with NSW Rental Bonds Online?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4516,7 +5127,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Phone, email or WhatsApp (in your Sheet), or the 'Register your interest' form on the room page",
+        "business": "Down Under Stay",
+        "url": "https://downunderstay.com.au/contact/",
+        "mobile_on_listing": null
+      },
+      "laundry": "likely",
+      "laundry_evidence": "Laundry (with dryer)"
     },
     {
       "id": "flatmates:P1882018",
@@ -4559,7 +5178,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4583,7 +5202,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: last online 23 days ago, replies to 0% of messages"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1882018). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1882018). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -4594,7 +5213,15 @@
         "rate": "Response rate: 0%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1882018",
+        "mobile_on_listing": true
+      },
+      "laundry": "likely",
+      "laundry_evidence": "kitchen • Clean bathroom & laundry • Spacious living and"
     },
     {
       "found_at": "2026-10-18",
@@ -4631,7 +5258,8 @@
         "Is $285 per person, and who would share the room?",
         "Can the start move from 30 Nov 2026 to early January 2027?",
         "Are electricity, gas and water included or split, and what is the usual weekly total with Wi-Fi?",
-        "Is the house a registered boarding house, and is the 3-week deposit lodged with NSW Rental Bonds Online?"
+        "Is the house a registered boarding house, and is the 3-week deposit lodged with NSW Rental Bonds Online?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4649,7 +5277,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Phone, email or WhatsApp (in your Sheet), or the 'Register your interest' form on the room page",
+        "business": "Down Under Stay",
+        "url": "https://downunderstay.com.au/contact/",
+        "mobile_on_listing": null
+      },
+      "laundry": "likely",
+      "laundry_evidence": "Laundry (with dryer)"
     },
     {
       "found_at": "2026-10-18",
@@ -4686,7 +5322,8 @@
         "Is $285 per person when shared, and who would I share with?",
         "Can the start move from 8 Dec 2026 to early January 2027?",
         "Are electricity, gas and water included or split, and what is the weekly total with Wi-Fi?",
-        "Is the house a registered boarding house, and is the 3-week deposit lodged with NSW Rental Bonds Online?"
+        "Is the house a registered boarding house, and is the 3-week deposit lodged with NSW Rental Bonds Online?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4704,7 +5341,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Phone, email or WhatsApp (in your Sheet), or the 'Register your interest' form on the room page",
+        "business": "Down Under Stay",
+        "url": "https://downunderstay.com.au/contact/",
+        "mobile_on_listing": null
+      },
+      "laundry": "likely",
+      "laundry_evidence": "Laundry (with dryer)"
     },
     {
       "found_at": "2026-10-18",
@@ -4742,7 +5387,7 @@
         "Who is the landlord or head tenant, and what agreement would I sign?",
         "Which bills are included, and roughly what do the rest cost per week?",
         "Can the room start in early January 2027, and what lease lengths are offered?",
-        "Who lives in the other two bedrooms?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -4771,7 +5416,15 @@
       "bills_included_count": 0,
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "uhomes booking team (UK phone, WhatsApp or Contact Us form): a marketplace, not the landlord",
+        "business": "uhomes",
+        "url": "https://en.uhomes.com/general-pages/contact-us",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -4837,7 +5490,15 @@
       "bills_included_count": 0,
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "uhomes booking team (UK phone, WhatsApp or Contact Us form): a marketplace, not the landlord",
+        "business": "uhomes",
+        "url": "https://en.uhomes.com/general-pages/contact-us",
+        "mobile_on_listing": null
+      },
+      "laundry": "yes",
+      "laundry_evidence": "we provide a washing machine and dryer for a convenient home life"
     },
     {
       "found_at": "2026-10-18",
@@ -4892,7 +5553,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message or phone (number in your Sheet)",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344928502",
+        "mobile_on_listing": null
+      },
+      "laundry": "yes",
+      "laundry_evidence": "Room with plenty space, washing maching provided."
     },
     {
       "id": "flatmates:P1877946",
@@ -4934,10 +5603,11 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1877946). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1877946). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -4948,7 +5618,15 @@
         "rate": "Response rate: 80%",
         "early": true
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1877946",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "rea:418962602",
@@ -4991,7 +5669,7 @@
         "How many residents share each bathroom and the kitchen?",
         "Is the boarding house registered with NSW Fair Trading, and is there a written occupancy agreement?",
         "What notice period and minimum stay apply?",
-        "Can the room be held for a move-in in late December 2026 or January 2027?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5000,10 +5678,18 @@
           "reason": "Looks like a boarding house (5 or more paying residents): check it is on the NSW boarding house register (listing says: \"Room in a licensed boarding house, Rainbow St Listed as\")"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW student interested in a room at the Rainbow Street boarding house in Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included, the minimum stay, and when I could inspect? Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW student interested in a room at the Rainbow Street boarding house in Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included, the minimum stay, and when I could inspect? Is there a washing machine I can use? Thanks, [your name]",
       "trust": "A",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Agent via realestate.com.au: use the enquiry button on the listing",
+        "business": null,
+        "url": "https://www.realestate.com.au/property-apartment-nsw-kingsford-418962602",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -5040,7 +5726,8 @@
         "How many people share the bathroom and a half?",
         "Have the pest, leak and internet problems in the reviews been fixed?",
         "Which bills are included in the $330?",
-        "Who is the landlord, and can the room start in early January 2027?"
+        "Who is the landlord, and can the room start in early January 2027?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5069,7 +5756,15 @@
       "bills_included_count": 0,
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "uhomes booking team (UK phone, WhatsApp or Contact Us form): a marketplace, not the landlord",
+        "business": "uhomes",
+        "url": "https://en.uhomes.com/general-pages/contact-us",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P995771",
@@ -5126,7 +5821,15 @@
         "rate": "Response rate: 53%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P995771",
+        "mobile_on_listing": false
+      },
+      "laundry": "yes",
+      "laundry_evidence": "Internet facility included.Fully furnished including washing machine."
     },
     {
       "found_at": "2026-10-18",
@@ -5163,7 +5866,8 @@
         "Is $350 the weekly price for one bedroom, and are any bills included?",
         "How many people share the two bathrooms?",
         "Who is the landlord, and what agreement would I sign?",
-        "Can the room start in early January 2027?"
+        "Can the room start in early January 2027?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5192,7 +5896,15 @@
       "bills_included_count": 0,
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "uhomes booking team (UK phone, WhatsApp or Contact Us form): a marketplace, not the landlord",
+        "business": "uhomes",
+        "url": "https://en.uhomes.com/general-pages/contact-us",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2029561",
@@ -5235,7 +5947,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Who would I share the room with, and is there storage for each person?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5254,7 +5966,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029561). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029561). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -5265,7 +5977,15 @@
         "rate": "Response rate: 68%",
         "early": false
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2029561",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -5303,7 +6023,7 @@
         "Can the start move from 28 Nov 2026 to early January 2027?",
         "Are electricity, gas and water included or split?",
         "Which bus goes to UNSW and how long does it take?",
-        "Is the house a registered boarding house, and is the deposit lodged with NSW Rental Bonds Online?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5321,7 +6041,15 @@
       "about": "",
       "trust": "B",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Phone, email or WhatsApp (in your Sheet), or the 'Register your interest' form on the room page",
+        "business": "Down Under Stay",
+        "url": "https://downunderstay.com.au/contact/",
+        "mobile_on_listing": null
+      },
+      "laundry": "likely",
+      "laundry_evidence": "Laundry (with dryer)"
     },
     {
       "id": "flatmates:P2034965",
@@ -5364,7 +6092,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5373,7 +6101,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2034965). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2034965). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "likely",
       "lister": {
@@ -5384,7 +6112,15 @@
         "rate": "Response rate: 33%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2034965",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2014019",
@@ -5427,10 +6163,10 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2014019). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2014019). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -5441,7 +6177,15 @@
         "rate": "Response rate: 25%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2014019",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P1645831",
@@ -5484,7 +6228,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5493,7 +6237,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1645831). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1645831). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": "stated",
       "lister": {
@@ -5504,7 +6248,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1645831",
+        "mobile_on_listing": false
+      },
+      "laundry": "likely",
+      "laundry_evidence": "and kitchen are fully furnished Laundry and dryer included TV"
     },
     {
       "id": "flatmates:P1513014",
@@ -5547,10 +6299,10 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1513014). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1513014). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -5561,7 +6313,15 @@
         "rate": "Response rate: 18%",
         "early": false
       },
-      "risk": "none"
+      "risk": "none",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1513014",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -5598,7 +6358,8 @@
         "What dates does the short-term stay cover, and could it run from early January 2027 for a few months?",
         "Are electricity, gas, water and internet included in the $330?",
         "Who else lives in the apartment, and is the bathroom shared?",
-        "What bond do you ask, and is it lodged with NSW Rental Bonds Online?"
+        "What bond do you ask, and is it lodged with NSW Rental Bonds Online?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5608,14 +6369,22 @@
         }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your short-term room in Zetland. I'm looking for a start between late December 2026 and early February 2027: what dates is the room available for? Could you also tell me whether bills are included in the $330, who else lives there, and the bond? I'd like to arrange an inspection. Thank you.",
-      "notes": "Outside the six target suburbs (ranked lower). Zetland has a direct bus towards UNSW (route 370 via Green Square) ⚠️ unverified. 'Short term' with no dates, so it may not cover January. Posted 17 Oct 2026; thin ad (no bills, bond or household). Bills $25/wk ⚠️ estimate.",
+      "notes": "Outside the six target suburbs (ranked lower). Zetland has a direct bus towards UNSW (route 370 via Green Square) ⚠️ unverified. 'Short term' with no dates, so it may not cover January. Posted 17 Oct 2026; thin ad (no bills, bond or household). Bills $25/wk ⚠️ estimate. The ad title says SHORT TERM.",
       "bond": null,
       "about": "Bright, cosy furnished room with double bed, TV, storage, fan and its own balcony with leafy views; near Green Square station.",
       "who_can_apply": null,
       "bills_included_count": 0,
       "trust": "C",
       "women_only": null,
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345190832",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2032165",
@@ -5657,7 +6426,8 @@
         "Which bills are included, and roughly what do the others cost each week?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Can I see the room in person or on a live video call before paying anything?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5666,7 +6436,7 @@
           "reason": "The ad suggests the lister does not control the place yet (listing says: \"rooms, people). We are looking to start a share house. We've got a couple opti\")"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2032165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2032165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -5677,7 +6447,15 @@
         "rate": "Response rate: 50%",
         "early": false
       },
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2032165",
+        "mobile_on_listing": true
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -5715,7 +6493,7 @@
         "How many people live in the house and share each bathroom?",
         "What bond, lease length and agreement apply, and is the bond lodged with NSW Rental Bonds Online?",
         "Can I start in early January 2027?",
-        "Can we keep messages on Gumtree until after the inspection?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5730,7 +6508,7 @@
           "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
         }
       ],
-      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a single room in your Bunnerong Rd house. I'd like to move in early January 2027 for 6 months or more. Could you tell me whether any bills are included in the $350, and the bond and lease terms? I'd also like to arrange an inspection. Thank you.",
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a single room in your Bunnerong Rd house. I'd like to move in early January 2027 for 6 months or more. Could you tell me whether any bills are included in the $350, and the bond and lease terms? Is there a washing machine I can use? I'd also like to arrange an inspection. Thank you.",
       "notes": "At the $350 cap with no bills mentioned: total about $375/wk ⚠️ estimate, over budget. Ensuite rooms about $400 to $450 (over budget). Direct bus to UNSW per ad; time ⚠️ estimate. Possibly the same room as flatmates:P2006237 on Flatmates.com.au. Possibly the same room as flatmates:P1952589 on Flatmates.com.au.",
       "bills_included_count": 0,
       "who_can_apply": null,
@@ -5738,7 +6516,15 @@
       "about": "",
       "trust": "C",
       "women_only": null,
-      "risk": "high"
+      "risk": "high",
+      "contact": {
+        "channel": "Gumtree message or phone (number in your Sheet)",
+        "business": null,
+        "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345176187",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "id": "flatmates:P2006237",
@@ -5781,7 +6567,7 @@
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
         "How many people live here, and how are cleaning and kitchen time shared?",
-        "Can I see the room in person or on a live video call before paying anything?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5790,7 +6576,7 @@
           "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
         }
       ],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2006237). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2006237). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
       "trust": "B",
       "women_only": null,
       "lister": {
@@ -5801,7 +6587,15 @@
         "rate": "Response rate: 100%",
         "early": true
       },
-      "risk": "low"
+      "risk": "low",
+      "contact": {
+        "channel": "Flatmates message (sign in)",
+        "business": null,
+        "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2006237",
+        "mobile_on_listing": false
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -5839,7 +6633,7 @@
         "Could the lease start in early January 2027 instead of 21 October 2026?",
         "What lease length is offered, and is water usage charged?",
         "Is the studio furnished?",
-        "Will the $1,400 bond be lodged with NSW Rental Bonds Online?"
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5850,14 +6644,22 @@
         }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the studio at 11/1-3 Vicar St, Coogee. I'm looking for a start between late December 2026 and early February 2027: is a later start possible? Could you confirm whether the studio has its own kitchen and bathroom, whether it is furnished, which bills the tenant pays (electricity, gas, water, internet), and the lease length? Thank you.",
-      "notes": "Agency listing (first listed 13 Oct); bond $1,400 = 4 weeks, the legal maximum. Available 21 Oct 2026, so a January start needs the agent's agreement. Inspections and applications run through Snug. Bills not stated; a solo studio usually pays more than the share-house $25/wk ⚠️ estimate. Distance is the Coogee suburb centre ⚠️.",
+      "notes": "Agency listing (first listed 13 Oct); bond $1,400 = 4 weeks, the legal maximum. Available 21 Oct 2026, so a January start needs the agent's agreement. Inspections and applications run through Snug. Bills not stated; a solo studio usually pays more than the share-house $25/wk ⚠️ estimate. Distance is the Coogee suburb centre ⚠️. The page metadata says 'Contact agent for price' while the listing shows $350/week; Domain lists it as 0 bedrooms. Inspection was listed for a Saturday at 12:15 pm (18 Oct check).",
       "bond": 1400,
       "about": "Coogee residence close to the beach, cafes, dining and local amenities.",
       "who_can_apply": null,
       "bills_included_count": 0,
       "trust": "A",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "Agent: phone (number in your Sheet) or the site's email enquiry button",
+        "business": "IB Property",
+        "url": "https://www.domain.com.au/11-1-3-vicar-coogee-nsw-2034-18365354",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     },
     {
       "found_at": "2026-10-18",
@@ -5894,7 +6696,8 @@
         "Is $350 the weekly price for one bedroom, and are any bills included?",
         "With 7 bedrooms, is the house a registered boarding house?",
         "Who is the landlord, and what agreement would I sign?",
-        "Can the room start in early January 2027, and which bus goes to UNSW?"
+        "Can the room start in early January 2027, and which bus goes to UNSW?",
+        "Is there a washing machine I can use, and is it included in the rent?"
       ],
       "scam_flags": [
         {
@@ -5929,7 +6732,15 @@
       "bills_included_count": 0,
       "trust": "C",
       "women_only": null,
-      "risk": "medium"
+      "risk": "medium",
+      "contact": {
+        "channel": "uhomes booking team (UK phone, WhatsApp or Contact Us form): a marketplace, not the landlord",
+        "business": "uhomes",
+        "url": "https://en.uhomes.com/general-pages/contact-us",
+        "mobile_on_listing": null
+      },
+      "laundry": "not mentioned",
+      "laundry_evidence": ""
     }
   ]
 }
