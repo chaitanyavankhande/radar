@@ -104,7 +104,7 @@ const FIT_LABEL = { exact: 'Exact fit', overlap: 'Up to 2 weeks over', unknown: 
 const fitOf = it => FIT_RANK[it.break_fit] !== undefined ? it.break_fit : (it.fits_break === true ? 'exact' : 'unknown');
 const fitText = it => {
   const f = fitOf(it);
-  if (f === 'exact') return `Inside ${it.break_name || 'a break'}`;
+  if (f === 'exact') return it.break_name === 'Flexible dates' ? 'You choose the dates, so it can sit inside a break' : `Inside ${it.break_name || 'a break'}`;
   if (f === 'overlap') return `${it.overlap_days} day${it.overlap_days === 1 ? '' : 's'} outside ${it.break_name || 'the break'} (allowed up to 14)`;
   if (f === 'outside') return `${it.overlap_days != null ? it.overlap_days + ' days' : 'More than 14 days'} in term or exams`;
   return 'Dates not stated';
@@ -263,7 +263,7 @@ const TABS = [
     chips: it => {
       const c = [];
       const f = fitOf(it);
-      if (f === 'exact') c.push([`Fits ${it.break_name || 'a break'} exactly`, 'good']);
+      if (f === 'exact') c.push([it.break_name === 'Flexible dates' ? 'Flexible dates: fits a break' : `Fits ${it.break_name || 'a break'} exactly`, 'good']);
       else if (f === 'overlap') c.push([`${it.overlap_days} day${it.overlap_days === 1 ? '' : 's'} over the break`, 'warn']);
       else if (f === 'outside') c.push(['Clashes with term', 'crit']);
       else c.push(['Dates not stated', '']);

@@ -178,4 +178,6 @@ When a later answer overrides an earlier one, the later one wins; the notes say 
 | 18 Oct 2026 | Skills: if the shared rules can't be fetched, carry on with the skill file and say so | The repo can't be pushed yet |
 | 18 Oct 2026 | Public site and repo never show his own class rooms, tutorial sections, residence or visa details | Repo and site are public |
 | 18 Oct 2026 | Source access protocol step 9: refused direct fetches go through WebSearch | Learned in the seed runs |
-
+| 18 Oct 2026 | Internship break fit: exact fits first; up to 14 days over a break allowed but stated; every break to the end of the degree (official dates to 2028, 2029 not published) | Chaitanya's answer |
+| 18 Oct 2026 | Sheet and Drive folders stay in the Drive connector's account, shared to the main Google account; distances stay measured from UNSW Village | Chaitanya's answers |
+| 18 Oct 2026 | Six calendars created with colours: UNSW tomato, Internships cobalt, Casual & Part-time Jobs basil, Hackathons grape, Events tangerine, Accommodation peacock | Set-up |
