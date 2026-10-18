@@ -94,6 +94,8 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `transit_min` | number or null | Approx. public transport (or walking, if shorter) minutes from UNSW Village |
 | `walkable` | bool | About 20 minutes' walk or less to UNSW |
 | `rent_pw` | number | AUD per week |
+| `bond` | number or null | AUD, as listed |
+| `about` | string | Short description from the listing |
 | `bills` | object | `{ "electricity": "...", "gas": "...", "water": "...", "internet": "..." }`, each `included` / `excluded` / `not mentioned` |
 | `bills_included_count` | number | How many of the four are included (sort key) |
 | `bills_estimate_pw` | number or null | Estimated weekly cost of excluded or not-mentioned bills |
@@ -102,6 +104,7 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `lease` | string | e.g. `3 to 6 months`, `flexible` |
 | `furnished` | string | `yes`, `no`, `unknown` |
 | `own_bathroom` | string | `yes`, `no`, `unknown` |
+| `who_can_apply` | string or null | As the listing states, e.g. `Anyone`, `Anyone except couples`, `Females only`, `Students only` |
 | `household` | string | What the listing says about the household |
 | `inspection_questions` | string[] | Questions to ask at the inspection |
 | `scam_flags` | string[] | e.g. "asks for payment before inspection" |
@@ -121,6 +124,7 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 |---|---|---|---|
 | Kensington | 1.0 | Maroubra | 3.5 |
 | Kingsford | 1.5 | Coogee | 3.5 |
+| Eastlakes | 3.0 | | |
 | Randwick | 2.0 | Rosebery | 3.0 |
 | Daceyville | 2.5 | Zetland | 3.5 |
 

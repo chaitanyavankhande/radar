@@ -328,6 +328,7 @@ const TABS = [
       { type: 'multi', key: 'room', label: 'Room type', get: it => it.room_type },
       { type: 'daterange', key: 'avail', label: 'Available from', get: it => it.available_from },
       { type: 'multi', key: 'lease', label: 'Lease', get: it => it.lease },
+      { type: 'multi', key: 'who', label: 'Who can apply', get: it => it.who_can_apply || 'Not stated' },
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
       { type: 'toggle', key: 'walk', label: 'Walkable to UNSW', test: it => it.walkable === true },
@@ -361,13 +362,15 @@ const TABS = [
       const r = num(it.rent_pw), t = roomTotal(it);
       return [
         ['Rent', r == null ? '<span class="muted">not stated</span>' : `<span class="num">${money(r)}/wk</span>`],
+        ['Bond', num(it.bond) == null ? '' : `<span class="num">${money(num(it.bond))}</span>`],
         ['With bills', t == null ? '' : `<span class="num">≈ ${money(t)}/wk</span>${num(it.bills_estimate_pw) ? ' <span class="muted">⚠️ est.</span>' : ''}`],
         ['Bills', `<span class="num">${billsCount(it)} of 4</span> included`],
         ['Distance', distanceText(it) + (it.walkable ? ' · walkable' : '')],
         ['Room', esc(it.room_type || '')],
         ['Lease', esc(it.lease || '') || '<span class="muted">not stated</span>'],
         ['Furnished', esc(titleCase(it.furnished || 'unknown'))],
-        ['Own bathroom', esc(titleCase(it.own_bathroom || 'unknown'))]
+        ['Own bathroom', esc(titleCase(it.own_bathroom || 'unknown'))],
+        ['Who can apply', esc(it.who_can_apply || '') || '<span class="muted">not stated</span>']
       ];
     },
     chips: it => {
@@ -376,6 +379,7 @@ const TABS = [
       if (n === 4) c.push(['All bills included', 'good']);
       if (arr(it.scam_flags).length) c.push([`${arr(it.scam_flags).length} scam flag${arr(it.scam_flags).length > 1 ? 's' : ''}`, 'crit']);
       if (it.walkable) c.push(['Walkable', 'good']);
+      if (it.who_can_apply && it.who_can_apply !== 'Anyone') c.push([it.who_can_apply, 'warn']);
       return c;
     },
     more: it => {
@@ -386,6 +390,7 @@ const TABS = [
       }).join('');
       let h = `<div><h4>Bills</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}</div>`;
       if (arr(it.scam_flags).length) h += `<div class="flagbox"><h4>Scam flags</h4><ul>${arr(it.scam_flags).map(f => `<li>${esc(f)}</li>`).join('')}</ul></div>`;
+      if (it.about) h += `<div><h4>About the place</h4><p>${esc(it.about)}</p></div>`;
       if (it.household) h += `<div><h4>Household</h4><p>${esc(it.household)}</p></div>`;
       if (arr(it.inspection_questions).length) h += `<div><h4>Ask at the inspection</h4><ul>${arr(it.inspection_questions).map(q => `<li>${esc(q)}</li>`).join('')}</ul></div>`;
       if (it.enquiry_draft) h += `<div><h4>Enquiry draft (you send it)</h4><div class="draft" id="d-${esc(cssId(it.id))}">${esc(it.enquiry_draft)}</div><button type="button" class="btn small ghost" data-copy="d-${esc(cssId(it.id))}">Copy message</button></div>`;

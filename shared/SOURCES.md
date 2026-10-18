@@ -131,11 +131,11 @@ Dropped: hackathon.com (no Sydney events), Kaggle (needs API key).
 
 ## 5. 🏠 `accommodation-scout`
 
-Room from late Dec 2026, early Jan or early Feb 2027 · near UNSW Village · budget under $350/week (ideally under $300).
+Room from late Dec 2026, early Jan or early Feb 2027 · near UNSW Village · Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee · budget under $350/week (ideally under $300).
 
 | Rank | Tier | Source | Official link | Why this rank | Access | Status |
 |---|---|---|---|---|---|---|
-| 1 | 🥇 P1 | Flatmates.com.au | https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+randwick-2031+maroubra-2035+coogee-2034/max-350 | Most rooms in budget, shows available-from dates | ☁️ (login to message) | ⚠️ failed 18 Oct (permission timeout; mirror CLIENT_ERROR); retest, use Chrome if it keeps failing |
+| 1 | 🥇 P1 | Flatmates.com.au | https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+eastlakes-2018+randwick-2031+maroubra-2035+coogee-2034/max-350 | Most rooms in budget, shows available-from dates | 🖥️ Chrome (signed in) | ✅ Chrome works (18 Oct: 68 listings ≤ $350 across 6 suburbs); cloud fetch failed |
 | 2 | 🥇 P1 | UNSW Study Stays | https://studystays.unsw.edu.au/listings/search | UNSW-run board for students (listings not checked by UNSW) | ☁️ (login to contact) | ✅ 75 listings |
 | 3 | 🥇 P1 | Down Under Stay | https://downunderstay.com.au/rooms/ | Cheapest furnished rooms in Kensington, UNSW-listed | ☁️ | ✅ $235 to $285 (18 Oct); some room pages differ from the list price, use the higher figure |
 | 4 | 🥈 P2 | Gumtree flatshare | https://www.gumtree.com.au/s-flatshare-houseshare/kingsford/k0c18294l3003648 (plus the Eastern Suburbs page) | Cheap rooms; higher scam risk, extra checks | ☁️ | ✅ |
