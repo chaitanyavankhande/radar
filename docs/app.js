@@ -317,7 +317,7 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
     search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease],
     filters: () => [
