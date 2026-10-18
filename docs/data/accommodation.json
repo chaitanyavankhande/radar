@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T13:34:30+11:00",
+  "updated_at": "2026-10-18T14:02:01+11:00",
   "previous_run_at": null,
   "sources": [
     {
@@ -7,7 +7,7 @@
       "rank": 1,
       "result": "checked",
       "found": 66,
-      "note": "Chrome, signed in: 68 listings across Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee at max $350; 64 within budget"
+      "note": "Chrome, signed in: 68 listings across Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee at max $350; 64 within budget. Also read each lister's trust signals (verified social media, last online, response rate, photos) and hashed 441 listing photos to catch reused photos: no photo reuse across suburbs found. The bills-included max-$300 search for Eastlakes, Kensington and Kingsford is fully covered (all 11 of its in-area rooms are here)"
     },
     {
       "name": "UNSW Study Stays",
@@ -193,8 +193,40 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2032114). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "too_good_to_be_true",
+          "level": "medium",
+          "reason": "$190/wk is far below the $315/wk middle price of 8 similar rooms in Kensington found today"
+        },
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        },
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place, brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2032114). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 4,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "medium"
     },
     {
       "id": "flatmates:P1446422",
@@ -238,8 +270,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1446422). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "few_photos",
+          "level": "low",
+          "reason": "Only 2 photos: ask for a live video walk-through you start, then inspect in person"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: only 2 photos"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1446422). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 2,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 67%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1304066",
@@ -283,8 +337,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1304066). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "overcrowding",
+          "level": "medium",
+          "reason": "Several people share one bedroom (bunks or 3 or more per room) (listing says: \"furnished bedrooms (with bunk beds and a nice, spaciou\")"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1304066). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 3 days ago",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "medium"
     },
     {
       "id": "flatmates:P1703311",
@@ -329,7 +400,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1703311). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1703311). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 99%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1998233",
@@ -374,7 +456,18 @@
         "Who would I share the room with, and is there storage for each person?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1998233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1998233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 19,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 2 days ago",
+        "rate": "Response rate: 85%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P2017441",
@@ -418,8 +511,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2017441). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2017441). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 15,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 85%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2036233",
@@ -464,7 +574,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2036233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2036233). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 7,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 98%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1121520",
@@ -508,8 +629,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1121520). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 6 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1121520). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 8,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 85%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1774225",
@@ -553,8 +691,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1774225). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1774225). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 6 days ago",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P256918",
@@ -599,7 +754,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P256918). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P256918). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 7,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -639,13 +805,27 @@
         "Is there a fair-use cap on the included electricity, gas, water and internet?",
         "How many people share the bathroom and kitchen?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "address_unverifiable",
+          "level": "medium",
+          "reason": "The address can't be checked or doesn't match the area (listing says: \"k about a January start. No street address in the ad; about 10 phot\")"
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your room 200m from UNSW. I'm looking to move in early January 2027: could the room be available then? Could you confirm that all bills and internet stay included, and whether there is any usage cap? I'd also like to know the lease length you prefer after the 3-month minimum, and when I could inspect. Thank you.",
       "notes": "Best all-round fit: all 4 bills included, 1-week bond, closest to campus. Ad says available now (listing date 27 Sep 2026); ask about a January start. No street address in the ad; about 10 photos. Distance from the ad's '200m from UNSW' ⚠️ estimate. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Possibly the same room as rea:418962602 on realestate.com.au.",
       "bills_included_count": 4,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P2017007",
@@ -688,8 +868,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2017007). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2017007). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 9,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 98%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P444075",
@@ -734,7 +931,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P444075). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P444075). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 12,
+        "social": true,
+        "nosocial": false,
+        "online": "Online 3 days ago",
+        "rate": "Response rate: 72%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P218737",
@@ -778,8 +986,35 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P218737). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 0% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 0% of messages"
+        },
+        {
+          "code": "inconsistent_details",
+          "level": "low",
+          "reason": "Says \"Anyone except couples\" but is tagged as an all-female flat: ask who can actually apply"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P218737). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 0%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1794639",
@@ -824,7 +1059,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1794639). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1794639). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 11,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1261986",
@@ -868,8 +1114,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1261986). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "price_mismatch",
+          "level": "medium",
+          "reason": "The ad text says $400/week for one person, but the listed rent is $350: confirm the real price"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1261986). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 9,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 8 days ago",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "medium"
     },
     {
       "id": "flatmates:P2029439",
@@ -884,7 +1147,7 @@
       "status": "new",
       "closed": false,
       "verified": "✅",
-      "notes": "Bills included: Electricity, Water, Gas, Internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 6, 2, 4 (bedrooms, bathrooms, people).",
+      "notes": "Bills included: Electricity, Water, Gas, Internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 6, 2, 4 (bedrooms, bathrooms, people). Shares photos with P2029561 in the same suburb, so probably another room in the same house.",
       "suburb": "Randwick",
       "distance_km": 2.0,
       "transit_min": 15,
@@ -913,8 +1176,35 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029439). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        },
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029439). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 8,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 68%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -955,16 +1245,39 @@
         "Can a stay start in early January 2027, and what is the minimum term?"
       ],
       "scam_flags": [
-        "Deposit, first rent and a non-refundable booking fee are due within 3 days of booking approval, with no inspection mentioned: insist on inspecting first",
-        "No street address, and the nearest bus stop named (West Botany St opposite Riverine Park) is in Banksia, not Maroubra: confirm the location",
-        "Prices and availability are only 'indicative'"
+        {
+          "code": "pay_before_inspection",
+          "level": "high",
+          "reason": "Deposit, first rent and a non-refundable booking fee are due within 3 days of booking approval, with no inspection mentioned: insist on inspecting first",
+          "manual": true
+        },
+        {
+          "code": "address_unverifiable",
+          "level": "medium",
+          "reason": "No street address, and the nearest bus stop named (West Botany St opposite Riverine Park) is in Banksia, not Maroubra: confirm the location",
+          "manual": true
+        },
+        {
+          "code": "price_from_only",
+          "level": "medium",
+          "reason": "Prices and availability are only 'indicative'",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Casita (student-room marketplace) is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a twin shared room at your Maroubra building. I'd like to start between late December 2026 and early February 2027 for about 6 months. Could you give me the street address, confirm that all bills and Wi-Fi are included in the $240, and tell me the booking fee and minimum stay? I'd like to inspect before paying anything. Thank you.",
       "notes": "Cheapest all-inclusive price found, but the location is unclear: the page says Maroubra 2035 and a 6-minute drive (41-minute walk) to UNSW, yet names a Banksia bus stop. Deposit $480 (2 weeks). Insurance not included. Distance and bus time ⚠️ estimate.",
       "bond": 480,
       "about": "Purpose-built student accommodation; twin room with two single beds, two desks and two wardrobes; all bills and Wi-Fi included.",
       "who_can_apply": null,
-      "bills_included_count": 4
+      "bills_included_count": 4,
+      "trust": "C",
+      "women_only": null,
+      "risk": "high"
     },
     {
       "found_at": "2026-10-18",
@@ -1005,14 +1318,27 @@
         "How many residents share each bathroom and the kitchen?"
       ],
       "scam_flags": [
-        "22 bedrooms but no boarding house registration shown: check the NSW boarding house register"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "22 bedrooms but no boarding house registration shown: check the NSW boarding house register",
+          "manual": true
+        },
+        {
+          "code": "studystays_not_vetted",
+          "level": "low",
+          "reason": "UNSW does not check Study Stays properties: anyone can register as a provider"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a twin-share bed at your Kurrawa Ave house in Coogee. I'd like to start between late December 2026 and early February 2027 and stay about 6 months. Could you tell me which fixed lease terms are available for 2027, and confirm that electricity, gas, water and internet are all included in the $250? I'd also like to know who I'd share with and when I could inspect. Thank you.",
       "notes": "Cheapest all-bills option from a UNSW-run board. $300 bond lodged with Rental Bonds Online (good sign). Single room is $500 (over budget). Fixed lease terms: confirm a 2027 term before committing. Water named only in the description. Laundry $4 per wash and dry. 2.4 km straight-line, 15 to 20 min bus per listing.",
       "bond": 300,
       "about": "Dorm-style student accommodation in a former hostel one minute from Coogee Beach; basic building with communal kitchen, lounge with TV and weekly cleaning.",
       "who_can_apply": "Anyone (either gender, singles or couples)",
-      "bills_included_count": 4
+      "bills_included_count": 4,
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -1052,13 +1378,22 @@
         "How many people share each flat's bathroom and kitchen?",
         "Is a 6 to 12 month stay acceptable given the preference for 2+ years?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a single room in your Randwick/Coogee flats. I'd like to move in early January 2027 and stay at least 6 to 12 months. Could you tell me which rooms will be free then and their weekly price? Could you also confirm that electricity, gas, water and internet are all included, and how much bond you ask? I'd be glad to inspect at a time that suits you.",
       "notes": "All 4 bills included. Rent is a range: single rooms $250 to $350/wk, large double $400/wk ($200 per person if shared); $250 used here as the from-price. Exact location not given; distance and bus time ⚠️ estimate (Randwick suburb centre).",
       "bills_included_count": 4,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P1984902",
@@ -1103,7 +1438,18 @@
         "Who would I share the room with, and is there storage for each person?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P1984902). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P1984902). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 8,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 96%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P439828",
@@ -1148,7 +1494,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P439828). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P439828). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 13,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -1189,14 +1546,27 @@
         "Does 'all utilities' cover electricity, gas and water with no cap?"
       ],
       "scam_flags": [
-        "Calls itself a boarding house but shows no registration: check the NSW boarding house register before paying"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "Calls itself a boarding house but shows no registration: check the NSW boarding house register before paying",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your furnished single room near Coogee Beach. I'm hoping to move in early January 2027 for 6 months or longer. Could you confirm that electricity, gas, water and Wi-Fi are all included, and how many residents share the bathrooms? Could you also tell me what agreement I would sign and whether the bond is lodged with NSW Rental Bonds Online? I'd like to arrange an inspection.",
       "notes": "All 4 bills included ('all utilities and Wi-Fi'); bond $596 = 2 weeks. About 25 min by bus to UNSW ⚠️ estimate. Ad says available 14 Oct 2026; ask about a January start.",
       "bills_included_count": 4,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P1946423",
@@ -1240,8 +1610,35 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P1946423). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "inactive_lister",
+          "level": "low",
+          "reason": "The lister was last online 14 days ago, so the room may already be gone"
+        },
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 0% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: last online 14 days ago, replies to 0% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P1946423). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 7,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 14 days ago",
+        "rate": "Response rate: 0%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -1281,13 +1678,22 @@
         "How much bond do you ask, is it lodged with NSW Rental Bonds Online, and what agreement do I sign?",
         "Which stop is closest for the 303 bus to UNSW, and how long is the ride?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the furnished room in your Eastlakes house. I'm hoping to move in between late December 2026 and early February 2027 and stay 6 to 12 months. Could you tell me whether the room will be free then, and confirm that the $300 covers electricity, gas, water and Wi-Fi? I'd also like to know the bond, the agreement you use, and when I could drop by to view it. Thank you.",
       "notes": "All bills included ('$300pw INCL BILLS': Wi-Fi, electricity 'and other bills'; gas and water not named, so confirm). Listed 27 Aug 2026 with 169 views, so it may already be taken; the availability field (15 Jul 2026) conflicts with 'available now'. Ad does not say outright that the room is private ⚠️. 303 bus to UNSW per ad; distance and time ⚠️ estimate.",
       "bond": null,
       "about": "Furnished room with bed, large desk and built-in wardrobe in a big, friendly house with two living rooms, two kitchens, a covered outdoor area and an outdoor gym; short 303 bus ride to UNSW.",
       "who_can_apply": "Anyone (any adult age, no gender preference)",
-      "bills_included_count": 4
+      "bills_included_count": 4,
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P1937524",
@@ -1331,8 +1737,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1937524). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        },
+        {
+          "code": "few_photos",
+          "level": "low",
+          "reason": "Only 2 photos: ask for a live video walk-through you start, then inspect in person"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1937524). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 2,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 64%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1931805",
@@ -1377,7 +1805,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1931805). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1931805). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 4,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 93%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P2018185",
@@ -1421,8 +1860,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2018185). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 11% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 11% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2018185). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 11,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 11%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2021362",
@@ -1465,8 +1926,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Coogee (listing P2021362). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Coogee (listing P2021362). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 11,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1654205",
@@ -1511,7 +1989,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1654205). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1654205). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 88%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1722761",
@@ -1555,8 +2044,40 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Randwick (listing P1722761). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "off_platform_contact",
+          "level": "high",
+          "reason": "Pushes you to a messaging app outside the listing site (Scamwatch, Gumtree, Flatmates, UNSW: keep chats on the platform) (listing says: \"y by appointment Text or WhatsApp to arrange an inspection\")"
+        },
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "Looks like a boarding house (5 or more paying residents): check it is on the NSW boarding house register (listing says: \"ATION Randwick Junction, 8 Bedroom House, Peaceful Clean Fu\")"
+        },
+        {
+          "code": "overcrowding",
+          "level": "medium",
+          "reason": "Several people share one bedroom (bunks or 3 or more per room) (listing says: \"people (+ $100pw), has a bunk bed - top single, bottom\")"
+        },
+        {
+          "code": "bh_deposit_over_limit",
+          "level": "medium",
+          "reason": "Deposit $1,280 is more than 2 weeks' fee ($640), the NSW limit for a boarding house"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Randwick (listing P1722761). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 6,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "high"
     },
     {
       "id": "flatmates:P2026141",
@@ -1600,8 +2121,35 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P2026141). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        },
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 11% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 11% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P2026141). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 12,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 8 days ago",
+        "rate": "Response rate: 11%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2034077",
@@ -1644,8 +2192,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2034077). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2034077). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 9,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 33%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1362953",
@@ -1690,7 +2255,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1362953). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1362953). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 15,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 94%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P2031888",
@@ -1734,8 +2310,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P2031888). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P2031888). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 10,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 97%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1678070",
@@ -1778,8 +2371,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1678070). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "sublet_check",
+          "level": "low",
+          "reason": "Sub-let or lease takeover: ask for the owner's or agent's written consent, and for the bond to be lodged (listing says: \"st Residence * Temporary sublease Just 150m to ocean rock\")"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1678070). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 12,
+        "social": true,
+        "nosocial": false,
+        "online": "Online 4 days ago",
+        "rate": "Response rate: 71%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1980008",
@@ -1824,7 +2434,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1980008). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1980008). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 8,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 89%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P2024587",
@@ -1839,7 +2460,7 @@
       "status": "new",
       "closed": false,
       "verified": "✅",
-      "notes": "Bills included: Electricity, Water, Gas, Internet, Home essentials. Short stay only (Maximum 2 months stay). Listing icons: 4, 2, 4 (bedrooms, bathrooms, people).",
+      "notes": "Bills included: Electricity, Water, Gas, Internet, Home essentials. Short stay only (Maximum 2 months stay). Listing icons: 4, 2, 4 (bedrooms, bathrooms, people). Shares photos with P1224376 in the same suburb, so probably another room in the same house.",
       "suburb": "Randwick",
       "distance_km": 2.0,
       "transit_min": 15,
@@ -1867,8 +2488,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2024587). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2024587). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 9,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 38%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1224376",
@@ -1883,7 +2526,7 @@
       "status": "new",
       "closed": false,
       "verified": "✅",
-      "notes": "Bills included: Electricity, Water, Gas, Internet, Home essentials. Short stay only (2 months stay). Listing icons: 4, 2, 4 (bedrooms, bathrooms, people).",
+      "notes": "Bills included: Electricity, Water, Gas, Internet, Home essentials. Short stay only (2 months stay). Listing icons: 4, 2, 4 (bedrooms, bathrooms, people). Shares photos with P2024587 in the same suburb, so probably another room in the same house.",
       "suburb": "Randwick",
       "distance_km": 2.0,
       "transit_min": 15,
@@ -1911,8 +2554,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1224376). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1224376). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 17,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -1951,13 +2611,22 @@
         "How much is the bond, and is it lodged with NSW Rental Bonds Online?",
         "Who is the landlord or head tenant I would sign with (the ad gives a different name to call than the poster's)?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your single room at Maroubra Junction. I'd like to move in early January 2027 and stay 6 months or more. Could you confirm that all bills and unlimited internet are included in the $350, and how much bond you ask? Could you also tell me who I would sign the agreement with and when I could inspect? Thank you.",
       "notes": "All 4 bills included, but at the $350 cap. The name to call in the ad differs from the poster's account name: confirm who the landlord is. Posted 18 Oct 2026. Bus along Anzac Parade ⚠️ estimate. Possibly the same room as flatmates:P2006237 on Flatmates.com.au. Possibly the same room as flatmates:P1952589 on Flatmates.com.au.",
       "bills_included_count": 4,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P1356556",
@@ -2002,7 +2671,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1356556). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1356556). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 13 days ago",
+        "rate": "Response rate: 80%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1615657",
@@ -2046,8 +2726,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Maroubra (listing P1615657). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your student building in Maroubra (listing P1615657). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 9,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 79%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1072460",
@@ -2091,8 +2788,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1072460). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 0% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 0% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1072460). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 6,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 7 days ago",
+        "rate": "Response rate: 0%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P835365",
@@ -2135,8 +2854,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P835365). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "5 bedrooms and 5 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P835365). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 9,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 66%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1952589",
@@ -2179,8 +2915,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1952589). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P1952589). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 6,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 84%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2032950",
@@ -2223,8 +2976,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2032950). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P2032950). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 10,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 74%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2010858",
@@ -2268,8 +3038,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2010858). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 15% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 15% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2010858). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 4,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 15%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1750765",
@@ -2315,7 +3107,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1750765). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1750765). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 4,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 73%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -2356,14 +3159,32 @@
         "Are the two current flatmates students or workers?"
       ],
       "scam_flags": [
-        "Deposit is 'self managed' (4 weeks, $1,360): ask for it to be lodged with NSW Rental Bonds Online"
+        {
+          "code": "bond_not_lodged",
+          "level": "medium",
+          "reason": "Deposit is 'self managed' (4 weeks, $1,360): ask for it to be lodged with NSW Rental Bonds Online",
+          "manual": true
+        },
+        {
+          "code": "inconsistent_details",
+          "level": "low",
+          "reason": "Details in the listing don't agree with each other (listing says: \"says at least 6 months, but the description says sign until 14 Feb 2027\")"
+        },
+        {
+          "code": "studystays_not_vetted",
+          "level": "low",
+          "reason": "UNSW does not check Study Stays properties: anyone can register as a provider"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the double room in your Harbourne Rd apartment. I'm looking to move in early January 2027. Could you tell me whether the agreement can run beyond 14 February 2027, and whether electricity is included alongside gas, water and internet? I'd also like to know how the bond is handled and when I could inspect. Thank you.",
       "notes": "Walkable (site says 0.6 km to UNSW); Study Stays marks it 'below market average'. Available since 13 Sep 2026, so you'd be negotiating a later start. Lease end of 14 Feb 2027 conflicts with the '6 months' field. Electricity not mentioned: +$12/wk ⚠️ estimate. Possibly the same room as flatmates:P995771 on Flatmates.com.au. Possibly the same room as flatmates:P1499898 on Flatmates.com.au.",
       "bills_included_count": 3,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P1499898",
@@ -2408,8 +3229,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1499898). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1499898). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 3,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 70%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -2455,7 +3293,10 @@
       "bills_included_count": 3,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "A",
+      "women_only": null,
+      "risk": "none"
     },
     {
       "id": "flatmates:P2025382",
@@ -2501,7 +3342,18 @@
         "Who would I share the room with, and is there storage for each person?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Maroubra (listing P2025382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Maroubra (listing P2025382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 20,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -2542,16 +3394,39 @@
         "How many people share each bathroom and the kitchen?"
       ],
       "scam_flags": [
-        "18 bedrooms and 25 occupants but no boarding house registration shown: check the NSW boarding house register",
-        "Availability dates are from 2025, so the listing may be stale: confirm it is still current",
-        "Deposit is 'self managed': ask for it to be lodged with NSW Rental Bonds Online"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "18 bedrooms and 25 occupants but no boarding house registration shown: check the NSW boarding house register",
+          "manual": true
+        },
+        {
+          "code": "bond_not_lodged",
+          "level": "medium",
+          "reason": "Deposit is 'self managed': ask for it to be lodged with NSW Rental Bonds Online",
+          "manual": true
+        },
+        {
+          "code": "stale_listing",
+          "level": "low",
+          "reason": "Availability dates are from 2025, so the listing may be stale: confirm it is still current",
+          "manual": true
+        },
+        {
+          "code": "studystays_not_vetted",
+          "level": "low",
+          "reason": "UNSW does not check Study Stays properties: anyone can register as a provider"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the twin-share room at your Alfreda St house in Coogee. Is it still available, and could I move in early January 2027 for about 6 months? Could you confirm whether water is included along with electricity, gas and internet, and how the bond is handled? I'd also like to arrange an inspection. Thank you.",
       "notes": "Twin share $350 (single room $450, over budget). 1-week deposit ($350). Water not mentioned; tenants usually pay $0 ⚠️ estimate. Stale dates (available 10 May 2025) so confirm it is live. Bus to UNSW ⚠️ estimate.",
       "bills_included_count": 3,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P2036562",
@@ -2596,7 +3471,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2036562). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2036562). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -2636,13 +3522,22 @@
         "Can I start in early January 2027, and what notice period and agreement apply?",
         "Is there a bond, and how is it held?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the room in your Kingsford home. I'd like to move in early January 2027 and stay around 6 months or longer. Could you tell me how much kitchen use is possible, and whether gas and water are included as well as electricity and internet? I'd also like to know about the bond and agreement, and when I could view the room. Thank you.",
       "notes": "Lodger-style room in a family home, a few minutes' walk to UNSW. Kitchen limited to 'basic breakfast': check before committing. Gas not mentioned +$5/wk ⚠️ estimate. Listed 11 Sep 2026, edited 14 Oct; ask about a January start.",
       "bills_included_count": 2,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P2032382",
@@ -2686,8 +3581,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2032382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place, brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2032382). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 11,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2020368",
@@ -2733,7 +3650,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2020368). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2020368). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 14,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 48%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1999692",
@@ -2779,7 +3707,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1999692). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1999692). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 6,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 50%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -2818,13 +3757,22 @@
         "What bond and lease length do you want, and is the bond lodged with NSW Rental Bonds Online?",
         "Can the room be held for an early January 2027 start?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your furnished room in Kingsford. I'm hoping to move in early January 2027 for 6 to 12 months. Could you tell me whether it's a private room, how many people live there, and how electricity, gas and water are shared? Could you also let me know the bond and lease terms and when I could inspect? Thank you.",
       "notes": "Cheapest walkable private room found, but the ad is thin (no bond, lease, bathroom or household details) and cheaper than most nearby rooms: inspect in person before paying anything. Electricity $12 + gas $5 ⚠️ estimate. Possibly the same room as flatmates:P2036562 on Flatmates.com.au.",
       "bills_included_count": 1,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P2034126",
@@ -2868,8 +3816,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2034126). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P2034126). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 14,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2023218",
@@ -2914,8 +3879,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2023218). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P2023218). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 4,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 3 days ago",
+        "rate": "Response rate: 42%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "rea:444682392",
@@ -2961,7 +3948,10 @@
         "Is the bond lodged with NSW Rental Bonds Online?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW student interested in the studio at Bunnerong Road, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me the lease length on offer, how electricity and internet are billed, and when the next inspection is? Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW student interested in the studio at Bunnerong Road, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me the lease length on offer, how electricity and internet are billed, and when the next inspection is? Thanks, [your name]",
+      "trust": "A",
+      "women_only": null,
+      "risk": "none"
     },
     {
       "id": "flatmates:P2025773",
@@ -3007,7 +3997,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your studio / whole property in Kingsford (listing P2025773). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your studio / whole property in Kingsford (listing P2025773). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 15,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 4 days ago",
+        "rate": "Response rate: 45%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -3052,7 +4053,10 @@
       "bills_included_count": 1,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "A",
+      "women_only": null,
+      "risk": "none"
     },
     {
       "id": "flatmates:P1663483",
@@ -3096,8 +4100,30 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Eastlakes (listing P1663483). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 11% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 11% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Eastlakes (listing P1663483). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 3 days ago",
+        "rate": "Response rate: 11%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1855905",
@@ -3141,8 +4167,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1855905). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1855905). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 6 days ago",
+        "rate": "Response rate: 25%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -3183,15 +4226,33 @@
         "What is the exact address and walking route to UNSW?"
       ],
       "scam_flags": [
-        "About 9 residents in a 5-bedroom house: check the NSW boarding house register",
-        "Deposit is 'self managed' on the Study Stays copy: ask whether it is lodged with NSW Rental Bonds Online"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "About 9 residents in a 5-bedroom house: check the NSW boarding house register",
+          "manual": true
+        },
+        {
+          "code": "bond_not_lodged",
+          "level": "medium",
+          "reason": "Deposit is 'self managed' on the Study Stays copy: ask whether it is lodged with NSW Rental Bonds Online",
+          "manual": true
+        },
+        {
+          "code": "overcrowding",
+          "level": "medium",
+          "reason": "Several people share one bedroom (bunks or 3 or more per room) (listing says: \"St Room 5, shared room (up to 3 people) Cheapest bed found. A\")"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a bed in Villiers St Room 5. I'd like to move in early January 2027 for 4 to 6 months. Could you tell me how many people would share the room then, and roughly how much electricity, gas, water and Wi-Fi add per week? I'd also like to know how the deposit is held and when I could book an inspection. Thank you.",
       "notes": "Cheapest bed found. Also listed on UNSW Study Stays as #381044 (same house, merged here). Bills all excluded (Study Stays: 'NOT included in rent'; Wi-Fi not included per Down Under Stay); shared cleaner cost extra. Bills $28/wk ⚠️ estimate. 3-week deposit. Exact address given only on application.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P2009506",
@@ -3236,8 +4297,35 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2009506). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 9% of messages"
+        },
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 9% of messages, no description of the place"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2009506). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 9%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1337165",
@@ -3282,8 +4370,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1337165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "5 bedrooms and 7 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kensington (listing P1337165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 18,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -3324,15 +4429,33 @@
         "The listing is a sub-let: does the owner approve new sub-tenants?"
       ],
       "scam_flags": [
-        "Bond is 'self managed' by the provider: ask for it to be lodged with NSW Rental Bonds Online",
-        "Listing is classed as a sub-let or transfer: confirm the landlord allows it"
+        {
+          "code": "bond_not_lodged",
+          "level": "medium",
+          "reason": "Bond is 'self managed' by the provider: ask for it to be lodged with NSW Rental Bonds Online",
+          "manual": true
+        },
+        {
+          "code": "sublet_check",
+          "level": "low",
+          "reason": "Listing is classed as a sub-let or transfer: confirm the landlord allows it",
+          "manual": true
+        },
+        {
+          "code": "studystays_not_vetted",
+          "level": "low",
+          "reason": "UNSW does not check Study Stays properties: anyone can register as a provider"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a twin-share bed at your Meeks St house in Kingsford. I'd like to move in between late December 2026 and early February 2027 for 4 to 6 months. Could you tell me whether a bed will be free then, and roughly what electricity, gas, water, internet and cleaning add per week? I'd also like to know how the bond is held and when I could inspect. Thank you.",
       "notes": "Study Stays still lists it, but Down Under Stay's own pages for Meeks St Room 3 and Room 5 say 'Occupied' (18 Oct): treat as a waitlist option. 9 to 10 min walk to UNSW. Room 5 roommate is female, so the $285 Room 3 bed may be the realistic one. All bills extra plus shared cleaner: $28/wk ⚠️ estimate.",
       "bond": 765,
       "about": "Spacious twin room in a 5-bedroom Kingsford house, about 9 min walk to UNSW and 7 min to the light rail; two single beds and a built-in wardrobe.",
       "who_can_apply": "Singles, either gender",
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "B",
+      "women_only": "likely",
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -3372,15 +4495,28 @@
         "Will the 3-week deposit be lodged with NSW Rental Bonds Online?"
       ],
       "scam_flags": [
-        "About 9 residents in a 5-bedroom house: check the NSW boarding house register",
-        "Deposit is 'self managed' on the Study Stays copy: ask whether it is lodged with NSW Rental Bonds Online"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "About 9 residents in a 5-bedroom house: check the NSW boarding house register",
+          "manual": true
+        },
+        {
+          "code": "bond_not_lodged",
+          "level": "medium",
+          "reason": "Deposit is 'self managed' on the Study Stays copy: ask whether it is lodged with NSW Rental Bonds Online",
+          "manual": true
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a bed in Villiers St Room 2. I'd like to move in early January 2027 for 4 to 6 months. Could you confirm the weekly price (the room page and the rooms list show different figures) and roughly what bills add per week? I'd also like to know how the deposit is held and when I could inspect. Thank you.",
       "notes": "Price conflict: room page says $225/wk shared occupancy; Down Under Stay rooms list and Study Stays #381044 say $255. Higher figure used. Same house as Room 5. Bills $28/wk ⚠️ estimate. Possibly the same room as flatmates:P1337165 on Flatmates.com.au.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P1882018",
@@ -3425,8 +4561,40 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1882018). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "photos_on_request",
+          "level": "low",
+          "reason": "Photos only on request: ask for a live video walk-through you start, then inspect in person (listing says: \"working professionals. 📩 DM me for photos, more details, or to arr\")"
+        },
+        {
+          "code": "inactive_lister",
+          "level": "low",
+          "reason": "The lister was last online 23 days ago, so the room may already be gone"
+        },
+        {
+          "code": "low_response",
+          "level": "low",
+          "reason": "The lister replies to only 0% of messages"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: last online 23 days ago, replies to 0% of messages"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1882018). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 17,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 23 days ago",
+        "rate": "Response rate: 0%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -3466,14 +4634,22 @@
         "Is the house a registered boarding house, and is the 3-week deposit lodged with NSW Rental Bonds Online?"
       ],
       "scam_flags": [
-        "About 9 residents in a 7-bedroom house: check the NSW boarding house register"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "About 9 residents in a 7-bedroom house: check the NSW boarding house register",
+          "manual": true
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a bed in Harbourne III Room 4. I'd like to move in early January 2027 rather than 30 November, for 4 to 6 months. Could you confirm whether electricity, gas and water are included, and roughly what Wi-Fi costs per week? I'd also like to know how the deposit is held and when I could inspect. Thank you.",
       "notes": "9 min walk to UNSW per listing. Available 30 Nov 2026, the closest to the move-in window among the walkable Down Under Stay rooms. Only Wi-Fi stated (not included); other bills not mentioned, $25/wk ⚠️ estimate.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -3513,14 +4689,22 @@
         "Is the house a registered boarding house, and is the 3-week deposit lodged with NSW Rental Bonds Online?"
       ],
       "scam_flags": [
-        "About 9 residents in a 7-bedroom house: check the NSW boarding house register"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "About 9 residents in a 7-bedroom house: check the NSW boarding house register",
+          "manual": true
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in shared occupancy of Harbourne III Room 6. I'd like to move in early January 2027 for 4 to 6 months. Could you confirm the per-person rent when shared, and whether electricity, gas and water are included? I'd also like to know how the deposit is held and when I could inspect. Thank you.",
       "notes": "$285 is the shared-occupancy price; single occupancy is $455 and double occupancy $525 (over budget). Available 8 Dec 2026. Bills $25/wk ⚠️ estimate.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -3561,15 +4745,33 @@
         "Who lives in the other two bedrooms?"
       ],
       "scam_flags": [
-        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
-        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+        {
+          "code": "overseas_marketplace",
+          "level": "medium",
+          "reason": "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+          "manual": true
+        },
+        {
+          "code": "price_from_only",
+          "level": "medium",
+          "reason": "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "uhomes is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the room at 235 Anzac Pde, Kensington. I'd like to move in between late December 2026 and early February 2027 for about 6 months. Could you confirm the weekly price for the room, which bills are included, who the landlord is and what agreement I'd sign? I'd like to inspect in person before paying anything. Thank you.",
       "notes": "Opposite the campus, but a very thin listing: 'from' price, no bills, dates or furnishing. uhomes says rents vary with floor and lease start date. 0 reviews. Bills $25/wk ⚠️ estimate.",
       "bond": null,
       "about": "3-bedroom, 1.5-bathroom apartment listed as student accommodation; short lease; tagged 'No Deposit'.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -3609,15 +4811,33 @@
         "Is a lease shorter than 51 weeks possible from early January 2027?"
       ],
       "scam_flags": [
-        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
-        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+        {
+          "code": "overseas_marketplace",
+          "level": "medium",
+          "reason": "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+          "manual": true
+        },
+        {
+          "code": "price_from_only",
+          "level": "medium",
+          "reason": "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "uhomes is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 42-56 Harbourne Rd, Kingsford. I'd like to move in between late December 2026 and early February 2027. Could you confirm the weekly price for a single bedroom, which bills are included, the lease length and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
       "notes": "Same street as the Study Stays Harbourne Rd room and Down Under Stay's Harbourne III. 'From' price only; reviews mention year-long leases, which may not fit. Bills $25/wk ⚠️ estimate.",
       "bond": null,
       "about": "Furnished 2 or 3-bedroom, 2-bathroom apartments; queen beds, built-in wardrobes, washer and dryer; tagged 'No Deposit'.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -3657,13 +4877,22 @@
         "Can I start in early January 2027, and what lease length do you want?",
         "Is there any furniture in the room, or do I bring everything?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the room in your Kensington unit. I'd like to move in early January 2027 for 6 to 12 months. Could you tell me how the Wi-Fi, gas and electricity are split and roughly how much they come to each week? I'd also like to know the lease arrangement, how the bond is lodged, and when I could inspect. Thank you.",
       "notes": "Unfurnished: budget for a bed and desk. Bills shared (Wi-Fi, gas, electricity), $25/wk ⚠️ estimate. Ad does not say the $305 is weekly; ask.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P1877946",
@@ -3708,7 +4937,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1877946). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P1877946). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 10,
+        "social": true,
+        "nosocial": false,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 80%",
+        "early": true
+      },
+      "risk": "none"
     },
     {
       "id": "rea:418962602",
@@ -3753,8 +4993,17 @@
         "What notice period and minimum stay apply?",
         "Can the room be held for a move-in in late December 2026 or January 2027?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW student interested in a room at the Rainbow Street boarding house in Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included, the minimum stay, and when I could inspect? Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "Looks like a boarding house (5 or more paying residents): check it is on the NSW boarding house register (listing says: \"Room in a licensed boarding house, Rainbow St Listed as\")"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW student interested in a room at the Rainbow Street boarding house in Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included, the minimum stay, and when I could inspect? Thanks, [your name]",
+      "trust": "A",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -3794,15 +5043,33 @@
         "Who is the landlord, and can the room start in early January 2027?"
       ],
       "scam_flags": [
-        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
-        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+        {
+          "code": "overseas_marketplace",
+          "level": "medium",
+          "reason": "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+          "manual": true
+        },
+        {
+          "code": "price_from_only",
+          "level": "medium",
+          "reason": "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "uhomes is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 205 Botany St, Kingsford. I'd like to move in between late December 2026 and early February 2027. Could you confirm which bills are included in the $330, how many people share the bathrooms, the lease length and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
       "notes": "Rated 3.0 from 2 reviews; the 1-star review reports cockroaches, leaks, poor cleanliness and weak internet. About 15 min walk to UNSW ⚠️ estimate. Bills $25/wk ⚠️ estimate.",
       "bond": null,
       "about": "Non-ensuite bedroom in a 5-bedroom, 1.5-bathroom apartment near UNSW with a bus stop at the entrance; tagged 'No Deposit'.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P995771",
@@ -3848,7 +5115,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P995771). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P995771). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 7,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 53%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -3888,15 +5166,33 @@
         "Can the room start in early January 2027?"
       ],
       "scam_flags": [
-        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
-        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+        {
+          "code": "overseas_marketplace",
+          "level": "medium",
+          "reason": "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+          "manual": true
+        },
+        {
+          "code": "price_from_only",
+          "level": "medium",
+          "reason": "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "uhomes is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 65 Mooramie Ave, Kensington. I'd like to move in between late December 2026 and early February 2027. Could you confirm the weekly price, which bills are included, how many people share the bathrooms and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
       "notes": "At the $350 cap with no bills stated: about $375/wk all-in ⚠️ estimate, likely over budget. Page says to view in person before booking. 0 reviews.",
       "bond": null,
       "about": "6-bedroom, 2-bathroom property listed as student accommodation; short lease; tagged 'No Deposit'.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P2029561",
@@ -3911,7 +5207,7 @@
       "status": "new",
       "closed": false,
       "verified": "✅",
-      "notes": "⚠️ estimate: about $25/wk for bills not included. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 6, 2, 4 (bedrooms, bathrooms, people).",
+      "notes": "⚠️ estimate: about $25/wk for bills not included. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 6, 2, 4 (bedrooms, bathrooms, people). Shares photos with P2029439 in the same suburb, so probably another room in the same house.",
       "suburb": "Randwick",
       "distance_km": 2.0,
       "transit_min": 15,
@@ -3941,8 +5237,35 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Who would I share the room with, and is there storage for each person?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029561). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "boarding_house_check",
+          "level": "low",
+          "reason": "6 bedrooms and 4 people listed: if 5 or more people pay to live here, it must be on the NSW boarding house register"
+        },
+        {
+          "code": "no_description",
+          "level": "low",
+          "reason": "The ad has no description of the place: ask for the full address and a live video walk-through"
+        },
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: no description of the place"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Randwick (listing P2029561). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 9,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Yesterday",
+        "rate": "Response rate: 68%",
+        "early": false
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -3983,14 +5306,22 @@
         "Is the house a registered boarding house, and is the deposit lodged with NSW Rental Bonds Online?"
       ],
       "scam_flags": [
-        "About 10 residents in a 6-bedroom house: check the NSW boarding house register"
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "About 10 residents in a 6-bedroom house: check the NSW boarding house register",
+          "manual": true
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a bed in Boyce Rd Room 3. I'd like to move in early January 2027 for 4 to 6 months. Could you confirm the weekly price per person and whether electricity, gas and water are included? I'd also like to know how the deposit is held and when I could inspect. Thank you.",
       "notes": "Price conflict: room page says $225/wk; Down Under Stay rooms list says from $255. Higher figure used. Not walkable; bus time ⚠️ estimate. Bills $25/wk ⚠️ estimate.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "B",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "id": "flatmates:P2034965",
@@ -4035,8 +5366,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2034965). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2034965). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "likely",
+      "lister": {
+        "photos": 4,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 2 days ago",
+        "rate": "Response rate: 33%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P2014019",
@@ -4082,7 +5430,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2014019). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2014019). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 6,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 4 days ago",
+        "rate": "Response rate: 25%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "id": "flatmates:P1645831",
@@ -4127,8 +5486,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1645831). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1645831). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": "stated",
+      "lister": {
+        "photos": 8,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 4 days ago",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "id": "flatmates:P1513014",
@@ -4174,7 +5550,18 @@
         "Can I see the room in person or on a live video call before paying anything?"
       ],
       "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1513014). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1513014). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 11,
+        "social": false,
+        "nosocial": true,
+        "online": "Online 6 days ago",
+        "rate": "Response rate: 18%",
+        "early": false
+      },
+      "risk": "none"
     },
     {
       "found_at": "2026-10-18",
@@ -4213,13 +5600,22 @@
         "Who else lives in the apartment, and is the bathroom shared?",
         "What bond do you ask, and is it lodged with NSW Rental Bonds Online?"
       ],
-      "scam_flags": [],
+      "scam_flags": [
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
+      ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your short-term room in Zetland. I'm looking for a start between late December 2026 and early February 2027: what dates is the room available for? Could you also tell me whether bills are included in the $330, who else lives there, and the bond? I'd like to arrange an inspection. Thank you.",
       "notes": "Outside the six target suburbs (ranked lower). Zetland has a direct bus towards UNSW (route 370 via Green Square) ⚠️ unverified. 'Short term' with no dates, so it may not cover January. Posted 17 Oct 2026; thin ad (no bills, bond or household). Bills $25/wk ⚠️ estimate.",
       "bond": null,
       "about": "Bright, cosy furnished room with double bed, TV, storage, fan and its own balcony with leafy views; near Green Square station.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "C",
+      "women_only": null,
+      "risk": "low"
     },
     {
       "id": "flatmates:P2032165",
@@ -4263,8 +5659,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2032165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "not_secured",
+          "level": "medium",
+          "reason": "The ad suggests the lister does not control the place yet (listing says: \"rooms, people). We are looking to start a share house. We've got a couple opti\")"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2032165). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 6,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 50%",
+        "early": false
+      },
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -4305,14 +5718,27 @@
         "Can we keep messages on Gumtree until after the inspection?"
       ],
       "scam_flags": [
-        "Asks you to contact via WeChat or QQ, or text first, rather than Gumtree messages"
+        {
+          "code": "off_platform_contact",
+          "level": "high",
+          "reason": "Asks you to contact via WeChat or QQ, or text first, rather than Gumtree messages",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "Gumtree flatshare is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a single room in your Bunnerong Rd house. I'd like to move in early January 2027 for 6 months or more. Could you tell me whether any bills are included in the $350, and the bond and lease terms? I'd also like to arrange an inspection. Thank you.",
       "notes": "At the $350 cap with no bills mentioned: total about $375/wk ⚠️ estimate, over budget. Ensuite rooms about $400 to $450 (over budget). Direct bus to UNSW per ad; time ⚠️ estimate. Possibly the same room as flatmates:P2006237 on Flatmates.com.au. Possibly the same room as flatmates:P1952589 on Flatmates.com.au.",
       "bills_included_count": 0,
       "who_can_apply": null,
       "bond": null,
-      "about": ""
+      "about": "",
+      "trust": "C",
+      "women_only": null,
+      "risk": "high"
     },
     {
       "id": "flatmates:P2006237",
@@ -4357,8 +5783,25 @@
         "How many people live here, and how are cleaning and kitchen time shared?",
         "Can I see the room in person or on a live video call before paying anything?"
       ],
-      "scam_flags": [],
-      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2006237). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+      "scam_flags": [
+        {
+          "code": "unverified_lister",
+          "level": "low",
+          "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing"
+        }
+      ],
+      "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2006237). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
+      "trust": "B",
+      "women_only": null,
+      "lister": {
+        "photos": 5,
+        "social": false,
+        "nosocial": true,
+        "online": "Online Today",
+        "rate": "Response rate: 100%",
+        "early": true
+      },
+      "risk": "low"
     },
     {
       "found_at": "2026-10-18",
@@ -4399,14 +5842,22 @@
         "Will the $1,400 bond be lodged with NSW Rental Bonds Online?"
       ],
       "scam_flags": [
-        "Rent well below the usual price for a Coogee studio: confirm it is self-contained before applying"
+        {
+          "code": "too_good_to_be_true",
+          "level": "medium",
+          "reason": "Rent well below the usual price for a Coogee studio: confirm it is self-contained before applying",
+          "manual": true
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the studio at 11/1-3 Vicar St, Coogee. I'm looking for a start between late December 2026 and early February 2027: is a later start possible? Could you confirm whether the studio has its own kitchen and bathroom, whether it is furnished, which bills the tenant pays (electricity, gas, water, internet), and the lease length? Thank you.",
       "notes": "Agency listing (first listed 13 Oct); bond $1,400 = 4 weeks, the legal maximum. Available 21 Oct 2026, so a January start needs the agent's agreement. Inspections and applications run through Snug. Bills not stated; a solo studio usually pays more than the share-house $25/wk ⚠️ estimate. Distance is the Coogee suburb centre ⚠️.",
       "bond": 1400,
       "about": "Coogee residence close to the beach, cafes, dining and local amenities.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "A",
+      "women_only": null,
+      "risk": "medium"
     },
     {
       "found_at": "2026-10-18",
@@ -4446,16 +5897,39 @@
         "Can the room start in early January 2027, and which bus goes to UNSW?"
       ],
       "scam_flags": [
-        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
-        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
-        "7 bedrooms: check the NSW boarding house register"
+        {
+          "code": "overseas_marketplace",
+          "level": "medium",
+          "reason": "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+          "manual": true
+        },
+        {
+          "code": "price_from_only",
+          "level": "medium",
+          "reason": "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
+          "manual": true
+        },
+        {
+          "code": "boarding_house_check",
+          "level": "medium",
+          "reason": "7 bedrooms: check the NSW boarding house register",
+          "manual": true
+        },
+        {
+          "code": "high_risk_classifieds",
+          "level": "low",
+          "reason": "uhomes is an open classifieds or overseas booking site, where fake listings are more common (NSW Police: increased risk)"
+        }
       ],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 149 Gale Rd, Maroubra. I'd like to move in between late December 2026 and early February 2027. Could you confirm the weekly price, which bills are included, the lease length and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
       "notes": "At the $350 cap with no bills stated: about $375/wk all-in ⚠️ estimate, likely over budget. Very thin listing, 0 reviews. Bus time ⚠️ estimate.",
       "bond": null,
       "about": "7-bedroom, 3-bathroom property listed as student accommodation; short lease; tagged 'No Deposit'.",
       "who_can_apply": null,
-      "bills_included_count": 0
+      "bills_included_count": 0,
+      "trust": "C",
+      "women_only": null,
+      "risk": "medium"
     }
   ]
 }
