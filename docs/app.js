@@ -98,6 +98,10 @@ const TRUST_LABEL = { A: 'Trusted: official or licensed', B: 'Moderated site: ve
 const trustOf = it => TRUST_LABEL[it.trust] ? it.trust : 'C';
 const isSafe = it => trustOf(it) !== 'C' && it.verified === '✅' && riskOf(it) !== 'high';
 const WOMEN_LABEL = { stated: 'Women only', likely: 'Likely women only' };
+const LAUNDRY_LABEL = { yes: 'Washing machine', shared: 'Shared laundry', likely: 'Laundry mentioned, machine not stated', no: 'No washing machine', 'not mentioned': 'Not mentioned' };
+const LAUNDRY_ICON = { yes: '✅', shared: '✅', likely: '🟡', no: '❌', 'not mentioned': '❔' };
+const laundryOf = it => LAUNDRY_LABEL[it.laundry] ? it.laundry : 'not mentioned';
+const contactOf = it => it.contact || {};
 const deadlineMs = it => { const d = parseWhen(it.deadline); return d ? +d : null; };
 const foundMs = it => { const d = parseWhen(it.found_at, 'start'); return d ? +d : null; };
 
@@ -331,7 +335,7 @@ const TABS = [
     heading: 'Rooms near UNSW Village',
     lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
-    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, ...flagsOf(it).map(f => f.reason)],
+    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     defaultF: { safety: 'safe', women: 'hide' },
     hiddenNote: (items, s) => {
       const out = [];
@@ -357,6 +361,7 @@ const TABS = [
       { type: 'multi', key: 'who', label: 'Who can apply', get: it => it.who_can_apply || 'Not stated' },
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
+      { type: 'multi', key: 'laundry', label: 'Washing machine', get: it => LAUNDRY_LABEL[laundryOf(it)] },
       { type: 'toggle', key: 'walk', label: 'Walkable to UNSW', test: it => it.walkable === true },
       ...commonFilters()
     ],
@@ -394,7 +399,9 @@ const TABS = [
         ['Lease', esc(it.lease || '') || '<span class="muted">not stated</span>'],
         ['Furnished', esc(titleCase(it.furnished || 'unknown'))],
         ['Own bathroom', esc(titleCase(it.own_bathroom || 'unknown'))],
+        ['Laundry', `${LAUNDRY_ICON[laundryOf(it)]} ${esc(LAUNDRY_LABEL[laundryOf(it)])}`],
         ['Who can apply', esc(it.who_can_apply || '') || '<span class="muted">not stated</span>'],
+        ['Contact', esc([contactOf(it).business, contactOf(it).channel].filter(Boolean).join(': ')) || '<span class="muted">see the listing</span>'],
         ['Source', esc(TRUST_LABEL[trustOf(it)])]
       ];
     },
@@ -413,6 +420,8 @@ const TABS = [
       if (trustOf(it) === 'C') c.push(['Untrusted source', 'crit']);
       if (it.women_only) c.push([WOMEN_LABEL[it.women_only] || 'Women only', 'warn']);
       if (n === 4) c.push(['All bills included', 'good']);
+      if (['yes', 'shared'].includes(laundryOf(it))) c.push(['Washing machine', 'good']);
+      if (laundryOf(it) === 'no') c.push(['No washing machine', 'warn']);
       if (it.walkable) c.push(['Walkable', 'good']);
       if (it.who_can_apply && !/^anyone/i.test(it.who_can_apply) && it.who_can_apply !== 'Women only') c.push([it.who_can_apply, 'warn']);
       return c;
@@ -424,6 +433,9 @@ const TABS = [
         return `<div class="bill ${cls}"><span>${titleCase(b)}</span><b>${esc(v)}</b></div>`;
       }).join('');
       let h = `<div><h4>Bills</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}</div>`;
+      h += `<div><h4>Laundry</h4><p>${LAUNDRY_ICON[laundryOf(it)]} ${esc(LAUNDRY_LABEL[laundryOf(it)])}${it.laundry_evidence ? `: <q>${esc(it.laundry_evidence)}</q>` : ''}</p></div>`;
+      { const c = contactOf(it), u = safeUrl(c.url);
+        h += `<div><h4>How to contact</h4><p>${esc([c.business, c.channel].filter(Boolean).join(': ') || 'See the listing page')}${u ? ` · <a href="${esc(u)}" target="_blank" rel="noopener">contact page ↗</a>` : ''}</p><p class="muted">Names, phone numbers and emails are kept in your private Sheet, not on this public site. Keep the first messages on the listing site.</p></div>`; }
       if (it.lister) {
         const L = it.lister, bits = [];
         if (L.social) bits.push('✅ verified social media'); else if (L.nosocial) bits.push('⚠️ no verified social media');
