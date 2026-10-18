@@ -643,7 +643,8 @@ function cardHtml(tab, it, data) {
   const link = safeUrl(it.link);
   const w = tab.when(it);
   const cd = tab.whenEdge === 'start' ? null : countdown(w);
-  const whenTxt = w ? showWhen(w, tab.whenEdge || 'end') : '';
+  const availNow = tab.whenEdge === 'start' && w && (parseWhen(w, 'start') || Infinity) <= Date.now();
+  const whenTxt = availNow ? 'now' : (w ? showWhen(w, tab.whenEdge || 'end') : '');
   const label = tab.whenLabel || (tab.id === 'uni' ? 'Due' : 'Closes');
   const st = it.status || (tab.id === 'uni' ? 'to do' : 'new');
   const chips = [];
