@@ -229,7 +229,7 @@
       },
       "risk": "medium",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P2032114",
         "mobile_on_listing": true
@@ -305,7 +305,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1446422",
         "mobile_on_listing": false
@@ -376,7 +376,7 @@
       },
       "risk": "medium",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1304066",
         "mobile_on_listing": false
@@ -440,7 +440,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1703311",
         "mobile_on_listing": false
@@ -505,7 +505,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1998233",
         "mobile_on_listing": false
@@ -575,7 +575,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2017441",
         "mobile_on_listing": true
@@ -640,7 +640,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P2036233",
         "mobile_on_listing": false
@@ -711,7 +711,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1121520",
         "mobile_on_listing": false
@@ -782,7 +782,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1774225",
         "mobile_on_listing": true
@@ -847,7 +847,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P256918",
         "mobile_on_listing": true
@@ -915,7 +915,7 @@
       "women_only": null,
       "risk": "medium",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344812669",
         "mobile_on_listing": null
@@ -985,7 +985,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2017007",
         "mobile_on_listing": false
@@ -1050,7 +1050,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P444075",
         "mobile_on_listing": false
@@ -1131,7 +1131,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P218737",
         "mobile_on_listing": true
@@ -1196,7 +1196,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1794639",
         "mobile_on_listing": false
@@ -1267,7 +1267,7 @@
       },
       "risk": "medium",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1261986",
         "mobile_on_listing": true
@@ -1348,7 +1348,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2029439",
         "mobile_on_listing": true
@@ -1498,7 +1498,7 @@
       "women_only": null,
       "risk": "medium",
       "contact": {
-        "channel": "Study Stays message (needs UNSW login)",
+        "channel": "Study Stays message (needs a Study Stays account: sign in with your email and password)",
         "business": "Private operator (former hostel); description mentions 'Semester in Australia' service package, not confirmed as operator",
         "url": "https://studystays.unsw.edu.au/Listings/Detail/380722",
         "mobile_on_listing": null
@@ -1561,7 +1561,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344988766",
         "mobile_on_listing": null
@@ -1626,7 +1626,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1984902",
         "mobile_on_listing": true
@@ -1691,7 +1691,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P439828",
         "mobile_on_listing": false
@@ -1760,7 +1760,7 @@
       "women_only": null,
       "risk": "medium",
       "contact": {
-        "channel": "Gumtree message or phone (number in your Sheet)",
+        "channel": "Phone printed in the ad (in your Sheet), or Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345141884",
         "mobile_on_listing": null
@@ -1841,7 +1841,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-coogee-2034-P1946423",
         "mobile_on_listing": false
@@ -1904,7 +1904,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344228914",
         "mobile_on_listing": null
@@ -1980,7 +1980,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P1937524",
         "mobile_on_listing": false
@@ -2045,7 +2045,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/student-accommodation-sydney-randwick-2031-P1931805",
         "mobile_on_listing": false
@@ -2064,9 +2064,9 @@
       "last_seen_at": "2026-10-18",
       "deadline": null,
       "status": "new",
-      "closed": false,
+      "closed": true,
       "verified": "✅",
-      "notes": "Bills included: Electricity, Water, Gas, Internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Short stay only (Minimum 2 months stay). Listing icons: 4, 2, 4 (bedrooms, bathrooms, people).",
+      "notes": "Bills included: Electricity, Water, Gas, Internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Short stay only (Minimum 2 months stay). Listing icons: 4, 2, 4 (bedrooms, bathrooms, people). Flatmates says 'This listing is no longer available' (checked 18 Oct 2026).",
       "suburb": "Maroubra",
       "distance_km": 3.5,
       "transit_min": 25,
@@ -2121,10 +2121,10 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2018185",
-        "mobile_on_listing": true
+        "mobile_on_listing": false
       },
       "laundry": "not mentioned",
       "laundry_evidence": ""
@@ -2191,7 +2191,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-coogee-2034-P2021362",
         "mobile_on_listing": false
@@ -2256,7 +2256,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1654205",
         "mobile_on_listing": true
@@ -2342,7 +2342,7 @@
       },
       "risk": "high",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/student-accommodation-sydney-randwick-2031-P1722761",
         "mobile_on_listing": false
@@ -2423,7 +2423,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-coogee-2034-P2026141",
         "mobile_on_listing": false
@@ -2493,7 +2493,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2034077",
         "mobile_on_listing": false
@@ -2558,7 +2558,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1362953",
         "mobile_on_listing": true
@@ -2629,7 +2629,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P2031888",
         "mobile_on_listing": true
@@ -2699,7 +2699,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P1678070",
         "mobile_on_listing": true
@@ -2764,7 +2764,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1980008",
         "mobile_on_listing": true
@@ -2839,7 +2839,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2024587",
         "mobile_on_listing": true
@@ -2909,7 +2909,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1224376",
         "mobile_on_listing": true
@@ -2978,7 +2978,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345196105",
         "mobile_on_listing": null
@@ -3043,7 +3043,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1356556",
         "mobile_on_listing": true
@@ -3114,7 +3114,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/student-accommodation-sydney-maroubra-2035-P1615657",
         "mobile_on_listing": true
@@ -3190,7 +3190,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1072460",
         "mobile_on_listing": true
@@ -3259,7 +3259,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P835365",
         "mobile_on_listing": true
@@ -3329,7 +3329,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P1952589",
         "mobile_on_listing": false
@@ -3398,7 +3398,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2032950",
         "mobile_on_listing": false
@@ -3474,7 +3474,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2010858",
         "mobile_on_listing": false
@@ -3539,7 +3539,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1750765",
         "mobile_on_listing": false
@@ -3613,7 +3613,7 @@
       "women_only": null,
       "risk": "medium",
       "contact": {
-        "channel": "Study Stays message (needs UNSW login)",
+        "channel": "Study Stays message (needs a Study Stays account: sign in with your email and password)",
         "business": "Private provider (Residential, self-managed deposit); no name shown",
         "url": "https://studystays.unsw.edu.au/Listings/Detail/381028",
         "mobile_on_listing": null
@@ -3684,7 +3684,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1499898",
         "mobile_on_listing": false
@@ -3806,8 +3806,8 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
-        "business": null,
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
+        "business": "Iconic Realty",
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2025382",
         "mobile_on_listing": true
       },
@@ -3887,7 +3887,7 @@
       "women_only": null,
       "risk": "medium",
       "contact": {
-        "channel": "Study Stays message (needs UNSW login)",
+        "channel": "Study Stays message (needs a Study Stays account: sign in with your email and password)",
         "business": "Myola Coogee Accommodation (named in description)",
         "url": "https://studystays.unsw.edu.au/Listings/Detail/376475",
         "mobile_on_listing": null
@@ -3952,7 +3952,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2036562",
         "mobile_on_listing": false
@@ -4015,7 +4015,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344512334",
         "mobile_on_listing": null
@@ -4091,7 +4091,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2032382",
         "mobile_on_listing": true
@@ -4156,7 +4156,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2020368",
         "mobile_on_listing": true
@@ -4221,7 +4221,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1999692",
         "mobile_on_listing": false
@@ -4284,7 +4284,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345049509",
         "mobile_on_listing": null
@@ -4355,7 +4355,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2034126",
         "mobile_on_listing": true
@@ -4431,7 +4431,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P2023218",
         "mobile_on_listing": true
@@ -4488,13 +4488,13 @@
       "women_only": null,
       "risk": "none",
       "contact": {
-        "channel": "Agent via realestate.com.au: use the enquiry button on the listing",
-        "business": null,
+        "channel": "Agent: phone (numbers in your Sheet) or the realestate.com.au enquiry button",
+        "business": "Raine & Horne Kingsford / Kensington",
         "url": "https://www.realestate.com.au/property-studio-nsw-kingsford-444682392",
         "mobile_on_listing": null
       },
       "laundry": "shared",
-      "laundry_evidence": "shared kitchen and laundry ( washer and dryer). Only water"
+      "laundry_evidence": "On-site access to communal kitchen and washer/dryer units."
     },
     {
       "id": "flatmates:P2025773",
@@ -4553,7 +4553,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/whole-property-sydney-kingsford-2032-P2025773",
         "mobile_on_listing": true
@@ -4686,7 +4686,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1663483",
         "mobile_on_listing": false
@@ -4757,7 +4757,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1855905",
         "mobile_on_listing": false
@@ -4913,7 +4913,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2009506",
         "mobile_on_listing": true
@@ -4984,10 +4984,10 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
-        "business": null,
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
+        "business": "Down Under Stay",
         "url": "https://flatmates.com.au/share-house-sydney-kensington-2033-P1337165",
-        "mobile_on_listing": false
+        "mobile_on_listing": true
       },
       "laundry": "not mentioned",
       "laundry_evidence": ""
@@ -5059,7 +5059,7 @@
       "women_only": "likely",
       "risk": "medium",
       "contact": {
-        "channel": "Study Stays message (needs UNSW login)",
+        "channel": "Study Stays message (needs a Study Stays account: sign in with your email and password)",
         "business": "Down Under Stay (named only in attachment file names)",
         "url": "https://studystays.unsw.edu.au/Listings/Detail/380549",
         "mobile_on_listing": null
@@ -5215,7 +5215,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1882018",
         "mobile_on_listing": true
@@ -5555,7 +5555,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message or phone (number in your Sheet)",
+        "channel": "Phone printed in the ad (in your Sheet), or Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344928502",
         "mobile_on_listing": null
@@ -5620,7 +5620,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1877946",
         "mobile_on_listing": true
@@ -5683,8 +5683,8 @@
       "women_only": null,
       "risk": "medium",
       "contact": {
-        "channel": "Agent via realestate.com.au: use the enquiry button on the listing",
-        "business": null,
+        "channel": "Agent: phone (number in your Sheet) or the realestate.com.au enquiry button",
+        "business": "Olsen Romano Estate Agents",
         "url": "https://www.realestate.com.au/property-apartment-nsw-kingsford-418962602",
         "mobile_on_listing": null
       },
@@ -5823,7 +5823,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P995771",
         "mobile_on_listing": false
@@ -5979,7 +5979,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P2029561",
         "mobile_on_listing": true
@@ -6114,7 +6114,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2034965",
         "mobile_on_listing": false
@@ -6179,7 +6179,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2014019",
         "mobile_on_listing": false
@@ -6250,7 +6250,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1645831",
         "mobile_on_listing": false
@@ -6315,7 +6315,7 @@
       },
       "risk": "none",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-randwick-2031-P1513014",
         "mobile_on_listing": false
@@ -6378,7 +6378,7 @@
       "women_only": null,
       "risk": "low",
       "contact": {
-        "channel": "Gumtree message; any phone number is behind 'Show number' on the ad",
+        "channel": "Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345190832",
         "mobile_on_listing": null
@@ -6449,7 +6449,7 @@
       },
       "risk": "medium",
       "contact": {
-        "channel": "Flatmates message (sign in); the lister also shares a mobile number on the listing",
+        "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2032165",
         "mobile_on_listing": true
@@ -6518,7 +6518,7 @@
       "women_only": null,
       "risk": "high",
       "contact": {
-        "channel": "Gumtree message or phone (number in your Sheet)",
+        "channel": "Phone printed in the ad (in your Sheet), or Gumtree message (needs a Gumtree sign-in; 'Show number' also needs sign-in)",
         "business": null,
         "url": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345176187",
         "mobile_on_listing": null
@@ -6589,7 +6589,7 @@
       },
       "risk": "low",
       "contact": {
-        "channel": "Flatmates message (sign in)",
+        "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
         "business": null,
         "url": "https://flatmates.com.au/share-house-sydney-maroubra-2035-P2006237",
         "mobile_on_listing": false
