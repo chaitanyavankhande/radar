@@ -86,6 +86,18 @@ const cmpVal = (a, b) => {
   if (typeof a === 'string' || typeof b === 'string') return String(a).localeCompare(String(b));
   return a - b;
 };
+/* accommodation safety: flags are {code, level, reason}; older data may hold plain strings */
+const LEVEL_W = { high: 5, medium: 2, low: 1 };
+const LEVEL_ICON = { high: '🔴', medium: '🟠', low: '🟡' };
+const flagsOf = it => arr(it.scam_flags).map(f => typeof f === 'string' ? { code: 'note', level: 'medium', reason: f } : f)
+  .sort((a, b) => (LEVEL_W[b.level] || 0) - (LEVEL_W[a.level] || 0));
+const riskOf = it => it.risk || (flagsOf(it).length ? flagsOf(it)[0].level : 'none');
+const riskScore = it => flagsOf(it).reduce((s, f) => s + (LEVEL_W[f.level] || 0), 0);
+const RISK_LABEL = { high: 'High risk', medium: 'Medium risk', low: 'Low risk', none: 'No flags' };
+const TRUST_LABEL = { A: 'Trusted: official or licensed', B: 'Moderated site: verify', C: 'Open classifieds: extra checks' };
+const trustOf = it => TRUST_LABEL[it.trust] ? it.trust : 'C';
+const isSafe = it => trustOf(it) !== 'C' && it.verified === '✅' && riskOf(it) !== 'high';
+const WOMEN_LABEL = { stated: 'Women only', likely: 'Likely women only' };
 const deadlineMs = it => { const d = parseWhen(it.deadline); return d ? +d : null; };
 const foundMs = it => { const d = parseWhen(it.found_at, 'start'); return d ? +d : null; };
 
@@ -319,8 +331,22 @@ const TABS = [
     heading: 'Rooms near UNSW Village',
     lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
-    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease],
+    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, ...flagsOf(it).map(f => f.reason)],
+    defaultF: { safety: 'safe', women: 'hide' },
+    hiddenNote: (items, s) => {
+      const out = [];
+      if ((s.f.safety || 'safe') === 'safe') { const n = items.filter(it => !isSafe(it)).length; if (n) out.push(`${n} untrusted, unverified or high-risk hidden`); }
+      const w = s.f.women || 'hide';
+      if (w !== 'show') { const n = items.filter(it => it.women_only === 'stated' || (w === 'hide' && it.women_only === 'likely')).length; if (n) out.push(`${n} women-only hidden`); }
+      return out;
+    },
     filters: () => [
+      { type: 'select', key: 'safety', label: 'Safety', options: [['safe', 'Trusted and verified only'], ['nohigh', 'Any source, hide high risk'], ['all', 'Show everything'], ['flagged', 'Flagged only']],
+        test: (it, v) => v === 'safe' ? isSafe(it) : v === 'nohigh' ? riskOf(it) !== 'high' : v === 'flagged' ? flagsOf(it).length > 0 : true },
+      { type: 'select', key: 'women', label: 'Women-only rooms', options: [['hide', 'Hide (stated or tagged)'], ['hide_stated', 'Hide only when stated'], ['show', 'Show them']],
+        test: (it, v) => v === 'hide' ? !it.women_only : v === 'hide_stated' ? it.women_only !== 'stated' : true },
+      { type: 'multi', key: 'risk', label: 'Risk', get: it => RISK_LABEL[riskOf(it)] },
+      { type: 'multi', key: 'trust', label: 'Source trust', get: it => TRUST_LABEL[trustOf(it)] },
       { type: 'max', key: 'max_rent', label: 'Rent at most ($/wk)', get: it => num(it.rent_pw), step: 10, placeholder: '350' },
       { type: 'select', key: 'bills', label: 'Bills included', options: [['', 'Any'], ['4', 'All four'], ['3', '3 or more'], ['2', '2 or more'], ['1', 'At least 1']],
         test: (it, v) => billsCount(it) >= Number(v) },
@@ -332,8 +358,6 @@ const TABS = [
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
       { type: 'toggle', key: 'walk', label: 'Walkable to UNSW', test: it => it.walkable === true },
-      { type: 'select', key: 'scam', label: 'Scam flags', options: [['', 'Show all'], ['none', 'No flags only'], ['some', 'Flagged only']],
-        test: (it, v) => v === 'none' ? arr(it.scam_flags).length === 0 : arr(it.scam_flags).length > 0 },
       ...commonFilters()
     ],
     keys: {
@@ -344,7 +368,7 @@ const TABS = [
       distance: { label: 'Distance', get: it => num(it.distance_km) },
       transit: { label: 'Travel time', get: it => num(it.transit_min) },
       avail: { label: 'Available from', get: it => { const d = parseWhen(it.available_from, 'start'); return d ? +d : null; } },
-      scam: { label: 'Fewest scam flags', get: it => arr(it.scam_flags).length },
+      scam: { label: 'Lowest risk', get: riskScore },
       found: { label: 'First seen', get: foundMs }
     },
     presets: [
@@ -352,7 +376,7 @@ const TABS = [
       { id: 'cheapest', label: 'Cheapest', keys: [['total', 'asc'], ['bills', 'asc']] },
       { id: 'closest', label: 'Closest, then cheapest', keys: [['distance', 'asc'], ['total', 'asc']] },
       { id: 'movein', label: 'Earliest move-in', keys: [['avail', 'asc'], ['total', 'asc']] },
-      { id: 'safe', label: 'Fewest scam flags', keys: [['scam', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
+      { id: 'safe', label: 'Lowest risk first', keys: [['scam', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
       { id: 'newest', label: 'Newest first', keys: [['found', 'desc']] }
     ],
     when: it => it.available_from,
@@ -370,16 +394,27 @@ const TABS = [
         ['Lease', esc(it.lease || '') || '<span class="muted">not stated</span>'],
         ['Furnished', esc(titleCase(it.furnished || 'unknown'))],
         ['Own bathroom', esc(titleCase(it.own_bathroom || 'unknown'))],
-        ['Who can apply', esc(it.who_can_apply || '') || '<span class="muted">not stated</span>']
+        ['Who can apply', esc(it.who_can_apply || '') || '<span class="muted">not stated</span>'],
+        ['Source', esc(TRUST_LABEL[trustOf(it)])]
       ];
+    },
+    alert: it => {
+      const fl = flagsOf(it);
+      if (!fl.length) return '';
+      const r = riskOf(it);
+      return `<div class="risk risk-${esc(r)}"><b>${LEVEL_ICON[r] || ''} ${esc(RISK_LABEL[r])}: ${fl.length} flag${fl.length > 1 ? 's' : ''}</b><ul>${fl.map(f => `<li>${LEVEL_ICON[f.level] || ''} ${esc(f.reason)}</li>`).join('')}</ul></div>`;
     },
     chips: it => {
       const c = [];
       const n = billsCount(it);
+      const r = riskOf(it);
+      if (r !== 'none') c.push([RISK_LABEL[r], r === 'high' ? 'crit' : r === 'medium' ? 'warn' : 'info']);
+      if (trustOf(it) === 'A') c.push(['Trusted source', 'good']);
+      if (trustOf(it) === 'C') c.push(['Untrusted source', 'crit']);
+      if (it.women_only) c.push([WOMEN_LABEL[it.women_only] || 'Women only', 'warn']);
       if (n === 4) c.push(['All bills included', 'good']);
-      if (arr(it.scam_flags).length) c.push([`${arr(it.scam_flags).length} scam flag${arr(it.scam_flags).length > 1 ? 's' : ''}`, 'crit']);
       if (it.walkable) c.push(['Walkable', 'good']);
-      if (it.who_can_apply && it.who_can_apply !== 'Anyone') c.push([it.who_can_apply, 'warn']);
+      if (it.who_can_apply && !/^anyone/i.test(it.who_can_apply) && it.who_can_apply !== 'Women only') c.push([it.who_can_apply, 'warn']);
       return c;
     },
     more: it => {
@@ -389,7 +424,14 @@ const TABS = [
         return `<div class="bill ${cls}"><span>${titleCase(b)}</span><b>${esc(v)}</b></div>`;
       }).join('');
       let h = `<div><h4>Bills</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}</div>`;
-      if (arr(it.scam_flags).length) h += `<div class="flagbox"><h4>Scam flags</h4><ul>${arr(it.scam_flags).map(f => `<li>${esc(f)}</li>`).join('')}</ul></div>`;
+      if (it.lister) {
+        const L = it.lister, bits = [];
+        if (L.social) bits.push('✅ verified social media'); else if (L.nosocial) bits.push('⚠️ no verified social media');
+        if (L.online) bits.push(L.online); if (L.rate) bits.push(L.rate); if (num(L.photos) != null) bits.push(`${L.photos} photos`);
+        if (L.early) bits.push('Early Bird (new listing)');
+        h += `<div><h4>About the lister (Flatmates)</h4><p>${esc(bits.join(' · '))}</p></div>`;
+      }
+      h += `<div><h4>Safety checks before you pay</h4><ul><li>Inspect in person before paying anything. A live video call you start can rule a place out, but is not enough to pay a private person.</li><li>Keep all messages on the listing site. Never send passport, visa or bank documents before an inspection.</li><li>NSW limits: bond at most 4 weeks' rent, lodged with Rental Bonds Online; rent in advance at most 2 weeks; holding fee only after approval, at most 1 week; no application or key fees.</li><li>Pay rent only under a signed written agreement, to an account in the lister's name, with receipts. Never gift cards, crypto or money transfer services.</li></ul><p class="muted">Full list and sources: <a href="https://github.com/chaitanyavankhande/radar/blob/main/shared/SCAM_FLAGS.md" target="_blank" rel="noopener">SCAM_FLAGS.md</a></p></div>`;
       if (it.about) h += `<div><h4>About the place</h4><p>${esc(it.about)}</p></div>`;
       if (it.household) h += `<div><h4>Household</h4><p>${esc(it.household)}</p></div>`;
       if (arr(it.inspection_questions).length) h += `<div><h4>Ask at the inspection</h4><ul>${arr(it.inspection_questions).map(q => `<li>${esc(q)}</li>`).join('')}</ul></div>`;
@@ -422,8 +464,9 @@ function noteBlock(it) {
 
 /* ---------- state ---------- */
 const DATA = {};
-const defaults = () => ({ q: '', sort: 'default', cs: [], hc: true, nw: false, f: {} });
-const state = { tab: 'uni', per: Object.fromEntries(TABS.map(t => [t.id, defaults()])) };
+const defaults = id => ({ q: '', sort: 'default', cs: [], hc: true, nw: false, f: { ...((TAB[id] && TAB[id].defaultF) || {}) } });
+const isDefaultF = (key, v) => { const d = (TAB[state.tab].defaultF || {})[key]; return d !== undefined && v === d; };
+const state = { tab: 'uni', per: Object.fromEntries(TABS.map(t => [t.id, defaults(t.id)])) };
 const cur = () => state.per[state.tab];
 
 function readHash() {
@@ -434,7 +477,7 @@ function readHash() {
   const tab = p.get('tab');
   if (!TAB[tab]) return false;
   state.tab = tab;
-  const s = defaults();
+  const s = defaults(tab);
   s.q = p.get('q') || '';
   s.sort = p.get('sort') || 'default';
   s.hc = p.get('hc') !== '0';
@@ -460,6 +503,7 @@ function writeHash() {
   if (!s.hc) p.set('hc', '0');
   if (s.nw) p.set('new', '1');
   for (const [k, v] of Object.entries(s.f)) {
+    if (isDefaultF(k, v)) continue;
     if (Array.isArray(v) ? v.length : (v !== '' && v !== false && v != null)) p.set('f_' + k, Array.isArray(v) ? v.join('|') : v === true ? '1' : v);
   }
   const h = '#' + p.toString();
@@ -635,7 +679,7 @@ function renderFilters() {
 }
 function activeCount() {
   const s = cur();
-  return Object.values(s.f).filter(v => Array.isArray(v) ? v.length : (v !== '' && v !== false && v != null)).length + (s.nw ? 1 : 0) + (s.hc ? 0 : 1);
+  return Object.entries(s.f).filter(([k, v]) => !isDefaultF(k, v) && (Array.isArray(v) ? v.length : (v !== '' && v !== false && v != null))).length + (s.nw ? 1 : 0) + (s.hc ? 0 : 1);
 }
 
 function cardHtml(tab, it, data) {
@@ -668,6 +712,7 @@ function cardHtml(tab, it, data) {
       </div>
     </div>
     <dl class="facts">${facts}</dl>
+    ${tab.alert ? tab.alert(it) : ''}
     <div class="chips">${chips.join('')}</div>
     <div class="actions">
       ${link ? `<a class="btn small" href="${esc(link)}" target="_blank" rel="noopener">Open official page ↗</a>` : ''}
@@ -700,7 +745,8 @@ function renderResults() {
   const list = applySort(tab, applyFilters(tab, d.items, s), s);
   const total = d.items.length;
   const hiddenClosed = s.hc ? d.items.filter(isClosed).length : 0;
-  let html = `<div class="rhead"><span>${list.length} of ${total} shown${hiddenClosed ? ` · ${hiddenClosed} closed hidden` : ''}</span></div>`;
+  const notes = tab.hiddenNote ? tab.hiddenNote(d.items.filter(it => !(s.hc && isClosed(it))), s) : [];
+  let html = `<div class="rhead"><span>${list.length} of ${total} shown${hiddenClosed ? ` · ${hiddenClosed} closed hidden` : ''}${notes.map(n => ` · ${esc(n)}`).join('')}</span>${notes.length ? ' <span class="muted">(change under Safety and Women-only rooms in Filters)</span>' : ''}</div>`;
   if (!list.length) {
     html += `<div class="empty"><h3>Nothing matches these filters</h3><p>Try fewer filters or a shorter search.</p><button type="button" class="btn ghost" data-clear>Clear filters</button></div>`;
     box.innerHTML = html;
@@ -753,7 +799,7 @@ document.addEventListener('click', e => {
   const tabBtn = e.target.closest('[data-tab]');
   if (tabBtn) { state.tab = tabBtn.dataset.tab; renderAll(); return; }
   if (e.target.closest('[data-clear]')) {
-    const s = cur(); s.f = {}; s.q = ''; s.nw = false; s.hc = true;
+    const s = cur(); s.f = { ...(TAB[state.tab].defaultF || {}) }; s.q = ''; s.nw = false; s.hc = true;
     $('#q').value = ''; refresh(); return;
   }
   const cp = e.target.closest('[data-copy]');

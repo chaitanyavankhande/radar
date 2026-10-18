@@ -240,6 +240,12 @@ details.more > summary { cursor: pointer; color: var(--accent); font-size: var(-
 .bill.unknown b { color: var(--warn); }
 .flagbox { background: var(--crit-bg); color: var(--crit); border-radius: 8px; padding: 8px 12px; }
 .flagbox ul { padding-left: 18px; }
+.risk { border-radius: 8px; padding: 8px 12px; margin: 8px 0 4px; font-size: 0.9rem; border-left: 4px solid currentColor; }
+.risk ul { list-style: none; padding: 0; margin: 4px 0 0; }
+.risk li { margin: 2px 0; overflow-wrap: anywhere; }
+.risk-high { background: var(--crit-bg); color: var(--crit); }
+.risk-medium { background: var(--warn-bg); color: var(--warn); }
+.risk-low { background: var(--surface-2); color: var(--ink); border-left-color: var(--warn); }
 .draft { white-space: pre-wrap; background: var(--bg); border: 1px dashed var(--line); border-radius: 8px; padding: 10px 12px; font-size: var(--step--1); max-width: 72ch; }
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 28px 20px; text-align: center; display: grid; gap: 8px; justify-items: center; color: var(--ink-2); }
 .empty h3 { font-size: var(--step-1); color: var(--ink); }
