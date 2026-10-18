@@ -112,6 +112,9 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `trust` | string | Source tier from `shared/SCAM_FLAGS.md`: `A` official or licensed, `B` moderated site (verify), `C` open classifieds or overseas marketplace |
 | `women_only` | string or null | `stated` (the listing says women or females only), `likely` (tagged all-female flat, or a shared room with a woman), or null |
 | `lister` | object or null | Flatmates only: `{ photos, social, nosocial, online, rate, early }` from the listing page |
+| `laundry` | string | Washing machine: `yes` (in the home), `shared` (shared or communal laundry in the building), `likely` (a laundry is mentioned but no machine), `no` (stated none, or only a laundromat), `not mentioned`. Flatmates has no laundry field, so it comes from the description |
+| `laundry_evidence` | string | The exact short phrase relied on (empty when not mentioned) |
+| `contact` | object | Public-safe contact route only: `{ channel, business, url, mobile_on_listing }`. `business` is filled only for businesses (agency, operator, marketplace). **Never** put a private person's name, phone number or email here: the repo is public. Those go only to the private Sheet's Contact name, Phone and Email columns |
 | `enquiry_draft` | string | Draft message for Chaitanya to send himself |
 
 **Default view (site and Sheet):** trust `A` or `B`, verified ✅, risk not `high`, `women_only` null, not closed. Everything else stays in the data and can be shown with the Safety and Women-only filters.
