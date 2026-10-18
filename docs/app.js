@@ -98,6 +98,17 @@ const countryRank = it => {
   if (/remote/.test(c)) return 6;
   return 5;
 };
+/* break fit for internships: exact, overlap (14 days or less outside a break), outside, unknown */
+const FIT_RANK = { exact: 0, overlap: 1, unknown: 2, outside: 3 };
+const FIT_LABEL = { exact: 'Exact fit', overlap: 'Up to 2 weeks over', unknown: 'Dates not stated', outside: 'Clashes with term' };
+const fitOf = it => FIT_RANK[it.break_fit] !== undefined ? it.break_fit : (it.fits_break === true ? 'exact' : 'unknown');
+const fitText = it => {
+  const f = fitOf(it);
+  if (f === 'exact') return `Inside ${it.break_name || 'a break'}`;
+  if (f === 'overlap') return `${it.overlap_days} day${it.overlap_days === 1 ? '' : 's'} outside ${it.break_name || 'the break'} (allowed up to 14)`;
+  if (f === 'outside') return `${it.overlap_days != null ? it.overlap_days + ' days' : 'More than 14 days'} in term or exams`;
+  return 'Dates not stated';
+};
 const casualPayTop = it => num(it.pay_max) ?? num(it.pay_min);
 const casualTier = it => {
   const p = casualPayTop(it);
@@ -208,7 +219,7 @@ const TABS = [
   {
     id: 'internships', file: 'internships', label: 'Internships', icon: '🚀', noun: 'internship',
     heading: 'Internships',
-    lede: 'Software internships, Australia first, then Hong Kong, Singapore, the US, the UK, Europe and remote. UNSW breaks: 11 Dec 2026 to 14 Feb 2027, 14 to 30 May 2027, 27 Aug to 12 Sep 2027, from 10 Dec 2027.',
+    lede: 'Software internships, exact break fits first, then roles up to 2 weeks over a break. UNSW breaks: 11 Dec 2026 to 14 Feb 2027 · 14 to 30 May 2027 · 27 Aug to 12 Sep 2027 · 10 Dec 2027 to 27 Feb 2028 · 20 Jun to 13 Aug 2028 · from 3 Dec 2028. 2028 dates follow UNSW\'s new semester calendar (not yet confirmed for this degree).',
     schedule: 'The scout refreshes this every day at 4:38 am.',
     search: it => [it.title, it.org, it.location, it.country, it.role_type, it.notes, it.work_rights],
     filters: () => [
@@ -216,7 +227,9 @@ const TABS = [
       { type: 'multi', key: 'role', label: 'Role', get: it => it.role_type },
       { type: 'multi', key: 'paid', label: 'Pay', get: it => titleCase(it.paid || 'unknown') },
       { type: 'multi', key: 'intl', label: 'Accepts international students', get: it => titleCase(it.accepts_international || 'unknown') },
-      { type: 'toggle', key: 'fits', label: 'Fits a UNSW break', test: it => it.fits_break === true },
+      { type: 'multi', key: 'fit', label: 'Break fit', get: it => FIT_LABEL[fitOf(it)] },
+      { type: 'multi', key: 'brk', label: 'Which break', get: it => it.break_name || null },
+      { type: 'toggle', key: 'fits', label: 'Fits a break (exact or up to 2 weeks over)', test: it => ['exact', 'overlap'].includes(fitOf(it)) },
       { type: 'select', key: 'within', label: 'Closes within', options: [['', 'Any time'], ['7', '7 days'], ['14', '14 days'], ['30', '30 days'], ['60', '60 days']],
         test: (it, v) => { const d = parseWhen(it.deadline); return d && dayDiff(d) <= Number(v); } },
       ...commonFilters()
@@ -224,15 +237,18 @@ const TABS = [
     keys: {
       country: { label: 'Australia first', get: countryRank },
       deadline: { label: 'Closing date', get: deadlineMs },
-      fits: { label: 'Fits a break first', get: it => it.fits_break ? 0 : 1 },
+      fits: { label: 'Exact fit first, then up to 2 weeks over', get: it => FIT_RANK[fitOf(it)] },
+      overlap: { label: 'Fewest days over the break', get: it => fitOf(it) === 'exact' ? 0 : num(it.overlap_days) },
+      starts: { label: 'Start date', get: it => { const d = parseWhen(it.start_date, 'start'); return d ? +d : null; } },
       paid: { label: 'Paid first', get: it => it.paid === 'paid' ? 0 : it.paid === 'unknown' ? 1 : 2 },
       found: { label: 'First seen', get: foundMs },
       org: { label: 'Company A to Z', get: it => it.org || '' }
     },
     presets: [
-      { id: 'default', label: 'Australia first, closing soonest', keys: [['country', 'asc'], ['deadline', 'asc'], ['fits', 'asc'], ['paid', 'asc']] },
-      { id: 'closing', label: 'Closing soonest', keys: [['deadline', 'asc'], ['country', 'asc']] },
-      { id: 'fits', label: 'Fits a break, then closing', keys: [['fits', 'asc'], ['deadline', 'asc']] },
+      { id: 'default', label: 'Exact fit first, then Australia, then closing', keys: [['fits', 'asc'], ['country', 'asc'], ['deadline', 'asc'], ['overlap', 'asc'], ['paid', 'asc']] },
+      { id: 'australia', label: 'Australia first, closing soonest', keys: [['country', 'asc'], ['deadline', 'asc'], ['fits', 'asc']] },
+      { id: 'closing', label: 'Closing soonest', keys: [['deadline', 'asc'], ['fits', 'asc']] },
+      { id: 'starts', label: 'Starts soonest', keys: [['starts', 'asc'], ['fits', 'asc']] },
       { id: 'newest', label: 'Newest first', keys: [['found', 'desc'], ['country', 'asc']] },
       { id: 'org', label: 'Company A to Z', keys: [['org', 'asc']] }
     ],
@@ -240,13 +256,17 @@ const TABS = [
     facts: it => [
       ['Where', esc([it.location, it.country].filter(Boolean).join(', '))],
       ['Pay', esc(titleCase(it.paid || 'unknown'))],
-      ['When', esc(it.start_window || '') || '<span class="muted">not stated</span>'],
+      ['When', (esc(it.start_window || '') || '<span class="muted">not stated</span>') + (it.start_date ? `<br><span class="num muted">${esc(rangeText(it.start_date, it.end_date))}</span>` : '')],
+      ['Break', esc(fitText(it))],
       ['Work rights', esc(it.work_rights || '') || '<span class="muted">not stated</span>']
     ],
     chips: it => {
       const c = [];
-      if (it.fits_break === true) c.push(['Fits a break', 'good']);
-      else c.push(['Outside breaks or dates unknown', 'warn']);
+      const f = fitOf(it);
+      if (f === 'exact') c.push([`Fits ${it.break_name || 'a break'} exactly`, 'good']);
+      else if (f === 'overlap') c.push([`${it.overlap_days} day${it.overlap_days === 1 ? '' : 's'} over the break`, 'warn']);
+      else if (f === 'outside') c.push(['Clashes with term', 'crit']);
+      else c.push(['Dates not stated', '']);
       if (it.accepts_international === 'yes') c.push(['Accepts international', 'good']);
       if (it.accepts_international === 'no') c.push(['No international', 'crit']);
       if (it.role_type) c.push([it.role_type, '']);

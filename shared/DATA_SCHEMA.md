@@ -67,7 +67,11 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `role_type` | string | AI/ML, Backend, Distributed systems, Full-stack, Data, Security, Quant, Software |
 | `paid` | string | `paid`, `unpaid`, `unknown` |
 | `start_window` | string | e.g. `Dec 2026 to Feb 2027` |
-| `fits_break` | bool | Inside a UNSW break window |
+| `start_date`, `end_date` | ISO date or null | When the ad states them |
+| `break_fit` | string | `exact` (all days inside one break), `overlap` (1 to 14 days in teaching or exams), `outside` (more than 14), `unknown` |
+| `overlap_days` | number or null | Days that fall in teaching or exams |
+| `break_name` | string or null | Which break it sits in, e.g. `Summer 2026-27` |
+| `fits_break` | bool | `exact` or `overlap` (kept for older readers) |
 | `work_rights` | string | What the role needs (e.g. "Australian work rights", "US work authorisation") |
 | `accepts_international` | string | `yes`, `no`, `unknown` |
 
