@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T13:25:35+11:00",
+  "updated_at": "2026-10-18T13:34:30+11:00",
   "previous_run_at": null,
   "sources": [
     {
@@ -13,106 +13,141 @@
       "name": "UNSW Study Stays",
       "rank": 2,
       "result": "checked",
-      "found": 2,
-      "note": "Read all 5 pages of Type=rooms search (56 matches); only 3 rooms at or under $350 in the five suburbs; #381044 (Villiers St) merged into Down Under Stay items. Most rooms are $360 to $650"
+      "found": 4,
+      "note": "Read all 6 pages of the general search (61 to 71 matches; session order shifts) and all 5 pages of Type=rooms (56). 2 new: #380722 Kurrawa Ave Coogee twin $250 all bills, #380549 Meeks St Kingsford twin $255 (Down Under Stay marks it occupied). #380704 Apsley Ave $250 all bills has CLOSED. Skipped out-of-area rooms under $350 (Matraville #380780 $320 and #378243 $350, Bardwell Valley, Brighton-Le-Sands, Chippendale, Woollahra, Paddington, St Peters) and a female-only High St flatmate offer. Older detail pages found by search (King St Eastlakes, Vernon Ave, Middle St studios) are all closed"
     },
     {
       "name": "Down Under Stay",
       "rank": 3,
       "result": "checked",
       "found": 5,
-      "note": "8 rooms on /rooms/, 5 at or under $350. Room pages show $225 for Villiers St Room 2 and Boyce Rd Room 3 while the rooms list shows from $255"
+      "note": "/rooms/ unchanged: 8 rooms, the same 5 at or under $350. Meeks St Room 3 ($285) and Room 5 ($255) pages exist but say 'Occupied'"
     },
     {
       "name": "Gumtree flatshare",
       "rank": 4,
       "result": "checked",
-      "found": 9,
-      "note": "Read Kingsford search (k0c18294l3003648) and Eastern Suburbs page instead of the registry URL; skipped out-of-area, female-only or female-preferred ads, and one Maroubra ad asking '$190 to inspect' (payment before inspection)"
+      "found": 10,
+      "note": "Read the Kingsford 20 km closest-first search pages 1 and 2 (page 2 is all 5 km or more) and keyword searches for kingsford, kensington, randwick, maroubra, coogee, eastlakes, rosebery and unsw (pattern /s-flatshare-houseshare/nsw/<keyword>/k0c18294l3008839). 2 new (Eastlakes $300 all bills; Zetland $330 short term). All 8 earlier Gumtree items still listed at the same prices. Skipped: female-only ads (South Coogee $300, Maroubra $300 and $320, Mascot $290), Maroubra $190 ad asking '$190 to inspect', Eastgardens $350 all-in (stale June ad, outside area), Mascot and Bondi ads (outside area), and rooms over $350. The price-filter URL is robots-disallowed"
     },
     {
       "name": "Australian Homestay Network (UNSW partner)",
       "rank": 5,
       "result": "checked",
       "found": 1,
-      "note": "2027 prices: shared no meals $325, private no meals $355, matching fee about $370"
+      "note": "2027 No Meals: shared $325, private $355; Dinner Only shared $365; matching fee $370. 2026 No Meals: shared $310, private $340"
     },
     {
       "name": "Domain rentals",
       "rank": 6,
       "result": "checked",
-      "found": 0,
-      "note": "Read Kensington, Kingsford, Randwick and Maroubra studio pages; 3 studios at or under $350 (Kingsford, 2 in Randwick) all show 'Listing leased by advertiser'"
+      "found": 1,
+      "note": "Multi-suburb price filter is ignored; per-suburb /rent/<suburb>/?sort=price-asc works (price=0-350 worked only for Coogee). 1 new: 11/1-3 Vicar St Coogee studio $350. 39 Rainbow St Kingsford boarding house $330 is the same listing as rea:418962602 (noted there, not added twice). Cheapest otherwise: Kensington $440, Maroubra $400, Randwick $385 (room), Eastlakes $400. Room 08/710 Anzac Pde ($260 all bills) is leased"
     },
     {
       "name": "UNSW Village 2027 (CLV)",
       "rank": 7,
       "result": "checked",
       "found": 1,
-      "note": "$404 to $521/wk shared; 2027 terms from 1 Jan; page says no terms bookable on the viewing account"
+      "note": "Not re-fetched in the cloud deep run; seed-run figures from earlier today ($404 to $521/wk). uhomes and Amber show UNSW Village from about $448 to $450"
     },
     {
       "name": "UNSW Accommodation",
       "rank": 8,
       "result": "checked",
       "found": 0,
-      "note": "2027 applications NOT OPEN yet; expression of interest available"
+      "note": "Not re-fetched; seed run earlier today: 2027 applications not open"
     },
     {
       "name": "UniLodge Kensington",
       "rank": 9,
       "result": "checked",
       "found": 0,
-      "note": "From $575/wk (twin studio), Wi-Fi and utilities included; rooms page shows no early bird text or year"
+      "note": "Not re-fetched; from $575/wk (uhomes shows $574)"
     },
     {
       "name": "Scape Sydney + UNSW Summer Stays",
       "rank": 10,
       "result": "checked",
       "found": 0,
-      "note": "UNSW Summer Stays page still SERVER_ERROR; Scape Kingsford page shows no prices; Sydney Semester 1 2027 from $489/wk"
+      "note": "Not re-fetched; Scape Kensington, Kingsford, Lachlan and Ascot all from about $747 to $749/wk on uhomes and Amber"
     },
     {
       "name": "Iglu Sydney (short stays)",
       "rank": 11,
       "result": "checked",
       "found": 0,
-      "note": "Read Mascot short stays (registry specials URL not used): from $745/wk to 31 Jan, 4-week minimum"
+      "note": "Not re-fetched; Iglu Mascot from $705/wk on Amber"
     },
     {
       "name": "The Switch Kensington",
       "rank": 12,
       "result": "checked",
       "found": 0,
-      "note": "'Now Leasing 2027', no prices on page"
+      "note": "Not re-fetched; from $667 to $669/wk on uhomes and Amber"
     },
     {
       "name": "rent.com.au",
       "rank": 13,
       "result": "checked",
       "found": 0,
-      "note": "Kensington + Randwick page 1: cheapest $545/wk"
+      "note": "Kensington (1,635) and Kingsford (1,121) pages: cheapest $540 to $550 studios. Max-price URL returned CLIENT_ERROR"
     },
     {
       "name": "Haush · ZUWU · Oz Homestay",
       "rank": 14,
       "result": "checked",
       "found": 0,
-      "note": "Haush: price on application only. ZUWU: campus=unsw filter lists rooms across Sydney, none in the five suburbs on page 1 of 3. Oz Homestay: 2027 over-18 fee $440/wk"
+      "note": "Haush: 48 listings, all price on application. ZUWU page 1 of 3 (36 of 88): nothing in the area under $350; pages 2 and 3 not reachable (no page URLs). Oz Homestay home page shows no fees"
     },
     {
-      "name": "realestate.com.au · Roomgo",
+      "name": "realestate.com.au",
       "rank": 15,
-      "result": "not checked",
+      "result": "checked",
+      "found": 2,
+      "note": "Chrome: 32 rentals at max $350 near these suburbs; only 2 inside the six suburbs (Kingsford studio and boarding-house room)"
+    },
+    {
+      "name": "Roomgo",
+      "rank": 15,
+      "result": "failed",
       "found": 0,
-      "note": "seed run: cloud only"
+      "note": "Site did not load in Chrome (error page), 18 Oct 2026"
     },
     {
       "name": "Facebook groups",
       "rank": 16,
       "result": "not checked",
       "found": 0,
-      "note": "seed run: cloud only"
+      "note": "Chrome is not signed in to Facebook; Claude cannot sign in. Sign in once in Chrome to enable."
+    },
+    {
+      "name": "uhomes",
+      "rank": 17,
+      "result": "checked",
+      "found": 5,
+      "note": "New source. Read page 1 of Kingsford (219), Kensington (79), Randwick (19) and Maroubra (33); further pages are not reachable from the cloud. 5 listings at or under $350, all thin 'from' prices with no bills or dates"
+    },
+    {
+      "name": "Casita (student-room marketplace)",
+      "rank": 18,
+      "result": "checked",
+      "found": 1,
+      "note": "New source. StudentStay Australia 'Maroubra' building: twin $240 all-inclusive, single $380. Location on the page is contradictory"
+    },
+    {
+      "name": "Amber Student · UniAcco · Student.com",
+      "rank": 19,
+      "result": "checked",
+      "found": 0,
+      "note": "Amber Kingsford page 1 of 4: cheapest $448 (UNSW Village); 55 Houston Rd room $600 sold out. UniAcco 39 Gale Rd $420 and 219 Maroubra Rd $550, both unavailable. Student.com now takes US and Canada enquiries only"
+    },
+    {
+      "name": "Other cloud sites (gayshare, Graddinghomes, homely, Raine & Horne Kingsford, Craigslist, Locanto, Mitula, Trovit, homestay.com, admistay)",
+      "rank": 20,
+      "result": "checked",
+      "found": 0,
+      "note": "gayshare Kingsford, Randwick and Coogee ads all 'not available'; Graddinghomes Kingsford and Randwick rooms $360 to $430 (index page CLIENT_ERROR); homely and Raine & Horne Kingsford cheapest $520 to $540; Craigslist page did not render; Locanto showed no area rooms; Mitula, Trovit and homestay.com returned CLIENT_ERROR; admistay shows ranges only. UNSW Study Stays homestays add-on is not enabled; its flatmates board has 1 room takeover with no price"
     }
   ],
   "items": [
@@ -286,7 +321,7 @@
       "own_bathroom": "no",
       "household": "At Ouria Home, we believe in transparent pricing. When you rent one of our rooms, you'll know exactly what you're paying for. The rent includes all utilities, furnished accommodations, fully equipped kitchens, and unlimited wifi. All you have to do is show up with your clothes, and you're good to go",
       "who_can_apply": "Anyone except couples",
-      "about": "🏡 $260 Private Furnished Room | UNSW & 9 Ways – Kingsford 🏡 Live in the heart of Kingsford (9 Ways), where everything is just steps from your door. Perfect for students or professionals who want unbeatable convenience near UNSW and the city. ✨ Perfect for those who want location, convenience, and hassle-free living near UNSW. ⚡ Rooms in this location go fast—secure yours now!",
+      "about": "🏡 $260 Private Furnished Room | UNSW & 9 Ways to Kingsford 🏡 Live in the heart of Kingsford (9 Ways), where everything is just steps from your door. Perfect for students or professionals who want unbeatable convenience near UNSW and the city. ✨ Perfect for those who want location, convenience, and hassle-free living near UNSW. ⚡ Rooms in this location go fast, secure yours now!",
       "inspection_questions": [
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
@@ -376,7 +411,7 @@
       "own_bathroom": "no",
       "household": "",
       "who_can_apply": null,
-      "about": "Secure garden e-bike parking with covered charging stations — protected from sun and rain. Room 1 overview Details $290 weekly rent $1160 bond Bills included in rent Electricity, Water, Gas, Internet, Home essentials Shared room Shared bathroom Minimum 6 months stay Available now Furnished Room 2 overview Details $350 weekly rent $1400 bond Bills included in rent Electricity, Water, Gas, Internet, Home essentials Shared room Shared bathroom Minimum 12 months stay Available now Furnished Room 3 overview Details $320 weekly rent $1280 bond Bills included in rent Electricity, Water, Gas, Internet",
+      "about": "Secure garden e-bike parking with covered charging stations, protected from sun and rain. Room 1 overview Details $290 weekly rent $1160 bond Bills included in rent Electricity, Water, Gas, Internet, Home essentials Shared room Shared bathroom Minimum 6 months stay Available now Furnished Room 2 overview Details $350 weekly rent $1400 bond Bills included in rent Electricity, Water, Gas, Internet, Home essentials Shared room Shared bathroom Minimum 12 months stay Available now Furnished Room 3 overview Details $320 weekly rent $1280 bond Bills included in rent Electricity, Water, Gas, Internet",
       "inspection_questions": [
         "Could the room be held for a move-in in late December 2026 or early January 2027?",
         "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
@@ -887,6 +922,104 @@
       "deadline": null,
       "status": "new",
       "closed": false,
+      "id": "casita:140496-twin",
+      "title": "Twin shared room in Maroubra student building (all bills included)",
+      "org": "StudentStay Australia (via Casita)",
+      "link": "https://www.casita.com/student-accommodation/140496-maroubra-sydney-australia",
+      "source": "Casita (student-room marketplace)",
+      "source_rank": 18,
+      "verified": "✅",
+      "suburb": "Maroubra",
+      "distance_km": 3.5,
+      "transit_min": 25,
+      "walkable": false,
+      "rent_pw": 240,
+      "bills": {
+        "electricity": "included",
+        "gas": "included",
+        "water": "included",
+        "internet": "included"
+      },
+      "bills_estimate_pw": 0,
+      "room_type": "Shared room",
+      "available_from": null,
+      "lease": "Booking widget shows a 4-week option; terms confirmed at booking",
+      "furnished": "yes",
+      "own_bathroom": "no",
+      "household": "Listed as purpose-built student accommodation. Twin room with two single beds, two desks and two wardrobes; shared bathroom and kitchen; laundry; no smoking, no pets. Single room is $380 (over budget).",
+      "inspection_questions": [
+        "What is the street address, and which bus goes to UNSW and how long does it take?",
+        "Can I inspect before paying the booking fee, deposit or first rent?",
+        "How much is the non-refundable booking fee?",
+        "Who would I share the twin room with, and is the building a registered boarding house?",
+        "Can a stay start in early January 2027, and what is the minimum term?"
+      ],
+      "scam_flags": [
+        "Deposit, first rent and a non-refundable booking fee are due within 3 days of booking approval, with no inspection mentioned: insist on inspecting first",
+        "No street address, and the nearest bus stop named (West Botany St opposite Riverine Park) is in Banksia, not Maroubra: confirm the location",
+        "Prices and availability are only 'indicative'"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a twin shared room at your Maroubra building. I'd like to start between late December 2026 and early February 2027 for about 6 months. Could you give me the street address, confirm that all bills and Wi-Fi are included in the $240, and tell me the booking fee and minimum stay? I'd like to inspect before paying anything. Thank you.",
+      "notes": "Cheapest all-inclusive price found, but the location is unclear: the page says Maroubra 2035 and a 6-minute drive (41-minute walk) to UNSW, yet names a Banksia bus stop. Deposit $480 (2 weeks). Insurance not included. Distance and bus time ⚠️ estimate.",
+      "bond": 480,
+      "about": "Purpose-built student accommodation; twin room with two single beds, two desks and two wardrobes; all bills and Wi-Fi included.",
+      "who_can_apply": null,
+      "bills_included_count": 4
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "studystays:380722",
+      "title": "Twin-share bed in Coogee Beach student house, Kurrawa Ave (bills included)",
+      "org": "Private provider (UNSW Study Stays)",
+      "link": "https://studystays.unsw.edu.au/Listings/Detail/380722",
+      "source": "UNSW Study Stays",
+      "source_rank": 2,
+      "verified": "✅",
+      "suburb": "Coogee",
+      "distance_km": 2.4,
+      "transit_min": 20,
+      "walkable": false,
+      "rent_pw": 250,
+      "bills": {
+        "electricity": "included",
+        "gas": "included",
+        "water": "included",
+        "internet": "included"
+      },
+      "bills_estimate_pw": 0,
+      "room_type": "Shared room",
+      "available_from": "2026-07-11",
+      "lease": "At least 3 months on fixed lease dates (description mentions terms to 31 Dec 2026 or from January 2027); rent is charged for the full term even if you arrive late",
+      "furnished": "yes",
+      "own_bathroom": "no",
+      "household": "Former hostel converted to student accommodation: 22 bedrooms, 8 shared unisex bathrooms, 18 current occupants and 2 vacancies (description says about 30 UNSW and Sydney students). Either gender, singles or couples, no pets. Communal kitchen, lounge with TV, weekly cleaning of common areas and bathrooms, CCTV, lockable rooms. One minute from the beach.",
+      "inspection_questions": [
+        "Which fixed lease terms are offered for 2027, and can one start in early January 2027?",
+        "Who would I share the twin room with, and is $250 per person?",
+        "Is the building registered as a boarding house with NSW Fair Trading?",
+        "Is water included as the description says, and is there any cap on electricity or internet?",
+        "How many residents share each bathroom and the kitchen?"
+      ],
+      "scam_flags": [
+        "22 bedrooms but no boarding house registration shown: check the NSW boarding house register"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a twin-share bed at your Kurrawa Ave house in Coogee. I'd like to start between late December 2026 and early February 2027 and stay about 6 months. Could you tell me which fixed lease terms are available for 2027, and confirm that electricity, gas, water and internet are all included in the $250? I'd also like to know who I'd share with and when I could inspect. Thank you.",
+      "notes": "Cheapest all-bills option from a UNSW-run board. $300 bond lodged with Rental Bonds Online (good sign). Single room is $500 (over budget). Fixed lease terms: confirm a 2027 term before committing. Water named only in the description. Laundry $4 per wash and dry. 2.4 km straight-line, 15 to 20 min bus per listing.",
+      "bond": 300,
+      "about": "Dorm-style student accommodation in a former hostel one minute from Coogee Beach; basic building with communal kitchen, lounge with TV and weekly cleaning.",
+      "who_can_apply": "Anyone (either gender, singles or couples)",
+      "bills_included_count": 4
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
       "id": "gumtree:1344988766",
       "title": "Single rooms in Randwick/Coogee flats, all bills included (from $250)",
       "org": "Owner (Gumtree)",
@@ -1109,6 +1242,52 @@
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Coogee (listing P1946423). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "gumtree:1344228914",
+      "title": "Furnished room in a big friendly house, Eastlakes (all bills included)",
+      "org": "Private advertiser (Gumtree)",
+      "link": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1344228914",
+      "source": "Gumtree flatshare",
+      "source_rank": 4,
+      "verified": "✅",
+      "suburb": "Eastlakes",
+      "distance_km": 3.0,
+      "transit_min": 20,
+      "walkable": false,
+      "rent_pw": 300,
+      "bills": {
+        "electricity": "included",
+        "gas": "included",
+        "water": "included",
+        "internet": "included"
+      },
+      "bills_estimate_pw": 0,
+      "room_type": "Private room",
+      "available_from": "2026-08-27",
+      "lease": "Flexible: 'short stays are fine; longer is better'",
+      "furnished": "yes",
+      "own_bathroom": "unknown",
+      "household": "6+ bedroom house on the Eastlakes side of Mascot: two living rooms, two kitchens, two bathrooms plus a third toilet, covered outdoor area and outdoor gym. Housemates mostly mid-20s or older, any adult age welcome, no gender preference, no smoking. 'Not a party house' but occasional low-key dinners and parties; wants people who want housemates, not just a room.",
+      "inspection_questions": [
+        "Is the room still free, and can it be held for a start in early January 2027?",
+        "Does '$300 incl. bills' cover gas and water as well as electricity and Wi-Fi, with no usage cap?",
+        "How many people live in the house now, and how many share each bathroom and kitchen?",
+        "How much bond do you ask, is it lodged with NSW Rental Bonds Online, and what agreement do I sign?",
+        "Which stop is closest for the 303 bus to UNSW, and how long is the ride?"
+      ],
+      "scam_flags": [],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the furnished room in your Eastlakes house. I'm hoping to move in between late December 2026 and early February 2027 and stay 6 to 12 months. Could you tell me whether the room will be free then, and confirm that the $300 covers electricity, gas, water and Wi-Fi? I'd also like to know the bond, the agreement you use, and when I could drop by to view it. Thank you.",
+      "notes": "All bills included ('$300pw INCL BILLS': Wi-Fi, electricity 'and other bills'; gas and water not named, so confirm). Listed 27 Aug 2026 with 169 views, so it may already be taken; the availability field (15 Jul 2026) conflicts with 'available now'. Ad does not say outright that the room is private ⚠️. 303 bus to UNSW per ad; distance and time ⚠️ estimate.",
+      "bond": null,
+      "about": "Furnished room with bed, large desk and built-in wardrobe in a big, friendly house with two living rooms, two kitchens, a covered outdoor area and an outdoor gym; short 303 bus ride to UNSW.",
+      "who_can_apply": "Anyone (any adult age, no gender preference)",
+      "bills_included_count": 4
     },
     {
       "id": "flatmates:P1937524",
@@ -2272,7 +2451,7 @@
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a homestay from early January 2027. I'm looking at the No Meals package and would prefer a host within walking distance of UNSW Kensington. Could you tell me the minimum stay, whether a private room is possible near my budget of $350 a week, and confirm that utilities and internet are included? I'd also like to know how the matching fee works. Thank you.",
-      "notes": "Official 2027 price list, not a single listing. Prices include internet, laundry and utilities ('e.g. power, water'); gas not named, so estimate kept at $0 ⚠️ estimate. One-off matching fee about $370 (2027). Host location unknown, so distance not set. Prices subject to change.",
+      "notes": "Official 2027 price list, not a single listing. Prices include internet, laundry and utilities ('e.g. power, water'); gas not named, so estimate kept at $0 ⚠️ estimate. One-off matching fee about $370 (2027). Host location unknown, so distance not set. Prices subject to change. Re-read 18 Oct: 2026 rates are $310 shared and $340 private (no meals), which apply only to nights in 2026.",
       "bills_included_count": 3,
       "who_can_apply": null,
       "bond": null,
@@ -3112,6 +3291,55 @@
       "deadline": null,
       "status": "new",
       "closed": false,
+      "id": "studystays:380549",
+      "title": "Twin-share bed in Meeks St house, Kingsford (from $255)",
+      "org": "Down Under Stay (via UNSW Study Stays)",
+      "link": "https://studystays.unsw.edu.au/Listings/Detail/380549",
+      "source": "UNSW Study Stays",
+      "source_rank": 2,
+      "verified": "✅",
+      "suburb": "Kingsford",
+      "distance_km": 0.7,
+      "transit_min": 9,
+      "walkable": true,
+      "rent_pw": 255,
+      "bills": {
+        "electricity": "excluded",
+        "gas": "not mentioned",
+        "water": "excluded",
+        "internet": "excluded"
+      },
+      "bills_estimate_pw": 28,
+      "room_type": "Shared room",
+      "available_from": "2026-08-20",
+      "lease": "At least 3 months on Study Stays (description says 4 months 3 weeks; Down Under Stay says 4 months minimum)",
+      "furnished": "yes",
+      "own_bathroom": "no",
+      "household": "5-bedroom house, 2 bathrooms; 5 current occupants and 2 vacancies (Down Under Stay says it averages 7). Room 5 ($255) bed shares with a female international student; Room 3 ($285) bed shares with a male international student. Either gender, singles, no pets, no smoking.",
+      "inspection_questions": [
+        "Down Under Stay's own site marks Rooms 3 and 5 as occupied: is either bed free now, or from January 2027?",
+        "Can I take the Room 3 bed ($285), which is shared with a male student?",
+        "Roughly how much do electricity, gas, water, internet and the fortnightly cleaner add per week?",
+        "Will the 3-week bond be lodged with NSW Rental Bonds Online rather than self-managed?",
+        "The listing is a sub-let: does the owner approve new sub-tenants?"
+      ],
+      "scam_flags": [
+        "Bond is 'self managed' by the provider: ask for it to be lodged with NSW Rental Bonds Online",
+        "Listing is classed as a sub-let or transfer: confirm the landlord allows it"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a twin-share bed at your Meeks St house in Kingsford. I'd like to move in between late December 2026 and early February 2027 for 4 to 6 months. Could you tell me whether a bed will be free then, and roughly what electricity, gas, water, internet and cleaning add per week? I'd also like to know how the bond is held and when I could inspect. Thank you.",
+      "notes": "Study Stays still lists it, but Down Under Stay's own pages for Meeks St Room 3 and Room 5 say 'Occupied' (18 Oct): treat as a waitlist option. 9 to 10 min walk to UNSW. Room 5 roommate is female, so the $285 Room 3 bed may be the realistic one. All bills extra plus shared cleaner: $28/wk ⚠️ estimate.",
+      "bond": 765,
+      "about": "Spacious twin room in a 5-bedroom Kingsford house, about 9 min walk to UNSW and 7 min to the light rail; two single beds and a built-in wardrobe.",
+      "who_can_apply": "Singles, either gender",
+      "bills_included_count": 0
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
       "id": "downunderstay:villiers-st-room-2",
       "title": "Villiers St Room 2, shared room (2 people)",
       "org": "Down Under Stay",
@@ -3300,6 +3528,103 @@
       "deadline": null,
       "status": "new",
       "closed": false,
+      "id": "uhomes:1687008",
+      "title": "Room in 3-bed apartment, 235 Anzac Pde, Kensington (from $290)",
+      "org": "uhomes marketplace (landlord not named)",
+      "link": "https://en.uhomes.com/au/sydney/detail-apartments-1687008",
+      "source": "uhomes",
+      "source_rank": 17,
+      "verified": "✅",
+      "suburb": "Kensington",
+      "distance_km": 0.3,
+      "transit_min": 5,
+      "walkable": true,
+      "rent_pw": 290,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Private room",
+      "available_from": null,
+      "lease": "'Short lease' tag; terms not stated",
+      "furnished": "unknown",
+      "own_bathroom": "unknown",
+      "household": "3-bedroom, 1.5-bathroom apartment; flatmates not described.",
+      "inspection_questions": [
+        "Is $290 the weekly price for one bedroom, and which room is it?",
+        "Who is the landlord or head tenant, and what agreement would I sign?",
+        "Which bills are included, and roughly what do the rest cost per week?",
+        "Can the room start in early January 2027, and what lease lengths are offered?",
+        "Who lives in the other two bedrooms?"
+      ],
+      "scam_flags": [
+        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the room at 235 Anzac Pde, Kensington. I'd like to move in between late December 2026 and early February 2027 for about 6 months. Could you confirm the weekly price for the room, which bills are included, who the landlord is and what agreement I'd sign? I'd like to inspect in person before paying anything. Thank you.",
+      "notes": "Opposite the campus, but a very thin listing: 'from' price, no bills, dates or furnishing. uhomes says rents vary with floor and lease start date. 0 reviews. Bills $25/wk ⚠️ estimate.",
+      "bond": null,
+      "about": "3-bedroom, 1.5-bathroom apartment listed as student accommodation; short lease; tagged 'No Deposit'.",
+      "who_can_apply": null,
+      "bills_included_count": 0
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "uhomes:1653206",
+      "title": "Room in furnished apartment, 42-56 Harbourne Rd, Kingsford (from $300)",
+      "org": "uhomes marketplace (landlord not named)",
+      "link": "https://en.uhomes.com/au/sydney/detail-apartments-1653206",
+      "source": "uhomes",
+      "source_rank": 17,
+      "verified": "✅",
+      "suburb": "Kingsford",
+      "distance_km": 0.6,
+      "transit_min": 8,
+      "walkable": true,
+      "rent_pw": 300,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Private room",
+      "available_from": null,
+      "lease": "'Short lease' tag; reviews mention 51 to 52 week leases",
+      "furnished": "yes",
+      "own_bathroom": "unknown",
+      "household": "2-bedroom or 3-bedroom apartments with 2 bathrooms; each bedroom has a queen bed and built-in wardrobe; washer and dryer. Flatmates not described.",
+      "inspection_questions": [
+        "Is $300 the weekly price for one bedroom, and in which apartment?",
+        "Who is the landlord or head tenant, and what agreement would I sign?",
+        "Which bills are included?",
+        "Is a lease shorter than 51 weeks possible from early January 2027?"
+      ],
+      "scam_flags": [
+        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 42-56 Harbourne Rd, Kingsford. I'd like to move in between late December 2026 and early February 2027. Could you confirm the weekly price for a single bedroom, which bills are included, the lease length and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
+      "notes": "Same street as the Study Stays Harbourne Rd room and Down Under Stay's Harbourne III. 'From' price only; reviews mention year-long leases, which may not fit. Bills $25/wk ⚠️ estimate.",
+      "bond": null,
+      "about": "Furnished 2 or 3-bedroom, 2-bathroom apartments; queen beds, built-in wardrobes, washer and dryer; tagged 'No Deposit'.",
+      "who_can_apply": null,
+      "bills_included_count": 0
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
       "id": "gumtree:1344928502",
       "title": "Unfurnished room in 4-bedroom unit, 10 min walk to UNSW",
       "org": "Private advertiser (Gumtree)",
@@ -3398,7 +3723,7 @@
       "status": "new",
       "closed": false,
       "verified": "✅",
-      "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au.",
+      "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct).",
       "suburb": "Kingsford",
       "distance_km": 1.5,
       "transit_min": 10,
@@ -3430,6 +3755,54 @@
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm a UNSW student interested in a room at the Rainbow Street boarding house in Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included, the minimum stay, and when I could inspect? Thanks, [your name]"
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "uhomes:1623412",
+      "title": "Non-ensuite room in 5-bed apartment, 205 Botany St, Kingsford ($330)",
+      "org": "uhomes marketplace (landlord not named)",
+      "link": "https://en.uhomes.com/au/sydney/detail-apartments-1623412",
+      "source": "uhomes",
+      "source_rank": 17,
+      "verified": "✅",
+      "suburb": "Kingsford",
+      "distance_km": 1.3,
+      "transit_min": 12,
+      "walkable": true,
+      "rent_pw": 330,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Private room",
+      "available_from": null,
+      "lease": "Not stated; reviews mention 15 and 51 week stays",
+      "furnished": "unknown",
+      "own_bathroom": "no",
+      "household": "5-bedroom, 1.5-bathroom apartment; one reviewer says the bathroom is shared by five. Bus stop at the entrance per reviews.",
+      "inspection_questions": [
+        "How many people share the bathroom and a half?",
+        "Have the pest, leak and internet problems in the reviews been fixed?",
+        "Which bills are included in the $330?",
+        "Who is the landlord, and can the room start in early January 2027?"
+      ],
+      "scam_flags": [
+        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 205 Botany St, Kingsford. I'd like to move in between late December 2026 and early February 2027. Could you confirm which bills are included in the $330, how many people share the bathrooms, the lease length and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
+      "notes": "Rated 3.0 from 2 reviews; the 1-star review reports cockroaches, leaks, poor cleanliness and weak internet. About 15 min walk to UNSW ⚠️ estimate. Bills $25/wk ⚠️ estimate.",
+      "bond": null,
+      "about": "Non-ensuite bedroom in a 5-bedroom, 1.5-bathroom apartment near UNSW with a bus stop at the entrance; tagged 'No Deposit'.",
+      "who_can_apply": null,
+      "bills_included_count": 0
     },
     {
       "id": "flatmates:P995771",
@@ -3476,6 +3849,54 @@
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kingsford (listing P995771). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "uhomes:1678059",
+      "title": "Room in 6-bed house, 65 Mooramie Ave, Kensington (from $350)",
+      "org": "uhomes marketplace (landlord not named)",
+      "link": "https://en.uhomes.com/au/sydney/detail-apartments-1678059",
+      "source": "uhomes",
+      "source_rank": 17,
+      "verified": "✅",
+      "suburb": "Kensington",
+      "distance_km": 1.2,
+      "transit_min": 15,
+      "walkable": true,
+      "rent_pw": 350,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Private room",
+      "available_from": null,
+      "lease": "'Short lease' tag; 28 days' notice before lease end",
+      "furnished": "unknown",
+      "own_bathroom": "unknown",
+      "household": "6-bedroom, 2-bathroom property; flatmates not described.",
+      "inspection_questions": [
+        "Is $350 the weekly price for one bedroom, and are any bills included?",
+        "How many people share the two bathrooms?",
+        "Who is the landlord, and what agreement would I sign?",
+        "Can the room start in early January 2027?"
+      ],
+      "scam_flags": [
+        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 65 Mooramie Ave, Kensington. I'd like to move in between late December 2026 and early February 2027. Could you confirm the weekly price, which bills are included, how many people share the bathrooms and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
+      "notes": "At the $350 cap with no bills stated: about $375/wk all-in ⚠️ estimate, likely over budget. Page says to view in person before booking. 0 reviews.",
+      "bond": null,
+      "about": "6-bedroom, 2-bathroom property listed as student accommodation; short lease; tagged 'No Deposit'.",
+      "who_can_apply": null,
+      "bills_included_count": 0
     },
     {
       "id": "flatmates:P2029561",
@@ -3756,6 +4177,51 @@
       "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1513014). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
     },
     {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "gumtree:1345190832",
+      "title": "Short-term private room with balcony, Zetland",
+      "org": "Private advertiser (Gumtree)",
+      "link": "https://www.gumtree.com.au/web/listing/flatshare-houseshare/1345190832",
+      "source": "Gumtree flatshare",
+      "source_rank": 4,
+      "verified": "✅",
+      "suburb": "Zetland",
+      "distance_km": 3.5,
+      "transit_min": 25,
+      "walkable": false,
+      "rent_pw": 330,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Private room",
+      "available_from": null,
+      "lease": "Short term (dates not given)",
+      "furnished": "yes",
+      "own_bathroom": "unknown",
+      "household": "Not stated. Room has a double bed, TV, storage, fan and its own balcony; near Green Square station.",
+      "inspection_questions": [
+        "What dates does the short-term stay cover, and could it run from early January 2027 for a few months?",
+        "Are electricity, gas, water and internet included in the $330?",
+        "Who else lives in the apartment, and is the bathroom shared?",
+        "What bond do you ask, and is it lodged with NSW Rental Bonds Online?"
+      ],
+      "scam_flags": [],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your short-term room in Zetland. I'm looking for a start between late December 2026 and early February 2027: what dates is the room available for? Could you also tell me whether bills are included in the $330, who else lives there, and the bond? I'd like to arrange an inspection. Thank you.",
+      "notes": "Outside the six target suburbs (ranked lower). Zetland has a direct bus towards UNSW (route 370 via Green Square) ⚠️ unverified. 'Short term' with no dates, so it may not cover January. Posted 17 Oct 2026; thin ad (no bills, bond or household). Bills $25/wk ⚠️ estimate.",
+      "bond": null,
+      "about": "Bright, cosy furnished room with double bed, TV, storage, fan and its own balcony with leafy views; near Green Square station.",
+      "who_can_apply": null,
+      "bills_included_count": 0
+    },
+    {
       "id": "flatmates:P2032165",
       "title": "Private room with shared bathroom in Maroubra",
       "org": "Flatmates.com.au listing",
@@ -3893,6 +4359,103 @@
       ],
       "scam_flags": [],
       "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2006237). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]"
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "domain:18365354",
+      "title": "Studio at 11/1-3 Vicar St, Coogee",
+      "org": "IB Property (agent, via Domain)",
+      "link": "https://www.domain.com.au/11-1-3-vicar-coogee-nsw-2034-18365354",
+      "source": "Domain rentals",
+      "source_rank": 6,
+      "verified": "✅",
+      "suburb": "Coogee",
+      "distance_km": 3.5,
+      "transit_min": 25,
+      "walkable": false,
+      "rent_pw": 350,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Studio",
+      "available_from": "2026-10-21",
+      "lease": "Not stated",
+      "furnished": "unknown",
+      "own_bathroom": "unknown",
+      "household": "Whole studio (Domain lists it as 0-bedroom); no flatmates.",
+      "inspection_questions": [
+        "Is it a self-contained studio with its own kitchen and bathroom?",
+        "Could the lease start in early January 2027 instead of 21 October 2026?",
+        "What lease length is offered, and is water usage charged?",
+        "Is the studio furnished?",
+        "Will the $1,400 bond be lodged with NSW Rental Bonds Online?"
+      ],
+      "scam_flags": [
+        "Rent well below the usual price for a Coogee studio: confirm it is self-contained before applying"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the studio at 11/1-3 Vicar St, Coogee. I'm looking for a start between late December 2026 and early February 2027: is a later start possible? Could you confirm whether the studio has its own kitchen and bathroom, whether it is furnished, which bills the tenant pays (electricity, gas, water, internet), and the lease length? Thank you.",
+      "notes": "Agency listing (first listed 13 Oct); bond $1,400 = 4 weeks, the legal maximum. Available 21 Oct 2026, so a January start needs the agent's agreement. Inspections and applications run through Snug. Bills not stated; a solo studio usually pays more than the share-house $25/wk ⚠️ estimate. Distance is the Coogee suburb centre ⚠️.",
+      "bond": 1400,
+      "about": "Coogee residence close to the beach, cafes, dining and local amenities.",
+      "who_can_apply": null,
+      "bills_included_count": 0
+    },
+    {
+      "found_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "deadline": null,
+      "status": "new",
+      "closed": false,
+      "id": "uhomes:1705758",
+      "title": "Room in 7-bed house, 149 Gale Rd, Maroubra (from $350)",
+      "org": "uhomes marketplace (landlord not named)",
+      "link": "https://en.uhomes.com/au/sydney/detail-apartments-1705758",
+      "source": "uhomes",
+      "source_rank": 17,
+      "verified": "✅",
+      "suburb": "Maroubra",
+      "distance_km": 3.0,
+      "transit_min": 20,
+      "walkable": false,
+      "rent_pw": 350,
+      "bills": {
+        "electricity": "not mentioned",
+        "gas": "not mentioned",
+        "water": "not mentioned",
+        "internet": "not mentioned"
+      },
+      "bills_estimate_pw": 25,
+      "room_type": "Private room",
+      "available_from": null,
+      "lease": "'Short lease' tag; terms not stated",
+      "furnished": "unknown",
+      "own_bathroom": "unknown",
+      "household": "7-bedroom, 3-bathroom property; flatmates not described.",
+      "inspection_questions": [
+        "Is $350 the weekly price for one bedroom, and are any bills included?",
+        "With 7 bedrooms, is the house a registered boarding house?",
+        "Who is the landlord, and what agreement would I sign?",
+        "Can the room start in early January 2027, and which bus goes to UNSW?"
+      ],
+      "scam_flags": [
+        "Listed on an overseas booking marketplace (uhomes, UK phone number) with no landlord named: inspect in person and pay nothing before inspecting",
+        "Only a 'from' price, with no bills, dates or room details: confirm the real weekly price for the room",
+        "7 bedrooms: check the NSW boarding house register"
+      ],
+      "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a room at 149 Gale Rd, Maroubra. I'd like to move in between late December 2026 and early February 2027. Could you confirm the weekly price, which bills are included, the lease length and who the landlord is? I'd like to inspect in person before paying anything. Thank you.",
+      "notes": "At the $350 cap with no bills stated: about $375/wk all-in ⚠️ estimate, likely over budget. Very thin listing, 0 reviews. Bus time ⚠️ estimate.",
+      "bond": null,
+      "about": "7-bedroom, 3-bathroom property listed as student accommodation; short lease; tagged 'No Deposit'.",
+      "who_can_apply": null,
+      "bills_included_count": 0
     }
   ]
 }
