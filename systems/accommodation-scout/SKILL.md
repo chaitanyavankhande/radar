@@ -1,6 +1,6 @@
 ---
 name: accommodation-scout
-description: Daily scout for rooms near UNSW Village up to the rent cap, moving late Dec 2026 to early Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, drafts enquiries. Updates radar site and Sheet.
+description: Daily scout for rooms near UNSW Village up to the rent cap, moving late Dec 2026 to early Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
 ---
 
 # 🏠 accommodation-scout
