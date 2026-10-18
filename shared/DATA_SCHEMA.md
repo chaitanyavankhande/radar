@@ -107,8 +107,14 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `who_can_apply` | string or null | As the listing states, e.g. `Anyone`, `Anyone except couples`, `Females only`, `Students only` |
 | `household` | string | What the listing says about the household |
 | `inspection_questions` | string[] | Questions to ask at the inspection |
-| `scam_flags` | string[] | e.g. "asks for payment before inspection" |
+| `scam_flags` | object[] | `[{ "code", "level", "reason" }]`. `code` and `level` (`high`, `medium`, `low`) come from `shared/SCAM_FLAGS.md`; `reason` says why, in plain words, quoting the listing where it can. Older runs wrote plain strings; the site still reads them |
+| `risk` | string | `high`, `medium`, `low` or `none`: the highest flag level |
+| `trust` | string | Source tier from `shared/SCAM_FLAGS.md`: `A` official or licensed, `B` moderated site (verify), `C` open classifieds or overseas marketplace |
+| `women_only` | string or null | `stated` (the listing says women or females only), `likely` (tagged all-female flat, or a shared room with a woman), or null |
+| `lister` | object or null | Flatmates only: `{ photos, social, nosocial, online, rate, early }` from the listing page |
 | `enquiry_draft` | string | Draft message for Chaitanya to send himself |
+
+**Default view (site and Sheet):** trust `A` or `B`, verified ✅, risk not `high`, `women_only` null, not closed. Everything else stays in the data and can be shown with the Safety and Women-only filters.
 
 ### 🎓 uni.json
 | Field | Type | Meaning |
