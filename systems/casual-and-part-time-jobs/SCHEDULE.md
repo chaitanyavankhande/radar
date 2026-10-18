@@ -15,8 +15,11 @@
 The prompt is the same text as a manual run, so `/casual-and-part-time-jobs` and the scheduled task behave the same way. The `<PERSONAL BLOCK>` is filled from memory only inside the scheduled task, never here.
 
 ```text
-Run Chaitanya's casual and part-time jobs scout. Invoke the `casual-and-part-time-jobs` skill and follow it end to end.
+Run Chaitanya's Casual and part-time jobs scout now. Invoke the `anthropic-skills:casual-and-part-time-jobs` skill (his saved `casual-and-part-time-jobs` skill) and follow it end to end.
 If that skill is not available, fetch https://raw.githubusercontent.com/chaitanyavankhande/radar/main/systems/casual-and-part-time-jobs/SKILL.md with WebFetch and follow it exactly.
+
+Repo: attach github.com/chaitanyavankhande/radar with the add_repo tool (push access), clone it, and commit your data file there as the skill says.
+Browser: use the Claude in Chrome tools for Chrome-only sources if they are available. If they are missing or the computer is unreachable, mark those sources "not checked" and carry on.
 
 Unattended run: nobody is watching. Do not ask questions. Take the most reasonable reading and say which one you took in the summary. Do not create, change or delete scheduled tasks. Never apply, submit, pay, register, send or message anyone.
 
