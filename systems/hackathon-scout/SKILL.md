@@ -10,7 +10,7 @@ Runs Monday, Wednesday and Friday at 5:12 am Sydney (scheduled, see `SCHEDULE.md
 ## 0. Before anything
 
 1. Load personal values (`shared/PERSONAL_CONFIG.md`): `SHEET_URL`, `GOOGLE_ACCOUNT`.
-2. Read `https://raw.githubusercontent.com/chaitanyavankhande/radar/main/shared/RULES.md` and `.../shared/SOURCES.md` (section 4).
+2. Read `https://raw.githubusercontent.com/chaitanyavankhande/radar/main/shared/RULES.md` and `.../shared/SOURCES.md` (section 4). If they can't be fetched, carry on with this file and note it in the run summary.
 
 ## 1. What to find
 

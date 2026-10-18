@@ -75,7 +75,7 @@ const STATUS_CHIP = {
   'rejected': 'crit', 'not for me': ''
 };
 const commonFilters = () => [
-  { type: 'multi', key: 'status', label: 'Status', get: it => it.status || 'new' },
+  { type: 'multi', key: 'status', label: 'Status', get: it => titleCase(it.status || 'new') },
   { type: 'multi', key: 'source', label: 'Source', get: it => it.source },
   { type: 'multi', key: 'verified', label: 'Checked', get: it => it.verified || '⚠️' }
 ];

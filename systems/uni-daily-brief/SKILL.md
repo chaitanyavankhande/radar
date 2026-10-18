@@ -10,7 +10,7 @@ Runs every day at 7:45 am Sydney (scheduled) or whenever Chaitanya types `/uni-d
 ## 0. Before anything
 
 1. Load personal values (see `shared/PERSONAL_CONFIG.md` in the repo): from the invoking prompt first, else Claude memory `areas/automation-config.md`. Needed: `UNSW_SIGNIN`, `GMAIL_1`, `GMAIL_2`, `GOOGLE_ACCOUNT`.
-2. Read the shared rules and source ranking: `https://raw.githubusercontent.com/chaitanyavankhande/radar/main/shared/RULES.md` and `.../shared/SOURCES.md` (section 1). They win over anything below if they differ.
+2. Read the shared rules and source ranking: `https://raw.githubusercontent.com/chaitanyavankhande/radar/main/shared/RULES.md` and `.../shared/SOURCES.md` (section 1). They win over anything below if they differ. If they can't be fetched, carry on with this file and note it in the run summary.
 3. Time zone is `Australia/Sydney` for everything. "Today" means today in Sydney.
 
 ## 1. Hard rules (short form)
@@ -48,7 +48,7 @@ For every dated item found (official source wins over memory):
 1. Upsert into the memory deadline register (single master list).
 2. Upsert a Google Calendar event in the right calendar (**UNSW** or **Events**) at the deadline time, with the reminder ladder from `shared/CALENDARS_AND_REMINDERS.md` and description tag `radar-id:<id>`.
 3. If an official source changed an existing date: move the event, update memory, list it under "Changes Claude made".
-4. Upsert into `docs/data/uni.json` (schema in `shared/DATA_SCHEMA.md`) and commit to the repo.
+4. Upsert into `docs/data/uni.json` (schema in `shared/DATA_SCHEMA.md`) and commit to the repo. Never put his own rooms, tutorial sections or other personal details in that public file.
 
 ## 5. Write the brief
 
