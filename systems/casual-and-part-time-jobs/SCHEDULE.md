@@ -1,0 +1,39 @@
+# ⏰ Schedule · 💼 casual-and-part-time-jobs
+
+| Field | Value |
+|---|---|
+| When | Every day, 4:22 am Sydney |
+| Cron | `CRON_TZ=Australia/Sydney 22 4 * * *` |
+| Scheduled task | New scheduled task. |
+| Notifications | Push only (no email) |
+| Model | Account default for scheduled tasks (currently claude-opus-5) |
+| Connectors | Google Drive (Sheet, tailored resumes) · Google Calendar · Gmail (job alerts) · Claude in Chrome (Seek, Jora, Jobs@UNSW) · memory · GitHub |
+| Personal values used | HOME_BASE, PAY_FLOOR, SHEET_URL, DRIVE_ROOT, RESUME_BASE, GOOGLE_ACCOUNT |
+
+## 🧾 Prompt the scheduled task sends
+
+The prompt is the same text as a manual run, so `/casual-and-part-time-jobs` and the scheduled task behave the same way. The `<PERSONAL BLOCK>` is filled from memory only inside the scheduled task, never here.
+
+```text
+Run Chaitanya's casual and part-time jobs scout. Invoke the `casual-and-part-time-jobs` skill and follow it end to end.
+If that skill is not available, fetch https://raw.githubusercontent.com/chaitanyavankhande/radar/main/systems/casual-and-part-time-jobs/SKILL.md with WebFetch and follow it exactly.
+
+Unattended run: nobody is watching. Do not ask questions. Take the most reasonable reading and say which one you took in the summary. Do not create, change or delete scheduled tasks. Never apply, submit, pay, register, send or message anyone.
+
+Time zone: Australia/Sydney. "Today" means today in Sydney.
+
+Personal values (private; never copy them into the repo or any public page):
+<PERSONAL BLOCK: HOME_BASE, PAY_FLOOR, SHEET_URL, DRIVE_ROOT, RESUME_BASE, GOOGLE_ACCOUNT. Filled in from Claude memory when the task is set up. Never committed.>
+
+Finish: Commit docs/data/casual.json, update the Sheet tab, end with 3 lines: new jobs, best job, sources not checked.
+```
+
+## 🔁 When the Mac is asleep
+
+Cloud sources still run. Chrome sources (they need the Mac awake with Chrome open) are marked **not checked** with the reason. Run `/casual-and-part-time-jobs` by hand later to fill them in.
+
+## 🧪 Checks after setting up
+
+1. Fire the task once by hand and read the run.
+2. Confirm it could read memory, reach Chrome and push to the repo.
+3. Confirm the push notification arrived on the phone.

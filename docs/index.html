@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar Board</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Uni deadlines, casual jobs, internships, hackathons and rooms near UNSW, refreshed by five Claude scouts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@500;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="bar-in">
+    <div class="brand">
+      <span class="scope" aria-hidden="true"></span>
+      <span class="brand-name">radar</span>
+      <span class="brand-sub">UNSW Kensington</span>
+    </div>
+    <button class="icon-btn" id="theme-btn" type="button" aria-label="Switch colour theme" title="Theme">
+      <span id="theme-label">Auto</span>
+    </button>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Sections" id="tabs"></nav>
+</header>
+
+<main class="wrap">
+  <section class="summary" id="summary" aria-live="polite"></section>
+
+  <div class="toolbar">
+    <label class="search">
+      <span class="sr">Search</span>
+      <input id="q" type="search" placeholder="Search titles, places, notes" autocomplete="off">
+    </label>
+    <label class="sortsel">
+      <span class="lbl">Sort</span>
+      <select id="sort"></select>
+    </label>
+    <button type="button" class="btn ghost" id="filters-btn" aria-controls="filters" aria-expanded="false">Filters <span id="fcount" class="count" hidden></span></button>
+    <button type="button" class="btn ghost" id="share-btn">Copy link</button>
+  </div>
+
+  <div class="custom-sort" id="custom-sort" hidden></div>
+
+  <div class="layout">
+    <aside class="filters" id="filters" aria-label="Filters"></aside>
+    <section class="results" id="results" aria-live="polite"></section>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <p><strong>Tags:</strong> ✅ official page read · ⚠️ unverified or estimated · 🚫 could not access.</p>
+    <p>Status is changed in the Google Sheet. The next run copies it here. Nothing on this page is applied for, booked or sent automatically.</p>
+    <p><a href="https://github.com/chaitanyavankhande/radar">Source and instructions on GitHub</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
