@@ -60,15 +60,15 @@ Area: Kensington, Kingsford, Randwick, Maroubra, Coogee · Floor $33.05/h (legal
 
 | Rank | Tier | Source | Official link | Why this rank | Access | Status |
 |---|---|---|---|---|---|---|
-| 1 | 🥇 P1 | Arc UNSW jobs | https://arcunsw.elmotalent.com.au/careers/default/jobs | On campus, mostly casual, run by Arc, award pay | ☁️ | ⚠️ failed 18 Oct (permission prompt timed out); retest |
-| 2 | 🥇 P1 | Jobs@UNSW: casual academic, tutor, demonstrator | https://external-careers.jobs.unsw.edu.au/cw/en/listing/ | On campus, best-paid casual work for your CS background | 🖥️ Chrome (listing) · ☁️ single job pages `/cw/en/job/<id>` | 🚫 listing empty in cloud (JS) · ✅ job pages readable |
-| 3 | 🥇 P1 | Seek | https://www.seek.com.au/jobs/in-Kensington-NSW-2033 | Largest AU job board, most local casual ads | 🖥️ Chrome | 🚫 cloud CLIENT_ERROR |
+| 1 | 🥇 P1 | Arc UNSW jobs | https://arcunsw.elmotalent.com.au/careers/default/jobs | On campus, mostly casual, run by Arc, award pay | 🖥️ Chrome | ✅ works in Chrome (19 Oct): 4 pages, `/careers/default/job/view/<id>` pages read with fetch from the same tab; the cloud fetch is still refused |
+| 2 | 🥇 P1 | Jobs@UNSW: casual academic, tutor, demonstrator | https://external-careers.jobs.unsw.edu.au/cw/en/listing/ | On campus, best-paid casual work for your CS background | 🖥️ Chrome (listing) · ☁️ single job pages `/cw/en/job/<id>` | ✅ Chrome (19 Oct): click "More Jobs" until it disappears (about 105 jobs); job pages must be opened in the tab, as a direct fetch gets a 202 bot check |
+| 3 | 🥇 P1 | Seek | https://www.seek.com.au/jobs/in-Kensington-NSW-2033 | Largest AU job board, most local casual ads | 🖥️ Chrome | ✅ Chrome (19 Oct): use one exact-location search per suburb (`?distance=0`, casual and part-time `worktype=243,245`); a radius search mostly returns CBD ads |
 | 4 | 🥇 P1 | Indeed (connector) | https://au.indeed.com | Big volume, works without the Mac | 🔌 | ✅ pay often missing, loose radius |
 | 5 | 🥈 P2 | CareerOne | https://www.careerone.com.au/casualholiday-jobs/in-randwick-nsw-2031 | Randwick casual ads with estimated pay | ☁️ | ⚠️ results pages only; job pages robots-disallowed (18 Oct) |
 | 6 | 🥈 P2 | Jobs on Campus talent pool | https://www.unsw.edu.au/employability/resources/jobs-on-campus | Entry route to on-campus roles; track intake | ☁️ info · 🔒 apply | ✅ SMART Resume 70+, no reapply after rejection |
 | 7 | 🥈 P2 | Gumtree Jobs | https://www.gumtree.com.au/s-jobs/c9302 | Local small businesses; more scam checks needed | ☁️ | ✅ suburb pattern `/s-jobs/nsw/<suburb>/k0c9302l3008839` |
 | 8 | 🥈 P2 | Arc external student jobs | https://www.arc.unsw.edu.au/about/jobs/student-jobs/external | Off-campus ads sent to Arc | ☁️ | ✅ few listings |
-| 9 | 🥉 P3 | Jora | https://au.jora.com/ | Aggregator; mostly duplicates of Seek | 🖥️ Chrome | 🚫 robots-disallowed |
+| 9 | 🥉 P3 | Jora | https://au.jora.com/ | Aggregator; mostly duplicates of Seek | 🖥️ Chrome | ✅ Chrome (19 Oct): `/j?q=casual&l=<Suburb>+NSW&r=0`; mostly duplicates of Seek and Arc |
 | 10 | 🥉 P3 | Workforce Australia (Govt) | https://www.workforceaustralia.gov.au/individuals/jobs/search | Govt board, mostly duplicates | 🖥️ Chrome | 🚫 robots-disallowed |
 | 11 | 🥉 P3 | Cluey Learning | https://clueylearning.com.au/tutoring-jobs/ | Online tutoring; base pay below your floor | ☁️ | ⚠️ failed 18 Oct (permission prompt timed out) |
 | 12 | 🥉 P3 | Airtasker | https://www.airtasker.com/tasks/ | One-off gigs; rarely clears the floor | ☁️ | ⚠️ |
@@ -86,12 +86,12 @@ Australia first, then Hong Kong, Singapore, US, UK, Europe, remote. Only during 
 | 1 | 🥇 P1 | Prosple (national) | https://au.prosple.com/search-jobs?keywords=software&opportunity_types=2 | Biggest AU internship board; UNSW points students here; also HK/SG | ☁️ | ⚠️ search pages load empty from the cloud (18 Oct); single job pages work, reach them via WebSearch |
 | 2 | 🥇 P1 | SEEK Grad (was GradConnection; HK site is Jobsdb Grad) | https://au.gradconnection.com/internships/computer-science/sydney/ | "Accepts International" tag; quant and big tech | ☁️ | ✅ |
 | 3 | 🥇 P1 | Target company feeds: IMC, Optiver, Atlassian, Google, Canva | https://boards-api.greenhouse.io/v1/boards/imc/jobs · https://optiver.com/working-at-optiver/career-opportunities/ · https://www.atlassian.com/company/careers/all-jobs?team=Interns%2CGraduates · https://www.google.com/about/careers/applications/jobs/results/?location=Sydney%20NSW%2C%20Australia&target_level=INTERN_AND_APPRENTICE · https://www.lifeatcanva.com/en/jobs/ | Straight from the employer, earliest postings | ☁️ | ✅ |
-| 4 | 🥇 P1 | Seek internships | https://www.seek.com.au/software-internship-jobs/in-All-Sydney-NSW | Largest AU board | 🖥️ Chrome | 🚫 cloud CLIENT_ERROR |
-| 5 | 🥈 P2 | LinkedIn Jobs | https://www.linkedin.com/jobs/ | Wide coverage; job-alert emails plus Chrome browsing at human pace (decided 17 Oct) | 🖥️ Chrome 🔒 + alert emails | 🚫 cloud robots-disallowed |
+| 4 | 🥇 P1 | Seek internships | https://www.seek.com.au/software-internship-jobs/in-All-Sydney-NSW | Largest AU board | 🖥️ Chrome | ✅ Chrome (19 Oct): keyword searches such as `/software-intern-jobs/in-All-Australia?daterange=31`, then each `/job/<id>` page |
+| 5 | 🥈 P2 | LinkedIn Jobs | https://www.linkedin.com/jobs/ | Wide coverage; job-alert emails plus Chrome browsing at human pace (decided 17 Oct) | 🖥️ Chrome 🔒 + alert emails | ✅ Chrome (19 Oct): Internship level, IT and Engineering, past month; read each posting at `/jobs-guest/jobs/api/jobPosting/<id>`. Result lists only render items in view, and the guest search API returns nothing while signed in |
 | 6 | 🥈 P2 | Jane Street, Amazon careers | https://www.janestreet.com/join-jane-street/internships/ · https://www.amazon.jobs/en/search?base_query=intern&loc_query=Sydney%2C+Australia | High-value targets, but Chrome only | 🖥️ Chrome | 🚫 cloud CLIENT_ERROR (18 Oct). Jane Street HK Dec to Feb internship closed 31 Aug 2026 |
 | 7 | 🥈 P2 | Indeed (connector) | https://au.indeed.com | Works without the Mac; few internships | 🔌 | ✅ |
 | 8 | 🥈 P2 | Wellfound | https://wellfound.com/role/l/software-engineer-intern/sydney | Startups | ☁️ | ✅ |
-| 9 | 🥈 P2 | UNSWConnect (until 30 Oct 2026) | https://unswconnect.unsw.edu.au/ | UNSW board, closing 30 Oct | 🔒 | ⚠️ closes 30 Oct 2026 |
+| 9 | 🥈 P2 | UNSWConnect (until 30 Oct 2026) | https://unswconnect.unsw.edu.au/ | UNSW board, closing 30 Oct | 🔒 | ⚠️ public board loads in Chrome (19 Oct, 708 jobs) but search and filters did not apply under automation; closes 30 Oct 2026 |
 | 10 | 🥉 P3 | SimplifyJobs Summer 2027 (US/UK) | https://github.com/SimplifyJobs/Summer2027-Internships | 1,900+ overseas roles, sponsorship flags | ☁️ | ✅ |
 | 11 | 🥉 P3 | Gradcracker (UK) | https://www.gradcracker.com/search/computing-technology/work-placements-internships | UK roles with deadlines | ☁️ | ✅ |
 | 12 | 🥉 P3 | JobStreet Singapore | https://sg.jobstreet.com/software-intern-jobs | SG roles | ☁️ | ✅ company names now shown (18 Oct) |
@@ -116,14 +116,14 @@ Sydney first, then rest of Australia, plus online.
 | 5 | 🥈 P2 | UNIHACK | https://www.unihack.net/ | Australia's main student hackathon | ☁️ | ✅ next 12 to 14 Mar 2027 |
 | 6 | 🥈 P2 | CTFtime | https://ctftime.org/api/v1/events/?limit=100&start=<unix now>&finish=<unix +120 days> | Security CTFs | ☁️ | ✅ use a start/finish window; limit=20 only reaches about 3 weeks |
 | 7 | 🥈 P2 | Humanitix Sydney sci-tech | https://humanitix.com/au/events/au--nsw--sydney/trending--scienceandtechnology | Sydney tech events | ☁️ | ✅ thin |
-| 8 | 🥈 P2 | CPMSoc | https://www.cpmsoc.org/ | Competitive programming events | 🖥️ Chrome | 🚫 robots-disallowed |
+| 8 | 🥈 P2 | CPMSoc | https://www.cpmsoc.org/ | Competitive programming events | 🖥️ Chrome | 🚫 cpmsoc.org and cpmsoc.com no longer resolve (19 Oct, DNS); find the society's current page |
 | 9 | 🥉 P3 | Luma Sydney | https://luma.com/sydney | Meetups; no dates in text | ☁️ | ⚠️ city page has no dates; search luma.com for events instead |
 | 10 | 🥉 P3 | Eventbrite Sydney | https://www.eventbrite.com.au/d/australia--sydney/hackathon/ | Noisy results | ☁️ | ⚠️ |
 | 11 | 🥉 P3 | UNSW Founders | https://unswfounders.com/ | Startup events | ☁️ | ⚠️ no dated events |
 | 12 | 🥉 P3 | SYNCS Hack (USyd, annual, around Aug) | https://events.humanitix.com/syncs-hack-2026 | Watch for the 2027 edition | ☁️ | ✅ 2026 passed |
 | 13 | 🥉 P3 | GovHack | https://govhack.org/ | National, waitlist only | ☁️ | ⚠️ |
 | 14 | 🥉 P3 | MLH | https://mlh.com/seasons/2027/events | Global; 0 Australian events | ☁️ | ✅ |
-| 15 | 🥉 P3 | Meetup | https://www.meetup.com/ | Meetups | 🖥️ Chrome | 🚫 robots-disallowed |
+| 15 | 🥉 P3 | Meetup | https://www.meetup.com/ | Meetups | 🖥️ Chrome | ✅ Chrome (19 Oct): `/find/?keywords=hackathon&location=au--Sydney&source=EVENTS`, then each event page |
 
 Dropped: hackathon.com (no Sydney events), Kaggle (needs API key).
 
@@ -178,4 +178,5 @@ Facebook groups: decided 17 Oct to browse in Chrome at human pace (Chaitanya acc
 | 15 Oct 2026 | Registry created; every source tested once by live fetch. |
 | 15 Oct 2026 | Rank order, tiers and access protocol added. |
 | 18 Oct 2026 | Moved into the `radar` repo. All tiers run daily. LinkedIn and Facebook via Chrome. Personal details removed. |
+| 19 Oct 2026 | Chrome run: Arc jobs, Jobs@UNSW, Seek, Jora, Seek internships, LinkedIn and Meetup now work in Chrome (how-to in their status cells). CPMSoc site gone. |
 | 18 Oct 2026 | First seed runs (cloud only): statuses and URLs updated for Arc, Jobs@UNSW, CareerOne, Gumtree, Cluey, Prosple, SEEK Grad, JobStreet SG, Jane Street, Hackathons Australia, UNSW societies, CTFtime, Humanitix, Luma, Flatmates, Down Under Stay, Domain, Iglu, ZUWU. Step 9 added to the access protocol. |
