@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18T11:05:00+11:00",
-  "previous_run_at": null,
+  "updated_at": "2026-10-19T14:20:11+11:00",
+  "previous_run_at": "2026-10-18T11:05:00+11:00",
   "sources": [
     {
       "name": "Claude memory deadline register",
@@ -12,9 +12,9 @@
     {
       "name": "UNSW Outlook",
       "rank": 2,
-      "result": "not checked",
-      "found": 0,
-      "note": "Seed run: the first daily brief reads it"
+      "result": "checked",
+      "found": 3,
+      "note": "Chrome, 19 Oct: read the COMP9020 mid-term notice, the COMP9024 dates announcement and the UNSW Exams student ID email; all three flagged and left unread. Verified COMP9024 Quiz 3 window, Prac 5 and assignment due times, and the exam timetable dates"
     },
     {
       "name": "WebCMS3 COMP9024 Data Structures and Algorithms",
@@ -114,11 +114,11 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-10-13",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
-      "verified": "⚠️",
-      "notes": "Submit with: give cs9024 week5 graphAnalyser.c cycleCheck.c. Hard cutoff 4:59:59 pm. Best 8 of 9 practicals count."
+      "verified": "✅",
+      "notes": "Submit with: give cs9024 week5 graphAnalyser.c cycleCheck.c. Hard cutoff 4:59:59 pm. Best 8 of 9 practicals count. Due Mon 19 Oct 2026, 4:59:59 pm, confirmed in the COMP9024 course announcement of 15 Oct."
     },
     {
       "id": "mem:9020-midterm",
@@ -134,11 +134,11 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-09-15",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
-      "verified": "⚠️",
-      "notes": "1 hour, in person, pen only. One A4 sheet of handwritten notes (both sides) allowed. Check the room on WebCMS3 before the day."
+      "verified": "✅",
+      "notes": "Wed 21 Oct 2026, 1:00 pm: 1 hour plus 5 minutes reading; doors open at 1:00 pm. Venue depends on your zID: see the course notice of 19 Oct. Bring pens, your student ID card and one A4 sheet of handwritten notes (both sides allowed). Phones stay in your bag. Confirmed in the COMP9020 notice of 19 Oct."
     },
     {
       "id": "mem:9021-a1",
@@ -162,7 +162,7 @@
     },
     {
       "id": "mem:9024-quiz-w6",
-      "title": "Fortnightly quiz (Week 6, 3 marks)",
+      "title": "Quiz 3 (fortnightly quiz, Week 6, 3 marks)",
       "org": "COMP9024 Data Structures and Algorithms",
       "course_code": "COMP9024",
       "course_name": "Data Structures and Algorithms",
@@ -174,11 +174,12 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-09-15",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
-      "verified": "⚠️",
-      "notes": "On Moodle, 60 minutes, one attempt. Released Friday, due Monday 4:00 pm. ⚠️ Due date inferred from the release pattern; confirm on Moodle."
+      "verified": "✅",
+      "notes": "On Moodle. Opens Fri 23 Oct 2026, 6:00 pm; closes Mon 26 Oct 2026, 4:00 pm. 60 minutes, one attempt. Dates from the COMP9024 course announcement of 15 Oct.",
+      "starts_at": "2026-10-23T18:00:00+11:00"
     },
     {
       "id": "mem:9021-quiz5",
@@ -394,11 +395,11 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-10-14",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
-      "verified": "⚠️",
-      "notes": "Released Mon 12 Oct. Due date from spec v1.0 (checked 14 Oct 2026). Late penalty 5% per day, capped at 5 days. No generative AI allowed."
+      "verified": "✅",
+      "notes": "Released Mon 12 Oct. Due date from spec v1.0 (checked 14 Oct 2026). Late penalty 5% per day, capped at 5 days. No generative AI allowed. Due Wed 18 Nov 2026, 4:59:59 pm, confirmed in the COMP9024 course announcement of 15 Oct."
     },
     {
       "id": "mem:9021-quiz8",
@@ -514,11 +515,11 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-09-15",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
       "verified": "⚠️",
-      "notes": "2 hours, on campus. Hurdle: at least 24/60 or the course is failed. Date comes with the UNSW exam timetable."
+      "notes": "2 hours, on campus. Hurdle: at least 24/60 or the course is failed. Date comes with the UNSW exam timetable. Exam timetable: provisional on myUNSW from Wed 28 Oct 2026, final from Mon 2 Nov 2026. Bring your physical UNSW student ID card: it is scanned at the venue and electronic ID is not accepted (UNSW Exams, 13 Oct)."
     },
     {
       "id": "mem:9021-exam",
@@ -534,11 +535,11 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-09-15",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
       "verified": "⚠️",
-      "notes": "3 to 4 hours, auto-marked. Hurdle: at least 40% on the exam."
+      "notes": "3 to 4 hours, auto-marked. Hurdle: at least 40% on the exam. Exam timetable: provisional on myUNSW from Wed 28 Oct 2026, final from Mon 2 Nov 2026. Bring your physical UNSW student ID card: it is scanned at the venue and electronic ID is not accepted (UNSW Exams, 13 Oct)."
     },
     {
       "id": "mem:9020-exam",
@@ -554,11 +555,93 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-09-15",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "status": "to do",
       "closed": false,
       "verified": "⚠️",
-      "notes": "In person. Hurdles: final exam at least 24/60 and overall at least 50. A strong exam can replace weak quizzes or mid-term (best-of formula)."
+      "notes": "In person. Hurdles: final exam at least 24/60 and overall at least 50. A strong exam can replace weak quizzes or mid-term (best-of formula). Exam timetable: provisional on myUNSW from Wed 28 Oct 2026, final from Mon 2 Nov 2026. Bring your physical UNSW student ID card: it is scanned at the venue and electronic ID is not accepted (UNSW Exams, 13 Oct)."
+    },
+    {
+      "org": "UNSW",
+      "course_code": "UNSW",
+      "course_name": "UNSW Term 3 2026",
+      "weight": "",
+      "source": "UNSW academic calendar and UNSW emails",
+      "source_rank": 1,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:t3-flex-week",
+      "title": "Flexibility week (Week 6): no COMP9024 lectures or tutorials",
+      "kind": "admin",
+      "deadline": "2026-10-25T23:59:00+11:00",
+      "starts_at": "2026-10-19T00:00:00+11:00",
+      "where": "https://www.unsw.edu.au/student/managing-your-studies/key-dates/academic-calendar",
+      "link": "https://www.unsw.edu.au/student/managing-your-studies/key-dates/academic-calendar",
+      "verified": "✅",
+      "notes": "Mon 19 to Sun 25 Oct 2026. Term 3 teaching resumes Mon 26 Oct (T3B runs to Fri 20 Nov). COMP9024 confirmed no lectures or tutorials this week; check the other courses."
+    },
+    {
+      "org": "UNSW",
+      "course_code": "UNSW",
+      "course_name": "UNSW Term 3 2026",
+      "weight": "",
+      "source": "UNSW academic calendar and UNSW emails",
+      "source_rank": 1,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:t3-exam-timetable",
+      "title": "Term 3 exam timetable: provisional release",
+      "kind": "admin",
+      "deadline": "2026-10-28T09:00:00+11:00",
+      "where": "https://my.unsw.edu.au/",
+      "link": "https://my.unsw.edu.au/",
+      "verified": "✅",
+      "notes": "Provisional Term 3 exam timetable on myUNSW from Wed 28 Oct 2026; final timetable from Mon 2 Nov 2026 (UNSW Exams email, 13 Oct). Central exams start only at 9:45 am, 1:45 pm or 5:45 pm, with 15 minutes reading time; arrive 30 minutes early."
+    },
+    {
+      "org": "UNSW",
+      "course_code": "UNSW",
+      "course_name": "UNSW Term 3 2026",
+      "weight": "",
+      "source": "UNSW academic calendar and UNSW emails",
+      "source_rank": 1,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:t3-teaching-ends",
+      "title": "Last day of Term 3 teaching",
+      "kind": "admin",
+      "deadline": "2026-11-20T17:00:00+11:00",
+      "where": "https://www.unsw.edu.au/student/managing-your-studies/key-dates/academic-calendar",
+      "link": "https://www.unsw.edu.au/student/managing-your-studies/key-dates/academic-calendar",
+      "verified": "✅",
+      "notes": "Teaching period 14 Sep to 20 Nov 2026 (UNSW academic calendar)."
+    },
+    {
+      "org": "UNSW",
+      "course_code": "UNSW",
+      "course_name": "UNSW Term 3 2026",
+      "weight": "",
+      "source": "UNSW academic calendar and UNSW emails",
+      "source_rank": 1,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:t3-exam-period",
+      "title": "Term 3 exam period",
+      "kind": "exam",
+      "deadline": "2026-12-10T23:59:00+11:00",
+      "starts_at": "2026-11-27T00:00:00+11:00",
+      "where": "https://www.unsw.edu.au/student/managing-your-studies/key-dates/academic-calendar",
+      "link": "https://www.unsw.edu.au/student/managing-your-studies/key-dates/academic-calendar",
+      "verified": "✅",
+      "notes": "Study period Sat 21 to Thu 26 Nov; exams Fri 27 Nov to Thu 10 Dec 2026 (UNSW academic calendar). Your three final exams fall inside this window; dates come with the timetable."
     }
   ]
 }
