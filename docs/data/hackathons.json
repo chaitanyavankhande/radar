@@ -1,111 +1,111 @@
 {
-  "updated_at": "2026-10-18T11:18:45+11:00",
-  "previous_run_at": null,
+  "updated_at": "2026-10-19T14:27:26+11:00",
+  "previous_run_at": "2026-10-18T11:18:45+11:00",
   "sources": [
     {
       "name": "Hackathons Australia",
       "rank": 1,
       "result": "checked",
-      "found": 9,
-      "note": "Registry URL (www…/hackathons/sydney) not fetched: permission prompt timed out. Used hackathonsaustralia.com.au/events/sydney, the home page (30 upcoming AU events), /student-hackathons and /ai-hackathons. Listings show no registration deadlines; /go/ outbound links are robots-blocked. Skipped off-theme or ineligible: short film, SDA housing, schools challenges, Dealer Studio (training afternoon), AccessHack 2.0 (UC/CIT/LTC students only), AI Wrangler (app-based city trail), FaithTech Brisbane, RAMSoc Build-a-thon showcase (attend only), Aug 2027 Brisbane SSW days."
+      "found": 10,
+      "note": "Direct fetch first refused (PROVENANCE_REQUIRED); worked after WebSearch returned the site. Read /events/sydney (8 upcoming), home page (26 upcoming AU), /student-hackathons and /ai-hackathons. All 9 existing AU items still listed; 1 new (MAUI Hack Day Melbourne, 17 Apr 2027). Skipped new listings: Building Better Futures for Health 2027 semi-finalist showcase (Thu 12 Nov, 6:00 to 9:00 pm, Forest Lodge; attend-only showcase, no organiser named), (Fargone) Hack Night (Melbourne community work night, conflicting dates), Hack It! Wendouree Library (kids), 2026 Future Anything Challenge Grand Final (schools). Passed since last run: zh.run hackathon, Lyra x Product Counsel, Global Citizen NOW Perth. Listings still show no registration deadlines; /go/ links stay robots-blocked."
     },
     {
       "name": "UNSW societies: DevSoc, Security Society, CSESoc",
       "rank": 2,
       "result": "checked",
-      "found": 0,
-      "note": "DevSoc /events: only past T1/T2 2026 events and Starlight (Jul). SecSoc site: events at /events/ are undated and stale (latest dated item 2017). CSESoc /events stale (latest 29 May 2025). No upcoming hackathon or CTF."
+      "found": 1,
+      "note": "Pages reached after WebSearch (direct fetch refused). DevSoc /events: only T1/T2 2026 events (Halftime Hackathon, UniHack, Optiver Tradeathon all past) and Starlight (Jul). SecSoc /events/ stale (2017 items only); K17 CTF 2026 ran 11 to 13 Sep (past). CSESoc /events stale (latest 29 May 2025). Not found on any public page: the AI Soc x Netlify 'Hexify' hackathon (Wed 21 Oct, 3:00 to 6:30 pm) that the uni brief saw in Outlook; not added (no official page read). UNSW AISoc x Lovable Hackathon on Luma is past. Plus 1 from the UNSW inbox (Chrome, 19 Oct): AI Soc x Netlify Hexify Halloween Hackathon, Wed 21 Oct, 3:00 to 6:30 pm, Michael Crouch Innovation Centre (⚠️ ticket page not opened)."
     },
     {
       "name": "Hackeroos",
       "rank": 3,
       "result": "checked",
-      "found": 7,
-      "note": "www URL not fetched (permission timeout); hackeroos.com.au/hackathons works. All 7 relevant AU events duplicate Hackathons Australia (de-duplicated, 0 unique). Online section: page 1 of 4 read; all its events opened before 18 Oct."
+      "found": 22,
+      "note": "Read /hackathons and online pages 2 to 6 (68 online events). AU section: 10 matches, all duplicates of Hackathons Australia; it supplied official links for OSI (Luma), Tanda (Luma) and MAUI Melbourne (Eventbrite). Online: 12 matches, 5 existing plus 7 new (PayPal AI, Qloo, Nebius x NVIDIA, GitLab Life After Code, Meta VR Start, YouCam API, DeveloperWeek 2027), each confirmed on its Devpost page via WebSearch. Skipped: high-school or single-university events, learning-only (Build With AI: Basics, Learn AR with SPECS), partner-only (AWS CDS), events ending within 5 days (OpenCV AI, Amazon Developer, IEEE ClimateChain, IEEE Hack For Humanity, EurekaDev, Hyperbloom), Cosmo Hacks (prize conflict, 18 Oct). Not verified, so not added: AQX Sports Analytics Data Bowl 4.0 (Data, 18 Oct to 1 Nov; Devpost page not found through search), AI Agents for Founders HETIC, Build Beyond, checkpoint 1."
     },
     {
       "name": "Devpost (JSON feed)",
       "rank": 4,
-      "result": "checked",
-      "found": 5,
-      "note": "Feed pages 1 to 3 read (9 per page, 29 to 35 total). Many are high-school-run; kept 5 with real prizes open to university students or adults. Cosmo Hacks skipped (headline $196,955 conflicts with $300 cash in body)."
+      "result": "failed",
+      "found": 0,
+      "note": "Feed URL refused by WebFetch (PROVENANCE_REQUIRED: permission prompt timed out); WebSearch never returns the API URL, so it could not be fetched from results. curl blocked by the proxy (CONNECT 403). devpost.com/hackathons renders its list with JavaScript (empty to WebFetch). Covered instead through the Hackeroos online list plus individual Devpost pages found through WebSearch."
     },
     {
       "name": "UNIHACK",
       "rank": 5,
       "result": "checked",
       "found": 1,
-      "note": "UNIHACK 2027 confirmed 12 to 14 Mar 2027, pre-registration open; hubs not listed yet."
+      "note": "unihack.net reached after WebSearch. No change: 12 to 14 Mar 2027, hybrid, pre-registration open, 18+ uni or TAFE students in AU/NZ, no hubs, team size or deadline listed."
     },
     {
       "name": "CTFtime",
       "rank": 6,
       "result": "checked",
-      "found": 6,
-      "note": "Registry URL (limit=20) only reaches 8 Nov; also queried start/finish window to 31 Jul 2027 (43 events). Kept 6 notable. Only Australian entry: Outback Overflow (for high schoolers, skipped). DUCTF 2027 not listed yet."
+      "found": 10,
+      "note": "API URL (start/finish window) refused (PROVENANCE_REQUIRED). Read /event/list/upcoming and /event/list/?year=2026 (41 events to 28 Dec; the notes column shows restrictions such as Prequalified, Academic, Casual). Individual event pages refused, except ASIS CTF Finals (reached via WebSearch). 5 existing seen (HITCON, Hack.lu, Platypwn, GlacierCTF, BackdoorCTF; dates unchanged); 5 new open online CTFs added (Crate-CTF, LakeCTF Quals, bi0sCTF, niteCTF, ASIS Finals). JerseyCTF VII (Mar 2027) is beyond the list range, so not re-seen. Outback Overflow (only Australian entry) is still for high schoolers. Skipped prequalified, academic-only, on-site overseas, casual and weight-0 events."
     },
     {
       "name": "Humanitix Sydney sci-tech",
       "rank": 7,
       "result": "checked",
       "found": 0,
-      "note": "Registry URL (/scienceAndTechnology) not fetched: permission timeout. Used /trending--scienceandtechnology: only the RAMSoc Build-a-thon showcase (attend only). Humanitix event pages work and were used as official links."
+      "note": "Trending sci-tech page (32 events) reached after WebSearch: only the RAMSoc Build-a-thon showcase (attend only). Humanitix searches found only past events: Susquehanna x SYNCS Bot Battle (6 to 19 Jul 2026, $2,600 pool), PECAN+ CTF at UNSW (Aug, high school), Hack the Gong (Aug), MelbourneHack (Aug), National Missing Persons Hackathon (2024). Cyber in Motion and CareerPathHack event pages refused (permission timeout)."
     },
     {
       "name": "CPMSoc",
       "rank": 8,
-      "result": "not checked",
+      "result": "failed",
       "found": 0,
-      "note": "seed run: cloud only"
+      "note": "Chrome, 19 Oct: cpmsoc.org and cpmsoc.com no longer resolve (DNS not found). UNSW's School of Mathematics society page is the only official trace; events are probably on social media now. Registry URL needs replacing"
     },
     {
       "name": "Luma Sydney",
       "rank": 9,
       "result": "checked",
-      "found": 1,
-      "note": "luma.com/sydney shows no hackathons or dates. HarbourHack found by searching luma.com. Also seen but past: Mistral Worldwide Hackathon Sydney, XRPL Hackathon, HealthHack, Cambridge EduX, SXSW x Build Club (2025)."
+      "found": 3,
+      "note": "Used luma.com search and /discover/sydney/ai (no dates on the city pages). Seen: HarbourHack (applications still open, tracks not yet released, partners now listed), OSI Hackathon Sydney (official page found), AI On Apple Sydney (Standard tickets ended). Skipped: Codex & Astra Builder Day (Tue 20 Oct; applications closed 18 Oct; build day without judging), Sym AI Open (17 to 18 Oct, past), FoundersHack Sydney (Mar 2026), OpenAI Build Week Community Hackathon Sydney (past), Hack-Nation 7th Global AI Hackathon (past, no Sydney hub), Hack A Ton (Romania), Global Innovation Challenge (high school, US$250). Tanda Luma page refused (permission timeout)."
     },
     {
       "name": "Eventbrite Sydney",
       "rank": 10,
       "result": "checked",
       "found": 0,
-      "note": "Noisy: marketing and AI course listings, no real hackathons. SSW event pages on Eventbrite used as official links."
+      "note": "Reached after WebSearch. Only courses, marketing workshops and networking breakfasts; no real hackathons."
     },
     {
       "name": "UNSW Founders",
       "rank": 11,
       "result": "checked",
       "found": 0,
-      "note": "/hackathons lists only the SDG Impact Lab Pitch Comp (Thu 29 Oct, 1:00 to 4:00 pm, Michael Crouch Innovation Centre, student teams, up to $2,000 micro grant). Pitch competition, off-theme, not added."
+      "note": "/hackathons lists only the 2026 SDG Impact Lab pitch competition (undated on the page; Thu 29 Oct per the 18 Oct run). Pitch competition, off-theme, not added."
     },
     {
       "name": "SYNCS Hack (USyd, annual, around Aug)",
       "rank": 12,
       "result": "checked",
       "found": 0,
-      "note": "2026 edition passed (29 to 30 Aug 2026). No 2027 edition announced."
+      "note": "SYNCS HACK 2026 (29 to 30 Aug) passed; no 2027 edition announced. SYNCS also ran the Susquehanna x SYNCS Bot Battle (Jul 2026, quant-style bot competition); watch for 2027."
     },
     {
       "name": "GovHack",
       "rank": 13,
       "result": "checked",
       "found": 0,
-      "note": "Home page: waitlist only, no 2026 or 2027 dates. Hackerspace events page lists only past 2025 events."
+      "note": "Headline 'Get Ready for GovHack 2026'; waitlist only, no dates."
     },
     {
       "name": "MLH",
       "rank": 14,
       "result": "checked",
       "found": 0,
-      "note": "2027 season page lists 3 events, all in-person in India. No AU/NZ or online events."
+      "note": "2027 season page: 92 events, all in person in North America, Europe and India; none in AU/NZ and none online."
     },
     {
       "name": "Meetup",
       "rank": 15,
-      "result": "not checked",
-      "found": 0,
-      "note": "seed run: cloud only"
+      "result": "checked",
+      "found": 2,
+      "note": "Chrome: hackathon search near Sydney (30 km). 2 added: Microburbs Hackathon (Sat 7 Nov, UTS Ultimo or online, free, selective) and NASA Space Apps Challenge 2026 (14 to 15 Nov; official site read), with the Code for Sydney prep day on 7 Nov in its notes. The rest were talks and socials, not hackathons"
     }
   ],
   "items": [
@@ -113,11 +113,11 @@
       "id": "hackathons-australia:osi-hackathon-2026-sydney-at-unsw",
       "title": "OSI Hackathon 2026: Sydney at UNSW",
       "org": "Hubert (Sydney site of the global Open Scientific Intelligence Hackathon)",
-      "link": "https://hackathonsaustralia.com.au/events/osi-hackathon-2026-sydney-at-unsw",
+      "link": "https://luma.com/r81hqc5c",
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-21T09:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -133,7 +133,7 @@
       "team": "unknown",
       "cost": "free",
       "prize": "not stated",
-      "notes": "Wed 21 Oct and Thu 22 Oct, 9:00 am to 5:00 pm each day, venue closed overnight. Tools for scientific discovery: LLM apps and agents, research software, datasets and knowledge graphs. Anyone can register; every on-site person must register individually on the organiser's Luma page (UNSW policy). Team rules not stated. No registration deadline published; using start date. Official Luma link not shown on the listing and the /go/ redirect is robots-blocked, so the link is the Hackathons Australia page. On campus, about 10 min walk from UNSW Village (⚠️ estimate). ⚠️ Clash: Week 6, when the COMP9020 Foundations of Computer Science mid-term test (26%) runs; check the test day."
+      "notes": "Wed 21 Oct and Thu 22 Oct, 9:00 am to 5:00 pm AEDT each day, venue closed overnight. Sydney site of the global Open Scientific Intelligence Hackathon: tools for scientific discovery in materials science, chemistry, physics and maths (LLM apps and agents, research software, datasets, benchmarks and knowledge graphs). Free; registration open with no approval step or deadline stated. On-site people register individually on both the global OSI Luma page (luma.com/ku88xh92) and this Sydney page (UNSW policy); online-only people register only for the global event. Team rules and prizes not stated; submission dates follow the global schedule. No registration deadline published; using start date. On campus, about 10 min walk from UNSW Village (⚠️ estimate). ⚠️ Clash: Wed 21 Oct, 1:00 pm, COMP9020 Foundations of Computer Science mid-term test (26%, about 1 hour) falls in the middle of day 1; Thu 22 Oct is clear."
     },
     {
       "id": "luma-sydney:6io0zysl",
@@ -143,7 +143,7 @@
       "source": "Luma Sydney",
       "source_rank": 9,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-23",
       "status": "new",
       "closed": false,
@@ -166,7 +166,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-23T18:30:00+11:00",
       "status": "new",
       "closed": false,
@@ -182,7 +182,7 @@
       "team": "both",
       "cost": "$50 per Hackathons Australia; Luma shows no price and charges only approved applicants (non-refundable)",
       "prize": "Grand, enterprise, visionOS, social impact, beginner and People's Choice prizes; amounts TBA",
-      "notes": "Fri 23 Oct, 6:30 pm pre-event; Sat 24 Oct, 10:00 am to 8:00 pm; Sun 25 Oct, 10:00 am to 2:00 pm, then judging. Application-based; you apply alone and form a team over the weekend. On-device LLM and vision apps, agents, multimodal and spatial computing for Apple platforms. Independent event, not endorsed by Apple. No registration deadline published; using start date. Also listed on Hackeroos (de-duplicated). About 35 to 45 min by light rail or bus from UNSW Village (⚠️ estimate). ⚠️ Clash: weekend before Mon 26 Oct deadlines (COMP9021 Principles of Programming Assignment 1, COMP9024 Data Structures and Algorithms Week 6 quiz)."
+      "notes": "Fri 23 Oct, 6:30 pm pre-event; Sat 24 Oct, 10:00 am to 8:00 pm; Sun 25 Oct, 10:00 am to 2:00 pm, then judging. Application-based; you apply alone and form a team over the weekend. As of 19 Oct, Standard ticket sales have ended and a Final Release ticket is still listed (no end date); applications are reviewed closer to the event for a mix of beginner and advanced builders. On-device LLM and vision apps, agents, multimodal and spatial computing for Apple platforms. Independent event, not endorsed by Apple. No registration deadline published; using start date. Also listed on Hackeroos (de-duplicated). About 35 to 45 min by light rail or bus from UNSW Village (⚠️ estimate). ⚠️ Clash: weekend before Mon 26 Oct deadlines (COMP9021 Principles of Programming Assignment 1, 11:59 am; COMP9024 Data Structures and Algorithms Week 6 quiz, open Fri 23 Oct 6:00 pm to Mon 26 Oct 4:00 pm)."
     },
     {
       "id": "hackathons-australia:maui-hack-day-sydney",
@@ -192,7 +192,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-02-13T09:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -217,7 +217,7 @@
       "source": "UNIHACK",
       "source_rank": 5,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-03-12",
       "status": "new",
       "closed": false,
@@ -240,7 +240,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-07-10T09:00:00+10:00",
       "status": "new",
       "closed": false,
@@ -265,7 +265,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-20T18:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -280,7 +280,7 @@
       "team": "team",
       "cost": "not stated (tickets on Humanitix)",
       "prize": "Awards for most liked, top creators, top competitors, grand champion; no cash listed. Top 4 teams go to a final on 28 Nov",
-      "notes": "Sat 24 Oct, 10:00 am to 2:00 pm AEST. Teams of 5 to 10 students (16+, school or tertiary) first write their own CTF challenges, then solve other teams' challenges. Deadline shown is the end of the challenge-creation phase, Tue 20 Oct, 5:00 pm AEST; no separate registration deadline published. Needs a full team and a Brisbane trip, so low feasibility. Also listed on Hackeroos."
+      "notes": "Sat 24 Oct, 10:00 am to 2:00 pm AEST. Teams of 5 to 10 students (16+, school or tertiary) first write their own CTF challenges, then solve other teams' challenges. Deadline shown is the end of the challenge-creation phase, Tue 20 Oct, 5:00 pm AEST (6:00 pm Sydney); no separate registration deadline published. Needs a full team and a Brisbane trip, so low feasibility. Also listed on Hackeroos. ⚠️ Exam period: the top-4 final on Sat 28 Nov falls inside the UNSW Term 3 exam period (27 Nov to 10 Dec 2026)."
     },
     {
       "id": "hackathons-australia:careerpathhack",
@@ -290,7 +290,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-11-04T09:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -312,11 +312,11 @@
       "id": "hackathons-australia:tanda-ai-hackathon-what-if",
       "title": "Tanda AI Hackathon: What if...?",
       "org": "Tanda",
-      "link": "https://hackathonsaustralia.com.au/events/tanda-ai-hackathon-what-if",
+      "link": "https://lu.ma/n0sbm2px",
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-11-20T18:30:00+11:00",
       "status": "new",
       "closed": false,
@@ -341,7 +341,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-02-17T09:30:00+11:00",
       "status": "new",
       "closed": false,
@@ -366,7 +366,7 @@
       "source": "Hackathons Australia",
       "source_rank": 1,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-02-20T09:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -391,7 +391,7 @@
       "source": "Devpost (JSON feed)",
       "source_rank": 4,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-20",
       "status": "new",
       "closed": false,
@@ -406,7 +406,7 @@
       "team": "both",
       "cost": "free (no entry fee mentioned)",
       "prize": "$3,800 total (1st General $1,100, 1st Theme $1,100) plus Adaption credits",
-      "notes": "Students only, 13+, all countries except standard exceptions. Solo or teams of 1 to 4. General track or 'Rethinking Waste' theme track. Devpost page says ends 20 Dec; JSON feed says 21 Dec (conflict, check). No registration deadline published; using start date. Long window spans the T3 exam period (⚠️ check exam dates)."
+      "notes": "Students only, 13+, all countries except standard exceptions. Solo or teams of 1 to 4. General track or 'Rethinking Waste' theme track. Devpost page says ends 20 Dec; the JSON feed and Hackeroos say 21 Dec (conflict, check). No registration deadline published; using start date (Tue 20 Oct). ⚠️ Exam period: the long window spans the UNSW Term 3 exam period (27 Nov to 10 Dec 2026); exam dates still TBA."
     },
     {
       "id": "ctftime:3340",
@@ -416,7 +416,7 @@
       "source": "CTFtime",
       "source_rank": 6,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-24T01:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -441,7 +441,7 @@
       "source": "CTFtime",
       "source_rank": 6,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-24T05:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -466,7 +466,7 @@
       "source": "Devpost (JSON feed)",
       "source_rank": 4,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-10-30",
       "status": "new",
       "closed": false,
@@ -482,7 +482,7 @@
       "team": "both",
       "cost": "free (no entry fee mentioned)",
       "prize": "$100,000 cash total; breakdown TBD",
-      "notes": "Submissions Fri 30 Oct to Fri 4 Dec, 2:00 pm PT (Sat 5 Dec, 9:00 am Sydney). Open to adults in all countries except standard exceptions, not student-only. Solo or team. Needs a Kiro user ID or AWS account ID. Categories: Resurrection, Frankenstein, Skeleton Crew, Costume Contest. 441 registered. Biggest cash pool found this run. No registration deadline published; using start date. ⚠️ Clash: final week likely overlaps the T3 exam period (check exam dates)."
+      "notes": "Submissions Fri 30 Oct to Fri 4 Dec, 2:00 pm PT (Sat 5 Dec, 9:00 am Sydney). Open to adults in all countries except standard exceptions, not student-only. Solo or team. Needs a Kiro user ID or AWS account ID. Categories: Resurrection, Frankenstein, Skeleton Crew, Costume Contest. 441 registered (18 Oct). Biggest cash pool among the 18 Oct finds. No registration deadline published; using start date. ⚠️ Exam period: the last 9 days (27 Nov to 5 Dec) fall inside the UNSW Term 3 exam period (27 Nov to 10 Dec 2026); plan to submit before 27 Nov."
     },
     {
       "id": "devpost:icehacks",
@@ -492,7 +492,7 @@
       "source": "Devpost (JSON feed)",
       "source_rank": 4,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-11-09T13:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -518,7 +518,7 @@
       "source": "CTFtime",
       "source_rank": 6,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-11-14T04:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -543,7 +543,7 @@
       "source": "CTFtime",
       "source_rank": 6,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-11-21T05:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -568,7 +568,7 @@
       "source": "CTFtime",
       "source_rank": 6,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2026-12-19T23:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -583,7 +583,7 @@
       "team": "unknown",
       "cost": "not stated",
       "prize": "not listed on CTFtime",
-      "notes": "CTFtime weight 77.38, Jeopardy, restrictions: Open. High-weight Jeopardy CTF, open. Likely after T3 exams (⚠️ check exam dates). Times converted from UTC to Sydney. CTFtime entry: https://ctftime.org/event/3472/ . Team rules not in the CTFtime API; check the CTF's own rules. No registration deadline published; using start date."
+      "notes": "CTFtime weight 77.38, Jeopardy, restrictions: Open. High-weight Jeopardy CTF, open. Sat 19 Dec, 11:00 pm to Sun 20 Dec, 11:00 pm Sydney, after the UNSW Term 3 exam period (ends Thu 10 Dec 2026). Times converted from UTC to Sydney. CTFtime entry: https://ctftime.org/event/3472/ . Team rules not in the CTFtime API; check the CTF's own rules. No registration deadline published; using start date."
     },
     {
       "id": "devpost:unitedhacksv8",
@@ -593,7 +593,7 @@
       "source": "Devpost (JSON feed)",
       "source_rank": 4,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-01-09T11:00:00+11:00",
       "status": "new",
       "closed": false,
@@ -616,7 +616,7 @@
       "source": "Devpost (JSON feed)",
       "source_rank": 4,
       "found_at": "2026-10-18",
-      "last_seen_at": "2026-10-18",
+      "last_seen_at": "2026-10-19",
       "deadline": "2027-02-02",
       "status": "new",
       "closed": false,
@@ -657,6 +657,415 @@
       "cost": "not stated",
       "prize": "not listed on CTFtime",
       "notes": "CTFtime weight 47.14, Jeopardy, restrictions: Open. Jeopardy CTF described as beginner-friendly and student-focused, open. Times converted from UTC to Sydney. CTFtime entry: https://ctftime.org/event/3458/ . Team rules not in the CTFtime API; check the CTF's own rules. No registration deadline published; using start date."
+    },
+    {
+      "id": "unsw-societies:aisoc-hexify-2026",
+      "title": "Hexify: AI Soc x Netlify Halloween Hackathon",
+      "org": "UNSW AI Society with Netlify",
+      "link": "https://campus.hellorubric.com/?eid=88289",
+      "source": "UNSW societies: DevSoc, Security Society, CSESoc",
+      "source_rank": 2,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-10-21T15:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "⚠️",
+      "starts_at": "2026-10-21T15:00:00+11:00",
+      "ends_at": "2026-10-21T18:30:00+11:00",
+      "mode": "in-person",
+      "city": "Sydney (UNSW Kensington, Michael Crouch Innovation Centre)",
+      "themes": [
+        "AI/ML",
+        "Web/apps"
+      ],
+      "team": "team",
+      "cost": "not stated",
+      "prize": "$100 per team member for 1st place",
+      "notes": "Wed 21 Oct 2026, 3:00 to 6:30 pm, on campus. Tickets are limited and sold through the Rubric link in the AI Soc email (15 Oct); the ticket page itself was not opened, so cost and team size are unconfirmed. Same day as the COMP9020 mid-term (1:00 pm, about an hour), so it starts roughly an hour after the test ends. Found in the UNSW inbox, not on a public listing."
+    },
+    {
+      "id": "meetup:316987774",
+      "title": "Microburbs Hackathon",
+      "org": "Microburbs with Sydney AI + Data (Data Science Sydney), hosted by UTS",
+      "link": "https://www.meetup.com/data-science-sydney/events/316987774/",
+      "source": "Meetup",
+      "source_rank": 15,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-07T09:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-11-07T09:00:00+11:00",
+      "ends_at": "2026-11-07T17:00:00+11:00",
+      "mode": "hybrid",
+      "city": "Sydney (UTS Business School, Level 4, Ultimo) or online from anywhere in Australia",
+      "themes": [
+        "Data",
+        "Web/apps"
+      ],
+      "team": "unknown",
+      "cost": "free",
+      "prize": "not stated",
+      "notes": "Sat 7 Nov 2026, 9:00 am to 5:00 pm. One-day build with Microburbs property and urban data (200+ data types for the City of Sydney area, including the 2026 Census). Free, but places are limited and the organisers choose who gets in: apply through the registration link on the Meetup page (microburbs.com.au/hackathon). The Meetup RSVP shows a waitlist. No application deadline published; using the start date."
+    },
+    {
+      "id": "nasa-space-apps:2026",
+      "title": "NASA Space Apps Challenge 2026",
+      "org": "NASA",
+      "link": "https://www.spaceappschallenge.org/",
+      "source": "Meetup",
+      "source_rank": 15,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-14T00:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-11-14T00:00:00+11:00",
+      "ends_at": "2026-11-15T23:59:00+11:00",
+      "mode": "hybrid",
+      "city": "Global: online or at local events (a Sydney local event not confirmed)",
+      "themes": [
+        "Data",
+        "AI/ML"
+      ],
+      "team": "both",
+      "cost": "free",
+      "prize": "Global awards (see the official awards page)",
+      "notes": "14 to 15 Nov 2026, registration open (official site read 19 Oct). 14 challenges using open NASA data; all ages and skill levels. Code for Sydney runs a free prep and team-formation day on Sat 7 Nov, 10:15 am to 2:15 pm, at Darling Square Library, Haymarket (Meetup event 313473986). Falls on the weekend before Term 3 teaching ends; the exam period starts 27 Nov."
+    },
+    {
+      "id": "devpost:paypalaihackathon",
+      "title": "PayPal AI Hackathon",
+      "org": "PayPal (run on Devpost)",
+      "link": "https://paypalaihackathon.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-13T07:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-10-01",
+      "ends_at": "2026-11-13T07:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Fintech/quant",
+        "AI/ML",
+        "Web/apps"
+      ],
+      "team": "both",
+      "cost": "free (no entry fee mentioned)",
+      "prize": "$69,750 total (page also says $67,500+): 1st $12,000, 2nd $8,000, 3rd $5,000, five $5,000 category prizes (incl. Best Use of PayPal + AI and Best Use of Agentic Commerce), plus sponsor prizes",
+      "notes": "Already open; submissions due Thu 12 Nov, 12:00 pm PST (Fri 13 Nov, 7:00 am Sydney). Start 1 Oct is from Hackeroos (⚠️ not on the Devpost overview page). Build anything that meaningfully uses both PayPal and AI; no fixed tracks. Adults (age of majority) in all countries except standard exceptions; Australia not named, so it appears eligible (check the rules page). Solo or team; team size not stated. 16,548 registered, so heavy competition. Best fintech fit this run. No registration deadline published; deadline shown is the submission deadline. Found via the Hackeroos online list because the Devpost JSON feed was blocked this run; details read on the Devpost page. ⚠️ Clash: window includes Mon 26 Oct COMP9021 Principles of Programming Assignment 1 and the COMP9024 Data Structures and Algorithms Week 6 quiz; final days overlap Wed 11 Nov COMP9021 Quiz 7 and Thu 12 Nov COMP9020 Foundations of Computer Science Week 9 tutorial quiz."
+    },
+    {
+      "id": "devpost:qloo",
+      "title": "Qloo Agentic Hackathon",
+      "org": "Qloo",
+      "link": "https://qloo.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-10-31T14:45:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-09-30",
+      "ends_at": "2026-10-31T14:45:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "AI/ML"
+      ],
+      "team": "unknown",
+      "cost": "free (no entry fee mentioned)",
+      "prize": "$25,000 cash (1st $15,000, 2nd $6,000, 3rd $4,000); separately, Jason Calacanis offers to invest $25,000 in his favourite entry (an investment, not a prize)",
+      "notes": "Already open; submissions due Fri 30 Oct, 11:45 pm EDT (Sat 31 Oct, 2:45 pm Sydney). Start 30 Sep is from Hackeroos. Build an agentic tool or agent-powered app using Qloo's taste-graph API. Adults in all countries except standard exceptions; Australia not named, so it appears eligible. Team size not stated. 1,760 registered. No registration deadline published; deadline shown is the submission deadline. Closes in 12 days. Found via the Hackeroos online list because the Devpost JSON feed was blocked this run; details read on the Devpost page. ⚠️ Clash: window includes Mon 26 Oct COMP9021 Principles of Programming Assignment 1 and COMP9024 Data Structures and Algorithms Week 6 quiz, Wed 28 Oct COMP9021 Quiz 5 and Thu 29 Oct COMP9020 Foundations of Computer Science Week 7 tutorial quiz."
+    },
+    {
+      "id": "devpost:nebiusglobalaihackathon",
+      "title": "Nebius x NVIDIA Global AI Hackathon",
+      "org": "Nebius (with NVIDIA and Tavily; run on Devpost)",
+      "link": "https://nebiusglobalaihackathon.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-10-31T04:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-08-26",
+      "ends_at": "2026-10-31T04:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "AI/ML"
+      ],
+      "team": "unknown",
+      "cost": "free (no entry fee mentioned)",
+      "prize": "$50,000+ cash: Grand $20,000, 2nd $10,000, 3rd $6,000, Best Use of Tavily $3,000, 20 City Winner awards of $500; each of 4 track winners also gets an NVIDIA Jetson Orin Nano",
+      "notes": "Already open; submissions due Fri 30 Oct, 10:00 am PDT (Sat 31 Oct, 4:00 am Sydney). Hackeroos lists the end as 27 Oct (conflict; the Devpost page says 30 Oct). Tracks: Coding and Agentic Engineering, Best Apps and Agents, Personal AI, Physical AI; tagged Beginner Friendly. Adults in all countries except standard exceptions; Australia not named, so it appears eligible. Team size not stated. 24,576 registered. No registration deadline published; deadline shown is the submission deadline. Closes in 11 days. Found via the Hackeroos online list because the Devpost JSON feed was blocked this run; details read on the Devpost page. ⚠️ Clash: window includes Mon 26 Oct COMP9021 Principles of Programming Assignment 1 and COMP9024 Data Structures and Algorithms Week 6 quiz."
+    },
+    {
+      "id": "devpost:gitlab-transcend",
+      "title": "Life After Code (GitLab Transcend Hackathon)",
+      "org": "GitLab (run on Devpost)",
+      "link": "https://gitlab-transcend.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-10-28T00:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-10-05",
+      "ends_at": "2026-10-28T00:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "AI/ML",
+        "Web/apps"
+      ],
+      "team": "unknown",
+      "cost": "free (no entry fee mentioned)",
+      "prize": "$45,000 cash: for each of 2 paths, Best Assisted $4,000, Best Supervised $4,000, Best Hands-off $5,000; Most Stages Covered $5,000 (2 winners); Most Environmentally Impactful $5,000; Most Creative $4,000",
+      "notes": "Already open; submissions due Tue 27 Oct, 1:00 pm UTC (Wed 28 Oct, 12:00 am Sydney). Start 5 Oct is from Hackeroos. DevOps plus AI: take a project from code to production with GitLab automation; Path A starts fresh, Path B brings an existing project (automation built on or after 5 Oct). Adults; excluded countries are Brazil, China, Crimea, Cuba, Donetsk, Iran, North Korea, Luhansk, Quebec, Russia and Syria, so Australia is eligible. Team size not stated. 2,598 registered. No registration deadline published; deadline shown is the submission deadline. Closes in 8 days. Found via the Hackeroos online list because the Devpost JSON feed was blocked this run; details read on the Devpost page. ⚠️ Clash: due the night after Mon 26 Oct COMP9021 Principles of Programming Assignment 1 and COMP9024 Data Structures and Algorithms Week 6 quiz."
+    },
+    {
+      "id": "devpost:start-developer-competition-26",
+      "title": "Meta VR Start Developer Competition 2026",
+      "org": "Meta (run on Devpost)",
+      "link": "https://start-developer-competition-26.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-19T07:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-09-24",
+      "ends_at": "2026-11-19T07:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Web/apps"
+      ],
+      "team": "both",
+      "cost": "free (no entry fee mentioned); needs a Meta Quest or Meta VR glasses, or an XR simulator for the demo video",
+      "prize": "$1,000,000 cash total: track prizes up to $100,000 (runners-up $50,000 and $35,000), six $25,000 special awards, two $20,000 Judge's Choice",
+      "notes": "Eight-week challenge that opened 24 Sep; submissions due Wed 18 Nov, 12:00 pm PST (Thu 19 Nov, 7:00 am Sydney). Build a hand-tracked VR app (Entertainment, Gaming or Productivity; new or significantly updated). Non-members must first apply to the Meta Horizon Start program. Adults; some countries are excluded but not listed on the overview page, so Australia's status is unconfirmed (⚠️ check the rules). 3,397 registered. Specialist VR skill set, lower fit despite the prize pool. No registration deadline published; deadline shown is the submission deadline. Found via the Hackeroos online list because the Devpost JSON feed was blocked this run; details read on the Devpost page. ⚠️ Clash: final day is Wed 18 Nov, when COMP9024 Data Structures and Algorithms Assignment DroneDash (12%) and COMP9021 Principles of Programming Quiz 8 are due."
+    },
+    {
+      "id": "devpost:youcam-api-skin-ai-ecommerce",
+      "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
+      "org": "Perfect Corp",
+      "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-03T03:45:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-09-29",
+      "ends_at": "2026-11-03T03:45:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "AI/ML",
+        "Web/apps"
+      ],
+      "team": "unknown",
+      "cost": "free (no entry fee mentioned)",
+      "prize": "$6,000 cash: 1st $2,500, 2nd $1,000, 3rd $500, Women in Tech $1,000, Rising Star (students only) $1,000",
+      "notes": "Already open; submissions due Mon 2 Nov, 11:45 am EST (Tue 3 Nov, 3:45 am Sydney). Start 29 Sep is from Hackeroos. Build with the YouCam API on the Skin AI or eCommerce virtual try-on tracks. Adults; Australia is not on the excluded-country list. Team size not stated. 1,009 registered. Small prize pool; the Rising Star prize is for students. No registration deadline published; deadline shown is the submission deadline. Found via the Hackeroos online list because the Devpost JSON feed was blocked this run; details read on the Devpost page. ⚠️ Clash: final day is Mon 2 Nov, when the COMP9024 Data Structures and Algorithms Week 7 practical is due (4:59 pm)."
+    },
+    {
+      "id": "devpost:developerweek-2027-hackathon",
+      "title": "DeveloperWeek 2027 Hackathon",
+      "org": "DevNetwork (DeveloperWeek), run on Devpost",
+      "link": "https://developerweek-2027-hackathon.devpost.com/",
+      "source": "Hackeroos",
+      "source_rank": 3,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2027-01-25",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2027-01-25",
+      "ends_at": "2027-02-11",
+      "mode": "hybrid",
+      "city": "Online (in-person part and awards at Santa Clara Convention Center, California, 9 to 11 Feb)",
+      "themes": [
+        "AI/ML",
+        "Web/apps"
+      ],
+      "team": "unknown",
+      "cost": "free (no entry fee mentioned); in-person attendees also pre-register on Eventbrite",
+      "prize": "More than $6,000 cash plus other prizes; overall winner package valued at $12,500; $1,000 challenge prizes from Red Hat, MESCIUS, Descope and Nimble",
+      "notes": "Online 25 Jan to 11 Feb 2027 (US dates, times not given). Build a web or mobile app; enter any or none of the sponsor challenges (details due January 2027). Adults in all countries except standard exceptions; not student-only. Team size not stated. 217 registered so far. No registration deadline published; using start date. Summer break; enter online. Found on Hackeroos page 5 and WebSearch; Devpost page read."
+    },
+    {
+      "id": "hackathons-australia:maui-hack-day-melbourne",
+      "title": "MAUI Hack Day - Melbourne",
+      "org": "SSW",
+      "link": "https://www.eventbrite.com.au/e/maui-hack-day-melbourne-tickets-1991517772267",
+      "source": "Hackathons Australia",
+      "source_rank": 1,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2027-04-17T09:00:00+10:00",
+      "status": "new",
+      "closed": false,
+      "verified": "⚠️",
+      "starts_at": "2027-04-17T09:00:00+10:00",
+      "ends_at": "2027-04-17T17:00:00+10:00",
+      "mode": "in-person",
+      "city": "Melbourne (SSW, Level 1, 370 Little Bourke Street)",
+      "themes": [
+        "Web/apps",
+        "AI/ML"
+      ],
+      "team": "unknown",
+      "cost": "free",
+      "prize": "not stated",
+      "notes": "Sat 17 Apr 2027, 9:00 am to 5:00 pm AEST (+10:00). .NET MAUI mobile development with AI and vibe-coding sessions; beginners welcome; bring a laptop with .NET MAUI and an IDE installed. Learning-day style, no prizes listed. SSW may cancel if enrolment is low. Organiser site mauihackday.com. No registration deadline published; using start date. Details read on the Hackathons Australia listing; the Eventbrite link comes from Hackeroos and was not opened (⚠️). Needs a Melbourne trip. Falls in UNSW Term 1 2027 (⚠️ check term dates). Same SSW series as the Sydney and Melbourne AI and MAUI hack days already listed."
+    },
+    {
+      "id": "ctftime:3336",
+      "title": "Crate-CTF 2026",
+      "org": "Crate-CTF (organiser not checked)",
+      "link": "https://ctftime.org/event/3336/",
+      "source": "CTFtime",
+      "source_rank": 6,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-22T00:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "⚠️",
+      "starts_at": "2026-11-22T00:00:00+11:00",
+      "ends_at": "2026-11-22T08:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Security/CTF"
+      ],
+      "team": "unknown",
+      "cost": "not stated",
+      "prize": "not listed on CTFtime",
+      "notes": "CTFtime weight 37.00, Jeopardy, online, no restriction shown on the CTFtime list; 10 teams marked interested. Eight hours: Sun 22 Nov, 12:00 am to 8:00 am Sydney (overnight Saturday). Same weekend as GlacierCTF 2026. Times converted from UTC to Sydney. Details from the CTFtime event list only; the event page was refused (permission timeout), so the official site and team rules were not checked. No registration deadline published; using start date. ⚠️ Clash: Mon 23 Nov has COMP9021 Principles of Programming Assignment 2 (11:59 am), the COMP9024 Data Structures and Algorithms Week 10 quiz (4:00 pm) and Week 10 practical (4:59 pm)."
+    },
+    {
+      "id": "ctftime:3474",
+      "title": "LakeCTF Quals 26-27",
+      "org": "polygl0ts (EPFL)",
+      "link": "https://lakectf.epfl.ch/",
+      "source": "CTFtime",
+      "source_rank": 6,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-11-28T05:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "⚠️",
+      "starts_at": "2026-11-28T05:00:00+11:00",
+      "ends_at": "2026-11-29T05:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Security/CTF"
+      ],
+      "team": "unknown",
+      "cost": "not stated",
+      "prize": "not listed; quals lead to on-site finals in Lausanne (academic teams) and Insomni'hack finals",
+      "notes": "CTFtime weight 45.76, Jeopardy, online, no restriction shown on the CTFtime list. Sat 28 Nov, 5:00 am to Sun 29 Nov, 5:00 am Sydney. Official site still shows the previous edition: academic, professional or mixed teams, no team-size limit, LLM use forbidden, finals on site at EPFL for up to 10 academic teams (⚠️ check 2026-27 rules). Times converted from UTC to Sydney. CTFtime entry: https://ctftime.org/event/3474/ (event page refused, permission timeout). No registration deadline published; using start date. ⚠️ Exam period: falls inside the UNSW Term 3 exam period (27 Nov to 10 Dec 2026); exam dates still TBA."
+    },
+    {
+      "id": "ctftime:3480",
+      "title": "bi0sCTF 2026",
+      "org": "bi0s",
+      "link": "https://ctf.bi0s.in/",
+      "source": "CTFtime",
+      "source_rank": 6,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-12-05T16:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "⚠️",
+      "starts_at": "2026-12-05T16:00:00+11:00",
+      "ends_at": "2026-12-07T04:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Security/CTF"
+      ],
+      "team": "unknown",
+      "cost": "not stated",
+      "prize": "not listed on CTFtime",
+      "notes": "CTFtime weight 79.51, Jeopardy, online, no restriction shown on the CTFtime list. High-weight CTF. Sat 5 Dec, 4:00 pm to Mon 7 Dec, 4:00 am Sydney. Official URL from the CTFtime series page; the official site and event page were refused (permission timeout), so details are from the CTFtime list only. Times converted from UTC to Sydney. CTFtime entry: https://ctftime.org/event/3480/ . Team rules not checked. No registration deadline published; using start date. ⚠️ Exam period: falls inside the UNSW Term 3 exam period (27 Nov to 10 Dec 2026); exam dates still TBA."
+    },
+    {
+      "id": "ctftime:3367",
+      "title": "niteCTF 2026",
+      "org": "not checked (CTFtime list only)",
+      "link": "https://ctftime.org/event/3367/",
+      "source": "CTFtime",
+      "source_rank": 6,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-12-11T23:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "⚠️",
+      "starts_at": "2026-12-11T23:00:00+11:00",
+      "ends_at": "2026-12-13T23:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Security/CTF"
+      ],
+      "team": "unknown",
+      "cost": "not stated",
+      "prize": "not listed on CTFtime",
+      "notes": "CTFtime weight 59.00, Jeopardy, online, no restriction shown on the CTFtime list; 33 teams marked interested. Fri 11 Dec, 11:00 pm to Sun 13 Dec, 11:00 pm Sydney. Starts the day after the UNSW Term 3 exam period ends (Thu 10 Dec 2026). Event page refused (permission timeout), so the official site, organiser and team rules were not checked. Times converted from UTC to Sydney. No registration deadline published; using start date."
+    },
+    {
+      "id": "ctftime:3062",
+      "title": "ASIS CTF Finals 2026",
+      "org": "ASIS",
+      "link": "https://asisctf.com/",
+      "source": "CTFtime",
+      "source_rank": 6,
+      "found_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "deadline": "2026-12-28T01:00:00+11:00",
+      "status": "new",
+      "closed": false,
+      "verified": "✅",
+      "starts_at": "2026-12-28T01:00:00+11:00",
+      "ends_at": "2026-12-29T01:00:00+11:00",
+      "mode": "online",
+      "city": "Online",
+      "themes": [
+        "Security/CTF"
+      ],
+      "team": "unknown",
+      "cost": "not stated",
+      "prize": "TBA",
+      "notes": "CTFtime rating weight 99.38 (future weight TBD), Jeopardy, online. Mon 28 Dec, 1:00 am to Tue 29 Dec, 1:00 am Sydney. The CTFtime event page and list show no restriction, but this is the finals of ASIS CTF and who may play is not stated (⚠️ may need qualification from the Aug 2026 quals; check asisctf.com). CTFtime entry: https://ctftime.org/event/3062 (read). Times converted from UTC to Sydney. Summer break. No registration deadline published; using start date."
     }
   ]
 }
