@@ -1,7 +1,7 @@
 # 🗂️ Automation Source Registry
 
 > Every website and source the five automation systems read, **in the order they are read**, with official links.
-> **Last verified:** 15 Oct 2026 (one live fetch per source); updated from the first seed runs on 18 Oct 2026.
+> **Last verified:** 15 Oct 2026 (one live fetch per source); updated from the seed runs on 18 Oct 2026 and the manual run on 23 Oct 2026.
 > **Owner:** Chaitanya. Claude updates this file (and the project copy) whenever a source is added, removed, moves, starts blocking, or changes rank.
 
 ---
@@ -83,19 +83,19 @@ Australia first, then Hong Kong, Singapore, US, UK, Europe, remote. Only during 
 
 | Rank | Tier | Source | Official link | Why this rank | Access | Status |
 |---|---|---|---|---|---|---|
-| 1 | 🥇 P1 | Prosple (national) | https://au.prosple.com/search-jobs?keywords=software&opportunity_types=2 | Biggest AU internship board; UNSW points students here; also HK/SG | ☁️ | ⚠️ search pages load empty from the cloud (18 Oct); single job pages work, reach them via WebSearch |
-| 2 | 🥇 P1 | SEEK Grad (was GradConnection; HK site is Jobsdb Grad) | https://au.gradconnection.com/internships/computer-science/sydney/ | "Accepts International" tag; quant and big tech | ☁️ | ✅ |
+| 1 | 🥇 P1 | Prosple (national) | https://au.prosple.com/search-jobs?keywords=software&opportunity_types=2 | Biggest AU internship board; UNSW points students here; also HK/SG | ☁️ · 🖥️ Chrome | ✅ Chrome (23 Oct): the search list renders in Chrome (79 results, 4 pages). From the cloud au.prosple.com refuses every fetch (23 Oct); reach single job pages via WebSearch |
+| 2 | 🥇 P1 | SEEK Grad (was GradConnection; HK site is Jobsdb Grad) | https://au.gradconnection.com/internships/computer-science/sydney/ | "Accepts International" tag; quant and big tech | ☁️ | ✅ closing times shown on job pages are UTC: "12:59pm" means 11:59 pm Sydney the same day (found 23 Oct) |
 | 3 | 🥇 P1 | Target company feeds: IMC, Optiver, Atlassian, Google, Canva | https://boards-api.greenhouse.io/v1/boards/imc/jobs · https://optiver.com/working-at-optiver/career-opportunities/ · https://www.atlassian.com/company/careers/all-jobs?team=Interns%2CGraduates · https://www.google.com/about/careers/applications/jobs/results/?location=Sydney%20NSW%2C%20Australia&target_level=INTERN_AND_APPRENTICE · https://www.lifeatcanva.com/en/jobs/ | Straight from the employer, earliest postings | ☁️ | ✅ |
 | 4 | 🥇 P1 | Seek internships | https://www.seek.com.au/software-internship-jobs/in-All-Sydney-NSW | Largest AU board | 🖥️ Chrome | ✅ Chrome (19 Oct): keyword searches such as `/software-intern-jobs/in-All-Australia?daterange=31`, then each `/job/<id>` page |
 | 5 | 🥈 P2 | LinkedIn Jobs | https://www.linkedin.com/jobs/ | Wide coverage; job-alert emails plus Chrome browsing at human pace (decided 17 Oct) | 🖥️ Chrome 🔒 + alert emails | ✅ Chrome (19 Oct): Internship level, IT and Engineering, past month; read each posting at `/jobs-guest/jobs/api/jobPosting/<id>`. Result lists only render items in view, and the guest search API returns nothing while signed in |
-| 6 | 🥈 P2 | Jane Street, Amazon careers | https://www.janestreet.com/join-jane-street/internships/ · https://www.amazon.jobs/en/search?base_query=intern&loc_query=Sydney%2C+Australia | High-value targets, but Chrome only | 🖥️ Chrome | 🚫 cloud CLIENT_ERROR (18 Oct). Jane Street HK Dec to Feb internship closed 31 Aug 2026 |
+| 6 | 🥈 P2 | Jane Street, Amazon careers | https://www.janestreet.com/join-jane-street/internships/ · https://www.amazon.jobs/en/search?base_query=intern&loc_query=Sydney%2C+Australia | High-value targets, but Chrome only | 🖥️ Chrome | ✅ Chrome (23 Oct): 41 Jane Street internships listed with open or closed state. 🚫 cloud CLIENT_ERROR (18 Oct). Jane Street HK Dec to Feb internship closed 31 Aug 2026 |
 | 7 | 🥈 P2 | Indeed (connector) | https://au.indeed.com | Works without the Mac; few internships | 🔌 | ✅ |
 | 8 | 🥈 P2 | Wellfound | https://wellfound.com/role/l/software-engineer-intern/sydney | Startups | ☁️ | ✅ |
-| 9 | 🥈 P2 | UNSWConnect (until 30 Oct 2026) | https://unswconnect.unsw.edu.au/ | UNSW board, closing 30 Oct | 🔒 | ⚠️ public board loads in Chrome (19 Oct, 708 jobs) but search and filters did not apply under automation; closes 30 Oct 2026 |
+| 9 | 🥈 P2 | UNSWConnect (until 30 Oct 2026) | https://unswconnect.unsw.edu.au/ | UNSW board, closing 30 Oct | 🖥️ Chrome | ✅ Chrome (23 Oct): all 216 active internships read (718 listings in total); job pages at `/campaign/<slug>` show work-rights tags. Its daily job-alert emails reach UNSW Outlook. Closes 30 Oct 2026, then use Prosple |
 | 10 | 🥉 P3 | SimplifyJobs Summer 2027 (US/UK) | https://github.com/SimplifyJobs/Summer2027-Internships | 1,900+ overseas roles, sponsorship flags | ☁️ | ✅ |
 | 11 | 🥉 P3 | Gradcracker (UK) | https://www.gradcracker.com/search/computing-technology/work-placements-internships | UK roles with deadlines | ☁️ | ✅ |
 | 12 | 🥉 P3 | JobStreet Singapore | https://sg.jobstreet.com/software-intern-jobs | SG roles | ☁️ | ✅ company names now shown (18 Oct) |
-| 13 | 🥉 P3 | JobsDB Hong Kong | https://hk.jobsdb.com/software-intern-jobs | HK roles | 🖥️ Chrome | 🚫 cloud CLIENT_ERROR |
+| 13 | 🥉 P3 | JobsDB Hong Kong | https://hk.jobsdb.com/software-intern-jobs | HK roles | 🖥️ Chrome | ✅ Chrome (23 Oct): a Cloudflare check clears by itself; 5 searches, 303 results. 🚫 cloud CLIENT_ERROR |
 | 14 | 🥉 P3 | Citadel, HRT, SIG, Akuna, Macquarie, CBA, Westpac, ANZ, Microsoft | company careers pages | Targets not yet tested | ⚠️ | not tested |
 | 15 | 🥉 P3 | UNSW Co-op vacancies | https://www.unsw.edu.au/co-op-program/apply-now/current-students | Looks undergraduate-only | ☁️ | ⚠️ |
 
@@ -138,9 +138,9 @@ Room from late Dec 2026, early Jan or early Feb 2027 · near UNSW Village · Ken
 | 1 | 🥇 P1 | Flatmates.com.au | https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+eastlakes-2018+randwick-2031+maroubra-2035+coogee-2034/max-350 | Most rooms in budget, shows available-from dates | 🖥️ Chrome (signed in) | ✅ Chrome works (18 Oct: 68 listings ≤ $350 across 6 suburbs); cloud fetch failed |
 | 2 | 🥇 P1 | UNSW Study Stays | https://studystays.unsw.edu.au/listings/search | UNSW-run board for students (listings not checked by UNSW) | ☁️ (login to contact) | ✅ 75 listings |
 | 3 | 🥇 P1 | Down Under Stay | https://downunderstay.com.au/rooms/ | Cheapest furnished rooms in Kensington, UNSW-listed | ☁️ | ✅ $235 to $285 (18 Oct); some room pages differ from the list price, use the higher figure |
-| 4 | 🥈 P2 | Gumtree flatshare | https://www.gumtree.com.au/s-flatshare-houseshare/kingsford/k0c18294l3003648 (plus the Eastern Suburbs page) | Cheap rooms; higher scam risk, extra checks | ☁️ | ✅ |
+| 4 | 🥈 P2 | Gumtree flatshare | https://www.gumtree.com.au/s-flatshare-houseshare/kingsford/k0c18294l3003648 plus Eastern Suburbs https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/c18294l3003633 | Cheap rooms; higher scam risk, extra checks | ☁️ · 🖥️ Chrome | ✅ (23 Oct: the old Eastern Suburbs link now redirects to Kensington; use the c18294l3003633 URL) |
 | 5 | 🥈 P2 | Australian Homestay Network (UNSW partner) | https://www.homestaynetwork.org/sydney-pricing | Under budget; option for a January gap | ☁️ | ✅ $325 shared, $355 private |
-| 6 | 🥈 P2 | Domain rentals | https://www.domain.com.au/rent/?suburb=kensington-nsw-2033,kingsford-nsw-2032,randwick-nsw-2031,maroubra-nsw-2035,coogee-nsw-2034&price=0-350 | Whole units, few rooms | ☁️ | ✅ all 3 studios ≤ $350 showed "leased by advertiser" (18 Oct) |
+| 6 | 🥈 P2 | Domain rentals | https://www.domain.com.au/rent/kingsford-nsw-2032/?price=0-350&excludedeposittaken=1 (one page per suburb) | Whole units, few rooms; agents now list single rooms too | ☁️ | ✅ (23 Oct): the combined six-suburb URL ignores the suburb filter (1,972 results Australia-wide), so use `/rent/<suburb>-nsw-<postcode>/?price=0-350&excludedeposittaken=1` per suburb |
 | 7 | 🥉 P3 | UNSW Village 2027 (CLV) | https://campuslivingvillages.com/australia/sydney/unsw-village/shared/ | Above budget; watch for price or term changes | ☁️ | ✅ $404 to $521 |
 | 8 | 🥉 P3 | UNSW Accommodation | https://www.unsw.edu.au/accommodation/apply-now | 2027 applications not open yet | ☁️ | ✅ |
 | 9 | 🥉 P3 | UniLodge Kensington | https://www.unilodge.com.au/student-accommodation-sydney/kensington | Early Bird until 30 Nov; from $575 | ☁️ | ✅ |
@@ -149,7 +149,7 @@ Room from late Dec 2026, early Jan or early Feb 2027 · near UNSW Village · Ken
 | 12 | 🥉 P3 | The Switch Kensington | https://www.switchliving.com.au/kensington-sydney/ | Leasing 2027, no prices | ☁️ | ✅ |
 | 13 | 🥉 P3 | rent.com.au | https://www.rent.com.au/properties/kensington-nsw-2033 | Whole units, mostly above budget | ☁️ | ✅ |
 | 14 | 🥉 P3 | Haush · ZUWU · Oz Homestay | https://www.haush.com.au/listings · https://www.zuwu.com.au/en/rooms?campus=unsw · https://www.ozhomestay.com.au | Low yield or no prices | ☁️ | ⚠️ ZUWU's campus=unsw filter does not narrow to the UNSW area |
-| 15 | 🥉 P3 | realestate.com.au · Roomgo | https://www.realestate.com.au/rent/in-kensington,+nsw+2033/list-1 · https://www.roomgo.com.au | Blocked; Chrome only if needed | 🖥️ Chrome | 🚫 |
+| 15 | 🥉 P3 | realestate.com.au · Roomgo | https://www.realestate.com.au/rent/in-kensington,+nsw+2033/list-1 · https://www.roomgo.com.au | Agent listings, including rooms | 🖥️ Chrome | ✅ realestate.com.au in Chrome (23 Oct: 34 results, 2 pages). 🚫 Roomgo: the domain no longer resolves (23 Oct), drop it if it stays down |
 | — | Reference | UNSW Off-Campus Accommodation Support | https://www.unsw.edu.au/accommodation/off-campus-accommodation | Advice, ocas@unsw.edu.au | ☁️ | ✅ |
 
 ### Safety checks (run on every listing)
@@ -179,4 +179,5 @@ Facebook groups: decided 17 Oct to browse in Chrome at human pace (Chaitanya acc
 | 15 Oct 2026 | Rank order, tiers and access protocol added. |
 | 18 Oct 2026 | Moved into the `radar` repo. All tiers run daily. LinkedIn and Facebook via Chrome. Personal details removed. |
 | 19 Oct 2026 | Chrome run: Arc jobs, Jobs@UNSW, Seek, Jora, Seek internships, LinkedIn and Meetup now work in Chrome (how-to in their status cells). CPMSoc site gone. |
+| 23 Oct 2026 | Manual run: Prosple, UNSWConnect, Jane Street, JobsDB HK and realestate.com.au now work in Chrome; GradConnection times are UTC; Domain needs per-suburb URLs; new Gumtree Eastern Suburbs URL; Roomgo domain gone. UNSW Outlook job emails (CSE industry mail, UNSWConnect alerts) also read for internships. |
 | 18 Oct 2026 | First seed runs (cloud only): statuses and URLs updated for Arc, Jobs@UNSW, CareerOne, Gumtree, Cluey, Prosple, SEEK Grad, JobStreet SG, Jane Street, Hackathons Australia, UNSW societies, CTFtime, Humanitix, Luma, Flatmates, Down Under Stay, Domain, Iglu, ZUWU. Step 9 added to the access protocol. |
