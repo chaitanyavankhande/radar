@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""rt_build.py - resume-tailor builder (v1.0, 23 Oct 2026).
+"""rt_build.py - resume-tailor builder (v1.1, 23 Oct 2026; council fixes).
 
 One JSON source -> LaTeX (.tex) -> PDF, plus plain text (.txt) and optional Word (.docx),
 then checks the output the way an ATS sees it.
@@ -19,7 +19,7 @@ import json, os, re, subprocess, sys, unicodedata
 
 # ---------------------------------------------------------------- text helpers
 LATEX_MAP = {'\\': r'\textbackslash{}', '&': r'\&', '%': r'\%', '$': r'\$', '#': r'\#',
-             '_': r'\_', '{': r'\{', '}': r'\}', '~': r'\textasciitilde{}', '^': r'\textasciicircum{}',
+             '_': r'{\texttt{\char95}}', '{': r'\{', '}': r'\}', '~': r'\textasciitilde{}', '^': r'\textasciicircum{}',
              '|': r'$|$', '<': r'$<$', '>': r'$>$'}
 UNICODE_OK = {'\u00a0': ' ', '–': '--', '’': "'", '‘': '`', '“': '``', '”': "''", '•': r'\textbullet{}',
               '×': r'$\times$', '…': r'\ldots{}', '★': '*', '·': r'\textperiodcentered{}', '→': r'$\rightarrow$'}
@@ -193,7 +193,7 @@ def build_resume_tex(d):
                 if p.get('meta'):
                     left += r' $|$ \emph{' + tex(p['meta']) + '}'
                 if p.get('url'):
-                    left += r' $|$ \href{' + p['url'] + '}{' + tex_plain(p.get('url_label', p['url'])) + '}'
+                    left += r' $|$ \href{' + p['url'].replace('%', r'\%').replace('#', r'\#') + '}{' + tex_plain(p.get('url_label', p['url'])) + '}'
                 if m.get('date_style', 'inline') == 'right':
                     out.append(r'\resumeProjectHeading{' + left + '}{' + tex(p.get('dates', '')) + '}')
                 else:
@@ -227,7 +227,7 @@ def build_letter_tex(d):
              r'\begin{document}', r'{\LARGE \textbf{' + tex_plain(b['name']) + r'}}\\[2pt]',
              r'\small ' + r' $|$ '.join(tex(p) for p in contact_parts(b)) + r'\normalsize', '', tex_plain(d['date'])]
     if d.get('recipient'):
-        lines.append(r' \\ '.join(tex(x) for x in d['recipient']))
+        lines.append(r' \\ {}'.join(tex(x) for x in d['recipient']))
     if d.get('subject'):
         lines.append(r'\textbf{' + tex(d['subject']) + '}')
     lines.append(tex(d['greeting']))
@@ -388,10 +388,11 @@ DUTY = re.compile(r'\b(responsible for|tasked with|worked on|duties included)\b'
 AI_WORDS = ['spearheaded', 'leveraged', 'leveraging', 'orchestrated', 'passionate', 'results-driven', 'synergy',
             'cutting-edge', 'seamless', 'seamlessly', 'transformative', 'showcase', 'showcasing', 'delve', 'fostered',
             'harnessed', 'proven track record', 'fast-paced', 'tapestry', 'meticulous']
-US_UK = [('optimiz', 'optimis'), ('organiz', 'organis'), ('analyz', 'analys'), ('behavior', 'behaviour'),
+US_UK = [('optimiz', 'optimis'), ('organiz', 'organis'), ('analyz', r'analys(e|ed|ing)\b'), ('behavior', 'behaviour'),
          ('modeling', 'modelling'), ('color', 'colour'), ('prioritiz', 'prioritis'), ('standardiz', 'standardis'),
          ('utiliz', 'utilis'), ('minimiz', 'minimis'), ('maximiz', 'maximis'), ('summariz', 'summaris'),
          ('customiz', 'customis')]
+YEAR_CTX = re.compile(r'(?:\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?|\b(?:in|since|from|until|to|by|of)|[\u2013-])\s*$', re.I)
 NUM = re.compile(r'(?<![A-Za-z+#\d.,])\d[\d,]*(?:\.\d+)?')
 
 
@@ -428,13 +429,21 @@ def lint(d, kind, report):
     allowed = set(str(x).replace(',', '').strip() for x in m.get('allowed_numbers', []))
     check_numbers = 'allowed_numbers' in m
     raw = json.dumps(d, ensure_ascii=False)
-    if '\u2014' in raw:
+    if '\u2014' in raw or '---' in raw:
         report['hard'].append('em dash found (his rule: none)')
     if '[ADD' in raw or 'YOU DECIDE' in raw:
         report['draft'] = True
         report['warn'].append('placeholders present: files are a DRAFT')
-    if re.search(r'\bRIT\b', raw):
-        report['hard'].append('"RIT" found: list IIIT Bangalore, never RIT')
+    if variant not in ('en-AU', 'en-GB', 'en-NZ', 'en-IE', 'en-HK', 'en-SG', 'en-IN', 'en-US'):
+        report['warn'].append(f'spelling variant {variant} not checked: proofread by hand')
+    if kind == 'letter' and norm(m['company']) not in norm(' '.join([d.get('subject', '')] + d.get('recipient', []) + d['paragraphs'])):
+        report['hard'].append(f'letter never names "{m["company"]}": wrong company or a copied letter?')
+    body = json.dumps({k: v for k, v in d.items() if k != 'meta'}, ensure_ascii=False).replace('**', '')
+    for w in m.get('never_use', []):
+        if re.search(r'(?<!\w)' + re.escape(w) + r'(?!\w)', body, 0 if w.isupper() else re.I):
+            report['hard'].append(f'never-use item "{w}" found (career doc section 0)')
+    if 'never_use' not in m:
+        report['warn'].append('meta.never_use missing: never-use check skipped')
     for where, t in all_texts(d, kind):
         p = plain(t)
         if kind == 'resume' and re.match(r"\s*(I|I'm|I've|My|Me)\b", p):
@@ -452,9 +461,12 @@ def lint(d, kind, report):
                 report['warn'].append(f'UK spelling "{uk}..." in en-US [{where}]')
     if check_numbers:
         for where, t in all_texts(d, kind, claims_only=True):
-            for n in NUM.findall(plain(t, urls=False)):
-                tok = n.replace(',', '').rstrip('.')
-                if re.fullmatch(r'(19|20)\d\d', tok):
+            pt = plain(t, urls=False)
+            for mm in NUM.finditer(pt):
+                n = mm.group(0).rstrip(',.')
+                tok = n.replace(',', '')
+                if (',' not in n and re.fullmatch(r'(19|20)\d\d', tok)
+                        and (YEAR_CTX.search(pt[:mm.start()]) or re.match(r'\s*[\u2013-]\s*(19|20)\d\d', pt[mm.start() + 4:]))):
                     continue
                 if tok not in allowed:
                     report['hard'].append(f'number "{n}" not in meta.allowed_numbers [{where}]: {plain(t)[:60]}')
@@ -585,6 +597,7 @@ def main():
     if r.returncode != 0 or not os.path.exists(pdf):
         errs = [l for l in r.stdout.splitlines() if l.startswith('!')][:5]
         report['hard'].append('pdflatex failed: ' + ' | '.join(errs))
+        report['status'] = 'FAIL'
         print(json.dumps(report, indent=1, ensure_ascii=False))
         sys.exit(1)
     log_path = os.path.join(outdir, stem + '.log')

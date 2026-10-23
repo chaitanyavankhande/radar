@@ -48,6 +48,7 @@ Exact fit first → up to 14 days over → dates unknown → clashes with term; 
   - Column order (A to W): Status · Role · Company · Location · Country · Role type · Paid · When · Start · End · Break fit · Days over break · Break · Accepts international · Closes · Link · Source · First seen · Closed · Checked · **Resume pack** · **Tailored on** · ID. Match rows by ID (last column), never by position.
   - **Sheet-only columns:** Status (his), Resume pack and Tailored on (written only by `/resume-tailor`). Keep all three exactly as they are when refreshing a row, and never copy Resume pack or Tailored on into `internships.json` or the public site.
   - Leave the **Full-time** tab alone (only `/resume-tailor` writes it).
+  - Rows whose ID starts with `resume-tailor:` were added by `/resume-tailor`: never delete them. When a scouted internship matches one (same Link, or same Company + Role + Location), write the scout's ID into that row and keep Status, Resume pack and Tailored on, instead of adding a second row.
 - Run summary: new roles, closing within 14 days, sources not checked.
 
 Never apply on his behalf.
