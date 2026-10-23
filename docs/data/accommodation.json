@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T05:24:22+11:00",
+ "updated_at": "2026-10-24T05:27:15+11:00",
  "previous_run_at": "2026-10-23T13:24:23+11:00",
  "sources": [
   {
@@ -1216,11 +1216,6 @@
      "code": "inconsistent_details",
      "level": "low",
      "reason": "Says \"Anyone except couples\" but is tagged as an all-female flat: ask who can actually apply"
-    },
-    {
-     "code": "low_response",
-     "level": "low",
-     "reason": "The lister replies to only 0% of messages on Flatmates."
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Kensington (listing P218737). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
@@ -2859,7 +2854,7 @@
     {
      "code": "low_response",
      "level": "low",
-     "reason": "The lister replies to only 0% of messages on Flatmates."
+     "reason": "The lister has a 0% response rate on Flatmates: no replies to messages recorded."
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1980008). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
@@ -3281,11 +3276,6 @@
      "code": "unverified_lister",
      "level": "low",
      "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 0% of messages"
-    },
-    {
-     "code": "low_response",
-     "level": "low",
-     "reason": "The lister replies to only 0% of messages on Flatmates."
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Randwick (listing P1072460). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
@@ -3459,9 +3449,9 @@
    "last_seen_at": "2026-10-24",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water, Gas, Internet. Listing icons: 2, 3, 2 (bedrooms, bathrooms, people).",
+   "notes": "Bills included: Electricity, Water, Gas, Internet. Listing icons: 2, 3, 2 (bedrooms, bathrooms, people). 24 Oct: removed from the open list because it is a short stay only (2 to 3 month stay from 17 Nov 2026, so it ends by mid-Feb 2027), which breaks the no-short-stays rule.",
    "suburb": "Randwick",
    "distance_km": 2.0,
    "transit_min": 15,
@@ -3528,9 +3518,9 @@
    "last_seen_at": "2026-10-24",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water, Gas. The others are not listed; ask. ⚠️ estimate: about $8/wk for bills not included. Short stay only (2 months stay). Listing icons: 4, 1, 4 (bedrooms, bathrooms, people). 23 Oct: Available-from date now 20 Nov 2026.",
+   "notes": "Bills included: Electricity, Water, Gas. The others are not listed; ask. ⚠️ estimate: about $8/wk for bills not included. Short stay only (2 months stay). Listing icons: 4, 1, 4 (bedrooms, bathrooms, people). 23 Oct: Available-from date now 20 Nov 2026. 24 Oct: removed from the open list because it is a short stay only (2-month stay from 20 Nov 2026, so it ends around 20 Jan 2027), which breaks the no-short-stays rule.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -4140,9 +4130,9 @@
    "last_seen_at": "2026-10-24",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water. The others are not listed; ask. ⚠️ estimate: about $13/wk for bills not included. Short stay only (2 months stay). Listing icons: 2, 2, 3 (bedrooms, bathrooms, people).",
+   "notes": "Bills included: Electricity, Water. The others are not listed; ask. ⚠️ estimate: about $13/wk for bills not included. Short stay only (2 months stay). Listing icons: 2, 2, 3 (bedrooms, bathrooms, people). 24 Oct: removed from the open list because it is a short stay only (2-month stay from 14 Dec 2026, so it ends around 14 Feb 2027), which breaks the no-short-stays rule.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -5005,12 +4995,7 @@
     {
      "code": "unverified_lister",
      "level": "low",
-     "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 9% of messages, no description of the place"
-    },
-    {
-     "code": "low_response",
-     "level": "low",
-     "reason": "The lister replies to only 8% of messages on Flatmates."
+     "reason": "The lister has no verified social media on Flatmates, plus other weak signs: replies to 8% of messages, no description of the place"
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P2009506). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
@@ -5302,17 +5287,7 @@
     {
      "code": "unverified_lister",
      "level": "low",
-     "reason": "The lister has no verified social media on Flatmates, plus other weak signs: last online 23 days ago, replies to 0% of messages"
-    },
-    {
-     "code": "inactive_lister",
-     "level": "low",
-     "reason": "The lister was last online 29 days ago: the room may already be taken."
-    },
-    {
-     "code": "low_response",
-     "level": "low",
-     "reason": "The lister replies to only 0% of messages on Flatmates."
+     "reason": "The lister has no verified social media on Flatmates, plus other weak signs: last online 29 days ago, replies to 0% of messages"
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your shared room in Kingsford (listing P1882018). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
@@ -8484,12 +8459,7 @@
     {
      "code": "unverified_lister",
      "level": "low",
-     "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing, 25% response rate"
-    },
-    {
-     "code": "low_response",
-     "level": "low",
-     "reason": "The lister replies to only 13% of messages on Flatmates."
+     "reason": "The lister has no verified social media on Flatmates, plus other weak signs: brand-new listing, 13% response rate"
     }
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the private room in your Coogee apartment (listing P1209326). I'm looking to move in between late December 2026 and early February 2027. Which bills would I pay apart from internet? I am fine living with a cat. Is there a washing machine I can use? I'd also like to arrange an inspection. Thank you.",
@@ -10209,7 +10179,7 @@
     {
      "code": "low_response",
      "level": "low",
-     "reason": "The lister replies to only 0% of messages on Flatmates."
+     "reason": "The lister has a 0% response rate on Flatmates: no replies to messages recorded."
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P2039279). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
