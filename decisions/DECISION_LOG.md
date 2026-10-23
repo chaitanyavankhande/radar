@@ -183,3 +183,11 @@ When a later answer overrides an earlier one, the later one wins; the notes say 
 | 18 Oct 2026 | Six calendars created with colours: UNSW tomato, Internships cobalt, Casual & Part-time Jobs basil, Hackathons grape, Events tangerine, Accommodation peacock | Set-up |
 | 18 Oct 2026 | accommodation-scout: fraud and scam flag catalogue (`shared/SCAM_FLAGS.md`), structured flags with level and reason, source trust tiers A/B/C, Flatmates lister signals and photo-reuse checks; site and Sheet hide women-only rooms and untrusted, unverified or high-risk rooms by default | Chaitanya asked for female-only rooms excluded by default, trusted verified rooms only, and every flag shown with its reason |
 | 18 Oct 2026 | accommodation-scout: laundry (washing machine yes, shared, likely, no, not mentioned, with evidence) and contact details for every room. Public site shows the contact route only; names, phone numbers and emails go to the private Sheet | Chaitanya asked for laundry and contact details on every room; the repo is public |
+
+## Change log (23 Oct 2026)
+
+| Date | Change | Why |
+|---|---|---|
+| 23 Oct 2026 | New on-demand skill `resume-tailor` (`systems/resume-tailor/`): links in, tailored resume and cover letter out, with eligibility and legal-hours checks, per-country and per-company format, independent council review. Builder `rt_build.py` added (no personal data) | Chaitanya asked for it; design agreed 20 Oct 2026 in his project |
+| 23 Oct 2026 | Sheet: Internships tab gets Resume pack and Tailored on (before ID); new Full-time tab. Both columns are Sheet-only; internship-scout keeps them and matches rows by ID | His answer: "do whatever additions need to be done in existing tracker"; Drive links must stay out of the public repo |
+

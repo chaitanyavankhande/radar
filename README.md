@@ -16,6 +16,12 @@ The results show up on one filterable website: **https://chaitanyavankhande.gith
 
 Scouts run early so the usage limit is fresh again before morning lectures.
 
+## 🎯 On-demand tool
+
+| Tool | What it does | Run it |
+|---|---|---|
+| 🎯 [resume-tailor](systems/resume-tailor/SKILL.md) | Paste internship or full-time job links: checks eligibility and legal hours, works out that country's and company's format, builds a tailored resume and cover letter (PDF, Overleaf `.tex`, text) with an independent council review, and links the private Drive folder in the Sheet | `/resume-tailor <links>` |
+
 ## 🗂️ What's in the repo
 
 ```text

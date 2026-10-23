@@ -59,6 +59,14 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `hours_per_week` | string | As advertised |
 | `resume_doc` | URL or null | Tailored draft resume (Google Doc) when pay ≥ floor |
 
+### 🔒 Sheet-only columns (never in JSON or on the site)
+
+| Tab | Column | Written by | Rule |
+|---|---|---|---|
+| every tab | Status | Chaitanya | The Sheet wins (RULES.md rule 8) |
+| Internships | Resume pack, Tailored on | `resume-tailor` | Private Drive folder link and date. Scouts keep them unchanged, match rows by ID, and never copy them to `docs/data/` (CLAUDE.md: no Drive ids in this repo) |
+| Full-time | whole tab | `resume-tailor` | Full-time jobs he tailored for; no JSON file and no site tab |
+
 ### 🚀 internships.json
 | Field | Type | Meaning |
 |---|---|---|
