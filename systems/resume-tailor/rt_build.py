@@ -88,7 +88,9 @@ PREAMBLE = r"""%-------------------------
 \usepackage{titlesec}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\definecolor{linkblue}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue}  % links shown in blue so recruiters see they are clickable
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -220,7 +222,8 @@ def build_letter_tex(d):
     m, b = d['meta'], d['basics']
     lines = [r'% Cover letter built by resume-tailor. Paste into Overleaf like the resume (pdfLaTeX).',
              r'\documentclass[' + m.get('paper', 'a4') + 'paper,' + str(m.get('font_size', 11)) + 'pt]{article}',
-             r'\usepackage[margin=0.9in]{geometry}', r'\usepackage[hidelinks]{hyperref}',
+             r'\usepackage[margin=0.9in]{geometry}', r'\usepackage{color}', r'\usepackage{hyperref}',
+             r'\definecolor{linkblue}{rgb}{0,0.2,0.6}', r'\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue}',
              r'\input{glyphtounicode}', r'\pdfgentounicode=1', r'\hyphenpenalty=10000', r'\exhyphenpenalty=10000',
              r'\hypersetup{pdftitle={' + tex_plain(b['name'] + ' - Cover letter') + '},pdfauthor={' + tex_plain(b['name']) + '}}',
              r'\setlength{\parindent}{0pt}', r'\setlength{\parskip}{8pt}', r'\pagestyle{empty}', r'\raggedright',
