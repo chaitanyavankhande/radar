@@ -38,17 +38,29 @@
       <span class="lbl">Sort</span>
       <select id="sort"></select>
     </label>
-    <button type="button" class="btn ghost" id="filters-btn" aria-controls="filters" aria-expanded="false">Filters <span id="fcount" class="count" hidden></span></button>
+    <button type="button" class="btn ghost" id="filters-btn" aria-haspopup="dialog" aria-controls="filters-dlg" aria-expanded="false"><span class="ficon" aria-hidden="true"></span>Filters <span id="fcount" class="count" hidden></span></button>
     <button type="button" class="btn ghost" id="share-btn">Copy link</button>
   </div>
 
   <div class="custom-sort" id="custom-sort" hidden></div>
 
+  <div class="active-f" id="active-f" hidden></div>
+
   <div class="layout">
-    <aside class="filters" id="filters" aria-label="Filters"></aside>
     <section class="results" id="results" aria-live="polite"></section>
   </div>
 </main>
+
+<dialog class="fdlg" id="filters-dlg" aria-labelledby="filters-title">
+  <div class="fdlg-in">
+    <div class="filters" id="filters"></div>
+    <div class="fdlg-foot">
+      <span class="fmatch" id="fmatch"></span>
+      <button type="button" class="btn ghost" data-clear>Clear all</button>
+      <button type="button" class="btn" data-fclose>Show results</button>
+    </div>
+  </div>
+</dialog>
 
 <footer class="foot">
   <div class="foot-in">

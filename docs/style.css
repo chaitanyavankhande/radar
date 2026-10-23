@@ -1,5 +1,6 @@
-/* Layout: sticky bar (brand + section tabs), then search/sort toolbar, then a filter rail beside the result list.
-   On phones the rail folds into a drawer opened by the Filters button. Yellow is the highlighter: it marks what is new. */
+/* Layout: sticky bar (brand + section tabs), then search/sort toolbar with one Filters button, then the result list.
+   Every filter lives in one dialog opened by that button (a bottom sheet on phones). Active filters show as removable chips
+   under the toolbar. Yellow is the highlighter: it marks what is new. */
 :root {
   --bg: #F3F5F8;
   --surface: #FFFFFF;
@@ -155,13 +156,44 @@ h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
 
 /* ---------- Layout ---------- */
 .layout { display: grid; gap: 16px; align-items: start; }
-@media (min-width: 960px) {
-  .layout { grid-template-columns: 272px minmax(0, 1fr); }
-  #filters-btn { display: none; }
-  .filters { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 112px); max-height: calc(100vh - 128px); overflow-y: auto; }
+
+/* ---------- Filters button, active chips and dialog ---------- */
+.ficon { width: 14px; height: 10px; flex: none; background:
+  linear-gradient(currentColor, currentColor) 0 0 / 100% 2px no-repeat,
+  linear-gradient(currentColor, currentColor) center / 64% 2px no-repeat,
+  linear-gradient(currentColor, currentColor) bottom center / 28% 2px no-repeat; }
+.active-f { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.achip {
+  font: inherit; font-size: var(--step--1); color: var(--ink); cursor: pointer;
+  display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; min-height: 30px;
+  border-radius: 999px; border: 1px solid var(--accent); background: var(--accent-soft);
 }
-@media (max-width: 959.98px) {
-  .filters:not([data-open]) { display: none; }
+.achip span { color: var(--ink-3); font-size: 0.75em; }
+.achip:hover span { color: var(--crit); }
+.fdlg {
+  border: 0; padding: 0; background: transparent; color: var(--ink);
+  width: min(1000px, calc(100vw - 32px)); max-width: none; max-height: calc(100dvh - 32px);
+}
+.fdlg::backdrop { background: rgb(8 12 18 / 0.5); }
+.fdlg-in {
+  display: flex; flex-direction: column; max-height: calc(100dvh - 32px);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+  box-shadow: 0 24px 64px rgb(0 0 0 / 0.28);
+}
+.fdlg .filters {
+  border: 0; border-radius: 0; overflow-y: auto; overscroll-behavior: contain;
+  padding: 0 20px 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); align-items: start; gap: 18px 24px;
+}
+.fdlg .fhead { grid-column: 1 / -1; position: sticky; top: 0; z-index: 1; background: var(--surface); padding: 16px 0 10px; border-bottom: 1px solid var(--line); }
+.xbtn { font: 700 var(--step-1) var(--font-body); width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.xbtn:hover { border-color: var(--ink-3); color: var(--ink); }
+.fdlg-foot { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: flex-end; padding: 12px 20px; border-top: 1px solid var(--line); background: var(--surface-2); }
+.fmatch { margin-right: auto; font: 500 var(--step--1) var(--font-data); color: var(--ink-2); }
+@media (max-width: 640px) {
+  .fdlg { width: 100vw; max-height: 92dvh; margin: auto 0 0; }
+  .fdlg-in { max-height: 92dvh; border-radius: 16px 16px 0 0; border-bottom: 0; padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .fdlg .filters { padding: 0 16px 16px; grid-template-columns: minmax(0, 1fr); }
+  .fdlg-foot { padding: 10px 16px; }
 }
 
 /* ---------- Filters ---------- */

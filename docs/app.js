@@ -102,6 +102,28 @@ const LAUNDRY_LABEL = { yes: 'Washing machine', shared: 'Shared laundry', likely
 const LAUNDRY_ICON = { yes: '✅', shared: '✅', likely: '🟡', no: '❌', 'not mentioned': '❔' };
 const laundryOf = it => LAUNDRY_LABEL[it.laundry] ? it.laundry : 'not mentioned';
 const contactOf = it => it.contact || {};
+/* Lease and "who can apply" are free text copied from each site. The filters group them into a few
+   plain buckets; the card still shows the exact wording. */
+const leaseBucket = it => {
+  const t = String(it.lease || '').trim().toLowerCase();
+  if (!t || /^not stated|short lease|short term/.test(t)) return 'Not stated or unclear';
+  if (/^flex/.test(t)) return 'Flexible';
+  const m = t.match(/(\d+)[\s-]*(?:(?:–|-|to)\s*\d+\s*)?(week|month|year)/);
+  if (!m) return 'Not stated or unclear';
+  const months = Number(m[1]) * (m[2] === 'week' ? 12 / 52 : m[2] === 'year' ? 12 : 1);
+  return months < 3 ? 'Under 3 months minimum' : months < 6 ? '3 to 5 months minimum' : months < 12 ? '6 to 11 months minimum' : '12 months or more';
+};
+const whoBucket = it => {
+  const t = String(it.who_can_apply || '').trim();
+  if (!t) return 'Not stated';
+  if (/preferred gender either/i.test(t)) return 'Anyone except couples';
+  if (/(wom[ae]n|female|girl)/i.test(t)) return /prefer/i.test(t) ? 'Anyone, women preferred' : 'Women only';
+  if (/\bmales?\b|\bmen\b/i.test(t)) return 'Men only';
+  if (/student/i.test(t)) return 'Students mentioned';
+  if (/except couples|no couples|^singles?\b/i.test(t)) return 'Anyone except couples';
+  if (/anyone|no preference|either/i.test(t)) return 'Anyone';
+  return 'Other';
+};
 const deadlineMs = it => { const d = parseWhen(it.deadline); return d ? +d : null; };
 const foundMs = it => { const d = parseWhen(it.found_at, 'start'); return d ? +d : null; };
 
@@ -357,8 +379,8 @@ const TABS = [
       { type: 'multi', key: 'suburb', label: 'Suburb', get: it => it.suburb },
       { type: 'multi', key: 'room', label: 'Room type', get: it => it.room_type },
       { type: 'daterange', key: 'avail', label: 'Available from', get: it => it.available_from },
-      { type: 'multi', key: 'lease', label: 'Lease', get: it => it.lease },
-      { type: 'multi', key: 'who', label: 'Who can apply', get: it => it.who_can_apply || 'Not stated' },
+      { type: 'multi', key: 'lease', label: 'Lease', get: leaseBucket },
+      { type: 'multi', key: 'who', label: 'Who can apply', get: whoBucket },
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
       { type: 'multi', key: 'laundry', label: 'Washing machine', get: it => LAUNDRY_LABEL[laundryOf(it)] },
@@ -656,7 +678,7 @@ function renderCustomSort() {
 function renderFilters() {
   const tab = TAB[state.tab], s = cur(), d = DATA[tab.id];
   const items = d ? d.items : [];
-  const parts = [`<div class="fhead"><h2>Filters</h2><button type="button" class="linkbtn" data-clear>Clear all</button></div>`,
+  const parts = [`<div class="fhead"><h2 id="filters-title">Filters</h2><button type="button" class="xbtn" data-fclose aria-label="Close filters">✕</button></div>`,
     `<div class="fgroup"><label class="switch"><input type="checkbox" id="f-hc" data-g="hc"${s.hc ? ' checked' : ''}> Hide closed</label>
      <label class="switch"><input type="checkbox" id="f-nw" data-g="nw"${s.nw ? ' checked' : ''}> New since last run only</label></div>`];
   for (const def of tab.filters()) {
@@ -688,6 +710,35 @@ function renderFilters() {
   const n = activeCount();
   $('#fcount').hidden = !n;
   $('#fcount').textContent = n;
+  renderActive();
+}
+/* one line under the toolbar naming every filter that is on, each removable */
+function activeList() {
+  const tab = TAB[state.tab], s = cur(), out = [];
+  if (!s.hc) out.push({ label: 'Showing closed', clear: () => { s.hc = true; } });
+  if (s.nw) out.push({ label: 'New only', clear: () => { s.nw = false; } });
+  for (const def of tab.filters()) {
+    const v = s.f[def.key];
+    if (isDefaultF(def.key, v) || v == null || v === '' || v === false || (Array.isArray(v) && !v.length)) continue;
+    let txt;
+    if (def.type === 'multi') txt = `${def.label}: ${arr(v).join(', ')}`;
+    else if (def.type === 'toggle') txt = def.label;
+    else if (def.type === 'select') txt = `${def.label}: ${((def.options || []).find(([ov]) => ov === String(v)) || [, v])[1]}`;
+    else if (def.type === 'max') txt = `${def.label.replace(/ at most| \(.*\)/g, '')} ≤ ${v}`;
+    else if (def.type === 'min') txt = `${def.label.replace(/ at least| \(.*\)/g, '')} ≥ ${v}`;
+    else if (def.type === 'daterange') { const [a = '', b = ''] = String(v).split('..'); txt = `${def.label}: ${a || '…'} to ${b || '…'}`; }
+    else txt = `${def.label}: ${v}`;
+    out.push({ label: txt, clear: () => { s.f[def.key] = (TAB[state.tab].defaultF || {})[def.key] ?? (def.type === 'multi' ? [] : def.type === 'toggle' ? false : ''); } });
+  }
+  return out;
+}
+function renderActive() {
+  const box = $('#active-f'), list = activeList();
+  activeList._cur = list;
+  if (!list.length) { box.hidden = true; box.innerHTML = ''; return; }
+  box.hidden = false;
+  box.innerHTML = list.map((a, i) => `<button type="button" class="achip" data-unf="${i}" aria-label="Remove filter: ${esc(a.label)}">${esc(a.label)} <span aria-hidden="true">✕</span></button>`).join('') +
+    `<button type="button" class="linkbtn" data-clear>Clear all</button>`;
 }
 function activeCount() {
   const s = cur();
@@ -756,9 +807,10 @@ function renderResults() {
   }
   const list = applySort(tab, applyFilters(tab, d.items, s), s);
   const total = d.items.length;
+  $('#fmatch').textContent = `${list.length} of ${total} match`;
   const hiddenClosed = s.hc ? d.items.filter(isClosed).length : 0;
   const notes = tab.hiddenNote ? tab.hiddenNote(d.items.filter(it => !(s.hc && isClosed(it))), s) : [];
-  let html = `<div class="rhead"><span>${list.length} of ${total} shown${hiddenClosed ? ` · ${hiddenClosed} closed hidden` : ''}${notes.map(n => ` · ${esc(n)}`).join('')}</span>${notes.length ? ' <span class="muted">(change under Safety and Women-only rooms in Filters)</span>' : ''}</div>`;
+  let html = `<div class="rhead"><span>${list.length} of ${total} shown${hiddenClosed ? ` · ${hiddenClosed} closed hidden` : ''}${notes.map(n => ` · ${esc(n)}`).join('')}</span>${notes.length ? ' <button type="button" class="linkbtn" data-fopen>change in Filters</button>' : ''}</div>`;
   if (!list.length) {
     html += `<div class="empty"><h3>Nothing matches these filters</h3><p>Try fewer filters or a shorter search.</p><button type="button" class="btn ghost" data-clear>Clear filters</button></div>`;
     box.innerHTML = html;
@@ -814,6 +866,10 @@ document.addEventListener('click', e => {
     const s = cur(); s.f = { ...(TAB[state.tab].defaultF || {}) }; s.q = ''; s.nw = false; s.hc = true;
     $('#q').value = ''; refresh(); return;
   }
+  if (e.target.closest('[data-fopen]')) { openFilters(); return; }
+  if (e.target.closest('[data-fclose]')) { closeFilters(); return; }
+  const un = e.target.closest('[data-unf]');
+  if (un) { const a = (activeList._cur || [])[Number(un.dataset.unf)]; if (a) { a.clear(); refresh(); } return; }
   const cp = e.target.closest('[data-copy]');
   if (cp) { const el = document.getElementById(cp.dataset.copy); if (el) copyText(el.textContent, el); return; }
 });
@@ -852,11 +908,21 @@ $('#filters').addEventListener('change', e => {
   } else s.f[key] = el.value;
   refresh();
 });
-$('#filters-btn').addEventListener('click', () => {
-  const f = $('#filters'), open = f.hasAttribute('data-open');
-  open ? f.removeAttribute('data-open') : f.setAttribute('data-open', '');
-  $('#filters-btn').setAttribute('aria-expanded', String(!open));
-});
+/* filters live in one dialog opened by the single Filters button */
+function openFilters() {
+  const d = $('#filters-dlg');
+  if (d.open) return;
+  if (typeof d.showModal === 'function') d.showModal(); else d.setAttribute('open', '');
+  $('#filters-btn').setAttribute('aria-expanded', 'true');
+  const first = d.querySelector('input, select'); if (first) first.focus();
+}
+function closeFilters() {
+  const d = $('#filters-dlg');
+  if (typeof d.close === 'function' && d.open) d.close(); else d.removeAttribute('open');
+}
+$('#filters-btn').addEventListener('click', openFilters);
+$('#filters-dlg').addEventListener('close', () => { $('#filters-btn').setAttribute('aria-expanded', 'false'); $('#filters-btn').focus(); });
+$('#filters-dlg').addEventListener('click', e => { if (e.target === e.currentTarget) closeFilters(); });
 $('#share-btn').addEventListener('click', () => { writeHash(); copyText(location.href); });
 window.addEventListener('hashchange', () => { if (readHash()) renderAll(); });
 
