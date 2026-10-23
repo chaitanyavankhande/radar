@@ -121,7 +121,7 @@ const whoBucket = it => {
   if (/\bmales?\b|\bmen\b/i.test(t)) return 'Men only';
   if (/student/i.test(t)) return 'Students mentioned';
   if (/except couples|no couples|^singles?\b/i.test(t)) return 'Anyone except couples';
-  if (/anyone|no preference|either/i.test(t)) return 'Anyone';
+  if (/anyone|no preference|either|any gender/i.test(t)) return 'Anyone';
   return 'Other';
 };
 const deadlineMs = it => { const d = parseWhen(it.deadline); return d ? +d : null; };
