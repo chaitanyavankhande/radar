@@ -511,7 +511,7 @@ def check_pdf(pdf, d, kind, report):
         if need and norm(need) not in flat:
             report['hard'].append(f'"{need}" missing from the text layer')
     for where, t in all_texts(d, kind):
-        frag = norm(plain(t))[:40]
+        frag = norm(plain(t, urls=False))[:40]  # the PDF shows link labels, not URLs
         if frag and frag not in flat:
             report['hard'].append(f'text not found in PDF text layer [{where}]: {frag}')
     if kind == 'resume':
@@ -561,7 +561,7 @@ def check_docx(path, d, kind, report):
         report['hard'].append('DOCX contains tables')
     text = norm('\n'.join(p.text for p in doc.paragraphs))
     for where, t in all_texts(d, kind):
-        frag = norm(plain(t))[:40]
+        frag = norm(plain(t, urls=False))[:40]  # the PDF shows link labels, not URLs
         if frag and frag not in text:
             report['hard'].append(f'text missing from DOCX [{where}]: {frag}')
 
