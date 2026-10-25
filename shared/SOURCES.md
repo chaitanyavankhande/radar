@@ -258,6 +258,31 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 
 **Down Under Stay room pages:** open each room URL listed in https://downunderstay.com.au/rooms-sitemap.xml (those come from a page result, so they are allowed).
 
+## 7. ✈️ `flight-scout`
+
+On demand only, while Chaitanya is present. Fares change by the minute, so routes and dates are **typed into each site's own search form** in Chrome; Claude never builds a results URL (RULES.md 3.2). Prices are ✅ only when the seller's own page showed them.
+
+| Rank | Tier | Source | How | Use |
+|---|---|---|---|---|
+| 1 | 🥇 P1 | Google Flights https://www.google.com/travel/flights | 🖥️ Chrome | Date grid and results; one-way, return, nearby airports, 1 stop, bags filter |
+| 2 | 🥇 P1 | Skyscanner https://www.skyscanner.com.au | 🖥️ Chrome | Cross-check and extra sellers; only trusted sellers below |
+| 3 | 🥇 P1 | Airline official sites (list below) | 🖥️ Chrome | Confirm price, bag, meals, special meals; student fares |
+| 4 | 🥈 P2 | MakeMyTrip https://www.makemytrip.com/flights/ | 🖥️ Chrome | Indian card, UPI, EMI and coupon offers applied at review step |
+| 5 | 🥈 P2 | Cleartrip https://www.cleartrip.com/flights | 🖥️ Chrome | Same |
+| 6 | 🥈 P2 | EaseMyTrip https://www.easemytrip.com/flights.html | 🖥️ Chrome | Same |
+| 7 | 🥈 P2 | Yatra https://www.yatra.com/flights | 🖥️ Chrome | Same |
+| 8 | 🥈 P2 | ixigo https://www.ixigo.com/flights | 🖥️ Chrome | Same |
+| 9 | 🥈 P2 | Expedia Australia https://www.expedia.com.au/Flights | 🖥️ Chrome | Australian codes and cards |
+| 10 | 🥈 P2 | Webjet https://www.webjet.com.au | 🖥️ Chrome | Australian codes and cards |
+| 11 | 🥉 P3 | Offer pages of the OTAs and banks above | ☁️ Search, then fetch the returned URL | Expiry, cap, minimum, international or not |
+| 12 | 🥉 P3 | Student schemes: UNiDAYS, ISIC, airline student pages | ☁️ | Student fares and discounts, extra baggage, stacking rules |
+| 13 | 🥉 P3 | Skytrax ratings https://skytraxratings.com | ☁️ | One input to the airline judgement |
+| 14 | 🥉 P3 | Transit visa rules (official government or airline pages) | ☁️ | 🔴 transit visa flag |
+
+**Airline sites (rank 3):** airindia.com · qantas.com · singaporeair.com · flyscoot.com · malaysiaairlines.com · batikair.com.my · thaiairways.com · cathaypacific.com · emirates.com · qatarairways.com · etihad.com · srilankan.com · vietnamairlines.com · goindigo.in
+
+**Trusted sellers:** the airlines above, MakeMyTrip, Cleartrip, EaseMyTrip, Yatra, ixigo, Goibibo, Expedia, Webjet, Flight Centre, Trip.com. Any other seller shown by Skyscanner or Google Flights is skipped and listed under "Skipped as suspicious". **Never:** Kiwi.com or any self-transfer itinerary (bags not checked through).
+
 ---
 
 ## Change log
@@ -273,3 +298,4 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 | 24 Oct 2026 | Accommodation: Study Stays paging parameters, Down Under Stay sitemap, Gumtree keyword searches, ZUWU and Flatmate Finders need Chrome, allhomes is stale via WebFetch. Added ranks 16 to 21 (Facebook, marketplaces, Flatmate Finders, UNSW-listed co-living operators, colleges and purpose-built). |
 | 18 Oct 2026 | First seed runs (cloud only): statuses and URLs updated for Arc, Jobs@UNSW, CareerOne, Gumtree, Cluey, Prosple, SEEK Grad, JobStreet SG, Jane Street, Hackathons Australia, UNSW societies, CTFtime, Humanitix, Luma, Flatmates, Down Under Stay, Domain, Iglu, ZUWU. Step 9 added to the access protocol. |
 | 26 Oct 2026 | Accommodation manual run: cloud subagents' WebFetch was refused (PROVENANCE_REQUIRED) for Down Under Stay, most Domain suburb pages, rent.com.au, view, homely, Haush, Oz Homestay and the co-living operators. Down Under Stay works in Chrome (fetch /rooms-sitemap.xml and every room page from the site's own tab; status sits right after the suburb: Available, Available Soon or Occupied). Domain in Chrome needs the person to allow domain.com.au once in Claude in Chrome. Flatmate Finders 1665469 now redirects to Paddington. |
+| 26 Oct 2026 | New section 7 for the on-demand `flight-scout`: ranked flight sources, trusted sellers, offer and student pages. |

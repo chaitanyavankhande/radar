@@ -166,6 +166,28 @@ const BILLS = ['electricity', 'gas', 'water', 'internet'];
 const billsCount = it => it.bills_included_count ?? BILLS.filter(b => (it.bills || {})[b] === 'included').length;
 
 /* ---------- tab definitions ---------- */
+/* flights: legs carry local times with their own offset; show them as the airport's local clock */
+const LIST_LABEL = { out: 'Outbound one-way', back: 'Return one-way', 'return': 'Return ticket' };
+const LIST_RANK = { out: 0, back: 1, 'return': 2 };
+function localClock(s) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(String(s || ''));
+  if (!m) return '';
+  const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+  const wd = d.toLocaleDateString('en-AU', { weekday: 'short', timeZone: 'UTC' });
+  const mo = d.toLocaleDateString('en-AU', { month: 'short', timeZone: 'UTC' });
+  let h = +m[4]; const ap = h >= 12 ? 'pm' : 'am'; h = h % 12 || 12;
+  return `${wd} ${+m[3]} ${mo}, ${h}:${m[5]} ${ap}`;
+}
+const hm = mins => { const n = num(mins); if (n == null) return ''; return `${Math.floor(n / 60)} h ${String(n % 60).padStart(2, '0')} m`; };
+const legsOf = it => arr(it.legs);
+const flagsF = it => it.flags || {};
+const flightFlagCount = it => { const f = flagsF(it); return (f.transit_visa ? 1 : 0) + (f.overnight_airport ? 1 : 0) + (f.after_hours ? 1 : 0) + (f.unsw_clash ? 1 : 0); };
+const firstDepart = it => { const l = legsOf(it)[0]; const d = l && parseWhen(l.depart_at, 'start'); return d ? +d : null; };
+const inr = v => v == null ? null : '₹' + Math.round(v).toLocaleString('en-IN');
+function legHtml(l) {
+  const lay = arr(l.layovers).map(x => `${esc(x.airport)} ${esc(hm(x.minutes))}${x.overnight ? (x.hotel ? ' 🌙 hotel by airline' : ' 🌙 overnight in airport') : ''}`).join(', ');
+  return `<div class="leg"><b>${esc(l.from)} → ${esc(l.to)}</b> <span class="num">${esc(localClock(l.depart_at))} → ${esc(localClock(l.arrive_at))}</span><br><span class="muted">${esc(hm(l.duration_min))} · ${l.stops ? `1 stop: ${lay}` : 'nonstop'}${arr(l.flights).length ? ` · ${esc(arr(l.flights).join(', '))}` : ''}</span></div>`;
+}
 const TABS = [
   {
     id: 'uni', file: 'uni', label: 'Uni deadlines', icon: '🎓', noun: 'deadline',
@@ -473,7 +495,93 @@ const TABS = [
       return h + noteBlock(it);
     }
   }
+  ,{
+    id: 'flights', file: 'flights', label: 'Flights', icon: '✈️', noun: 'flight',
+    heading: 'Flights',
+    lede: 'Cheapest decent flights from the last flight-scout run: at most 1 stop on one ticket with bags checked through, layovers up to 8 h, under 24 h, meals on long legs. Prices are after the best card, student or coupon offer, with add-ons, surcharges and nearby-airport transfers included. Fares change fast: check the time each price was seen.',
+    schedule: 'flight-scout runs only when asked.',
+    search: it => [it.title, it.org, it.route, arr(it.airlines).join(' '), it.notes, it.seller, it.best_offer && it.best_offer.name, ...legsOf(it).map(l => arr(l.via).join(' '))],
+    filters: () => [
+      { type: 'multi', key: 'list', label: 'List', get: it => LIST_LABEL[it.list] || it.list },
+      { type: 'multi', key: 'route', label: 'Route', get: it => it.route },
+      { type: 'multi', key: 'airline', label: 'Airline', get: it => arr(it.airlines) },
+      { type: 'multi', key: 'via', label: 'Via', get: it => { const v = legsOf(it).flatMap(l => arr(l.via)); return v.length ? v : ['Nonstop']; } },
+      { type: 'daterange', key: 'dep', label: 'First departure', get: it => { const l = legsOf(it)[0]; return l ? String(l.depart_at || '').slice(0, 10) : null; } },
+      { type: 'max', key: 'max_aud', label: 'Total at most (AUD)', get: it => num(it.total_aud), step: 50 },
+      { type: 'max', key: 'max_h', label: 'Each direction at most (hours)', get: it => { const m = Math.max(...legsOf(it).map(l => num(l.duration_min) || 0)); return m ? m / 60 : null; }, step: 1 },
+      { type: 'toggle', key: 'transport', label: 'Arrives while public transport runs', test: it => !flagsF(it).after_hours },
+      { type: 'toggle', key: 'novisa', label: 'Hide transit visa flags', test: it => !flagsF(it).transit_visa },
+      { type: 'toggle', key: 'noovernight', label: 'Hide overnight in airport', test: it => !flagsF(it).overnight_airport },
+      { type: 'toggle', key: 'nounsw', label: 'Hide UNSW clashes', test: it => !flagsF(it).unsw_clash },
+      { type: 'toggle', key: 'student', label: 'Student fare or discount used', test: it => !!it.student_fare || (it.best_offer && it.best_offer.kind === 'student') },
+      ...commonFilters()
+    ],
+    keys: {
+      price: { label: 'Cheapest after offers', get: it => num(it.total_aud) },
+      time: { label: 'Fastest', get: it => num(it.total_minutes) },
+      dep: { label: 'Earliest departure', get: firstDepart },
+      flags: { label: 'Fewest flags', get: flightFlagCount },
+      list: { label: 'List', get: it => LIST_RANK[it.list] ?? 9 },
+      found: { label: 'First seen', get: foundMs }
+    },
+    presets: [
+      { id: 'default', label: 'Cheapest after offers', keys: [['price', 'asc'], ['time', 'asc'], ['flags', 'asc']] },
+      { id: 'list', label: 'By list, then cheapest', keys: [['list', 'asc'], ['price', 'asc']] },
+      { id: 'fastest', label: 'Fastest', keys: [['time', 'asc'], ['price', 'asc']] },
+      { id: 'earliest', label: 'Earliest departure', keys: [['dep', 'asc'], ['price', 'asc']] },
+      { id: 'flags', label: 'Fewest flags, then cheapest', keys: [['flags', 'asc'], ['price', 'asc']] }
+    ],
+    when: it => { const l = legsOf(it)[0]; return l ? l.depart_at : null; },
+    whenLabel: 'Departs (Sydney time)',
+    whenEdge: 'start',
+    facts: it => {
+      const p = it.price || {};
+      const reason = it.airline_reason ? ` <details class="info"><summary aria-label="Why this airline">ⓘ</summary><p>${esc(it.airline_reason)}</p></details>` : '';
+      const bo = it.best_offer;
+      return [
+        ['Total after offers', num(it.total_aud) == null ? '<span class="muted">not priced</span>' : `<span class="num">${money(Math.round(num(it.total_aud)))} · ${inr(num(it.total_inr))}</span>`],
+        ['Best offer', bo ? `${esc(bo.name)}${num(bo.saving_aud) ? ` <span class="num">(−${money(Math.round(num(bo.saving_aud)))})</span>` : ''}` : '<span class="muted">none found</span>'],
+        ['Airline', esc(arr(it.airlines).join(' + ')) + reason],
+        ['Flights', legsOf(it).map(legHtml).join('')],
+        ['Bags', esc(it.checked_bag || '') || '<span class="muted">not stated</span>'],
+        ['Meals', esc(it.meals || '') || '<span class="muted">not stated</span>'],
+        ['Seller', esc(it.seller || '')],
+        ['Price seen', esc(showWhen(it.price_seen_at, 'start') || '')]
+      ];
+    },
+    chips: it => {
+      const c = [], f = flagsF(it);
+      c.push([LIST_LABEL[it.list] || it.list, 'info']);
+      if (f.transit_visa) c.push([`🔴 Transit visa: ${f.transit_visa.country || ''}`, 'crit']);
+      if (f.overnight_airport) c.push(['🌙 Overnight in airport', 'warn']);
+      if (f.after_hours) c.push(['🚇 Arrives after hours', 'warn']);
+      if (f.unsw_clash) c.push(['🎓 UNSW clash', 'warn']);
+      if (it.ground) c.push([`Nearby airport: ${it.ground.from || ''}`, 'info']);
+      if (it.student_fare) c.push(['Student fare', 'good']);
+      if (it.bags_through && it.single_ticket) c.push(['Bags checked through', 'good']);
+      return c;
+    },
+    more: it => {
+      const p = it.price || {};
+      const row = (k, v) => v == null || v === '' ? '' : `<tr><td>${esc(k)}</td><td class="num">${v}</td></tr>`;
+      let h = `<div><h4>How the price is built</h4><table class="src-table"><tbody>${row('Base fare', money(num(p.base_aud)))}${row('Bags and meals added' + (p.addons_note ? ` (${p.addons_note})` : ''), num(p.addons_aud) ? money(num(p.addons_aud)) : null)}${row('Card surcharge and forex', num(p.surcharge_aud) ? money(num(p.surcharge_aud)) : null)}${row('Best offer', num(p.offer_saving_aud) ? '−' + money(num(p.offer_saving_aud)) : null)}${row('Ground transfer', it.ground && num(it.ground.cost_aud) ? money(num(it.ground.cost_aud)) : null)}${row('Total', money(num(it.total_aud)))}${row('In INR', inr(num(it.total_inr)))}</tbody></table>${p.fx_rate ? `<p class="muted">Rate 1 AUD = ₹${esc(p.fx_rate)}${p.fx_date ? `, read ${esc(p.fx_date)}` : ''}</p>` : ''}</div>`;
+      const offers = [it.best_offer, ...arr(it.other_offers)].filter(Boolean);
+      if (offers.length) h += `<div><h4>Offers</h4><ul>${offers.map((o, i) => `<li>${i === 0 ? '<b>Best:</b> ' : ''}${esc(o.name)}${num(o.saving_aud) ? ` (−${money(Math.round(num(o.saving_aud)))})` : ''}${o.needs ? `. Needs: ${esc(o.needs)}` : ''}${o.valid_till ? `. Valid till ${esc(o.valid_till)}` : ''} ${esc(o.verified || '')}${safeUrl(o.url) ? ` <a href="${esc(o.url)}" target="_blank" rel="noopener">terms ↗</a>` : ''}</li>`).join('')}</ul></div>`;
+      if (it.student_fare) h += `<div><h4>Student fare</h4><p>${esc(it.student_fare)}</p></div>`;
+      if (it.special_meal) h += `<div><h4>Special meal</h4><p>${esc(it.special_meal)}</p></div>`;
+      if (it.ground) h += `<div><h4>Ground transfer</h4><p>${esc([it.ground.from, it.ground.to].filter(Boolean).join(' → '))}${it.ground.mode ? ` by ${esc(it.ground.mode)}` : ''}${num(it.ground.minutes) ? `, about ${esc(hm(it.ground.minutes))}` : ''}${num(it.ground.cost_aud) ? `, about ${money(num(it.ground.cost_aud))}` : ''} ⚠️ estimate</p></div>`;
+      const f = flagsF(it), fl = [];
+      if (f.transit_visa) fl.push(`🔴 ${esc(f.transit_visa.country || '')}: ${esc(f.transit_visa.note || 'transit visa needed')}`);
+      if (f.overnight_airport) fl.push('🌙 Overnight layover with no airline hotel');
+      if (f.after_hours) fl.push('🚇 Arrives when public transport is not running');
+      if (f.unsw_clash) fl.push(`🎓 ${esc(f.unsw_clash)}`);
+      if (fl.length) h += `<div><h4>Flags</h4><ul>${fl.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+      h += `<div><h4>Before you book</h4><ul><li>Check the price again on the seller's page; fares change quickly.</li><li>Pre-book your special meal and seat after booking.</li><li>Student fares need proof of enrolment at check-in.</li></ul></div>`;
+      return h + noteBlock(it);
+    }
+  }
 ];
+
 const TAB = Object.fromEntries(TABS.map(t => [t.id, t]));
 
 function hostOf(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }

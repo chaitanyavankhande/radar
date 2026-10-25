@@ -299,3 +299,10 @@ details.more > summary { cursor: pointer; color: var(--accent); font-size: var(-
   .sortsel { flex: 1 1 100%; }
   .toolbar .btn.ghost { flex: 1 1 0; justify-content: center; }
 }
+/* flights */
+.leg + .leg { margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
+details.info { display: inline; }
+details.info summary { display: inline-flex; align-items: center; justify-content: center; width: 1.3em; height: 1.3em; border-radius: 50%; border: 1px solid var(--line); color: var(--accent); cursor: pointer; font-size: 0.8em; list-style: none; vertical-align: middle; }
+details.info summary::-webkit-details-marker { display: none; }
+details.info[open] p { margin: 6px 0 0; padding: 8px 10px; background: var(--accent-soft); border-radius: var(--r); font-size: var(--step--1); color: var(--ink); }
+.fact:has(.leg) { grid-column: 1 / -1; }

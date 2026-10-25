@@ -9,6 +9,7 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `docs/data/hackathons.json` | `hackathon-scout` | 🏆 Hackathons |
 | `docs/data/accommodation.json` | `accommodation-scout` | 🏠 Accommodation |
 | `docs/data/uni.json` | `uni-daily-brief` | 🎓 Uni deadlines |
+| `docs/data/flights.json` | `flight-scout` (on demand) | ✈️ Flights |
 
 ## File shape
 
@@ -126,6 +127,31 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `enquiry_draft` | string | Draft message for Chaitanya to send himself |
 
 **Default view (site and Sheet):** trust `A` or `B`, verified ✅, risk not `high`, `women_only` null, not closed. Everything else stays in the data and can be shown with the Safety and Women-only filters.
+
+### ✈️ flights.json
+No Sheet tab. `deadline` is null; `status` stays `new`. Items from an earlier route or date range get `closed: true`. No personal details: no names, passport or visa facts, meal choices or card holdings.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `list` | string | `out` (X to Y one-way), `back` (Y to X one-way), `return` (one return ticket) |
+| `route` | string | e.g. `SYD → PNQ` or `SYD ⇄ BOM` |
+| `legs` | object[] | One per direction: `{ dir, from, to, depart_at, arrive_at, duration_min, stops, via: [], layovers: [{ airport, minutes, overnight, hotel }], flights: [], airlines: [] }`. Times are local ISO with offset |
+| `airlines` | string[] | Marketing airlines |
+| `airline_reason` | string | 2 to 3 sentences on why the airline counts as decent (the ⓘ on the site) |
+| `single_ticket`, `bags_through` | bool | Both must be true |
+| `checked_bag` | string | Allowance in the fare or as priced, e.g. `30 kg (25 kg fare + 5 kg added)` |
+| `meals` | string | What is included per leg |
+| `special_meal` | string | Whether the preferred special meal can be pre-booked |
+| `price` | object | `{ base_aud, addons_aud, addons_note, surcharge_aud, offer_saving_aud, final_aud, final_inr, fx_rate, fx_date }` |
+| `best_offer` | object or null | `{ name, kind, saving_aud, needs, valid_till, url, verified }` (kind: card, student, coupon, upi, emi) |
+| `other_offers` | object[] | Other offers that also apply, same shape |
+| `student_fare` | string or null | Student fare found and its terms |
+| `ground` | object or null | Nearby-airport transfer `{ from, to, mode, minutes, cost_aud }` |
+| `total_aud`, `total_inr` | number | `final_aud` plus ground transfer |
+| `total_minutes` | number | Sum of leg durations |
+| `flags` | object | `{ transit_visa: null or { country, note }, overnight_airport: bool, after_hours: bool, unsw_clash: null or string }` |
+| `seller` | string | Where the price was read (trusted seller list) |
+| `price_seen_at` | ISO datetime | When the price was read |
 
 ### 🎓 uni.json
 | Field | Type | Meaning |
