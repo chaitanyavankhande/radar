@@ -6,6 +6,7 @@
 | Cron | `CRON_TZ=Australia/Sydney 54 4 * * *` |
 | Scheduled task | New scheduled task. Disable it (do not delete) once a lease is signed. |
 | Notifications | Push only (no email) |
+| Approval | **Automatically approve** (set by Chaitanya in the task settings; Claude cannot set it). Never "Manually approve": nobody is there at run time. Safety comes from `shared/RULES.md` section 3. |
 | Model | Account default for scheduled tasks (currently claude-opus-5) |
 | Connectors | Google Drive (Sheet) · Google Calendar · Claude in Chrome (realestate.com.au, Roomgo, Facebook groups) · memory · GitHub |
 | Personal values used | HOME_BASE, RENT_MAX, MOVE_IN_WINDOW, SHEET_URL, GOOGLE_ACCOUNT |

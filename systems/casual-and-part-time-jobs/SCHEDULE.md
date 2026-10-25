@@ -6,6 +6,7 @@
 | Cron | `CRON_TZ=Australia/Sydney 22 4 * * *` |
 | Scheduled task | New scheduled task. |
 | Notifications | Push only (no email) |
+| Approval | **Automatically approve** (set by Chaitanya in the task settings; Claude cannot set it). Never "Manually approve": nobody is there at run time. Safety comes from `shared/RULES.md` section 3. |
 | Model | Account default for scheduled tasks (currently claude-opus-5) |
 | Connectors | Google Drive (Sheet, tailored resumes) · Google Calendar · Gmail (job alerts) · Claude in Chrome (Seek, Jora, Jobs@UNSW) · memory · GitHub |
 | Personal values used | HOME_BASE, PAY_FLOOR, SHEET_URL, DRIVE_ROOT, RESUME_BASE, GOOGLE_ACCOUNT |

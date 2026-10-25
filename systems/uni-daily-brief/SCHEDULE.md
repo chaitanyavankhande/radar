@@ -6,6 +6,7 @@
 | Cron | `CRON_TZ=Australia/Sydney 45 7 * * *` |
 | Scheduled task | Rewrites the existing morning brief scheduled task in place (same task, new name and prompt). No second uni task. |
 | Notifications | Push only (no email) |
+| Approval | **Automatically approve** (set by Chaitanya in the task settings; Claude cannot set it). Never "Manually approve": nobody is there at run time. Safety comes from `shared/RULES.md` section 3. |
 | Model | Account default for scheduled tasks (currently claude-opus-5) |
 | Connectors | Gmail · Google Calendar · Google Drive · Claude in Chrome (Outlook, second Gmail) · memory · GitHub (radar repo) |
 | Personal values used | UNSW_SIGNIN, GMAIL_1, GMAIL_2, GOOGLE_ACCOUNT |
