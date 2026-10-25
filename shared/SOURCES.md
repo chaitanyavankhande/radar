@@ -177,6 +177,87 @@ The full flag catalogue, levels, trust tiers and sources are in `shared/SCAM_FLA
 
 Facebook groups: decided 17 Oct to browse in Chrome at human pace (Chaitanya accepted the account risk). Rank 16, P3.
 
+## 6. 🔗 Exact URLs (fetch these as written)
+
+Every URL a scout needs, written in full. **Never edit a URL** (page number, suburb, filter, keyword): the app asks Chaitanya to approve every URL Claude builds itself, which stalls the run. Fetch only URLs from this file or from a search or page result. If a needed URL is missing, mark the source "not checked: URL not listed" and put the URL under **"URLs to add"** in the run summary so it can be added here.
+
+### 💼 casual-and-part-time-jobs
+
+**Seek (Chrome), one exact-location casual and part-time search per suburb**
+
+- https://www.seek.com.au/jobs/in-Kensington-NSW-2033?distance=0&worktype=243%2C245
+- https://www.seek.com.au/jobs/in-Kingsford-NSW-2032?distance=0&worktype=243%2C245
+- https://www.seek.com.au/jobs/in-Randwick-NSW-2031?distance=0&worktype=243%2C245
+- https://www.seek.com.au/jobs/in-Maroubra-NSW-2035?distance=0&worktype=243%2C245
+- https://www.seek.com.au/jobs/in-Coogee-NSW-2034?distance=0&worktype=243%2C245
+
+**Jora (Chrome)**
+
+- https://au.jora.com/j?q=casual&l=Kensington+NSW&r=0
+- https://au.jora.com/j?q=casual&l=Kingsford+NSW&r=0
+- https://au.jora.com/j?q=casual&l=Randwick+NSW&r=0
+- https://au.jora.com/j?q=casual&l=Maroubra+NSW&r=0
+- https://au.jora.com/j?q=casual&l=Coogee+NSW&r=0
+
+**Gumtree Jobs (cloud)**
+
+- https://www.gumtree.com.au/s-jobs/nsw/kensington/k0c9302l3008839
+- https://www.gumtree.com.au/s-jobs/nsw/kingsford/k0c9302l3008839
+- https://www.gumtree.com.au/s-jobs/nsw/randwick/k0c9302l3008839
+- https://www.gumtree.com.au/s-jobs/nsw/maroubra/k0c9302l3008839
+- https://www.gumtree.com.au/s-jobs/nsw/coogee/k0c9302l3008839
+
+### 🚀 internship-scout
+
+**Seek internships (Chrome)**
+
+- https://www.seek.com.au/software-internship-jobs/in-All-Sydney-NSW
+- https://www.seek.com.au/software-intern-jobs/in-All-Australia?daterange=31
+- Each `/job/<id>` page: open it only from a link on a Seek results page (that counts as a page result, so it is allowed).
+
+### 🏠 accommodation-scout
+
+**UNSW Study Stays (cloud), pages 1 to 8**
+
+- https://studystays.unsw.edu.au/listings/search?Page=1&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=2&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=3&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=4&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=5&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=6&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=7&IsProbe=False&ShouldLogProbeBan=True
+- https://studystays.unsw.edu.au/listings/search?Page=8&IsProbe=False&ShouldLogProbeBan=True
+
+**Domain (cloud), one page per suburb**
+
+- https://www.domain.com.au/rent/kensington-nsw-2033/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/kingsford-nsw-2032/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/randwick-nsw-2031/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/maroubra-nsw-2035/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/coogee-nsw-2034/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/eastlakes-nsw-2018/?price=0-350&excludedeposittaken=1
+
+**Flatmate Finders (Chrome, one page at a time)**
+
+- https://www.flatmatefinders.com.au/rooms/kensington-2033
+- https://www.flatmatefinders.com.au/rooms/kingsford-2032
+- https://www.flatmatefinders.com.au/rooms/randwick-2031
+- https://www.flatmatefinders.com.au/rooms/maroubra-2035
+- https://www.flatmatefinders.com.au/rooms/coogee-2034
+- https://www.flatmatefinders.com.au/rooms/eastlakes-2018
+
+**Gumtree flatshare keyword searches (cloud)** ⚠️ written from Gumtree's standard search pattern; if one fails, mark it "not checked" and report it
+
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/kensington/k0c18294l3003633
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/kingsford/k0c18294l3003633
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/randwick/k0c18294l3003633
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/maroubra/k0c18294l3003633
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/coogee/k0c18294l3003633
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/eastlakes/k0c18294l3003633
+- https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/unsw/k0c18294l3003633
+
+**Down Under Stay room pages:** open each room URL listed in https://downunderstay.com.au/rooms-sitemap.xml (those come from a page result, so they are allowed).
+
 ---
 
 ## Change log
@@ -188,5 +269,6 @@ Facebook groups: decided 17 Oct to browse in Chrome at human pace (Chaitanya acc
 | 18 Oct 2026 | Moved into the `radar` repo. All tiers run daily. LinkedIn and Facebook via Chrome. Personal details removed. |
 | 19 Oct 2026 | Chrome run: Arc jobs, Jobs@UNSW, Seek, Jora, Seek internships, LinkedIn and Meetup now work in Chrome (how-to in their status cells). CPMSoc site gone. |
 | 23 Oct 2026 | Manual run: Prosple, UNSWConnect, Jane Street, JobsDB HK and realestate.com.au now work in Chrome; GradConnection times are UTC; Domain needs per-suburb URLs; new Gumtree Eastern Suburbs URL; Roomgo domain gone. UNSW Outlook job emails (CSE industry mail, UNSWConnect alerts) also read for internships. |
+| 26 Oct 2026 | New section 6: every URL the scouts need written in full, so runs never build URLs (each built URL needed Chaitanya's approval). |
 | 24 Oct 2026 | Accommodation: Study Stays paging parameters, Down Under Stay sitemap, Gumtree keyword searches, ZUWU and Flatmate Finders need Chrome, allhomes is stale via WebFetch. Added ranks 16 to 21 (Facebook, marketplaces, Flatmate Finders, UNSW-listed co-living operators, colleges and purpose-built). |
 | 18 Oct 2026 | First seed runs (cloud only): statuses and URLs updated for Arc, Jobs@UNSW, CareerOne, Gumtree, Cluey, Prosple, SEEK Grad, JobStreet SG, Jane Street, Hackathons Australia, UNSW societies, CTFtime, Humanitix, Luma, Flatmates, Down Under Stay, Domain, Iglu, ZUWU. Step 9 added to the access protocol. |
