@@ -13,8 +13,9 @@ Runs only when Chaitanya types `/flight-scout`. No schedule. Never books, pays o
 2. Read `shared/RULES.md` (section 3: unattended runs, safe browsing) and `shared/SOURCES.md` section 7 from a clone of the radar repo.
 3. Get this run's inputs from his message. Ask only for what is missing, in one short question:
    - **X and Y** (city or airport) and **direction(s)**: X to Y, Y to X, or both.
-   - **Date range** for each direction.
+   - **Date range** for each direction. If he gives none, use the **default dates**: leave Sydney any day from **10 Dec to 7 Jan**, return in the **first week of Feb (1 to 7 Feb)**. Roll the years forward to the next such window.
    - **Passengers**, if not just him.
+4. **Always** price both ways for a two-direction trip: one return ticket, and the two directions booked separately. Pick whichever is cheaper among decent airlines, after the best combined offer (section 4).
 
 ## 1. What a "decent" flight is (hard filters)
 
@@ -53,7 +54,7 @@ real price = base fare + bag and meal add-ons + card surcharge + forex markup âˆ
 total      = real price + ground transfer (nearby airports only)
 ```
 
-- Try every allowed combination of student fare or discount + card offer + coupon, and keep the cheapest one that the terms allow to stack. Name it in `best_offer` with what it needs (card, code, platform, minimum).
+- Compare prices **only after** discounts. Try every allowed combination of student fare or discount + best credit card offer + coupon, and keep the cheapest one that the terms allow to stack. Name it in `best_offer` with what it needs (card, code, platform, minimum).
 - Card offers: every Indian bank card (he need not hold it); mention an Australian card when it beats them.
 - Price **both** ways for two-direction trips: one return ticket, and two separate one-ways. Show the cheaper clearly.
 - Show AUD and INR side by side, with the rate and the date it was read.
