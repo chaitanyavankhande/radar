@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T14:20:00+11:00",
-  "previous_run_at": "2026-10-19T14:20:11+11:00",
+  "updated_at": "2026-10-29T11:50:00+11:00",
+  "previous_run_at": "2026-10-27T14:20:00+11:00",
   "sources": [
     {
       "name": "Claude memory deadline register",
@@ -13,50 +13,50 @@
       "name": "UNSW Outlook",
       "rank": 2,
       "result": "checked",
-      "found": 2,
-      "note": "Focused, Other and Junk, 19 to 27 Oct"
+      "found": 3,
+      "note": "Chrome, 29 Oct 12:50 am: Focused, Other and Junk read for 27 to 29 Oct. Flagged: COMP9021 Quiz 5 results (Eric Martin), UNSW Exams provisional timetable, COMP9020 midterm results notice, UNSW flex-semester notice. Unread state restored on the two that were unread."
     },
     {
       "name": "WebCMS3 COMP9024 Data Structures and Algorithms",
       "rank": 3,
       "result": "checked",
       "found": 0,
-      "note": "home and notices read; outline refused"
+      "note": "Home page read 29 Oct: due dates unchanged; newest notice 12 Oct."
     },
     {
       "name": "WebCMS3 COMP9020 Foundations of Computer Science",
       "rank": 4,
       "result": "checked",
       "found": 0,
-      "note": "home read"
+      "note": "Home page read 29 Oct: newest notice Midterm test results, 27 Oct 6:17 pm."
     },
     {
       "name": "Google Calendar",
       "rank": 5,
       "result": "checked",
-      "found": 0,
-      "note": ""
+      "found": 1,
+      "note": "All register items have events; Term 3 results (17 Dec) event created; AWS and final-timetable events updated."
     },
     {
       "name": "Gmail account 1",
       "rank": 6,
       "result": "checked",
-      "found": 1,
-      "note": ""
+      "found": 0,
+      "note": "Connector, swept to Thu 29 Oct 12:47 am: AWS account closes 29 Oct unless upgraded (starred); GitHub all-access token regenerated 29 Oct 12:38 am (starred)."
     },
     {
       "name": "Gmail account 2",
       "rank": 7,
       "result": "not checked",
       "found": 0,
-      "note": "account not signed in to the connected Chrome profile"
+      "note": "The connected Chrome profile is signed in to Gmail account 1 only."
     },
     {
       "name": "UNSW academic calendar",
       "rank": 8,
       "result": "checked",
-      "found": 2,
-      "note": "plus the T3 term planner PDF"
+      "found": 0,
+      "note": "Academic calendar page and T3 term planner PDF: no change; results Thu 17 Dec."
     },
     {
       "name": "Moodle site news",
@@ -68,9 +68,9 @@
     {
       "name": "myUNSW",
       "rank": 10,
-      "result": "checked",
+      "result": "not checked",
       "found": 0,
-      "note": "landing page only"
+      "note": "Landing page read; provisional exam timetable sits behind his sign-on (Claude does not sign in)."
     },
     {
       "name": "The Nucleus",
@@ -159,7 +159,7 @@
       "status": "to do",
       "closed": true,
       "verified": "✅",
-      "notes": "Sat Wed 21 Oct, 1:00 pm."
+      "notes": "Sat Wed 21 Oct, 1:00 pm. Results released Tue 27 Oct 6:17 pm on the give system (classrun -collect midterm); partial marks for MCQs; six students scored 26/26."
     },
     {
       "org": "UNSW",
@@ -226,9 +226,9 @@
     {
       "source_rank": 6,
       "found_at": "2026-10-27",
-      "last_seen_at": "2026-10-27",
+      "last_seen_at": "2026-10-29",
       "status": "to do",
-      "closed": false,
+      "closed": true,
       "id": "mem:event-aisoc-cv-workshop",
       "title": "AI Society: Build Your Own Computer Vision Model Workshop",
       "org": "Artificial Intelligence Society",
@@ -246,9 +246,9 @@
     {
       "source_rank": 2,
       "found_at": "2026-10-27",
-      "last_seen_at": "2026-10-27",
+      "last_seen_at": "2026-10-29",
       "status": "to do",
-      "closed": false,
+      "closed": true,
       "id": "unsw:myunsw-outage-27oct",
       "title": "myUNSW planned outage, 5:00 pm to 11:59 pm",
       "org": "UNSW",
@@ -271,9 +271,9 @@
       "source": "UNSW academic calendar and UNSW emails",
       "source_rank": 1,
       "found_at": "2026-10-19",
-      "last_seen_at": "2026-10-27",
+      "last_seen_at": "2026-10-29",
       "status": "to do",
-      "closed": false,
+      "closed": true,
       "id": "mem:t3-exam-timetable",
       "title": "Term 3 exam timetable: provisional release",
       "kind": "admin",
@@ -281,7 +281,7 @@
       "where": "https://my.unsw.edu.au/",
       "link": "https://my.unsw.edu.au/",
       "verified": "✅",
-      "notes": "Provisional Term 3 exam timetable on myUNSW, Wed 28 Oct. Re-confirmed in the official UNSW T3 2026 term planner PDF, 27 Oct."
+      "notes": "Provisional Term 3 exam timetable on myUNSW, Wed 28 Oct. Re-confirmed in the official UNSW T3 2026 term planner PDF, 27 Oct. Provisional timetable is live on myUNSW (UNSW Exams email Wed 28 Oct 8:34 am); not readable by Claude (needs his sign-on)."
     },
     {
       "id": "mem:9021-quiz5",
@@ -297,18 +297,18 @@
       "source": "Claude memory deadline register",
       "source_rank": 1,
       "found_at": "2026-09-15",
-      "last_seen_at": "2026-10-27",
+      "last_seen_at": "2026-10-29",
       "status": "to do",
-      "closed": false,
+      "closed": true,
       "verified": "⚠️",
-      "notes": "Morning deadline (11:59 AM)."
+      "notes": "Morning deadline (11:59 AM). Results emailed by Eric Martin Wed 28 Oct 10:51 pm (score in the attached tar.gz; file hierarchies on Ed when the Quiz 5 page reopens)."
     },
     {
       "source_rank": 2,
       "found_at": "2026-10-27",
-      "last_seen_at": "2026-10-27",
+      "last_seen_at": "2026-10-29",
       "status": "to do",
-      "closed": false,
+      "closed": true,
       "id": "mem:9020-no-lecture-28oct",
       "title": "No lecture Wed 28 Oct (next lecture Fri 30 Oct)",
       "org": "COMP9020 Foundations of Computer Science",
@@ -381,7 +381,7 @@
       "link": "https://www.unsw.edu.au/content/dam/pdfs/student-communications/student-lifecycle/term-student-planner.pdf",
       "source": "UNSW academic calendar",
       "verified": "✅",
-      "notes": "Final exam timetable on myUNSW, Mon 2 Nov. UNSW T3 2026 term planner PDF."
+      "notes": "Final exam timetable on myUNSW, Mon 2 Nov. UNSW T3 2026 term planner PDF. ✅ UNSW Exams email 28 Oct: final timetable visible on myUNSW Mon 2 Nov; ELS students by Mon 16 Nov."
     },
     {
       "id": "mem:9024-prac7",
@@ -863,6 +863,66 @@
       "source": "UNSW Outlook",
       "verified": "✅",
       "notes": "Physical ID card scanned at the venue, electronic ID not accepted; arrive 30 minutes early; starts only at 9:45 am, 1:45 pm or 5:45 pm; 15 minutes reading time. UNSW Exams email of 13 Oct."
+    },
+    {
+      "source": "UNSW Outlook",
+      "source_rank": 2,
+      "found_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:t3-elp-cutoff",
+      "title": "Exam adjustments (ELP) and religious-obligation Special Consideration cut-off",
+      "org": "UNSW Exams",
+      "course_code": "UNSW",
+      "course_name": "UNSW Exams",
+      "kind": "admin",
+      "weight": "",
+      "deadline": "2026-11-18T23:59:00+11:00",
+      "where": "https://my.unsw.edu.au/",
+      "link": "https://www.unsw.edu.au/student/managing-your-studies/exams",
+      "verified": "✅",
+      "notes": "UNSW Exams email Wed 28 Oct: ELS appointment and ELP changes must be done by Wed 18 Nov (Week 10); religious-obligation Special Consideration applications also by 18 Nov. Only relevant if he needs adjustments."
+    },
+    {
+      "source": "UNSW Outlook",
+      "source_rank": 2,
+      "found_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:t3-supplementary-period",
+      "title": "Term 3 supplementary exam period (only if approved)",
+      "org": "UNSW Exams",
+      "course_code": "UNSW",
+      "course_name": "UNSW Exams",
+      "kind": "exam",
+      "weight": "",
+      "deadline": "2027-01-16T23:59:00+11:00",
+      "where": "https://my.unsw.edu.au/",
+      "link": "https://www.unsw.edu.au/student/managing-your-studies/exams",
+      "verified": "✅",
+      "notes": "UNSW Exams email 28 Oct: supplementary exams Mon 11 to Fri 16 Jan 2027; myUNSW timetable updated by Mon 21 Dec if approved. Affects any Dec to Feb internship or India trip only if a supplementary is granted."
+    },
+    {
+      "source": "UNSW Outlook",
+      "source_rank": 2,
+      "found_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "status": "to do",
+      "closed": false,
+      "id": "mem:flex-semester-2028",
+      "title": "Program moves to the 2028 flex-semester calendar; plan 2027 and 2028 in myPlan",
+      "org": "UNSW",
+      "course_code": "UNSW",
+      "course_name": "UNSW Student Services",
+      "kind": "admin",
+      "weight": "",
+      "deadline": null,
+      "where": "https://my.unsw.edu.au/",
+      "link": "https://www.unsw.edu.au/student/managing-your-studies/flex-semester",
+      "verified": "✅",
+      "notes": "UNSW email Wed 28 Oct 11:59 am: from 2028 his program transitions to flex-semester (two 12-week semesters); myPlan now shows indicative 2028 offerings; option to take up to 18 UOC per 2027 term and a Summer 2027 course to progress faster. No deadline; review before 2027 enrolment changes."
     }
   ]
 }
