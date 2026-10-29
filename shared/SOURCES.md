@@ -258,6 +258,34 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 
 **Down Under Stay room pages:** open each room URL listed in https://downunderstay.com.au/rooms-sitemap.xml (those come from a page result, so they are allowed).
 
+### Added 29 Oct 2026 (from the run summaries)
+
+**casual-and-part-time-jobs (cloud)**
+
+- The Shout board (mirror of CareerOne, same listing ids; ad pages at `/jobview/detail/<id>`): https://jobs.theshout.com.au/jobs/in-kensington-nsw-2033 · https://jobs.theshout.com.au/jobs/in-kingsford-nsw-2032 · https://jobs.theshout.com.au/jobs/in-randwick-nsw-2031 · https://jobs.theshout.com.au/jobs/in-maroubra-nsw-2035 · https://jobs.theshout.com.au/jobs/in-coogee-nsw-2034
+- Indeed cafe category pages: https://au.indeed.com/Cafe-jobs-in-Randwick-NSW · https://au.indeed.com/Cafe-All-Rounder-jobs-in-Randwick-NSW · https://au.indeed.com/Cafe-jobs-in-Coogee-NSW · https://au.indeed.com/Rounder-Cafe-jobs-in-Coogee-NSW · https://au.indeed.com/Cafe-Weekend-jobs-in-Coogee-NSW · https://au.indeed.com/Cafe-No-Experience-jobs-in-Maroubra-NSW · https://au.indeed.com/Cafe-jobs-in-Kensington-NSW
+
+**internship-scout (cloud)**
+
+- https://au.gradconnection.com/internships/computer-science/sydney/?page=2 · https://au.gradconnection.com/internships/computer-science/sydney/?page=3 · https://au.gradconnection.com/internships/computer-science/sydney/?page=4
+- https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/README.md
+- https://www.gradcracker.com/search/computing-technology/work-placements-internships?page=2
+- https://www.lifeatcanva.com/en/early-careers/
+- https://recruitment.macquarie.com/en_US/careers/JobDetail/2026-2027-Macquarie-Summer-Internship-Technology-Sydney/21982 (watch for the 2027/28 cycle around May 2027)
+
+**hackathon-scout (cloud)**
+
+- https://devpost.com/api/hackathons?challenge_type[]=online&status[]=upcoming&status[]=open&page=2 (and page=3, page=4, page=5)
+- https://dev.events/hackathons/ON · https://dev.events/OC/AU/Sydney
+- https://www.unswcpmsoc.com (CPMSoc, Chrome) · https://www.eventbrite.com.au/o/unsw-founders-program-17159154125 (Chrome)
+
+**accommodation-scout (cloud)**
+
+- https://downunderstay.com.au/room/ (room index; the sitemap is better)
+- https://en.uhomes.com/au/sydney/the-university-of-new-south-wales · https://en.uhomes.com/au/sydney/place/kensington · https://en.uhomes.com/au/sydney/place/kingsford · https://en.uhomes.com/au/sydney/place/randwick · https://en.uhomes.com/au/sydney/place/maroubra
+- https://www.museliving.com.au/coogee/ · https://www.myolacoogeeaccommodation.com.au/facilities
+- https://amberstudent.com/places/search/sydney-1811019193619 · https://uniacco.com/australia/sydney · https://uniacco.com/australia/sydney/uko-randwick
+
 ## 7. ✈️ `flight-scout`
 
 On demand only, while Chaitanya is present. Fares change by the minute, so routes and dates are **typed into each site's own search form** in Chrome; Claude never builds a results URL (RULES.md 3.2). Prices are ✅ only when the seller's own page showed them.
@@ -299,4 +327,5 @@ On demand only, while Chaitanya is present. Fares change by the minute, so route
 | 18 Oct 2026 | First seed runs (cloud only): statuses and URLs updated for Arc, Jobs@UNSW, CareerOne, Gumtree, Cluey, Prosple, SEEK Grad, JobStreet SG, Jane Street, Hackathons Australia, UNSW societies, CTFtime, Humanitix, Luma, Flatmates, Down Under Stay, Domain, Iglu, ZUWU. Step 9 added to the access protocol. |
 | 26 Oct 2026 | Accommodation manual run: cloud subagents' WebFetch was refused (PROVENANCE_REQUIRED) for Down Under Stay, most Domain suburb pages, rent.com.au, view, homely, Haush, Oz Homestay and the co-living operators. Down Under Stay works in Chrome (fetch /rooms-sitemap.xml and every room page from the site's own tab; status sits right after the suburb: Available, Available Soon or Occupied). Domain in Chrome needs the person to allow domain.com.au once in Claude in Chrome. Flatmate Finders 1665469 now redirects to Paddington. |
 | 26 Oct 2026 | New section 7 for the on-demand `flight-scout`: ranked flight sources, trusted sellers, offer and student pages. |
+| 29 Oct 2026 | First manual run of all five systems. Cloud: Wellfound, Down Under Stay, Domain, Gumtree ad pages, CTFtime API (recompute the unix window each run) and dev.events all load from the cloud; jobs.theshout.com.au mirrors CareerOne with the same ids; Indeed connector works best with the suburb name as the keyword and rate-limits after about 50 calls; Devpost feed returns page 1 only; CPMSoc's new site is www.unswcpmsoc.com (Chrome). Chrome: Seek now serves au.seek.com (navigate each suburb URL; cross-origin fetch fails); Jobs@UNSW list needs 6 "More Jobs" clicks (121 jobs); Prosple pages via the "Goto next page" button, job pages return only the nav; UNSWConnect closing times are UTC; Flatmates pads the six-suburb search with out-of-area rows (Zetland, Mascot, Redfern, Surry Hills, Waterloo, Chippendale). myUNSW exam timetable sits behind UNSW SSO, not readable. Run was cut by the usage limit at 2:30 am and resumed 11:20 am: LinkedIn, Jane Street/Amazon, JobsDB HK, Jora, Workforce Australia, Meetup, realestate.com.au, ZUWU and Flatmate Finders not read. |
 | 27 Oct 2026 | Manual run of all three daily systems. UNSW Outlook in Chrome marks a message read when the selection changes, so restore unread after moving away (row checkbox, then Mark as unread). Gmail account 2 is not signed in to the connected Chrome profile. WebCMS3 course home pages read fine interactively. Domain's six suburb URLs worked from the cloud. Flatmate Finders: the Chrome extension needs site permission for flatmatefinders.com.au. ZUWU's UNSW list now shows 23 of 113 rooms with no page control. The same Down Under Stay room can appear on Flatmates and UNSW Study Stays too: de-duplicate to the operator page. |
