@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-31T13:00:00+11:00",
- "previous_run_at": "2026-10-29T11:50:00+11:00",
+ "updated_at": "2026-10-31T15:00:00+11:00",
+ "previous_run_at": "2026-10-31T13:00:00+11:00",
  "sources": [
   {
    "name": "Flatmates.com.au",
    "rank": 1,
    "result": "checked",
-   "found": 3,
-   "note": "31 Oct (Chrome): 61 results, 58 in the six suburbs after dropping out-of-area padding (Redfern, Paddington, Mascot and others); 6 pages plus the bills-included max-300 search read; all 66 listing pages fetched. 3 new open rooms (P2042982, P2042626, P2042585), 3 reopened (P2036233, P2037102, P1946423), 4 new short stays closed on arrival, P835365 closed (now $410). Rent drops: P2017441 $315 to $280. P2031888 now from 13 Jan 2027. Photo hashes not computed this run."
+   "found": 0,
+   "note": "31 Oct deep pass (2 pm, Chrome): max-350 search (61 results, 58 in area) and bills-included max-300 search re-read: same 58 listings as the 1 pm run, none new, none gone. Photo fingerprints computed for the listings (see photos_reused flags)."
   },
   {
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
-   "found": 6,
-   "note": "31 Oct (cloud): all 8 registry URLs fetched; 60 matches, 12 cards each on pages 1 to 5, none on pages 6 to 8. In-area at or under $350: 381028 Kingsford $340, 381213 Kingsford $350, 381221 Kingsford $270, 376475 Coogee twin $350 (all pages re-read, live, unchanged); NEW 379389 Randwick Alison Rd Room 1 single $350 (page now shows a $350 single; 29 Oct saw only over-cap prices); 381277 Maroubra twin $265 (page re-read, merged into downunderstay:boyce-rd-room-2). 380722 Coogee twin $250 (closed since 23 Oct) now reads open on its own page but is on no search page: re-opened with a flag, confirm. 380549 Meeks St still 'This listing has closed'. Out of area at or under $350: Paddington $190 (379046), Bardwell Valley $300, Woollahra $320, Chippendale $350, Brighton-Le-Sands $350. Just over cap: Coogee 381112 single $360. Kensington distance sort and suburb filters not read: no URL listed in section 6."
+   "found": 0,
+   "note": "31 Oct deep pass: the Kensington distance sort now has a URL: the campus page (studystays.unsw.edu.au/campuses/unsw-kensington) links 'Find listings near UNSW Kensington' = Listings/Search?campus=unsw-kensington&order=distance (61 matches, 6 pages; pages 1 to 5 read, 12 cards each; page 6 rendered empty). Also read the 'Rooms' search (Listings/Search?Type=rooms, 53 to 58 matches, pages 1 to 5) and the refine form. No suburb filter exists on any page: the refine form's Suburb field has no options and no suburb links appear, so the misspelt-suburb check was done by reading every card: 381213 is printed 'Kingsfor' (already tracked); 379240 'Chiipendale' (out of area). In-area at or under $350 on these pages: 381028 Kingsford $340, 381221 Kingsford $270, 381213 Kingsford $350, 376475 Coogee $350, 379389 Randwick $350 (the Rooms page 2 card shows $375 for 379389: conflicting prices, check the page), 381277 Maroubra twin $265 (merged into downunderstay:boyce-rd-room-2), 381044 Kensington Villiers St twin $235/$255 (Down Under Stay house, already tracked under downunderstay ids; its own page now says 'This listing has closed' though it still shows in both searches). Just over cap: Coogee 381112 $360, Kingsford 380948 $360 (8-bedroom lodging house). WebSearch for the six suburbs returned only old ids, all read and all 'This listing has closed': Maroubra 379714 ($395), 378927 ($425), 380337, 380206 ($335 to $345, closed), 380142, 380351; Eastlakes 379350 ($750), 370213; Kingsford 375180, 378035; Coogee 373834. 380722 Coogee twin was not on any search page this pass. No page tried to instruct an AI."
   },
   {
    "name": "Down Under Stay",
@@ -27,8 +27,8 @@
    "name": "Gumtree flatshare",
    "rank": 4,
    "result": "checked",
-   "found": 3,
-   "note": "31 Oct (cloud): Kingsford category (7 + 3 nearby), Eastern Suburbs category (22) and all 7 keyword URLs read (kensington 2, kingsford 7, randwick 3, maroubra 5 + 1 nearby, coogee 6 + 2, eastlakes 0 + 1 nearby (Rosebery $360), unsw 9 + 1), plus the Roomshare category (s-roomshare/c18511, linked from the Eastern Suburbs page; 28 ads, 2 in area). Ad pages read for 15 tracked ads (all live). 3 NEW: 1345437232 Maroubra Junction $340 all bills (page read; ninth posting of one room, replaces 1345388823), 1344782676 Eastlakes shared room for a male $195 all bills, and 1344760859 Randwick twin $200 female students (both Roomshare, ad pages failed client_error, snippet only ⚠️). Gone: 1345388823 (re-post, off results, page fails) and 1344228914 Eastlakes (not in any results page and ad page failed twice today; reopen if seen). Over cap: Kingsford women $430 (1345439031, new), Coogee double $380 (1345437649, new, asks to text directly), Kingsford $365, $370, $425. Out of area: Clovelly $295 (1345364677), Bondi Junction $280, Double Bay $340, Rose Bay $350/$360, Darling Point $380, Little Bay $390, Rosebery $360, Eastgardens $350, Newtown $300, Woolloomooloo $490. Ad pages fail intermittently (client_error) and a retry within a minute is refused."
+   "found": 0,
+   "note": "31 Oct deep pass (2 pm): no new in-area ad at or under $350. Read: Eastern Suburbs category c18294l3003633 (22 ads, unchanged from 1 pm), Kingsford 'room' keyword (7 + 3 nearby), Kingsford category c18294l3003648 (7 + 3), Kensington 'room' keyword (1 + 9 nearby), Maroubra category c18294l3003652 (2 + 8), Coogee category c18294l3003642 (2 + 8), unsw keyword (both forms, 10 to 11 ads), Eastern Suburbs 'share house' keyword, Randwick real-estate 'rooms to rent' and 'room to rent' (agency studios $520+ only), Kingsford real-estate 'rooms for rent', Eastern Suburbs real-estate page 1 (30 ads, rooms all known), Sydney Roomshare c18511l3003435 page 1 (24 ads, none in area; filter says Eastern Suburbs 2). Only unseen in-area ad: 1345279786 Kingsford 'Master bedroom for rent - short term' $330 neg, all bills, but the card says available 12 Nov to 1 Dec 2026 only (owners overseas): SKIPPED, stay ends before mid-Feb. Still live in results: 1345437232, 1345141884, 1345235146, 1345176187 (unsw keyword now shows $350, category shows $300), 1345076543, 1345049509, 1344928502, 1344512334, 1339394238, 1344812669. Not seen in any results today but NOT marked gone (no ad-page evidence; ad pages could not be opened): 1345190832 Zetland, 1344842801 Maroubra female-only, and the three Roomshare ads 1345235696, 1344782676, 1344760859 (Roomshare pages 2 to 5 blocked). Closed 1344228914 Eastlakes appeared once on the 'share house' keyword page, but that page looked like a stale cached copy (an October ad shown as '44 minutes ago'), so it stays closed. Blocked this pass (fetch permission not granted, not retried): the Kingsford category k0c18294l3003648 as written in SOURCES, all 7 section-6 keyword URLs (eastern-suburbs/<suburb>/k0c18294l3003633), s-roomshare/c18511, Sydney Roomshare page 2, the r20 'see all results' links, the Eastern Suburbs Short Term category, and ad page 1345279786. Only URLs returned by WebSearch could be fetched. No page tried to instruct an AI. Chrome check 31 Oct deep pass: 15 open ad pages fetched in Chrome; 6 now say \"no longer available\" (410/404) and were closed: 1344782676, 1344760859, 1344812669, 1344842801, 1345190832, 1345235696."
   },
   {
    "name": "Australian Homestay Network (UNSW partner)",
@@ -111,15 +111,15 @@
    "name": "realestate.com.au",
    "rank": 15,
    "result": "checked",
-   "found": 0,
-   "note": "31 Oct (Chrome): Kensington list sorted by price low to high: cheapest is a $440 studio, nothing at or under $350 (the page now counts 1,973 properties including surrounding areas). rea:418962602 (39 Rainbow St, $330) still live; rea:445270852 (Coogee) now 404, closed."
+   "found": 1,
+   "note": "31 Oct deep pass (Chrome): Kensington plus the Kingsford, Randwick, Maroubra and Eastlakes rent lists (links from the Kensington page) sorted by price low to high. New: rea:436818544, 53 Rainbow St Kingsford studio $310 all bills. Also at or under $350: 127 Barker St rooms $250/$270/$320 (already tracked via Domain) and 39 Rainbow St $330 (already tracked). Coogee list not linked from the page, not read."
   },
   {
    "name": "Facebook groups",
    "rank": 16,
    "result": "not checked",
    "found": 0,
-   "note": "Needs a Facebook sign-in, which Claude does not do."
+   "note": "31 Oct: checked Chrome: Facebook shows the log-in page (not signed in), and Claude does not sign in."
   },
   {
    "name": "uhomes",
@@ -195,8 +195,8 @@
    "name": "Flatmate Finders",
    "rank": 21,
    "result": "checked",
-   "found": 2,
-   "note": "31 Oct (Chrome, worked: site permission now granted): Kingsford page and pages 2 to 5 of 14 (60 of 159 results incl. nearby suburbs) read at 8-second gaps, no human check. In-area at or under $350: Coogee 1198584 ($350, read ✅), South Coogee 1571628 ($300 to $305, card only ⚠️), Kingsford 1697887 ($285, 1 to 3 weeks: short stay, skipped). Pages 6 to 14 not read."
+   "found": 0,
+   "note": "31 Oct deep pass (Chrome): Kingsford pages 6 to 14 read (all 14 now done) plus Kensington pages 1 to 3, Randwick 1 to 3 and Maroubra 1 to 2; a 'confirm you are human' check then appeared, so Coogee and Eastlakes pages were not read (Claude does not complete those checks). No new in-area room at or under $350 beyond the two found at 1 pm."
   },
   {
    "name": "Independent colleges on campus",
@@ -253,6 +253,13 @@
    "result": "checked",
    "found": 0,
    "note": "31 Oct: UKO's own pages not returned by search; UniAcco UKO Kensington (search-returned) $540 to $725 and UKO Randwick $730 to $860, all 'currently unavailable', dates from 2024/25. Nothing at or under $350."
+  },
+  {
+   "name": "Discovery search (web)",
+   "rank": 22,
+   "result": "checked",
+   "found": 4,
+   "note": "31 Oct deep pass: 45+ extended web searches (room for rent per suburb, boarding houses, granny flats, studios, homestay, Facebook Marketplace, Airbnb monthly, Spareroom/Roomies/Roomster/Kangaroom/OzFlatmates, co-living, church hostels, NSW/council boarding-house lists). New sites read: Sharehouse.app (per-suburb pages for Randwick, Kensington, Kingsford, Eastlakes, Maroubra, Maroubra South, Coogee), CK Realty (boarding-house rooms), Living High Co-Living, Sabbatical Homes, Kangaroom, OzFlatmates, realestatetube, grannyflatrental, Trovit, Gumtree property-for-rent and 'unsw' keyword. Found 4 rooms not in the data (Kensington $230 and $350, Maroubra $284, Kingsford/Kensington co-living from $340), all tier C, three with old availability dates. Blocked: Facebook and Roomster (robots), Homestay.com, Student Accommodation One, roommates.com.au, gayshare (client errors), Eastern PM (robots/server error), CK Realty Fern St and other Carlton St room pages (http/https redirect loop)."
   }
  ],
  "items": [
@@ -971,7 +978,7 @@
    "last_seen_at": "2026-10-31",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "id": "gumtree:1344812669",
    "title": "Furnished room 200m from UNSW, all bills included",
    "org": "Private advertiser (Gumtree)",
@@ -1017,7 +1024,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your room 200m from UNSW. I'm looking to move in early January 2027: could the room be available then? Could you confirm that all bills and internet stay included, and whether there is any usage cap? I'd also like to know the lease length you prefer after the 3-month minimum, and when I could inspect. Thank you.",
-   "notes": "Best all-round fit: all 4 bills included, 1-week bond, closest to campus. Ad says available now (listing date 27 Sep 2026); ask about a January start. No street address in the ad; about 10 photos. Distance from the ad's '200m from UNSW' ⚠️ estimate. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Possibly the same room as rea:418962602 on realestate.com.au. 24 Oct: Still in today's search results; unchanged ($330, 1-week bond, 3-month minimum, coin laundry $4/load). 26 Oct: still listed; snippet says bond one week, 3-month minimum. 27 Oct: Seen on today's Gumtree results pages (ad page itself blocked by fetch, so details not re-read). $330, all bills, 3-month minimum, 1-week bond per card. Unchanged. 29 Oct: still on the Eastern Suburbs category page ($330, listed 27 Sep 2026, bills included, 1-week bond, 3-month minimum, coin laundry $4). Unchanged. 31 Oct: ad page read: live, $330/wk, 1-week bond, 3-month minimum, all bills included, 'Available now' (field 27/09/2026). Not on today's Kingsford results page 1, but the page is live. Unchanged.",
+   "notes": "Best all-round fit: all 4 bills included, 1-week bond, closest to campus. Ad says available now (listing date 27 Sep 2026); ask about a January start. No street address in the ad; about 10 photos. Distance from the ad's '200m from UNSW' ⚠️ estimate. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Possibly the same room as rea:418962602 on realestate.com.au. 24 Oct: Still in today's search results; unchanged ($330, 1-week bond, 3-month minimum, coin laundry $4/load). 26 Oct: still listed; snippet says bond one week, 3-month minimum. 27 Oct: Seen on today's Gumtree results pages (ad page itself blocked by fetch, so details not re-read). $330, all bills, 3-month minimum, 1-week bond per card. Unchanged. 29 Oct: still on the Eastern Suburbs category page ($330, listed 27 Sep 2026, bills included, 1-week bond, 3-month minimum, coin laundry $4). Unchanged. 31 Oct: ad page read: live, $330/wk, 1-week bond, 3-month minimum, all bills included, 'Available now' (field 27/09/2026). Not on today's Kingsford results page 1, but the page is live. Unchanged. 31 Oct (deep pass): ad page says no longer available, marked closed.",
    "bills_included_count": 4,
    "who_can_apply": null,
    "bond": null,
@@ -6433,7 +6440,7 @@
    "last_seen_at": "2026-10-31",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "id": "gumtree:1345190832",
    "title": "Short-term private room with balcony, Zetland",
    "org": "Private advertiser (Gumtree)",
@@ -6474,7 +6481,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your short-term room in Zetland. I'm looking for a start between late December 2026 and early February 2027: what dates is the room available for? Could you also tell me whether bills are included in the $330, who else lives there, and the bond? I'd like to arrange an inspection. Thank you.",
-   "notes": "Outside the six target suburbs (ranked lower). Zetland has a direct bus towards UNSW (route 370 via Green Square) ⚠️ unverified. 'Short term' with no dates, so it may not cover January. Posted 17 Oct 2026; thin ad (no bills, bond or household). Bills $25/wk ⚠️ estimate. The ad title says SHORT TERM. 24 Oct: Still listed. Short-term room in Zetland, so outside his suburbs and lease needs. 29 Oct: outside today's Eastern Suburbs result pages (Zetland), but the ad page was readable and appears live, now showing 'Date listed 18 hours ago' (re-listed), $330, still titled SHORT TERM, bills and dates not stated. Kept open, low priority. 31 Oct: ad page read: live, $330 (period not stated), short term, Zetland (outside the six suburbs). Unchanged.",
+   "notes": "Outside the six target suburbs (ranked lower). Zetland has a direct bus towards UNSW (route 370 via Green Square) ⚠️ unverified. 'Short term' with no dates, so it may not cover January. Posted 17 Oct 2026; thin ad (no bills, bond or household). Bills $25/wk ⚠️ estimate. The ad title says SHORT TERM. 24 Oct: Still listed. Short-term room in Zetland, so outside his suburbs and lease needs. 29 Oct: outside today's Eastern Suburbs result pages (Zetland), but the ad page was readable and appears live, now showing 'Date listed 18 hours ago' (re-listed), $330, still titled SHORT TERM, bills and dates not stated. Kept open, low priority. 31 Oct: ad page read: live, $330 (period not stated), short term, Zetland (outside the six suburbs). Unchanged. 31 Oct (deep pass): ad page says no longer available, marked closed.",
    "bond": null,
    "about": "Bright, cosy furnished room with double bed, TV, storage, fan and its own balcony with leafy views; near Green Square station.",
    "who_can_apply": null,
@@ -7490,7 +7497,7 @@
    "last_seen_at": "2026-10-31",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "id": "gumtree:1344842801",
    "title": "Large furnished private room in Maroubra (female only)",
    "org": "Private advertiser (Gumtree)",
@@ -7530,7 +7537,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your private room in Maroubra. I'm looking to move in early January 2027 for 6 months or more. Could you tell me which bills are included, how many people live in the house, and the bond and lease terms? I'd also like to arrange an inspection. Thank you.",
-   "notes": "Female only ('Large, fully furnished private room available for female only'), so not open to Chaitanya; kept in the data per the women-only rule and hidden by default. Posted 29 Sep 2026. No bills mentioned: $25/wk ⚠️ estimate. Skipped by the 18 Oct run. Ad page itself could not be opened today (WebFetch permission timed out), so details come from Gumtree search-page snippets read on 19 Oct 2026 (⚠️ not verified). 24 Oct: Still in today's Maroubra results; female only; no new details. 27 Oct: Seen on today's Gumtree results pages (ad page itself blocked by fetch, so details not re-read). $300 Maroubra, female tenant. Unchanged. 29 Oct: ad page read (was snippet-only): now shows 'Date listed 2 hours ago' (bumped), $300, 'female tenant only' and now described as for a remote worker; bills, bond, dates and furnishing not stated; about 2 photos; near Southpoint shops, a bus stop and Maroubra Beach. Still women-only, hidden by default. 31 Oct: ad page read: live, re-bumped ('listed 2 hours ago'), $300, 'Large, private room available for remote, female only'. Not on today's results pages. Still female only.",
+   "notes": "Female only ('Large, fully furnished private room available for female only'), so not open to Chaitanya; kept in the data per the women-only rule and hidden by default. Posted 29 Sep 2026. No bills mentioned: $25/wk ⚠️ estimate. Skipped by the 18 Oct run. Ad page itself could not be opened today (WebFetch permission timed out), so details come from Gumtree search-page snippets read on 19 Oct 2026 (⚠️ not verified). 24 Oct: Still in today's Maroubra results; female only; no new details. 27 Oct: Seen on today's Gumtree results pages (ad page itself blocked by fetch, so details not re-read). $300 Maroubra, female tenant. Unchanged. 29 Oct: ad page read (was snippet-only): now shows 'Date listed 2 hours ago' (bumped), $300, 'female tenant only' and now described as for a remote worker; bills, bond, dates and furnishing not stated; about 2 photos; near Southpoint shops, a bus stop and Maroubra Beach. Still women-only, hidden by default. 31 Oct: ad page read: live, re-bumped ('listed 2 hours ago'), $300, 'Large, private room available for remote, female only'. Not on today's results pages. Still female only. 31 Oct (deep pass): ad page says no longer available, marked closed.",
    "bills_included_count": 0,
    "who_can_apply": "Females only",
    "bond": null,
@@ -8150,7 +8157,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water, Gas, Internet. Available 19 Dec 2026: fits the move-in window. Verified social media. 27 Oct: still in the Flatmates max-350 results. Available-from date on the results card is now 25 November 2026 (was 2026-12-19). Listing page re-read: Room 1 $330 available 19 Dec 2026, Room 2 $320 available 25 Nov 2026, both bills included, minimum 3 months, anyone except couples.",
+   "notes": "Bills included: Electricity, Water, Gas, Internet. Available 19 Dec 2026: fits the move-in window. Verified social media. 27 Oct: still in the Flatmates max-350 results. Available-from date on the results card is now 25 November 2026 (was 2026-12-19). Listing page re-read: Room 1 $330 available 19 Dec 2026, Room 2 $320 available 25 Nov 2026, both bills included, minimum 3 months, anyone except couples. 31 Oct photo check: shares photos with P1975258, P1534820 (all Kingsford), so these are likely the same house listed more than once; ask which room is which.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -10660,9 +10667,9 @@
    "last_seen_at": "2026-10-31",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Cheapest option seen: $200/wk per person for a bed in a large twin room, all bills, internet and laundry included. Posted in Gumtree's Roomshare category; same building and wording as tracked ad gumtree:1345235146 (single rooms $250 to $350). Available 25 Oct: ask to hold until late Dec or Jan. You would share the bedroom with one other person. 26 Oct: not confirmed. Ad page blocked and not on page 1 of the Sydney Roomshare results (Eastern Suburbs filter shows 2 ads, only 1 visible). Left open. 29 Oct: Roomshare category has no registry URL, but the ad page was readable and appears live: $200 per person per week in a shared double room, electricity, gas, water, internet and laundry free, listed 20 Oct 2026, available 25/10/2026. Unchanged. 31 Oct: ad page read: live, $200 per person per week including bills, available 25/10/2026. Not on page 1 of the Roomshare category. Unchanged.",
+   "notes": "Cheapest option seen: $200/wk per person for a bed in a large twin room, all bills, internet and laundry included. Posted in Gumtree's Roomshare category; same building and wording as tracked ad gumtree:1345235146 (single rooms $250 to $350). Available 25 Oct: ask to hold until late Dec or Jan. You would share the bedroom with one other person. 26 Oct: not confirmed. Ad page blocked and not on page 1 of the Sydney Roomshare results (Eastern Suburbs filter shows 2 ads, only 1 visible). Left open. 29 Oct: Roomshare category has no registry URL, but the ad page was readable and appears live: $200 per person per week in a shared double room, electricity, gas, water, internet and laundry free, listed 20 Oct 2026, available 25/10/2026. Unchanged. 31 Oct: ad page read: live, $200 per person per week including bills, available 25/10/2026. Not on page 1 of the Roomshare category. Unchanged. 31 Oct (deep pass): ad page says no longer available, marked closed.",
    "suburb": "Randwick",
    "distance_km": 2.0,
    "transit_min": 15,
@@ -11730,7 +11737,7 @@
     "rate": "Response rate: 97%",
     "early": false
    },
-   "notes": "All four bills plus home essentials included. Available 25 Nov 2026: ask if it can be held until late Dec or Jan. Minimum 3 months. Lister's social-media status could not be read. 27 Oct: still in the Flatmates max-350 results.",
+   "notes": "All four bills plus home essentials included. Available 25 Nov 2026: ask if it can be held until late Dec or Jan. Minimum 3 months. Lister's social-media status could not be read. 27 Oct: still in the Flatmates max-350 results. 31 Oct photo check: shares photos with P1978717, P1534820 (all Kingsford), so these are likely the same house listed more than once; ask which room is which.",
    "scam_flags": [
     {
      "code": "boarding_house_check",
@@ -12459,7 +12466,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Two rooms: #2179 $320/week (available 25 Nov 2026, bond $640) and #2176 $330/week. Search list shows available 19 Dec for the property as a whole. All four bills included plus home essentials; furnished; laundry facilities; 2 weeks bond; minimum 3 months, long-term preferred. 'Approx 10 min walk to UNSW Kensington'. Operator with 'multiple rooms across Sydney' and stock photos ('photos may vary') and asks for your mobile number in the first message (medium flag). 6-bed, 2-bath house for 4 people.",
+   "notes": "Two rooms: #2179 $320/week (available 25 Nov 2026, bond $640) and #2176 $330/week. Search list shows available 19 Dec for the property as a whole. All four bills included plus home essentials; furnished; laundry facilities; 2 weeks bond; minimum 3 months, long-term preferred. 'Approx 10 min walk to UNSW Kensington'. Operator with 'multiple rooms across Sydney' and stock photos ('photos may vary') and asks for your mobile number in the first message (medium flag). 6-bed, 2-bath house for 4 people. 31 Oct photo check: shares photos with P1975258, P1978717 (all Kingsford), so these are likely the same house listed more than once; ask which room is which.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -12796,6 +12803,11 @@
      "code": "studystays_not_vetted",
      "level": "low",
      "reason": "UNSW does not check Study Stays properties: anyone can register as a provider"
+    },
+    {
+     "code": "price_mismatch",
+     "level": "medium",
+     "reason": "Shows $350/wk on the Kensington distance sort but $375/wk on the Rooms search (31 Oct): confirm the real rent, $375 would be over your cap"
     }
    ],
    "trust": "B",
@@ -12898,9 +12910,9 @@
    "last_seen_at": "2026-10-31",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "⚠️",
-   "notes": "31 Oct: found on the Gumtree Roomshare category page (posted '10 minutes ago', though the ad id dates from about mid September, so it has been re-bumped). The ad page itself failed to load (client_error, twice), so every detail comes from the results-page snippet ⚠️: $195, furnished shared room for a male tenant, gas, electricity, water and internet included, 1-minute walk to bus stops, 15-minute bus to Mascot, Kingsford and the city. You would share the bedroom. No other Eastlakes shared rooms in today's data, so too_good_to_be_true could not be checked. Tier C, hidden by default. Distance is the Eastlakes suburb centre ⚠️; bus time ⚠️ estimate.",
+   "notes": "31 Oct: found on the Gumtree Roomshare category page (posted '10 minutes ago', though the ad id dates from about mid September, so it has been re-bumped). The ad page itself failed to load (client_error, twice), so every detail comes from the results-page snippet ⚠️: $195, furnished shared room for a male tenant, gas, electricity, water and internet included, 1-minute walk to bus stops, 15-minute bus to Mascot, Kingsford and the city. You would share the bedroom. No other Eastlakes shared rooms in today's data, so too_good_to_be_true could not be checked. Tier C, hidden by default. Distance is the Eastlakes suburb centre ⚠️; bus time ⚠️ estimate. 31 Oct (deep pass): ad page says no longer available, marked closed.",
    "suburb": "Eastlakes",
    "distance_km": 3.0,
    "transit_min": 22,
@@ -12972,9 +12984,9 @@
    "last_seen_at": "2026-10-31",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "⚠️",
-   "notes": "31 Oct: found on the Gumtree Roomshare category page (posted 'Yesterday'). Ad page failed to load (client_error), so details come from the results snippet ⚠️. Same block of four furnished Randwick flats as tracked ads gumtree:1345235146 (flatshare) and gumtree:1345235696 (twin, any gender), but this copy asks for female students only, so it is not open to Chaitanya; kept per the women-only rule and hidden by default. Double room with two single beds $400/wk or $200 per person including bills; singles $250 to $350; each flat 3 bedrooms, 1 bathroom, kitchen; prefers tenants who can stay two years.",
+   "notes": "31 Oct: found on the Gumtree Roomshare category page (posted 'Yesterday'). Ad page failed to load (client_error), so details come from the results snippet ⚠️. Same block of four furnished Randwick flats as tracked ads gumtree:1345235146 (flatshare) and gumtree:1345235696 (twin, any gender), but this copy asks for female students only, so it is not open to Chaitanya; kept per the women-only rule and hidden by default. Double room with two single beds $400/wk or $200 per person including bills; singles $250 to $350; each flat 3 bedrooms, 1 bathroom, kitchen; prefers tenants who can stay two years. 31 Oct (deep pass): ad page says no longer available, marked closed.",
    "suburb": "Randwick",
    "distance_km": 2.0,
    "transit_min": 15,
@@ -13790,6 +13802,395 @@
    },
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your room in South Coogee (listing 1571628). I'm looking to move in between late December 2026 and early February 2027. Is the room open to a male flatmate, which bills are included, and is there a washing machine? Thanks, [your name]",
    "notes": "New 31 Oct, from the results card only (⚠️ listing page not read): read it before enquiring. Price-range rooms; occupant is a woman, so hidden by default until confirmed."
+  },
+  {
+   "id": "rea:436818544",
+   "title": "Furnished studio room near UNSW, 53 Rainbow St Kingsford, all bills included",
+   "org": "Licensed agent (realestate.com.au listing)",
+   "link": "https://www.realestate.com.au/property-apartment-nsw-kingsford-436818544",
+   "source": "realestate.com.au",
+   "source_rank": 15,
+   "found_at": "2026-10-31",
+   "last_seen_at": "2026-10-31",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "verified": "✅",
+   "notes": "Found 31 Oct deep pass (Chrome, Kingsford list sorted by price). Domain shows a $590 listing at the same address (17496083), likely a different unit: confirm which unit is $310.",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 310.0,
+   "bond": 1240.0,
+   "about": "Furnished studio-style room with kitchenette (electric cooktop, microwave), built-in wardrobe, air conditioning; shared bathroom, shared laundry and backyard; rent includes all bills; available now.",
+   "bills": {
+    "electricity": "included",
+    "gas": "included",
+    "water": "included",
+    "internet": "included"
+   },
+   "bills_included_count": 4,
+   "bills_estimate_pw": null,
+   "room_type": "Studio",
+   "available_from": "2026-10-31",
+   "lease": "not stated",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "who_can_apply": null,
+   "household": "Listed as units 1 to 12 at 53 Rainbow St (several studio rooms sharing bathrooms and laundry)",
+   "inspection_questions": [
+    "Could the studio be held for a move-in between late December 2026 and early February 2027?",
+    "Which unit is $310, and is the bathroom shared with how many people?",
+    "Is the building a registered boarding house, and is the bond lodged with NSW Rental Bonds Online?",
+    "How does the shared laundry work, and is it included in the rent?",
+    "What lease length do you offer?"
+   ],
+   "scam_flags": [
+    {
+     "code": "boarding_house_check",
+     "level": "low",
+     "reason": "Listed as units 1 to 12 at one address with shared bathrooms and laundry: if 5 or more people pay to live there it must be on the NSW boarding house register"
+    },
+    {
+     "code": "price_mismatch",
+     "level": "low",
+     "reason": "Domain lists 53 Rainbow St at $590/wk (listing 17496083) while this listing says $310/wk: likely a different unit, confirm before inspecting"
+    }
+   ],
+   "risk": "low",
+   "trust": "A",
+   "women_only": null,
+   "lister": null,
+   "laundry": "shared",
+   "laundry_evidence": "Shared laundry facilities",
+   "contact": {
+    "channel": "Agent: enquiry form or phone on the realestate.com.au listing",
+    "business": null,
+    "url": "https://www.realestate.com.au/property-apartment-nsw-kingsford-436818544",
+    "mobile_on_listing": false
+   },
+   "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in the $310/wk furnished studio at 53 Rainbow St, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you confirm the lease length, how many people share the bathroom and laundry, and whether the bond is lodged with NSW Rental Bonds Online? I'd also like to arrange an inspection. Thanks, [your name]"
+  },
+  {
+   "source_rank": 22,
+   "found_at": "2026-10-31",
+   "last_seen_at": "2026-10-31",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "lister": null,
+   "id": "ckrealty:carl4",
+   "title": "Furnished single room in a Kensington boarding house, all bills and internet included",
+   "org": "CK Realty (Sydney Accommodation)",
+   "link": "https://ckrealty.com.au/property/furnished-accommodation/room-4-kensington-boarding-house-carl4.php",
+   "source": "CK Realty (agency website)",
+   "verified": "✅",
+   "notes": "Found by discovery search 31 Oct. Agency's own page read 31 Oct. Room 4, 4 Carlton St. $230/wk one person (+$30/wk second person). Available date on the page is 28 Mar 2022, so the ad may be old even though the agency home page still features it: confirm it is free for late Dec 2026 to early Feb 2027. Amber lists 4 Carlton St as a 16-bedroom place (sold out, from $600), so this is a boarding house: check the NSW register.",
+   "suburb": "Kensington",
+   "distance_km": 1.0,
+   "transit_min": 8,
+   "walkable": true,
+   "rent_pw": 230.0,
+   "bond": 460.0,
+   "about": "Furnished single room on the top floor of a quiet boarding house: single bed, built-in wardrobe, fridge, TV, desk. Shared bathroom and kitchen. Security key locks on all rooms. No linen. 15 min walk or 5 min bus to UNSW. No parking, no pets.",
+   "bills": {
+    "electricity": "included",
+    "gas": "included",
+    "water": "included",
+    "internet": "included"
+   },
+   "bills_included_count": 4,
+   "bills_estimate_pw": null,
+   "room_type": "Private room",
+   "available_from": null,
+   "lease": "2 to 3 months or longer; short stays considered; 2 weeks' notice to leave",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "who_can_apply": "Working professionals or university students, mixed gender, about 20s to 40s",
+   "household": "Boarding house; number of residents not stated (Amber says 16 bedrooms at 4 Carlton St)",
+   "inspection_questions": [
+    "Is Room 4 (or another room at 4 Carlton St) free for a move-in between late December 2026 and early February 2027?",
+    "Is the boarding house on the NSW Fair Trading boarding house register, and will I get a written occupancy agreement?",
+    "The page lists a $50 key fee and a $25 cleaning fee at move-out: are these still charged, and is the 2-week bond receipted?",
+    "How many residents share each bathroom and the kitchen?",
+    "Is there a washing machine I can use, and is it included in the rent?"
+   ],
+   "scam_flags": [
+    {
+     "code": "boarding_house_check",
+     "level": "medium",
+     "reason": "The page says 'boarding house' and Amber lists 4 Carlton St with 16 bedrooms: check it is on the NSW boarding house register"
+    },
+    {
+     "code": "pet_bond_or_key_fee",
+     "level": "medium",
+     "reason": "The page asks '$50 per key' on top of the 2-week bond, and a 'compulsory $25 cleaning fee' when you leave"
+    },
+    {
+     "code": "stale_listing",
+     "level": "low",
+     "reason": "The page shows 'Available Mon 28 March 22', so the ad may be years old"
+    },
+    {
+     "code": "inconsistent_details",
+     "level": "low",
+     "reason": "The description says both 'FIRST FLOOR' and 'TOP FLOOR'"
+    },
+    {
+     "code": "high_risk_classifieds",
+     "level": "low",
+     "reason": "New source not yet reviewed (tier C until checked); get the agency's licence and number from Service NSW, not from the ad"
+    }
+   ],
+   "trust": "C",
+   "women_only": null,
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "contact": {
+    "channel": "CK Realty office phone or the online contact form on its website; 'Apply for this property' link on the page",
+    "business": "CK Realty",
+    "url": "https://ckrealty.com.au/property/furnished-accommodation/room-4-kensington-boarding-house-carl4.php",
+    "mobile_on_listing": true
+   },
+   "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a room at 4 Carlton St, Kensington (Room 4, $230/wk). I'm looking to move in between late December 2026 and early February 2027, for at least 3 months. Is Room 4 or another room available then? Could you confirm which bills are included, the minimum lease, and the bond and any key or cleaning fees? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
+   "risk": "medium"
+  },
+  {
+   "source_rank": 22,
+   "found_at": "2026-10-31",
+   "last_seen_at": "2026-10-31",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "lister": null,
+   "id": "sharehouse:lccjPw",
+   "title": "Room in a 3-bed Maroubra house with garden, 12-month stay",
+   "org": "Sharehouse.app listing",
+   "link": "https://sharehouse.app/h/lccjPw",
+   "source": "Sharehouse.app",
+   "verified": "✅",
+   "notes": "Found by discovery search 31 Oct. Listing page read 31 Oct. Shows 'ASAP' but the text says 'Available June 10th', so the ad may be old: ask if it is still free for late Dec 2026 to early Feb 2027. Bills not mentioned.",
+   "suburb": "Maroubra",
+   "distance_km": 3.5,
+   "transit_min": 25,
+   "walkable": false,
+   "rent_pw": 284.0,
+   "bond": 1134.0,
+   "about": "Room in a clean, social but relaxed 3-bed, 1-bath house with garden, about 5 min drive to the beach. Two housemates (25 and 27). Long term welcome; looking for someone in their 20s/30s with a job.",
+   "bills": {
+    "electricity": "not mentioned",
+    "gas": "not mentioned",
+    "water": "not mentioned",
+    "internet": "not mentioned"
+   },
+   "bills_included_count": 0,
+   "bills_estimate_pw": 25,
+   "room_type": "Private room",
+   "available_from": null,
+   "lease": "12 months",
+   "furnished": "unknown",
+   "own_bathroom": "no",
+   "who_can_apply": "Someone in their 20s or 30s with a job",
+   "household": "Two housemates, aged 25 and 27",
+   "inspection_questions": [
+    "Is the room still available for a move-in between late December 2026 and early February 2027?",
+    "Which bills are extra, and roughly how much are they per week?",
+    "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
+    "Can I inspect in person before paying anything?",
+    "Is there a washing machine I can use, and is it included in the rent?"
+   ],
+   "scam_flags": [
+    {
+     "code": "address_unverifiable",
+     "level": "medium",
+     "reason": "No street address in the ad, only 'Maroubra, NSW 2035'"
+    },
+    {
+     "code": "stale_listing",
+     "level": "low",
+     "reason": "Availability shows 'ASAP' but the text says 'Available June 10th' and 'early June'"
+    },
+    {
+     "code": "high_risk_classifieds",
+     "level": "low",
+     "reason": "Sharehouse.app is a new, lightly moderated source (tier C until reviewed)"
+    }
+   ],
+   "trust": "C",
+   "women_only": null,
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "contact": {
+    "channel": "Sharehouse.app message (free sign-up); no phone shown",
+    "business": null,
+    "url": "https://sharehouse.app/h/lccjPw",
+    "mobile_on_listing": false
+   },
+   "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your room in Maroubra ($284/wk). I'm looking to move in between late December 2026 and early February 2027. Is the room still available then? Could you tell me which bills are included and whether the 12-month lease is fixed? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
+   "risk": "medium"
+  },
+  {
+   "source_rank": 22,
+   "found_at": "2026-10-31",
+   "last_seen_at": "2026-10-31",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "lister": null,
+   "id": "sharehouse:4hbcW2",
+   "title": "Room in a 4-bed Kensington house near UNSW and light rail, washer and dryer",
+   "org": "Sharehouse.app listing",
+   "link": "https://sharehouse.app/h/4hbcW2",
+   "source": "Sharehouse.app",
+   "verified": "✅",
+   "notes": "Found by discovery search 31 Oct. Listing page read 31 Oct. Text names a 'move in date on July 23rd', so the ad may be old: ask if a room is free for late Dec 2026 to early Feb 2027. Bills not mentioned (only '250mbps' internet speed).",
+   "suburb": "Kensington",
+   "distance_km": 1.0,
+   "transit_min": 8,
+   "walkable": true,
+   "rent_pw": 350.0,
+   "bond": null,
+   "about": "Room in a friendly 4-bed, 2-bath house about 3 min walk to NIDA/UNSW and 3 min to light rail. Largely unfurnished room; kitchen necessities covered. Security cameras. Lister offers a Zoom call or inspection.",
+   "bills": {
+    "electricity": "not mentioned",
+    "gas": "not mentioned",
+    "water": "not mentioned",
+    "internet": "not mentioned"
+   },
+   "bills_included_count": 0,
+   "bills_estimate_pw": 25,
+   "room_type": "Private room",
+   "available_from": null,
+   "lease": "Minimum 6 months",
+   "furnished": "no",
+   "own_bathroom": "no",
+   "who_can_apply": "Suits a student or working young adult",
+   "household": "4-bedroom house, 2 bathrooms; two rooms said to be available",
+   "inspection_questions": [
+    "Is a room free for a move-in between late December 2026 and early February 2027?",
+    "Which bills are included in the $350, and how are the others split?",
+    "Is the room furnished at all (bed, desk, wardrobe)?",
+    "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
+    "Can I inspect in person before paying anything?"
+   ],
+   "scam_flags": [
+    {
+     "code": "address_unverifiable",
+     "level": "medium",
+     "reason": "No street address in the ad, only 'Kensington, NSW 2033'"
+    },
+    {
+     "code": "stale_listing",
+     "level": "low",
+     "reason": "Availability shows 'ASAP' but the text names a 'move in date on July 23rd'"
+    },
+    {
+     "code": "inconsistent_details",
+     "level": "low",
+     "reason": "Says 'Two bedrooms available' but describes 'this room'"
+    },
+    {
+     "code": "high_risk_classifieds",
+     "level": "low",
+     "reason": "Sharehouse.app is a new, lightly moderated source (tier C until reviewed)"
+    }
+   ],
+   "trust": "C",
+   "women_only": null,
+   "laundry": "yes",
+   "laundry_evidence": "as well as a washer and dryer",
+   "contact": {
+    "channel": "Sharehouse.app message (free sign-up); lister offers Zoom or inspection; no phone shown",
+    "business": null,
+    "url": "https://sharehouse.app/h/4hbcW2",
+    "mobile_on_listing": false
+   },
+   "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your room in Kensington ($350/wk). I'm looking to move in between late December 2026 and early February 2027. Is a room available then? Could you tell me which bills are included and the minimum lease? I'd also like to arrange an inspection. Thanks, [your name]",
+   "risk": "medium"
+  },
+  {
+   "source_rank": 22,
+   "found_at": "2026-10-31",
+   "last_seen_at": "2026-10-31",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "lister": null,
+   "id": "livinghigh:small-standard-kingsford-kensington",
+   "title": "Small standard room in a Living High co-living house (Kingsford or Kensington), utilities and wifi included",
+   "org": "Living High Co-Living",
+   "link": "https://livinghigh.com.au/studio-apartment-sydney/co-living-space-kingsford/",
+   "source": "Living High Co-Living",
+   "verified": "⚠️",
+   "notes": "Found by discovery search 31 Oct. Operator site read 31 Oct, but the 'from $340' small room price is on the home page and not tied to a suburb or a free room; the Kingsford and Kensington pages give no address, price or dates. Bookings only by WhatsApp or WeChat. Its 12 Fern St Randwick house (Amber, from $275) shows sold out.",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 340.0,
+   "bond": null,
+   "about": "Operator-run co-living houses near UNSW. Small Standard Room from $340/wk: utilities and unlimited wifi included, shared kitchen and full laundry (washer/dryer). No curfew; parking about $40 to $60/wk.",
+   "bills": {
+    "electricity": "included",
+    "gas": "included",
+    "water": "included",
+    "internet": "included"
+   },
+   "bills_included_count": 4,
+   "bills_estimate_pw": null,
+   "room_type": "Private room",
+   "available_from": null,
+   "lease": "Not stated (FAQ: 'stay for the foreseeable future')",
+   "furnished": "unknown",
+   "own_bathroom": "no",
+   "who_can_apply": null,
+   "household": "Shared co-living house; size not stated",
+   "inspection_questions": [
+    "Which street address is the $340 room at, and is it free for a move-in between late December 2026 and early February 2027?",
+    "What are the bond, any booking deposit, and the minimum stay?",
+    "Is the house on the NSW boarding house register, and will I get a written agreement?",
+    "Can I inspect the actual room in person before paying anything?"
+   ],
+   "scam_flags": [
+    {
+     "code": "price_from_only",
+     "level": "medium",
+     "reason": "Only 'From $340' is given, not a fixed rent for a named room"
+    },
+    {
+     "code": "address_unverifiable",
+     "level": "medium",
+     "reason": "The Kingsford and Kensington pages give no street address"
+    },
+    {
+     "code": "off_platform_contact",
+     "level": "high",
+     "reason": "Room bookings ('Check Availability') go only to WhatsApp or WeChat"
+    },
+    {
+     "code": "boarding_house_check",
+     "level": "medium",
+     "reason": "Co-living operator; Amber lists its 12 Fern St house with 14 bedrooms: check the NSW register"
+    },
+    {
+     "code": "high_risk_classifieds",
+     "level": "low",
+     "reason": "New source not yet reviewed (tier C until checked)"
+    }
+   ],
+   "trust": "C",
+   "women_only": null,
+   "laundry": "yes",
+   "laundry_evidence": "full laundry (washer/dryer)",
+   "contact": {
+    "channel": "Operator enquiry form on its website (bookings otherwise by WhatsApp or WeChat)",
+    "business": "Living High Co-Living",
+    "url": "https://livinghigh.com.au/",
+    "mobile_on_listing": true
+   },
+   "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a Small Standard Room (from $340/wk) in your Kingsford or Kensington house. I'm looking to move in between late December 2026 and early February 2027, for at least 3 months. Which room and address would that be, and what are the bond and minimum stay? Could you confirm which bills are included and whether the washing machine is free to use? I'd also like to arrange an in-person inspection. Thanks, [your name]",
+   "risk": "high"
   }
  ]
 }
