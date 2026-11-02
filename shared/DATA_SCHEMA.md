@@ -126,7 +126,7 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `contact` | object | Public-safe contact route only: `{ channel, business, url, mobile_on_listing }`. `business` is filled only for businesses (agency, operator, marketplace). **Never** put a private person's name, phone number or email here: the repo is public. Those go only to the private Sheet's Contact name, Phone and Email columns |
 | `enquiry_draft` | string | Draft message for Chaitanya to send himself |
 
-**Default view (site and Sheet):** trust `A` or `B`, verified ✅, risk not `high`, `women_only` null, not closed. Everything else stays in the data and can be shown with the Safety and Women-only filters.
+**Trusted and safe only (Chaitanya's rule, 2 Nov 2026):** a room counts only if its source is trust tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are not considered at all: never shown on the site (it drops them on load, with no filter to bring them back), never ranked, summarised or drafted for, and kept out of the Sheet's view. They may stay in the JSON as history so later runs don't re-read them. Women-only rooms are trusted rooms, hidden by default with a filter to show them.
 
 ### ✈️ flights.json
 No Sheet tab. `deadline` is null; `status` stays `new`. Items from an earlier route or date range get `closed: true`. No personal details: no names, passport or visa facts, meal choices or card holdings.

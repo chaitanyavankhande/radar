@@ -8,13 +8,13 @@ A flag is a prompt to check, never proof. Claude never contacts, pays or applies
 
 | Level | Meaning | Default view |
 |---|---|---|
-| 🔴 **high** | A typical scam sign. Stop and verify before any contact beyond the platform. | Hidden |
+| 🔴 **high** | A typical scam sign. | Never shown or considered |
 | 🟠 **medium** | Unlawful in NSW or risky. Must be fixed before you pay anything. | Shown, with reasons |
 | 🟡 **low** | Be careful and verify. | Shown, with reasons |
 
 Each listing stores `scam_flags` as `{code, level, reason}`, a `risk` (the highest level) and a source `trust` tier. The website shows every reason on the card. The Sheet has Risk and Flags (reasons) columns.
 
-**Default view (site and Sheet):** trust tier A or B, listing page read (✅), no high flag, not women-only, not closed. Everything else stays in the data and can be shown with the Safety and Women-only filters.
+**Trusted and safe only (Chaitanya's rule, 2 Nov 2026):** a room counts only if its source is trust tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are not considered at all: never shown on the site (it drops them on load, with no filter to bring them back), never ranked, summarised or drafted for, and kept out of the Sheet's view. They may stay in the JSON as history so later runs don't re-read them. Women-only rooms are trusted rooms, hidden by default with a filter to show them.
 
 ## 2. Source trust tiers
 

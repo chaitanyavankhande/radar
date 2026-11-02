@@ -23,7 +23,7 @@ Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chai
 | Lease | 3 to 6 months · 6 to 12 months · 12 months · flexible |
 | Must-haves | None. Walking distance to UNSW ranks higher. |
 | Women-only rooms | Keep them in the data with `women_only` set, but they are **hidden by default** on the site and Sheet |
-| Default view | **Trusted and verified only:** source tier A or B, listing page read (✅), no high-risk flag |
+| Trusted and safe only | A room counts only if its source is tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are **not considered at all**: no ranking, no enquiry draft, not in the run summary, never on the site, kept out of the Sheet view |
 
 A January gap is Chaitanya's to sort out; don't search short stays unless asked.
 
@@ -48,6 +48,7 @@ Use `shared/SOURCES.md` section 5. UNSW Study Stays, Down Under Stay, Gumtree, D
    - Write each hit to `scam_flags` as `{code, level, reason}`. The reason says why in plain words and quotes the listing where it can. Set `risk` to the highest level and `trust` to the tier.
    - Set `women_only`: `stated` when the listing says women, females, girls or ladies only; `likely` when it is tagged "All female flat" or is a shared room with a woman. If it says "Anyone" but is tagged all-female, add an `inconsistent_details` flag.
    - Never contact, pay or apply to test a listing. Flags are prompts to check, not proof.
+   - If the room is tier C, unverified, or gets a 🔴 high flag, stop there: it is not considered (no draft, no ranking, not summarised). It may be kept in the JSON as history only.
 8. **Verify:** keep the official listing link (photos are there). Mark ✅ only when the listing page itself was read.
 9. Draft an `enquiry_draft` message for good listings. Chaitanya sends it himself.
 10. Inspections and deadlines go to the **Accommodation** calendar (🟡 / 🔵 ladder).
@@ -59,12 +60,12 @@ Use `shared/SOURCES.md` section 5. UNSW Study Stays, Down Under Stay, Gumtree, D
 3. Cheapest rent (plus estimated missing bills)
 4. Earliest suitable move-in date
 
-The website offers: cheapest · closest then cheapest · earliest move-in · lowest risk first · newest. Filters: Safety (default: trusted and verified, no high risk), Women-only rooms (default: hidden, including all-female flat tags), Washing machine, Risk, Source trust, and the usual room filters.
+The website shows trusted and safe rooms only (it drops every other room on load). Sorts: cheapest · closest then cheapest · earliest move-in · lowest risk first · newest. Filters: Flags (any, none, flagged only), Women-only rooms (default: hidden, including all-female flat tags), Washing machine, Risk, Source trust, and the usual room filters.
 
 ## 5. Outputs
 
 - `docs/data/accommodation.json` (commit + push).
 - Google Sheet tab **Accommodation** with Status dropdown (new, enquired, inspected, rejected, signed), plus Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), In default view, Contact via, Contact name, Phone and Email columns. The Sheet's filter hides rows where In default view is `no`. Never overwrite a Status Chaitanya set.
-- Run summary: new rooms, best 5 in the default view, every high-risk flag with its reason, how many rooms were hidden (untrusted or high risk, women-only), sources not checked.
+- Run summary: new trusted and safe rooms, best 5, how many women-only rooms are hidden, sources not checked. Rooms that are not trusted and safe are left out of the summary.
 
 Never pay, apply, book an inspection or message anyone.

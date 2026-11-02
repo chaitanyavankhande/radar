@@ -162,7 +162,7 @@ Room from late Dec 2026, early Jan or early Feb 2027 · near UNSW Village · Ken
 
 ### Safety checks (run on every listing)
 
-The full flag catalogue, levels, trust tiers and sources are in `shared/SCAM_FLAGS.md`. Source trust tiers: **A** UNSW Village, AHN, realestate.com.au and Domain agent listings · **B** Flatmates, Flatmate Finders, UNSW Study Stays, Down Under Stay, UNSW-listed co-living operators · **C** Gumtree, uhomes, Casita, Facebook and any new or overseas marketplace. Tier C rooms are hidden by default on the site and Sheet.
+The full flag catalogue, levels, trust tiers and sources are in `shared/SCAM_FLAGS.md`. Source trust tiers: **A** UNSW Village, AHN, realestate.com.au and Domain agent listings · **B** Flatmates, Flatmate Finders, UNSW Study Stays, Down Under Stay, UNSW-listed co-living operators · **C** Gumtree, uhomes, Casita, Facebook and any new or overseas marketplace. Tier C rooms are never considered (trusted and safe only, see `SCAM_FLAGS.md` section 1).
 
 | Check | Official link |
 |---|---|
