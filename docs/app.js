@@ -377,20 +377,20 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
     search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
-    defaultF: { safety: 'safe', women: 'hide' },
+    include: isSafe,
+    defaultF: { women: 'hide' },
     hiddenNote: (items, s) => {
       const out = [];
-      if ((s.f.safety || 'safe') === 'safe') { const n = items.filter(it => !isSafe(it)).length; if (n) out.push(`${n} untrusted, unverified or high-risk hidden`); }
       const w = s.f.women || 'hide';
       if (w !== 'show') { const n = items.filter(it => it.women_only === 'stated' || (w === 'hide' && it.women_only === 'likely')).length; if (n) out.push(`${n} women-only hidden`); }
       return out;
     },
     filters: () => [
-      { type: 'select', key: 'safety', label: 'Safety', options: [['safe', 'Trusted and verified only'], ['nohigh', 'Any source, hide high risk'], ['all', 'Show everything'], ['flagged', 'Flagged only']],
-        test: (it, v) => v === 'safe' ? isSafe(it) : v === 'nohigh' ? riskOf(it) !== 'high' : v === 'flagged' ? flagsOf(it).length > 0 : true },
+      { type: 'select', key: 'flagged', label: 'Flags', options: [['', 'Any'], ['none', 'No flags at all'], ['flagged', 'Flagged only']],
+        test: (it, v) => v === 'none' ? flagsOf(it).length === 0 : v === 'flagged' ? flagsOf(it).length > 0 : true },
       { type: 'select', key: 'women', label: 'Women-only rooms', options: [['hide', 'Hide (stated or tagged)'], ['hide_stated', 'Hide only when stated'], ['show', 'Show them']],
         test: (it, v) => v === 'hide' ? !it.women_only : v === 'hide_stated' ? it.women_only !== 'stated' : true },
       { type: 'multi', key: 'risk', label: 'Risk', get: it => RISK_LABEL[riskOf(it)] },
@@ -461,7 +461,6 @@ const TABS = [
       const r = riskOf(it);
       if (r !== 'none') c.push([RISK_LABEL[r], r === 'high' ? 'crit' : r === 'medium' ? 'warn' : 'info']);
       if (trustOf(it) === 'A') c.push(['Trusted source', 'good']);
-      if (trustOf(it) === 'C') c.push(['Untrusted source', 'crit']);
       if (it.women_only) c.push([WOMEN_LABEL[it.women_only] || 'Women only', 'warn']);
       if (n === 4) c.push(['All bills included', 'good']);
       if (['yes', 'shared'].includes(laundryOf(it))) c.push(['Washing machine', 'good']);
@@ -660,6 +659,8 @@ async function load(tab) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const d = await res.json();
     d.items = Array.isArray(d.items) ? d.items : [];
+    /* a tab may exclude items outright (accommodation: only trusted and safe rooms, never shown or counted otherwise) */
+    if (tab.include) d.items = d.items.filter(tab.include);
     d.sources = Array.isArray(d.sources) ? d.sources : [];
     DATA[tab.id] = d;
   } catch (e) {
