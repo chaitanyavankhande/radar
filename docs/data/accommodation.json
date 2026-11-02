@@ -6375,6 +6375,7 @@
     "Could the room be held for a move-in in late December 2026 or early January 2027?",
     "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
     "How many people live here, and how are cleaning and kitchen time shared?",
+    "Is there a washing machine I can use, and is it included in the rent?",
     "The ad says ID, a bank statement and payslips go to the agent: is that only after an inspection and an approved application?"
    ],
    "scam_flags": [
@@ -6402,7 +6403,7 @@
     "url": "https://flatmates.com.au/share-house-sydney-eastlakes-2018-P1645831",
     "mobile_on_listing": false
    },
-   "laundry": "yes",
+   "laundry": "likely",
    "laundry_evidence": "Laundry and dryer included"
   },
   {
