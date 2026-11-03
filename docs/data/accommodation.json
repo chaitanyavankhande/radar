@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T08:45:00+11:00",
+ "updated_at": "2026-11-04T09:25:00+11:00",
  "previous_run_at": "2026-11-02T16:30:00+11:00",
  "sources": [
   {
@@ -13,57 +13,57 @@
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
-   "found": 0,
-   "note": "2 Nov deep run (cloud, WebFetch worked with the section 6 URLs): pages 1 to 5 read, 60 matches, 60 unique cards. In area at or under $350: 381028, 381221, 381213, 376475, 379389 (all tracked, live) and 381277 (Down Under Stay Boyce Rd room 2, de-duplicated). Nothing new. || Earlier 2 Nov run: Read 2 Nov 2026 (cloud). All-listings search: Page=1 with params was refused (PROVENANCE_REQUIRED, permission not answered), so page 1 was read via the plain /listings/search URL returned by WebSearch; Page=2 to 5 read (12 cards each, 60 matches); Page=6, 7 and 8 return a page-1 view (12 cards each, order reshuffles between loads). Kensington distance sort (linked from /campuses/unsw-kensington) pages 1 to 5 read: 58 to 59 matches, 58 cards. Rooms search (Type=rooms) pages 1 to 5 read: 53 to 58 matches. 65 unique listing ids across all lists. In-area at or under $350: 381028, 381221, 381213, 3"
+   "found": 1,
+   "note": "4 Nov (cloud): 64 matches across 6 pages (Pages 7-8 empty). Default and OrderBy=Cheapest page 1 differed, so both were read to cover all 64 IDs. In-criteria: 376475, 379389, 381028, 381213, 381221 (existing, all still listed), 381277 (new, but it is the same room as downunderstay:boyce-rd-room-2), 381364 (new). Excluded: 381372 Randwick $250 twin share (female only, sublet 30 Nov 2026 to 13 Feb 2027, about 11 weeks, under 3 months; table says 3-6 months, which conflicts). Every other listing is over $350 or outside the target suburbs (Bardwell Valley, Woollahra, Paddington, Chippendale). Existing 380722 and 380549 are no longer in the results (already closed)."
   },
   {
    "name": "Down Under Stay",
    "rank": 3,
    "result": "checked",
    "found": 0,
-   "note": "2 Nov deep run: sitemap (85 room pages) fetched in the cloud; every room page read in Chrome. 78 Occupied. Open: Boyce Rd room 2 ($265 shared, from 17 Nov) and room 3 ($255 shared, from 28 Nov), Harbourne III room 4 ($285 shared, from 30 Nov) and room 6 ($285 shared, from 8 Dec), all tracked; Harbourne IV rooms 5, 6, 7 Kingsford $455 single (over budget). 3 weeks deposit, 4 months minimum. || Earlier 2 Nov run: 2 Nov (Chrome; cloud fetch was refused): rooms-sitemap.xml lists 85 room pages, all read. 7 not Occupied: Boyce Rd rooms 2 ($265) and 3 ($255), Harbourne III rooms 4 and 6 ($285), and Harbourne IV rooms 5, 6, 7 in Kingsford at $455 (over budget, not added). Harbourne Rd II room 2 is now Occupied: closed."
+   "note": "4 Nov (cloud): Read all 85 room pages in rooms-sitemap.xml. Index and homepage show no prices (homepage says 'No rooms available at the moment'), so each price comes from its room page. Open or soon: harbourne-rd-ii-room-2 Available $285 shared; harbourne-iii-room-4 Available Soon 30 Nov $285; harbourne-iii-room-6 Available Soon 8 Dec $285; boyce-rd-room-3 Available Soon 28 Nov $255; boyce-rd-room-2 Available Soon 16 Nov $265. Over cap: villiers-st-room-3 Available single $355; garden-st-room-1 Available $455; meeks-st-room-2 Available $425; harbourne-iv-room-5/6/7 Available Soon 13-15 Dec, single $455 with no shared price. All others Occupied. All rooms: 4 months minimum (granny flat 6), bond 3 weeks' rent, Wi-Fi not included, utilities shared about $15-30 per person per week."
   },
   {
    "name": "Gumtree flatshare",
    "rank": 4,
-   "result": "checked",
-   "found": 1,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || Partly checked. All 9 task URLs (Kingsford l3003648, Eastern Suburbs c18294l3003633 and the 7 keyword searches in SOURCES.md section 6) and every /web/listing/ ad page were refused by WebFetch (PROVENANCE_REQUIRED). Fallback: WebSearch returned Gumtree results URLs, which loaded: Kingsford room, Kingsford category, Kensington room, 'unsw' (national and Sydney), Coogee category, Maroubra category, Maroubra 'room rent' and 'room for rent', Eastern Suburbs 'share house', Randwick furnished, Randwick boarding houses, Randwick real-estate 'rooms to rent', Sydney 'kingsford', Sydney 'shared room', a"
+   "result": "not checked",
+   "found": 0,
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Australian Homestay Network (UNSW partner)",
    "rank": 5,
    "result": "checked",
    "found": 0,
-   "note": "2 Nov deep run: official sydney-pricing page read: 2027 shared room no meals $325/wk, private $355/wk; tracked item confirmed. || Earlier 2 Nov run: sydney-pricing was refused (PROVENANCE_REQUIRED). Search fallback: /students/pricing (official) loaded but gives no Sydney figures: matching fee non-refundable, laundry, internet and utilities included, 4-week minimum. The 'AHN 2027 Fee Schedule Single Pricing' PDF (hosted by apc.edu.au, a secondary copy that does not state its year inside) lists Sydney private room for over 18: no meals $355/wk, dinner only $395, 2 meals weekdays $425, 3 meals $460. National matching fee $370. It lists no shared-room rate, so the tracked $325 shared no-meals rate could not be confirmed. Cheapest Sydney rate s"
+   "note": "4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
   },
   {
    "name": "Domain rentals",
    "rank": 6,
    "result": "checked",
    "found": 0,
-   "note": "2 Nov deep run (cloud, all six suburb URLs loaded): in area at or under $350 only the tracked rooms: 127 Barker St Kingsford x3 ($250, $270, $320), 39 Rainbow St Kingsford $330 (same as realestate.com.au 418962602) and 11/1-3 Vicar St Coogee $350 studio. The rest were car spaces or out of area (Paddington, Rosebery, Zetland, Mascot, Bondi Junction). || Earlier 2 Nov run: 2 Nov: cloud fetch refused (permission prompt timed out) and Chrome asked for a one-time Allow for domain.com.au that nobody was there to click. 4 tracked Domain rooms not re-checked."
+   "note": "4 Nov (cloud): All 6 suburb URLs read. Results add neighbouring suburbs (Paddington, Rosebery, Zetland, Waterloo, Mascot, Bondi Junction, Hillsdale), all excluded as out of area, along with car spaces and storerooms. Eastlakes had no in-suburb rooms. In-area: 127 Barker St x3 (existing), 11/1-3 Vicar St Coogee (existing), 39 Rainbow St Kingsford (new on Domain, but probably the same boarding house as rea:418962602)."
   },
   {
    "name": "UNSW Village 2027 (CLV)",
    "rank": 7,
    "result": "checked",
    "found": 0,
-   "note": "2 Nov deep run: /shared/ page read: shared apartment $404 to $521/wk (mostly Waitlist), studio $544.50 to $675.50, 1-bed single $600.50 to $732. Over budget, price watch. || Earlier 2 Nov run: The /shared/ page was refused (PROVENANCE_REQUIRED). I read the official village page https://www.campuslivingvillages.com/australia/sydney/unsw-village/ instead (returned by search). '2027 bookings open now!' Shared apartment $404.00 to $521.00 per week (mostly Waitlist, some Limited availability). Studio $544.50 to $675.50, 1-bed $587.00 to $732.00 single. Contracts start 1 Jan 2027 (Full year, 48 weeks, T1, T1+2), 6 Jan, 29 Jan, 19 May. No short-stay prices. Page says 'no terms available for you to book at this time'. Cheapest 2027 price: $404/wk shared apartment. Price watch only (over $35"
+   "note": "4 Nov (cloud): 2027 shared from $404/wk on shorter contracts; full-year 2027 shared $453.50-$521. No deals. Most options show Waitlist."
   },
   {
    "name": "UNSW Accommodation",
    "rank": 8,
    "result": "checked",
    "found": 0,
-   "note": "www.unsw.edu.au/accommodation/apply-now was refused. The search returned unsw.edu.au/accommodation/apply-now, which loaded: no prices listed. 'Applications for 2027 accommodation will open on Tuesday, 3 November at 12:00PM (AEDT)' via the StarRez portal ('Opening Soon'). It lists Creston, New College, New College Village, Shalom, Warrane and UNSW Village. Cheapest price: not shown on the page. Price watch only."
+   "note": "4 Nov (cloud): '2027 Applications - Now Open!'; no dates or deadlines given."
   },
   {
    "name": "UniLodge Kensington",
    "rank": 9,
    "result": "checked",
    "found": 0,
-   "note": "Official page read (187 Anzac Parade, Kensington). From prices: Twin Studio from $575*, Twin Studio Premium $595*, 7 or 8 Bedroom Shared Apartment $646*, Studio $787*, Studio Premium $846*. Intro says 'from $566*' (conflicts with $575). The 2027 early bird (book 1 Oct to 30 Nov 2026) 26-week rate is Twin Studio $610 (full $622). No short-stay or summer offer. Cheapest price: $566 to $575/wk (page conflicts). Price watch only."
+   "note": "4 Nov (cloud): Twin Studio from $575/wk (early bird, 52 wks). Page does not say per person or per room. Over cap either way."
   },
   {
    "name": "Scape Sydney + UNSW Summer Stays",
@@ -84,7 +84,7 @@
    "rank": 12,
    "result": "checked",
    "found": 0,
-   "note": "Official page read: 'Now Leasing 2027', all-inclusive bills, free laundry, no prices on the main page. The 2-bed shared living page reads '$659 Per week' for Semester 1 2027 (WiFi, utilities, laundry, gym included). Cheapest price seen: $659/wk. Price watch only."
+   "note": "4 Nov (cloud): No prices on page; 'Now Leasing 2027', all-inclusive; enquire for rates."
   },
   {
    "name": "rent.com.au",
@@ -96,9 +96,9 @@
   {
    "name": "Haush · ZUWU · Oz Homestay",
    "rank": 14,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || 2 Nov (Chrome; cloud fetch refused): the 4 tracked ZUWU rooms re-read, all live. Kensington a330521a now shows 2 rooms from $250/wk. ZUWU list paging, Haush and Oz Homestay not read this run."
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Roomgo",
@@ -124,23 +124,23 @@
   {
    "name": "uhomes",
    "rank": 17,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || First tries at all 5 given URLs were refused (PROVENANCE_REQUIRED). After web searches returned them, read UNSW /rent page (12 of 1,466, all buildings AU$447+), Kensington p1 (12 of 79), Kingsford p1 (12 of 218), Randwick p1 (12 of 19), Maroubra p1 (12 of 32). The plain UNSW school page was not re-read. 20 tracked open items: 17 re-opened and still load (seen), 3 not reachable (unknown: 1623412, 1715231, 1656591). No new in-scope rooms: untracked results at or under $350 were none; nearest were 10B Borrodale Rd $360 (1631592), 23 Meeks St $365 (1686013), 8 Harbourne Rd single $385 (1638148), 1"
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Casita (student-room marketplace)",
    "rank": 18,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || Re-opened the 1 tracked listing (140496, Maroubra) after a search returned its URL: still loads, twin from AU$240 all-inclusive, single from AU$380. Search pages not tried (they fail). No new items."
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Amber Student · UniAcco · Student.com",
    "rank": 19,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "Amber Sydney search p1 (10 of 91) read: nothing in area at or under $350 (Homi Woolloomooloo $300 and Chippendale $350 are out of area). Also read Amber Kingsford search p2 and Kensington search p2 (de) via search results: cheapest in area SOL Kingsford from AU$720 (available 2 Dec 2026), Scape from $739; Sharesorted Kensington (6 Lorne Ave) from AU$395 sold out; UKO Kensington from $525 sold out; 55 Houston Rd Kingsford room 6 from $600 sold out. UniAcco UKO Randwick read: from AU$730, every room 'Currently unavailable'. NOT read: uniacco.com/australia/sydney and www.student.com (PROVENANCE_REQUIRED refused, no search returned the exact URL)."
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Other cloud sites (admistay, Trovit, onthehouse)",
@@ -271,16 +271,16 @@
   {
    "name": "Sharehouse.app",
    "rank": 21,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || 2 Nov (Chrome): both tracked houses still live (Maroubra $284, Kensington $350)."
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Living High Co-Living",
    "rank": 21,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || 2 Nov (Chrome): Kingsford co-living page live; no price shown on the page today."
+   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "UNSW-listed co-living operators",
@@ -3692,7 +3692,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3836,7 +3836,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3958,7 +3958,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4709,7 +4709,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4747,7 +4747,7 @@
    ],
    "scam_flags": [],
    "enquiry_draft": "Hi, I'm [your name], a current UNSW Village resident. I'd like to know whether I can book a shared apartment for Term 1 2027 starting 1 January, so there is no gap after my current contract ends. Could you confirm the cheapest weekly rate for 2027, whether utilities are included, and how the security deposit is handled? Thank you.",
-   "notes": "Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: shared still $404-$521 (69 cards); $404 cards waitlist; cheapest Book now $411.50; Book-now cards down to 14 of 69 (from about 22). Over cap. 27 Oct: Brief URLs refused; read search-returned https://campuslivingvillages.com/australia/sydney/unsw-village/studio, which lists all 2027 types: Shared $404.00 to $521.00 (some Book now, some waitlist; counts not readable), Studio $544.50 to $675.50 all waitlist, 1 Bed $587 to $691.50 all waitlist. Page also says 'no terms available for you to book at this time'. Nothing at or under $350. 29 Oct: the /unsw-village/shared/ page loaded from the cloud today: Shared Apartment $404.00 to $521.00 (mostly 'Join waitlist', some 'Book now' labels), Studio $544.50 to $675.50 (waitlist), 1 Bed $587 to $732 (waitlist); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, cleaning fee $116 to $210, deposit 4 weeks; Wi-Fi listed, utilities not named on this page. The page also showed 'no terms available for you to book at this time / ineligible to book on this account' (a generic unauthenticated message). Still over budget, reference only. 31 Oct: /shared/ page re-read: Shared $404.00 to $521.00, Studio $544.50 to $675.50, 1 Bed $587 to $732 (mostly Waitlist, some Limited availability or Book now); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, deposit 4 weeks, cleaning fee $116 to $210. No early-bird, summer offer or deadline shown. Unchanged, over budget (reference only). 2 Nov: village page (not the /shared/ page, which was refused) shows Shared Apartment $404.00 to $521.00 per week, mostly Waitlist, some Limited availability. 2027 contracts from 1 Jan, 6 Jan or 29 Jan 2027. Page says no terms bookable at this time. Unchanged at $404.",
+   "notes": "Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: shared still $404-$521 (69 cards); $404 cards waitlist; cheapest Book now $411.50; Book-now cards down to 14 of 69 (from about 22). Over cap. 27 Oct: Brief URLs refused; read search-returned https://campuslivingvillages.com/australia/sydney/unsw-village/studio, which lists all 2027 types: Shared $404.00 to $521.00 (some Book now, some waitlist; counts not readable), Studio $544.50 to $675.50 all waitlist, 1 Bed $587 to $691.50 all waitlist. Page also says 'no terms available for you to book at this time'. Nothing at or under $350. 29 Oct: the /unsw-village/shared/ page loaded from the cloud today: Shared Apartment $404.00 to $521.00 (mostly 'Join waitlist', some 'Book now' labels), Studio $544.50 to $675.50 (waitlist), 1 Bed $587 to $732 (waitlist); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, cleaning fee $116 to $210, deposit 4 weeks; Wi-Fi listed, utilities not named on this page. The page also showed 'no terms available for you to book at this time / ineligible to book on this account' (a generic unauthenticated message). Still over budget, reference only. 31 Oct: /shared/ page re-read: Shared $404.00 to $521.00, Studio $544.50 to $675.50, 1 Bed $587 to $732 (mostly Waitlist, some Limited availability or Book now); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, deposit 4 weeks, cleaning fee $116 to $210. No early-bird, summer offer or deadline shown. Unchanged, over budget (reference only). 2 Nov: village page (not the /shared/ page, which was refused) shows Shared Apartment $404.00 to $521.00 per week, mostly Waitlist, some Limited availability. 2027 contracts from 1 Jan, 6 Jan or 29 Jan 2027. Page says no terms bookable at this time. Unchanged at $404. 4 Nov: still from $404/wk, most options now on a waitlist, no deals.",
    "bills_included_count": 4,
    "who_can_apply": null,
    "bond": null,
@@ -5357,7 +5357,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5426,7 +5426,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5783,7 +5783,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct). 24 Oct: 39 Rainbow St is live 24 Oct on Domain (7640084), rent.com.au (1494305) and homely (9518120): $330, Olsen Romano, available now, open inspection Mon 26 Oct 4:15-4:30pm. Licensed boarding house aimed at students; single bed, desk and cupboard; separate men's and women's bathrooms; shared kitchen. Bills, bond and lease are not stated. 2 Nov (deep run): still listed on realestate.com.au and Domain (7640084) at $330; Domain shows an open inspection on Monday at 4:15 pm.",
+   "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct). 24 Oct: 39 Rainbow St is live 24 Oct on Domain (7640084), rent.com.au (1494305) and homely (9518120): $330, Olsen Romano, available now, open inspection Mon 26 Oct 4:15-4:30pm. Licensed boarding house aimed at students; single bed, desk and cupboard; separate men's and women's bathrooms; shared kitchen. Bills, bond and lease are not stated. 2 Nov (deep run): still listed on realestate.com.au and Domain (7640084) at $330; Domain shows an open inspection on Monday at 4:15 pm. 4 Nov: also on Domain (7640084), same 39 Rainbow St boarding house and agency; Domain metadata dates it to Mar 2026.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -6131,7 +6131,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6752,7 +6752,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-10-31",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8257,7 +8257,7 @@
   },
   {
    "id": "flatmates:P312300",
-   "title": "Private room in Kingsford Art Deco apartment, from 8 Feb 2027",
+   "title": "Private room in Kingsford Art Deco apartment, available now",
    "org": "Flatmates.com.au listing",
    "link": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P312300",
    "source": "Flatmates.com.au",
@@ -8713,7 +8713,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -9633,7 +9633,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -10562,7 +10562,7 @@
    "status": "new",
    "closed": true,
    "verified": "✅",
-   "notes": "Shared twin room, $285/wk per person, about 7 minutes' walk to UNSW, in a smaller house (about 5 residents). The page says 'Available from 01 Aug 2026', but that date is 12 weeks old and the room is NOT on the main /rooms/ list, so it may be stale. Confirm it is open and can be held for late Dec 2026 or Jan 2027. Bills extra (about $25 per person per week). Bond 3 weeks, minimum 4 months. 26 Oct: the room page now says Occupied. 29 Oct: REOPENED. The room page read from the cloud says 'Available' again, still 'Available from 01 Aug 2026' (stale): Shared $285/wk, 2 people, deposit 3 weeks, minimum 4 months, 4 bedrooms, about 5 residents, 7 min walk to UNSW. Not on the operator's /rooms/ list today. Confirm it is open; the main run should re-check in Chrome. 31 Oct: room page read: 'Available', 'Available from 01 Aug 2026' (ask if it can be held), Shared Occupancy $285/wk, capacity 2, deposit 3 weeks ($855), minimum 4 months, '7 min walking' to UNSW; still not on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). Closed 2 Nov 2026: Down Under Stay now shows the room as Occupied.",
+   "notes": "Shared twin room, $285/wk per person, about 7 minutes' walk to UNSW, in a smaller house (about 5 residents). The page says 'Available from 01 Aug 2026', but that date is 12 weeks old and the room is NOT on the main /rooms/ list, so it may be stale. Confirm it is open and can be held for late Dec 2026 or Jan 2027. Bills extra (about $25 per person per week). Bond 3 weeks, minimum 4 months. 26 Oct: the room page now says Occupied. 29 Oct: REOPENED. The room page read from the cloud says 'Available' again, still 'Available from 01 Aug 2026' (stale): Shared $285/wk, 2 people, deposit 3 weeks, minimum 4 months, 4 bedrooms, about 5 residents, 7 min walk to UNSW. Not on the operator's /rooms/ list today. Confirm it is open; the main run should re-check in Chrome. 31 Oct: room page read: 'Available', 'Available from 01 Aug 2026' (ask if it can be held), Shared Occupancy $285/wk, capacity 2, deposit 3 weeks ($855), minimum 4 months, '7 min walking' to UNSW; still not on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). Closed 2 Nov 2026: Down Under Stay now shows the room as Occupied. 4 Nov: page shows 'Available' at $285 shared but the date still reads 1 Aug 2026, so it looks stale; kept closed until a current date appears.",
    "suburb": "Kingsford",
    "distance_km": 0.8,
    "transit_min": 7,
@@ -12273,12 +12273,12 @@
    "source": "Down Under Stay",
    "source_rank": 3,
    "found_at": "2026-10-27",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Room page read 27 Oct: 'Available from 17 Nov 2026' (Available Soon). Shared Occupancy $265/wk per person; the room alone is $505 (single) or $525 (double), over budget. Deposit 3 weeks, minimum 4 months, room capacity 2, flexible double or 2 singles. Same house as Boyce Rd Room 3. Very likely the same room as flatmates:P1276675. Wi-Fi is not included in rent; other bills not stated (operator earlier said about $25 per person per week, ⚠️). Exact address given only on application. Not walkable; bus time ⚠️ estimate. Same room is also listed on UNSW Study Stays (listing 381277, $265, from 16 Nov, minimum 3 months, self-managed bond $795, flags: bond not lodged with Rental Bonds Online, 9 people in 6 bedrooms so check the boarding house register). De-duplicated: Down Under Stay kept as the operator page. Also advertised on Flatmates (P1276675, $265, twin share, says \"available now\" while the operator page says 17 Nov). De-duplicated across three sites. 29 Oct: conflict. The room page now shows status 'Occupied' (shared $255, single $425, double $515 on the page), but the operator's /rooms/ list still shows 'Available Soon' from 17/11/26 at $265 and Study Stays #381277 (page read today) still offers the twin bed at $265 from 16 Nov 2026 with a $795 self-managed deposit, 8 occupants and 1 vacancy. Kept open with the higher list price; confirm with the operator. 31 Oct: conflict persists. Room page: 'Occupied', Shared $255, Single $425, Double $515. /rooms/ list: 'Available Soon', from 17/11/26, 'from' $265. Study Stays 381277 (page read today): twin share $265 per person 'plus bills', single $505, from 16 Nov 2026, bond $795 self-managed, at least 3 months, 8 occupants, 1 vacancy, 'bedroom door does not have a key lock', classified Sub-let or Transfer. Kept open at the higher $265; confirm with the operator. 2 Nov: could not re-check (Room page refused by WebFetch (PROVENANCE_REQUIRED); not loaded).",
+   "notes": "Room page read 27 Oct: 'Available from 17 Nov 2026' (Available Soon). Shared Occupancy $265/wk per person; the room alone is $505 (single) or $525 (double), over budget. Deposit 3 weeks, minimum 4 months, room capacity 2, flexible double or 2 singles. Same house as Boyce Rd Room 3. Very likely the same room as flatmates:P1276675. Wi-Fi is not included in rent; other bills not stated (operator earlier said about $25 per person per week, ⚠️). Exact address given only on application. Not walkable; bus time ⚠️ estimate. Same room is also listed on UNSW Study Stays (listing 381277, $265, from 16 Nov, minimum 3 months, self-managed bond $795, flags: bond not lodged with Rental Bonds Online, 9 people in 6 bedrooms so check the boarding house register). De-duplicated: Down Under Stay kept as the operator page. Also advertised on Flatmates (P1276675, $265, twin share, says \"available now\" while the operator page says 17 Nov). De-duplicated across three sites. 29 Oct: conflict. The room page now shows status 'Occupied' (shared $255, single $425, double $515 on the page), but the operator's /rooms/ list still shows 'Available Soon' from 17/11/26 at $265 and Study Stays #381277 (page read today) still offers the twin bed at $265 from 16 Nov 2026 with a $795 self-managed deposit, 8 occupants and 1 vacancy. Kept open with the higher list price; confirm with the operator. 31 Oct: conflict persists. Room page: 'Occupied', Shared $255, Single $425, Double $515. /rooms/ list: 'Available Soon', from 17/11/26, 'from' $265. Study Stays 381277 (page read today): twin share $265 per person 'plus bills', single $505, from 16 Nov 2026, bond $795 self-managed, at least 3 months, 8 occupants, 1 vacancy, 'bedroom door does not have a key lock', classified Sub-let or Transfer. Kept open at the higher $265; confirm with the operator. 2 Nov: could not re-check (Room page refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 4 Nov: available date now 16 Nov 2026 (was 17 Nov). Same room is on UNSW Study Stays as 381277.",
    "suburb": "Maroubra",
    "distance_km": 3.1,
    "transit_min": 20,
@@ -12295,7 +12295,7 @@
    "bills_included_count": 0,
    "bills_estimate_pw": 25,
    "room_type": "Shared room",
-   "available_from": "2026-11-17",
+   "available_from": "2026-11-16",
    "lease": "4 months minimum",
    "furnished": "yes",
    "own_bathroom": "no",
@@ -12795,7 +12795,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15376,7 +15376,7 @@
    },
    "bills_included_count": 0,
    "bills_estimate_pw": null,
-   "room_type": "Private room",
+   "room_type": "Shared room",
    "available_from": "2026-11-25",
    "lease": "2 weeks to 2 months",
    "furnished": "unknown",
@@ -15503,6 +15503,85 @@
    "laundry": "not mentioned",
    "laundry_evidence": "",
    "enquiry_draft": ""
+  },
+  {
+   "id": "studystays:381364",
+   "title": "Double room in a 5-bedroom boarding house, Tunstall Ave, Kingsford",
+   "org": "UNSW Study Stays listing",
+   "link": "https://studystays.unsw.edu.au/Listings/Detail/381364",
+   "source": "UNSW Study Stays",
+   "source_rank": 2,
+   "found_at": "2026-11-04",
+   "last_seen_at": "2026-11-04",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "verified": "✅",
+   "notes": "Electricity and internet included; gas and water not mentioned: ⚠️ estimate about $13/wk. Bond $680 (2 weeks), listing says lodged with Rental Bonds Online. Found 4 Nov 2026.",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 340,
+   "bond": 680,
+   "bills": {
+    "electricity": "included",
+    "gas": "not mentioned",
+    "water": "not mentioned",
+    "internet": "included"
+   },
+   "bills_included_count": 2,
+   "bills_estimate_pw": 13,
+   "room_type": "Private room",
+   "available_from": "2026-11-03",
+   "lease": "At least 3 months",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "household": "5 current occupants including UNSW students and a postdoc; owner lives next door; cleaning and rubbish roster; no pets or smoking.",
+   "who_can_apply": "Either gender; singles and couples",
+   "about": "Vacant double room (bed, desk, chair, bookshelf) in a 5-bedroom shared house with 2 showers and 2 toilets, air conditioning, courtyard, near light rail and buses.",
+   "inspection_questions": [
+    "Could I inspect the room in person before paying anything?",
+    "Is the house on the NSW boarding house register, and is there a written agreement?",
+    "The price is marked as an indication only: what is the exact weekly rent?",
+    "How much are gas and water each week?",
+    "Can the start date move to mid December or January?"
+   ],
+   "scam_flags": [
+    {
+     "code": "from_price",
+     "level": "medium",
+     "reason": "Rent of $340 is marked 'indication only': confirm the exact rent in writing"
+    },
+    {
+     "code": "boarding_house_check",
+     "level": "medium",
+     "reason": "Described as a boarding house with 5 bedrooms: check it on the NSW boarding house register before paying"
+    },
+    {
+     "code": "inconsistent_details",
+     "level": "low",
+     "reason": "Postcode shown as 2221 but Kingsford is 2032: confirm the address"
+    },
+    {
+     "code": "study_stays",
+     "level": "low",
+     "reason": "UNSW Study Stays does not check its properties"
+    }
+   ],
+   "risk": "medium",
+   "trust": "B",
+   "women_only": null,
+   "lister": null,
+   "contact": {
+    "channel": "UNSW Study Stays provider contact (needs your own Study Stays sign-in)",
+    "business": null,
+    "url": "https://studystays.unsw.edu.au/Listings/Detail/381364",
+    "mobile_on_listing": false
+   },
+   "laundry": "shared",
+   "laundry_evidence": "external laundry",
+   "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the double room on Tunstall Ave, Kingsford (Study Stays 381364). I'm looking to move in between mid December 2026 and early February 2027. Could the start date work for that, and what is the exact weekly rent? How are gas and water charged? I'd like to arrange an in-person inspection. Thank you."
   }
  ]
 }
