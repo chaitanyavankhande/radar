@@ -13,15 +13,15 @@
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
-   "found": 1,
-   "note": "4 Nov (cloud): 64 matches across 6 pages (Pages 7-8 empty). Default and OrderBy=Cheapest page 1 differed, so both were read to cover all 64 IDs. In-criteria: 376475, 379389, 381028, 381213, 381221 (existing, all still listed), 381277 (new, but it is the same room as downunderstay:boyce-rd-room-2), 381364 (new). Excluded: 381372 Randwick $250 twin share (female only, sublet 30 Nov 2026 to 13 Feb 2027, about 11 weeks, under 3 months; table says 3-6 months, which conflicts). Every other listing is over $350 or outside the target suburbs (Bardwell Valley, Woollahra, Paddington, Chippendale). Existing 380722 and 380549 are no longer in the results (already closed)."
+   "found": 0,
+   "note": "4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent. || 4 Nov (cloud): 64 matches across 6 pages (Pages 7-8 empty). Default and OrderBy=Cheapest page 1 differed, so both were read to cover all 64 IDs. In-criteria: 376475, 379389, 381028, 381213, 381221 (existing, all still listed), 381277 (new, but it is the same room as downunderstay:boyce-rd-room-2), 381364 (new). Excluded: 381372 Randwick $250 twin share (female only, sublet 30 Nov 2026 to 13 Feb 2027, about 11 weeks, under 3 months; table says 3-6 months, which conflicts). Every other listing is over $350 or outside the target suburbs (Bardwell Valley, Woollahra, Paddington, Chippendale). Existing 380722 and 380549 are no longer in the results (already closed)."
   },
   {
    "name": "Down Under Stay",
    "rank": 3,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov (cloud): Read all 85 room pages in rooms-sitemap.xml. Index and homepage show no prices (homepage says 'No rooms available at the moment'), so each price comes from its room page. Open or soon: harbourne-rd-ii-room-2 Available $285 shared; harbourne-iii-room-4 Available Soon 30 Nov $285; harbourne-iii-room-6 Available Soon 8 Dec $285; boyce-rd-room-3 Available Soon 28 Nov $255; boyce-rd-room-2 Available Soon 16 Nov $265. Over cap: villiers-st-room-3 Available single $355; garden-st-room-1 Available $455; meeks-st-room-2 Available $425; harbourne-iv-room-5/6/7 Available Soon 13-15 Dec, single $455 with no shared price. All others Occupied. All rooms: 4 months minimum (granny flat 6), bond 3 weeks' rent, Wi-Fi not included, utilities shared about $15-30 per person per week."
+   "note": "4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays closed. villiers-st-room-3 $355 is $5 over the cap. || 4 Nov (cloud): Read all 85 room pages in rooms-sitemap.xml. Index and homepage show no prices (homepage says 'No rooms available at the moment'), so each price comes from its room page. Open or soon: harbourne-rd-ii-room-2 Available $285 shared; harbourne-iii-room-4 Available Soon 30 Nov $285; harbourne-iii-room-6 Available Soon 8 Dec $285; boyce-rd-room-3 Available Soon 28 Nov $255; boyce-rd-room-2 Available Soon 16 Nov $265. Over cap: villiers-st-room-3 Available single $355; garden-st-room-1 Available $455; meeks-st-room-2 Available $425; harbourne-iv-room-5/6/7 Available Soon 13-15 Dec, single $455 with no shared price. All others Occupied. All rooms: 4 months minimum (granny flat 6), bond 3 weeks' rent, Wi-Fi not included, utilities shared about $15-30 per person per week."
   },
   {
    "name": "Gumtree flatshare",
@@ -42,7 +42,7 @@
    "rank": 6,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov (cloud): All 6 suburb URLs read. Results add neighbouring suburbs (Paddington, Rosebery, Zetland, Waterloo, Mascot, Bondi Junction, Hillsdale), all excluded as out of area, along with car spaces and storerooms. Eastlakes had no in-suburb rooms. In-area: 127 Barker St x3 (existing), 11/1-3 Vicar St Coogee (existing), 39 Rainbow St Kingsford (new on Domain, but probably the same boarding house as rea:418962602)."
+   "note": "4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602. || 4 Nov (cloud): All 6 suburb URLs read. Results add neighbouring suburbs (Paddington, Rosebery, Zetland, Waterloo, Mascot, Bondi Junction, Hillsdale), all excluded as out of area, along with car spaces and storerooms. Eastlakes had no in-suburb rooms. In-area: 127 Barker St x3 (existing), 11/1-3 Vicar St Coogee (existing), 39 Rainbow St Kingsford (new on Domain, but probably the same boarding house as rea:418962602)."
   },
   {
    "name": "UNSW Village 2027 (CLV)",
