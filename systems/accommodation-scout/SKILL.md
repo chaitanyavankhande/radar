@@ -1,6 +1,6 @@
 ---
 name: accommodation-scout
-description: Daily scout for rooms near UNSW Village up to the rent cap, moving late Dec 2026 to early Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
+description: Daily scout for rooms near UNSW Village up to the rent cap, moving from 10 Dec 2026 to early Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
 ---
 
 # 🏠 accommodation-scout
@@ -19,7 +19,7 @@ Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chai
 | Rent | **≤ $350 per week** (every room within budget is shown) |
 | Suburbs | Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee |
 | Room types | Private room in a share house · Shared (twin) room · Studio · Student building · UNSW Village 2027 · Homestay |
-| Move-in | Late Dec 2026 · 1 to 10 Jan 2027 · mid to late Jan 2027 · early Feb 2027 |
+| Move-in | From 10 Dec 2026 (added 4 Nov) · late Dec 2026 · 1 to 10 Jan 2027 · mid to late Jan 2027 · early Feb 2027 |
 | Lease | 3 to 6 months · 6 to 12 months · 12 months · flexible |
 | Must-haves | None. Walking distance to UNSW ranks higher. |
 | Women-only rooms | Keep them in the data with `women_only` set, but they are **hidden by default** on the site and Sheet |

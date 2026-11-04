@@ -377,7 +377,7 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in late Dec 2026 to early Feb 2027. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in from 10 Dec 2026 to early Feb 2027. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
     search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     include: isSafe,

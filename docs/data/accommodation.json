@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-04T09:25:00+11:00",
- "previous_run_at": "2026-11-02T16:30:00+11:00",
+ "updated_at": "2026-11-04T21:30:00+11:00",
+ "previous_run_at": "2026-11-04T09:25:00+11:00",
  "sources": [
   {
    "name": "Flatmates.com.au",
    "rank": 1,
    "result": "checked",
-   "found": 7,
-   "note": "4 Nov (Chrome): max-350 search (68 results), bills-included max-300 and South Coogee searches read; 81 links, 12 new in area, all 52 tracked open listings re-read. Added 7 trusted rooms (P1388146, P2044650, P2044540, P1149222 women only, P2044399 all-female, P2044397, P2044478). Closed on arrival: P2003621 (high risk, pushes WhatsApp), P2042640 and P2045212 (short stays), P1884109 ($375), P1985377 (duplicate of P1534820). Closed: 7 deactivated listings (P2036233, P1931805, P2031888, P2034126, P2037102, P1755005, P1772003) and P1140738 (now $395). P1209326 marked on hold by the lister. P312300 now available now."
+   "found": 2,
+   "note": "4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee (3 pages) searches read, 89 links. 3 new in area: P2045417 (88 Barker St shared room $250, all bills) and P1202754 (Kingsford private room $350, all bills, from 5 Dec) added; P2043881 closed on arrival (sublet ends 3 Jan 2027). All 50 other tracked open listings re-read: rents unchanged; P1356556 deactivated and closed. || 4 Nov (Chrome): max-350 search (68 results), bills-included max-300 and South Coogee searches read; 81 links, 12 new in area, all 52 tracked open listings re-read. Added 7 trusted rooms (P1388146, P2044650, P2044540, P1149222 women only, P2044399 all-female, P2044397, P2044478). Closed on arrival: P2003621 (high risk, pushes WhatsApp), P2042640 and P2045212 (short stays), P1884109 ($375), P1985377 (duplicate of P1534820). Closed: 7 deactivated listings (P2036233, P1931805, P2031888, P2034126, P2037102, P1755005, P1772003) and P1140738 (now $395). P1209326 marked on hold by the lister. P312300 now available now."
   },
   {
    "name": "UNSW Study Stays",
@@ -112,7 +112,7 @@
    "rank": 15,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov (Chrome): six-suburb search, 6 results: 2 tracked Rainbow St rooms, the 3 tracked 127 Barker St rooms (also on Domain) and a car space. Nothing new."
+   "note": "4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed. || 4 Nov (Chrome): six-suburb search, 6 results: 2 tracked Rainbow St rooms, the 3 tracked 127 Barker St rooms (also on Domain) and a car space. Nothing new."
   },
   {
    "name": "Facebook groups",
@@ -446,7 +446,7 @@
     "photos": 1,
     "social": false,
     "nosocial": true,
-    "online": "Online 3 days ago",
+    "online": "Online Today",
     "rate": "Response rate: 86%",
     "early": false
    },
@@ -646,7 +646,7 @@
     "photos": 18,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
+    "online": "Online Today",
     "rate": "Response rate: 96%",
     "early": false
    },
@@ -1197,7 +1197,7 @@
     "photos": 11,
     "social": true,
     "nosocial": false,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 79%",
     "early": false
    },
@@ -1273,7 +1273,7 @@
     "photos": 0,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 25%",
     "early": false
    },
@@ -2397,7 +2397,7 @@
     "photos": 4,
     "social": true,
     "nosocial": false,
-    "online": "Online 5 days ago",
+    "online": "Online Today",
     "rate": "Response rate: 79%",
     "early": false
    },
@@ -3150,9 +3150,9 @@
    "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Listing says bills are included but does not itemise them; confirm all four. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 3, 1, 2 (bedrooms, bathrooms, people). 27 Oct: still in the Flatmates max-350 results.",
+   "notes": "Listing says bills are included but does not itemise them; confirm all four. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 3, 1, 2 (bedrooms, bathrooms, people). 27 Oct: still in the Flatmates max-350 results. Closed 4 Nov 2026 (evening run): Flatmates says this listing is no longer available.",
    "suburb": "Eastlakes",
    "distance_km": 3.0,
    "transit_min": 20,
@@ -3261,7 +3261,7 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Online 2 days ago",
+    "online": "Online Today",
     "rate": "Response rate: 73%",
     "early": false
    },
@@ -4085,7 +4085,7 @@
     "photos": 4,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 64%",
     "early": false
    },
@@ -5119,7 +5119,7 @@
     "photos": 14,
     "social": true,
     "nosocial": false,
-    "online": "Online 2 days ago",
+    "online": "Online Today",
     "rate": "Response rate: 96%",
     "early": false
    },
@@ -5959,7 +5959,7 @@
     "photos": 2,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 57%",
     "early": false
    },
@@ -6115,7 +6115,7 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online 3 days ago",
     "rate": "Response rate: 47%",
     "early": false
    },
@@ -6320,7 +6320,7 @@
     "photos": 5,
     "social": false,
     "nosocial": true,
-    "online": "Online 5 days ago",
+    "online": "Online 9 days ago",
     "rate": "Response rate: 13%",
     "early": false
    },
@@ -6397,7 +6397,7 @@
     "photos": 15,
     "social": false,
     "nosocial": true,
-    "online": "Today",
+    "online": "Online 2 days ago",
     "rate": "100%",
     "early": true
    },
@@ -8458,7 +8458,7 @@
     "photos": 2,
     "social": false,
     "nosocial": true,
-    "online": "Online 2 days ago",
+    "online": "Online Today",
     "rate": "Response rate: 100%",
     "early": false
    },
@@ -8532,7 +8532,7 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 9%",
     "early": true
    },
@@ -10120,7 +10120,7 @@
     "photos": 11,
     "social": true,
     "nosocial": false,
-    "online": "Online Today",
+    "online": "Online 5 days ago",
     "rate": "Response rate: 94%",
     "early": false
    }
@@ -10399,7 +10399,7 @@
     "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online 5 days ago",
     "rate": "",
     "early": true
    }
@@ -10466,7 +10466,7 @@
     "photos": 2,
     "social": true,
     "nosocial": false,
-    "online": "Online 3 days ago",
+    "online": "Online 7 days ago",
     "rate": "Response rate: 30%",
     "early": false
    },
@@ -12556,7 +12556,7 @@
     "photos": 9,
     "social": null,
     "nosocial": null,
-    "online": null,
+    "online": "Online Today",
     "rate": null,
     "early": false
    },
@@ -13473,7 +13473,7 @@
     "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online 5 days ago",
     "rate": "",
     "early": true
    },
@@ -13855,9 +13855,9 @@
    "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Found 31 Oct deep pass (Chrome, Kingsford list sorted by price). Domain shows a $590 listing at the same address (17496083), likely a different unit: confirm which unit is $310. 2 Nov (deep run): still listed; page says furnished studio, shared bathroom, shared laundry, rent includes all bills. Open inspection Wed 4 Nov, 5:00 to 5:15 pm (added to the Accommodation calendar). 4 Nov: still listed on realestate.com.au with an open inspection today (Wed 4 Nov) at 5:00 pm.",
+   "notes": "Found 31 Oct deep pass (Chrome, Kingsford list sorted by price). Domain shows a $590 listing at the same address (17496083), likely a different unit: confirm which unit is $310. 2 Nov (deep run): still listed; page says furnished studio, shared bathroom, shared laundry, rent includes all bills. Open inspection Wed 4 Nov, 5:00 to 5:15 pm (added to the Accommodation calendar). 4 Nov: still listed on realestate.com.au with an open inspection today (Wed 4 Nov) at 5:00 pm. Closed 4 Nov 2026 (evening run): the listing now shows $560 per week and a $2,240 bond, over the $350 cap.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -14316,7 +14316,7 @@
     "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Today",
+    "online": "Online Today",
     "rate": 100,
     "early": false
    },
@@ -14380,7 +14380,7 @@
     "photos": 21,
     "social": false,
     "nosocial": true,
-    "online": "Yesterday",
+    "online": "Online 2 days ago",
     "rate": null,
     "early": true
    },
@@ -14717,7 +14717,7 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Today",
+    "online": "Online Today",
     "rate": "57%",
     "early": true
    },
@@ -14782,7 +14782,7 @@
     "photos": 5,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 43%",
     "early": false
    },
@@ -15068,7 +15068,7 @@
     "photos": 2,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
+    "online": "Online Today",
     "rate": "Response rate: N/A",
     "early": true
    },
@@ -15582,6 +15582,218 @@
    "laundry": "shared",
    "laundry_evidence": "external laundry",
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the double room on Tunstall Ave, Kingsford (Study Stays 381364). I'm looking to move in between mid December 2026 and early February 2027. Could the start date work for that, and what is the exact weekly rent? How are gas and water charged? I'd like to arrange an in-person inspection. Thank you."
+  },
+  {
+   "id": "flatmates:P2045417",
+   "org": "Flatmates.com.au listing",
+   "link": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2045417",
+   "source": "Flatmates.com.au",
+   "source_rank": 1,
+   "found_at": "2026-11-04",
+   "last_seen_at": "2026-11-04",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "verified": "✅",
+   "trust": "B",
+   "women_only": null,
+   "bills_estimate_pw": null,
+   "contact": {
+    "channel": "Flatmates message (free)",
+    "business": null,
+    "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2045417",
+    "mobile_on_listing": true
+   },
+   "title": "Shared (twin) room at 88 Barker St, Kingsford, all bills included",
+   "notes": "All 4 bills included. $250/wk per person when you share with someone you bring; the ad says $265/wk if you come alone and they find the other occupant. Private room in the same house is $430/wk (over cap). Found 4 Nov 2026 (evening run).",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 250,
+   "bond": 350,
+   "bills": {
+    "electricity": "included",
+    "gas": "included",
+    "water": "included",
+    "internet": "included"
+   },
+   "room_type": "Shared room",
+   "available_from": "2026-11-04",
+   "lease": "3 to 6 months stay",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "household": "4-bedroom share house; ad aims at international students, young professionals and working holiday visa holders. Number of residents not stated.",
+   "who_can_apply": null,
+   "about": "Fully furnished 4-bedroom share house at 88 Barker Street, Kingsford, near UNSW, with shared and private rooms.",
+   "inspection_questions": [
+    "How many people live in the house in total, and how many share each bedroom?",
+    "If I come alone, is the rent $250 or $265, and who chooses my roommate?",
+    "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
+    "Can the room start in mid December 2026 or January 2027?",
+    "Is there a washing machine I can use, and is it included in the rent?"
+   ],
+   "scam_flags": [
+    {
+     "code": "boarding_house_check",
+     "level": "low",
+     "reason": "4 bedrooms with shared rooms: if 5 or more people pay to live here it must be on the NSW boarding house register"
+    },
+    {
+     "code": "inconsistent_details",
+     "level": "low",
+     "reason": "Overview says $250/wk, but the ad says \"It will be $265\" if you have no one to share with"
+    }
+   ],
+   "lister": {
+    "photos": 5,
+    "social": true,
+    "nosocial": false,
+    "online": "Online Today",
+    "rate": "Response rate: 100%",
+    "early": false
+   },
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the shared room at Barker St, Kingsford (listing P2045417). I'd be coming on my own. Would the rent be $250 or $265 a week, and how many people live in the house? I'm looking to move in between mid December 2026 and early February 2027. Is there a washing machine I can use? I'd like to arrange an in-person inspection. Thank you.",
+   "bills_included_count": 4,
+   "risk": "low"
+  },
+  {
+   "id": "flatmates:P1202754",
+   "org": "Flatmates.com.au listing",
+   "link": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1202754",
+   "source": "Flatmates.com.au",
+   "source_rank": 1,
+   "found_at": "2026-11-04",
+   "last_seen_at": "2026-11-04",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "verified": "✅",
+   "trust": "B",
+   "women_only": null,
+   "bills_estimate_pw": null,
+   "contact": {
+    "channel": "Flatmates message (free)",
+    "business": null,
+    "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1202754",
+    "mobile_on_listing": false
+   },
+   "title": "Private room in Kingsford, 1 minute walk to UNSW, all bills included",
+   "notes": "All 4 bills plus home essentials included. Ad text says available on 5 Dec; the overview says available now. Early Bird listing (free messages are delayed). Found 4 Nov 2026 (evening run).",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 5,
+   "walkable": true,
+   "rent_pw": 350,
+   "bond": 1200,
+   "bills": {
+    "electricity": "included",
+    "gas": "included",
+    "water": "included",
+    "internet": "included"
+   },
+   "room_type": "Private room",
+   "available_from": "2026-12-05",
+   "lease": "Minimum 6 months stay",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "household": "Housemates described as mostly tidy and social UNSW students.",
+   "who_can_apply": "Anyone except couples",
+   "about": "Private furnished room (single bed, desk, wardrobe, door lock) with shared kitchen and bathrooms, about a minute from UNSW.",
+   "inspection_questions": [
+    "Is the room free from 5 December, and could it start in mid December or January instead?",
+    "How many people live here and how many share each bathroom?",
+    "Is the $1,200 bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
+    "Is there a washing machine I can use, and is it included in the rent?",
+    "Can I inspect the room in person before paying anything?"
+   ],
+   "scam_flags": [
+    {
+     "code": "inconsistent_details",
+     "level": "low",
+     "reason": "Ad says \"Available on 5 Dec\" but the room overview says available now"
+    }
+   ],
+   "lister": {
+    "photos": 18,
+    "social": true,
+    "nosocial": false,
+    "online": "Online Today",
+    "rate": "Response rate: 86%",
+    "early": true
+   },
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the private room in Kingsford near UNSW (listing P1202754). I'm looking to move in between mid December 2026 and early February 2027. Is it free from 5 December, and could the start date suit that window? How many people share the bathrooms, and is there a washing machine I can use? I'd like to arrange an in-person inspection. Thank you.",
+   "bills_included_count": 4,
+   "risk": "low"
+  },
+  {
+   "id": "flatmates:P2043881",
+   "org": "Flatmates.com.au listing",
+   "link": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2043881",
+   "source": "Flatmates.com.au",
+   "source_rank": 1,
+   "found_at": "2026-11-04",
+   "last_seen_at": "2026-11-04",
+   "deadline": null,
+   "status": "new",
+   "closed": true,
+   "verified": "✅",
+   "trust": "B",
+   "women_only": null,
+   "bills_estimate_pw": null,
+   "contact": {
+    "channel": "Flatmates message (free)",
+    "business": null,
+    "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P2043881",
+    "mobile_on_listing": false
+   },
+   "title": "Private room in Kingsford, sublet 21 Nov to 3 Jan only",
+   "notes": "4 Nov (evening run): closed on arrival: short sublet only, the tenant must move out by 3 Jan 2027, so it breaks the no-short-stays rule.",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 280,
+   "bond": 1120,
+   "bills": {
+    "electricity": "included",
+    "gas": "included",
+    "water": "included",
+    "internet": "included"
+   },
+   "room_type": "Private room",
+   "available_from": "2026-11-21",
+   "lease": "1 week to 2 months stay",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "household": "",
+   "who_can_apply": null,
+   "about": "Short-term sublet of a furnished private room.",
+   "inspection_questions": [],
+   "scam_flags": [
+    {
+     "code": "sublet_check",
+     "level": "low",
+     "reason": "Short-term sublet: check the head tenant has written consent from the landlord"
+    }
+   ],
+   "lister": {
+    "photos": 2,
+    "social": false,
+    "nosocial": true,
+    "online": "Online Today",
+    "rate": "Response rate: 100%",
+    "early": true
+   },
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "enquiry_draft": "",
+   "bills_included_count": 4,
+   "risk": "low"
   }
  ]
 }
