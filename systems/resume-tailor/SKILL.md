@@ -1,6 +1,6 @@
 ---
-name: resume-tailor
-description: Paste internship or full-time job links; for each, checks eligibility and legal hours, researches country and company formats, and builds a tailored resume and cover letter (PDF, Overleaf .tex, text).
+name: "resume-tailor"
+description: "Paste internship or full-time job links; for each, checks eligibility and legal hours, researches country and company formats, and builds a tailored, ATS-parsable resume and cover letter (PDF, .tex, text)."
 ---
 
 # 🎯 resume-tailor
@@ -18,6 +18,41 @@ description: Paste internship or full-time job links; for each, checks eligibili
 5. **Sources:** format rules from Tier 1 pages only (official body, university careers service, company's own site, vendor docs); tag ✅ / ⚠️ / 🚫 in the report. Company hints in the reference doc are hints; re-read the posting's own facts every run.
 6. **Watermarks:** never claim output is unmarked; never rewrite text or strip files to defeat provenance marking. The writing mode is chosen for authorship and the employer's policy only.
 7. **Cheapest path first:** vendor JSON → WebFetch → Claude in Chrome (one tab, human pace, read-only) → ask him to paste.
+8. **ATS-parsable, written for a human.** Every resume follows the ATS rules section below. Never hidden or white text, never keyword stuffing, never a keyword that isn't true (truth rule 1 wins over keyword coverage).
+
+## ATS rules (used in steps 1, 2, 4, 5, 6)
+
+**What an ATS really does** (vendor docs, checked 24 Oct 2026): it parses the file into profile fields, makes it full-text and Boolean searchable for recruiters, and its AI match tools (Greenhouse Talent Matching, Workday HiredScore, Ashby, Workable, SmartRecruiters, Teamtailor) score the *parsed* resume against the role's criteria. A file that fails to parse gets empty fields, "Needs manual review" or no grade, and is invisible to search. Automatic rejection comes from **form knockout answers** (work rights, location, certifications), not from a resume keyword score. So the goal is: parse cleanly, use the JD's exact terms where true, read well to a person. Don't chase third-party "ATS scores".
+
+**A. File**
+- Posting or portal instruction first. Default: the builder's text-based PDF. DOCX (`--docx`) when the portal asks for Word or he types `docx`. Never image-only, scanned or password-protected. A "paste your resume" box gets the builder's `.txt`, not text copied from the PDF.
+- Size ≤1 MB (builder cap; Greenhouse stops parsing above 2.5 MB). File name `Name_Resume_Company` (builder).
+
+**B. Layout**
+- One column. No tables, text boxes, side columns, graphics, photos, logos, icons, skill bars, word art or spaced-out letters. Skills as plain `Label: a, b, c` lines.
+- Name is the first line. Phone, email and links sit in the body at the top of page 1, never in a header, footer or text box. Header link labels show the URL as text (`linkedin.com/in/…`, `github.com/…`), so a parser that drops links still gets them.
+- `meta.date_style` stays `inline` (dates on the same line as the entry). `right` builds a two-column table row that plain text extraction can split from its entry: use it only if he asks, and re-check the reading order.
+- Bullets only from the builder (`$\bullet$`). No icon fonts (fontawesome, marvosym), no `fontenc` T1 without a Type 1 font (it falls back to Type 3 bitmaps and drops fi/fl/ff letters).
+
+**C. Headings:** standard names only: Summary, Education, Experience (or Work Experience), Projects, Technical Skills (or Skills), Certifications, Achievements, Awards, Publications, Leadership, Volunteering, Referees. No creative titles. A second experience-type section keeps the word "Experience" (e.g. Leadership Experience).
+
+**D. Entries**
+- Job title in full as the employer used it (no Sr., Jr., Mgr). Employer's official name, with its legal suffix (Pty Ltd, Ltd, Inc.) when the career doc has it; never guess a suffix.
+- Dates `Mon YYYY - Mon YYYY` or `Mon YYYY - Present`, one format throughout, after the title and company, never first.
+- No credentials or post-nominals on the name line (they can parse into the name field).
+
+**E. Keywords**
+- Step 1 fills `meta.jd_keywords` from the posting: must-haves first, then nice-to-haves, each in the JD's exact spelling; synonyms and acronyms as a list, e.g. `["Amazon Web Services", "AWS"]`, `["Continuous Integration", "CI"]`.
+- Use the JD's exact wording where it is true, not a synonym. Spell an acronym out once with the acronym: `Continuous Integration (CI)`.
+- Put each must-have skill inside a bullet that shows where he used it, not only in the Skills list.
+- A keyword that isn't true goes in the gap list with an honest fix. Coverage is a guide, not a target.
+
+**F. Check (step 5)**
+- Builder v1.2+ prints an `ats` block. Hard fails: Type 3 fonts, control, private-use or replacement characters, ligature glyphs, missing text layer, any source text missing from the PDF. Warnings: non-standard headings, date format, abbreviated titles, hidden link URLs, `date_style right`, JD keywords missing, acronym without full form, keyword repeated over 6 times, contact details not at the top. Fix every real warning; list the rest in the report.
+- No `ats` block (older builder) → run by hand: `pdffonts` (no Type 3; emb and uni yes), `pdftotext -enc UTF-8 file.pdf -` read top to bottom (name, contact, sections in order, each date beside its entry, no stray symbols), `pdftotext -layout` for line coherence, and search the text for each `jd_keywords` item.
+- Optional second opinion: UNSW SMART Resume (VMock) takes PDF only and scores non-UNSW templates lower, so treat its format score as a hint.
+
+**Sources** (✅ read 24 Oct 2026): Greenhouse support (unsuccessful resume parse; Talent Matching; auto-reject rules), Workday HiredScore grades and parsing docs, iCIMS candidate creation, Workable resume formats and AI agent, Ashby application forms and auto-reject, Textkernel parser docs, Teamtailor resume parser (hidden text flagged), JCU, Columbia, Sheffield, UVU, Utah, MIT CAPD, Imperial, QMUL, Nottingham, UWA careers pages, USAJOBS resume help, pdfTeX manual, LaTeX News 33, poppler `pdftotext` and `pdffonts` man pages. Known conflicts: PDF vs Word (universities split; vendors accept both; employer instruction decides); acronym style; "ATS auto-rejects" (some university pages repeat an unsourced 75% figure; Greenhouse, Ashby, PageUp and Nottingham say humans decide and knockouts come from form answers); UCSB advises against LaTeX, so the text-layer check is what makes LaTeX output safe.
 
 ## 0. Load (once per run)
 
@@ -32,7 +67,7 @@ description: Paste internship or full-time job links; for each, checks eligibili
 1. **Find the real vendor**, including embedded boards: a numeric job id on a company page is often Greenhouse, Lever or Ashby underneath (e.g. the Greenhouse board API `boards-api.greenhouse.io/v1/boards/<board>/jobs/<id>`). Try the vendor's public JSON, then WebFetch, then Chrome `get_page_text`.
 2. **Open the Apply form read-only** (Chrome) to list its questions, required documents and file limits. Never type, never submit. Anything still unseen → mark 🚫 and ask him to paste it.
 3. **Save `JD_snapshot.md`:** URL, date read, full posting text, form questions.
-4. **Extract:** company, program, role, job type (internship / full-time), location, country, work location (onsite, remote, overseas), dates, hours, closing date (none → flag "rolling or late in cycle"; already passed, or sources disagree → ⚠️ and ask him before building it), must-haves vs nice-to-haves, exact keywords, values words, documents asked for (cover letter, transcript, essay, VEVO letter), form-only fields (e.g. preferred interview languages), file limits.
+4. **Extract:** company, program, role, job type (internship / full-time), location, country, work location (onsite, remote, overseas), dates, hours, closing date (none → flag "rolling or late in cycle"; already passed, or sources disagree → ⚠️ and ask him before building it), must-haves vs nice-to-haves, exact keywords (→ `meta.jd_keywords`, ATS rules E), the ATS vendor behind the form, values words, documents asked for (cover letter, transcript, essay, VEVO letter), form-only fields (e.g. preferred interview languages), file limits.
 5. **Gate checks:**
    - Work-rights requirement **per program** (citizen/PR only, "full working rights"). Conflicting sources → ⚠️.
    - Student requirement (penultimate year, graduation window).
@@ -48,22 +83,23 @@ description: Paste internship or full-time job links; for each, checks eligibili
 
 - Priority: the posting's own instruction > the company's own guidance > the country row (reference §A, §A2) > the international default. Re-verify a row older than 6 months or research a missing country live (Tier 1), and update the reference doc with a dated change-log line.
 - Company research (always live): how-we-hire, students or early-careers, FAQ, values, candidate AI guidance, engineering blog for the real stack. Reuse a same-company report under 6 months old from Drive.
-- ATS vendor rules (reference §B) plus the form's own file limit.
+- ATS vendor rules (reference §B, then ATS rules A and B here) plus the form's own file types and file limit.
 - Quant/trading intern with no length guidance → ask him, default 1 page. Full-time roles → experience before education.
 - No work-rights line where he has no right to work in that country; no salary line on intern resumes.
-- Output one line, e.g. `AU · A4 · 2 pages · en-AU · no photo/DOB · work-rights line · education first · Referees: Available upon request · PDF ≤2.5 MB (Greenhouse) · angle: backend performance`. Run **council G2**.
+- Output one line, e.g. `AU · A4 · 2 pages · en-AU · no photo/DOB · work-rights line · education first · Referees: Available upon request · PDF ≤2.5 MB (Greenhouse) · ATS: 1 column, inline dates, 14 JD keywords · angle: backend performance`. Run **council G2**.
 
 ## 3. Tailor (per link)
 
 1. **Requirement matrix:** each requirement → his best evidence (with the source line) → strong / partial / gap → the JD's exact phrase.
 2. **Angle** by role family (reference §3): backend/infra, AI/LLM, quant/trading SWE, full-stack. Use the evidence reference §3 lists for that family.
-3. Mirror a JD term only when literally true; otherwise it goes in the gap list with an honest fix (cover-letter line, project, course).
+3. Mirror a JD term only when literally true, in the JD's exact spelling (ATS rules E); otherwise it goes in the gap list with an honest fix (cover-letter line, project, course).
 4. Run **council G3**.
 
 ## 4. Write the resume
 
 - **Mode:** 🅰 Claude drafts (default). 🅱 when he types `my-draft` or the employer's policy asks for his own draft: give him the selected facts and an X-Y-Z skeleton per bullet, he writes, Claude checks and fixes errors only. Record the **AI-use log** (mode, lines Claude drafted, lines he changed).
 - Copy the base JSON from `claude/Resume_Base_JSON.md`; adjust `meta` per the format card (reference §5) and select, order and trim sections and bullets per the matrix and the bullet budget (4-5 main-role bullets for 1 page, 6-8 for 2). Keep his approved wording where it fits; new wording follows reference §3 (X-Y-Z with a baseline only where one is known).
+- Apply ATS rules B to E: standard headings, full titles, `Mon YYYY` dates, `date_style` inline, URL-as-text header links, each must-have keyword inside a true bullet, acronyms spelled out once. Copy `jd_keywords` into `meta`.
 - Fill `meta.allowed_numbers` with every number in the source lines used. Replace `[ADD: visa expiry]` from the Form Answers when it's there.
 - Spelling and paper follow the country (A4 except US/Canada Letter). Outside Australia set `basics.phone` to the international form (reference §3 Header).
 
@@ -86,11 +122,12 @@ python3 /tmp/radar/systems/resume-tailor/rt_build.py letter letter.json OUT [--d
 - `--docx` only when the posting or portal asks for Word, or he typed `docx`.
 - Use a fresh OUT folder per build and upload only the paths listed in the report's `files`.
 - Exit 1 = FAIL: fix every `hard` item (em dash, first person, duty phrase, never-use phrase, number not allowed, letter not naming the company, text past the margin, page limit, size, missing text or links) and rebuild. Read every `warn` item and fix the real ones. `DRAFT` = placeholders remain; list them for him.
+- Read the `ats` block (ATS rules F): fix every real warning and rebuild; missing JD keywords that aren't true go to the gap list. No `ats` block → run the manual ATS check.
 - Render page 1 of each PDF to an image (`pdftoppm -r 70 -png -f 1 -l 1`) and look at it before delivering.
 
 ## 6. Council G4 (independent)
 
-Spawn a fresh agent with the G4 prompt in reference §1, giving it: the posting snapshot and form questions, the `pdftotext` output of both PDFs, the fact sheet (§0 verbatim, `areas/resume.md`, the career-doc lines used), the Form Answers used, the AI-use log and the format card. ❌ → back to step 4 or 4b (at most two loops, then ask him). Put the verdicts in the report. No agent tool on this surface → run G4 as a separate pass that reads only those inputs, and label it "not independent" in the report.
+Spawn a fresh agent with the G4 prompt in reference §1, giving it: the posting snapshot and form questions, the `pdftotext` output of both PDFs, the fact sheet (§0 verbatim, `areas/resume.md`, the career-doc lines used), the Form Answers used, the AI-use log, the format card and the builder's `ats` block. G4 also judges ATS parsing from the `pdftotext` output alone (name and contact first, sections in order, dates beside entries, must-have keywords present only where true). ❌ → back to step 4 or 4b (at most two loops, then ask him). Put the verdicts in the report. No agent tool on this surface → run G4 as a separate pass that reads only those inputs, and label it "not independent" in the report.
 
 ## 7. Links
 
@@ -98,8 +135,8 @@ Show the three links in reference §L (Overleaf Jake's Resume, the Overleaf past
 
 ## 8. Deliver and log
 
-- **Chat, per link:** send the resume PDF and `.tex` and the cover letter PDF and `.tex` (SendUserFile), then a short block: format card · eligibility and hours result · form answers to use · documents to attach · top 3 gaps · council verdict · Drive folder link.
-- **Drive:** create the folder `YYYY-MM-DD Company - Role` inside Internships or Full-time (ids and steps in reference §0) and upload: both PDFs, both `.tex`, both `.txt`, DOCX if built, `resume.json`, `letter.json`, `JD_snapshot.md`, `Tailoring_Report.md` (matrix, gaps, hours table, form answers, documents to attach, AI-use log, council verdicts, interview prep: each bullet → the story behind it).
+- **Chat, per link:** send the resume PDF and `.tex` and the cover letter PDF and `.tex` (SendUserFile), then a short block: format card · eligibility and hours result · form answers to use · documents to attach · ATS result (keyword coverage, warnings left) · top 3 gaps · council verdict · Drive folder link.
+- **Drive:** create the folder `YYYY-MM-DD Company - Role` inside Internships or Full-time (ids and steps in reference §0) and upload: both PDFs, both `.tex`, both `.txt`, DOCX if built, `resume.json`, `letter.json`, `JD_snapshot.md`, `Tailoring_Report.md` (matrix, gaps, ATS block and keyword coverage, hours table, form answers, documents to attach, AI-use log, council verdicts, interview prep: each bullet → the story behind it).
 - **Sheet** (reference §0): on the Internships or Full-time tab, set `Resume pack` (the Drive folder link) and `Tailored on` on the job's row; add a row only if the job isn't there. Never touch Status.
 - **Several links:** finish with one summary table (company · role · country · format · pages · outcome · gaps · files).
 - If he corrects a fact, update `claude/Resume_Base_JSON.md` (and say the career doc needs the same fix).
