@@ -61,12 +61,12 @@ Use `shared/SOURCES.md` section 5. UNSW Study Stays, Down Under Stay, Gumtree, D
 3. Cheapest rent (plus estimated missing bills)
 4. Earliest suitable move-in date
 
-The website shows trusted and safe rooms only (it drops every other room on load). Sorts: cheapest · closest then cheapest · earliest move-in · lowest risk first · newest. Filters: Flags (any, none, flagged only), Women-only rooms (default: hidden, including all-female flat tags), Washing machine, Risk, Source trust, and the usual room filters.
+The website shows trusted and safe rooms only (it drops every other room on load). Sorts: cheapest · closest then cheapest · earliest move-in · shortest contract first · lowest risk first · newest. Filters: Flags (any, none, flagged only), Women-only rooms (default: hidden, including all-female flat tags), Contract length (the minimum you sign for), I want to stay for (N months), These bills must be included, Washing machine, Risk, Source trust, and the usual room filters. Each card names every bill as ✅ included, ❌ extra or ❔ not mentioned, and shows the contract summary next to the listing's own wording.
 
 ## 5. Outputs
 
 - `docs/data/accommodation.json` (commit + push).
-- Google Sheet tab **Accommodation** with Status dropdown (new, enquired, inspected, rejected, signed), plus Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), In default view, Contact via, Contact name, Phone and Email columns. The Sheet's filter hides rows where In default view is `no`. Never overwrite a Status Chaitanya set.
-- Run summary: new trusted and safe rooms, best 5, how many women-only rooms are hidden, sources not checked. Rooms that are not trusted and safe are left out of the summary.
+- Google Sheet tab **Accommodation** with Status dropdown (new, enquired, inspected, rejected, signed), plus Bills included, Bills extra (you pay), Bills not mentioned, Contract length, Contract group, Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), In default view, Contact via, Contact name, Phone and Email columns. The Sheet's filter hides rows where In default view is `no`. Never overwrite a Status Chaitanya set.
+- Run summary: new trusted and safe rooms, best 5 (with contract length and which bills are included), how many women-only rooms are hidden, sources not checked. Rooms that are not trusted and safe are left out of the summary.
 
 Never pay, apply, book an inspection or message anyone.
