@@ -1,6 +1,6 @@
 ---
 name: accommodation-scout
-description: Daily scout for rooms near UNSW Village up to the rent cap, moving from 10 Dec 2026 to early Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
+description: Daily scout for rooms near UNSW Village up to the rent cap, moving in any time from now until 15 Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
 ---
 
 # 🏠 accommodation-scout
@@ -19,13 +19,13 @@ Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chai
 | Rent | **≤ $350 per week** (every room within budget is shown) |
 | Suburbs | Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee |
 | Room types | Private room in a share house · Shared (twin) room · Studio · Student building · UNSW Village 2027 · Homestay |
-| Move-in | From 10 Dec 2026 (added 4 Nov) · late Dec 2026 · 1 to 10 Jan 2027 · mid to late Jan 2027 · early Feb 2027 |
-| Lease | 3 to 6 months · 6 to 12 months · 12 months · flexible |
+| Move-in | Any start date from today until 15 Feb 2027 (widened 6 Nov 2026; was 10 Dec 2026 to early Feb 2027). Rooms that start after 15 Feb are closed |
+| Lease | Any length, recorded per room (`contract`) so the site's Contract length and "I want to stay for" filters can narrow it. Short stays are kept only when they last until at least mid January 2027 (14 Jan), so they can cover the gap after UNSW Village ends on 31 Dec |
 | Must-haves | None. Walking distance to UNSW ranks higher. |
 | Women-only rooms | Keep them in the data with `women_only` set, but they are **hidden by default** on the site and Sheet |
 | Trusted and safe only | A room counts only if its source is tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are **not considered at all**: no ranking, no enquiry draft, not in the run summary, never on the site, kept out of the Sheet view |
 
-A January gap is Chaitanya's to sort out; don't search short stays unless asked.
+Don't run separate short-stay searches unless asked; short stays found by the normal searches are kept under the rule above.
 
 ## 2. Sources in rank order (all, every run)
 
@@ -37,7 +37,8 @@ Use `shared/SOURCES.md` section 5. UNSW Study Stays, Down Under Stay, Gumtree, D
 
 1. De-duplicate (address or listing photos + rent).
 2. Fill `accommodation.json` fields (`shared/DATA_SCHEMA.md`).
-3. **Bills:** for electricity, gas, water and internet, record each as `included`, `excluded` or `not mentioned`. Estimate the weekly cost of anything not included and store it in `bills_estimate_pw` with ⚠️.
+3. **Bills:** for electricity, gas, water and internet, record each as `included`, `excluded` or `not mentioned` (on Flatmates, "Bills not included in rent" means all four are `excluded`; bills missing from an "included" list are `not mentioned` unless the description says they are extra). Estimate the weekly cost of anything not included and store it in `bills_estimate_pw` with ⚠️. The site and Sheet name every bill as included, extra or not mentioned.
+   **Contract length:** copy the listing's wording to `lease`, then fill `contract` (`shared/DATA_SCHEMA.md`): minimum and maximum months, a fixed end date when the ad gives one (sublets, summer stays), the bucket and a one-line summary. When the stated minimum is longer than the ad's dates allow, say so in `contract.note`.
 4. **Laundry:** Chaitanya needs a washing machine. Record `laundry` as `yes`, `shared`, `likely`, `no` or `not mentioned` with the exact phrase in `laundry_evidence` (Flatmates has no laundry field, so read the description). If it isn't `yes`, add the inspection question "Is there a washing machine I can use, and is it included in the rent?"
 5. **Contact:** record how to contact every room. Public `contact` field: channel (e.g. "Flatmates message", "Agent: phone or enquiry form"), business name for businesses only, and the contact page link. Private, Sheet only (never in the repo): the lister's or agent's name, and any phone number or email printed on the listing or the business's own contact page. Note when a lister offers a mobile number, but don't try to reveal it: on Flatmates it needs a paid upgrade (tested 18 Oct 2026), and Gumtree's "Show number" needs a Gumtree sign-in. Flatmates messages are free, but delayed for listings under 14 days old ("Early Bird") unless upgraded. Study Stays provider contacts need Chaitanya's own Study Stays sign-in. Never pay for an upgrade or sign in for him. Keep first contact on the listing site.
 6. **Household:** copy what the listing says (number of people, ages, work or study, habits, house rules) and who can apply (`who_can_apply`, e.g. "Anyone except couples", "Females only"). Claude cannot vet people; write 3 to 5 `inspection_questions` instead.

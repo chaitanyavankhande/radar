@@ -105,12 +105,13 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `rent_pw` | number | AUD per week |
 | `bond` | number or null | AUD, as listed |
 | `about` | string | Short description from the listing |
-| `bills` | object | `{ "electricity": "...", "gas": "...", "water": "...", "internet": "..." }`, each `included` / `excluded` / `not mentioned` |
+| `bills` | object | `{ "electricity": "...", "gas": "...", "water": "...", "internet": "..." }`, each `included` / `excluded` / `not mentioned`. The site shows every bill by name on the card (✅ included, ❌ extra, ❔ not mentioned) and has a "These bills must be included" filter |
 | `bills_included_count` | number | How many of the four are included (sort key) |
 | `bills_estimate_pw` | number or null | Estimated weekly cost of excluded or not-mentioned bills |
 | `room_type` | string | Private room, Shared room, Studio, Student building, Homestay |
 | `available_from` | ISO date or null | |
-| `lease` | string | e.g. `3 to 6 months`, `flexible` |
+| `lease` | string | The listing's exact wording, e.g. `Minimum 6 months stay`, `3 – 12 months stay`, `Flexible length of stay` |
+| `contract` | object | Contract length worked out from `lease` and any dates in the ad: `{ min_months, max_months, ends, ends_approx, flexible, bucket, summary, note }`. `min_months` and `max_months` are numbers or null (weeks become fractions of a month); `ends` is an ISO date when the ad gives a fixed end (sublets, summer stays); `bucket` is one of `Short stay (under 3 months)`, `Under 3 months minimum`, `3 to 5 months minimum`, `6 to 11 months minimum`, `12 months or more`, `Flexible`, `Up to a set end date`, `Not stated`; `summary` is the plain line shown on the card; `note` explains a conflict (e.g. a 3-month minimum on a 6-week sublet). Added 6 Nov 2026 |
 | `furnished` | string | `yes`, `no`, `unknown` |
 | `own_bathroom` | string | `yes`, `no`, `unknown` |
 | `who_can_apply` | string or null | As the listing states, e.g. `Anyone`, `Anyone except couples`, `Females only`, `Students only` |
