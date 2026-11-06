@@ -106,12 +106,32 @@ const contactOf = it => it.contact || {};
    plain buckets; the card still shows the exact wording. */
 const leaseBucket = it => {
   const t = String(it.lease || '').trim().toLowerCase();
-  if (!t || /^not stated|short lease|short term/.test(t)) return 'Not stated or unclear';
+  if (!t || /^not stated|short lease|short term/.test(t)) return 'Not stated';
   if (/^flex/.test(t)) return 'Flexible';
   const m = t.match(/(\d+)[\s-]*(?:(?:–|-|to)\s*\d+\s*)?(week|month|year)/);
-  if (!m) return 'Not stated or unclear';
+  if (!m) return 'Not stated';
   const months = Number(m[1]) * (m[2] === 'week' ? 12 / 52 : m[2] === 'year' ? 12 : 1);
   return months < 3 ? 'Under 3 months minimum' : months < 6 ? '3 to 5 months minimum' : months < 12 ? '6 to 11 months minimum' : '12 months or more';
+};
+/* Contract length: the scout writes it.contract = { min_months, max_months, ends, ends_approx, flexible, bucket, summary, note }
+   from the listing's own wording (it.lease keeps the exact words). Older items fall back to the lease text. */
+const CONTRACT_ORDER = ['Short stay (under 3 months)', 'Under 3 months minimum', '3 to 5 months minimum', '6 to 11 months minimum', '12 months or more', 'Flexible', 'Up to a set end date', 'Not stated'];
+const contractOf = it => it.contract || { min_months: null, max_months: null, ends: null, flexible: /^flex/i.test(it.lease || ''), bucket: leaseBucket(it), summary: it.lease || 'Not stated', note: '' };
+const fitsStay = (it, months) => {
+  const c = contractOf(it);
+  if (c.min_months != null && c.min_months > months) return false;
+  if (c.max_months != null && c.max_months + 0.25 < months) return false;
+  return true;
+};
+const BILL_LABEL = { included: 'Included', excluded: 'Extra (you pay)', 'not mentioned': 'Not mentioned' };
+const billState = (it, b) => { const v = (it.bills || {})[b]; return v === 'included' || v === 'excluded' ? v : 'not mentioned'; };
+/* one line naming every bill by state, e.g. ✅ Electricity, Water · ❌ Gas · ❔ Internet */
+const billsLine = it => {
+  const groups = [['included', '✅', 'b-in'], ['excluded', '❌', 'b-ex'], ['not mentioned', '❔', 'b-nm']].map(([st, icon, cls]) => {
+    const names = BILLS.filter(b => billState(it, b) === st).map(titleCase);
+    return names.length ? `<span class="${cls}" title="${esc(BILL_LABEL[st])}">${icon} ${esc(names.join(', '))}</span>` : '';
+  }).filter(Boolean);
+  return `<span class="billline">${groups.join(' <span class="muted">·</span> ')}</span>`;
 };
 const whoBucket = it => {
   const t = String(it.who_can_apply || '').trim();
@@ -377,9 +397,9 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in from 10 Dec 2026 to early Feb 2027. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 15 Feb 2027. Every room shows its contract length (filter it under Contract length or I want to stay for) and which bills are included, extra or not mentioned. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
-    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
+    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, contractOf(it).summary, contractOf(it).bucket, it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     include: isSafe,
     defaultF: { women: 'hide' },
     hiddenNote: (items, s) => {
@@ -398,10 +418,13 @@ const TABS = [
       { type: 'max', key: 'max_rent', label: 'Rent at most ($/wk)', get: it => num(it.rent_pw), step: 10, placeholder: '350' },
       { type: 'select', key: 'bills', label: 'Bills included', options: [['', 'Any'], ['4', 'All four'], ['3', '3 or more'], ['2', '2 or more'], ['1', 'At least 1']],
         test: (it, v) => billsCount(it) >= Number(v) },
+      { type: 'multi', all: true, key: 'billsinc', label: 'These bills must be included (all ticked)', order: ['Electricity', 'Gas', 'Water', 'Internet'], get: it => BILLS.filter(b => billState(it, b) === 'included').map(titleCase) },
       { type: 'multi', key: 'suburb', label: 'Suburb', get: it => it.suburb },
       { type: 'multi', key: 'room', label: 'Room type', get: it => it.room_type },
       { type: 'daterange', key: 'avail', label: 'Available from', get: it => it.available_from },
-      { type: 'multi', key: 'lease', label: 'Lease', get: leaseBucket },
+      { type: 'multi', key: 'contract', label: 'Contract length (the minimum you sign for)', order: CONTRACT_ORDER, get: it => contractOf(it).bucket },
+      { type: 'select', key: 'stay', label: 'I want to stay for', options: [['', 'Any length'], ['1', '1 month'], ['2', '2 months'], ['3', '3 months'], ['4', '4 months'], ['6', '6 months'], ['9', '9 months'], ['12', '12 months']],
+        test: (it, v) => fitsStay(it, Number(v)) },
       { type: 'multi', key: 'who', label: 'Who can apply', get: whoBucket },
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
@@ -417,6 +440,7 @@ const TABS = [
       distance: { label: 'Distance', get: it => num(it.distance_km) },
       transit: { label: 'Travel time', get: it => num(it.transit_min) },
       avail: { label: 'Available from', get: it => { const d = parseWhen(it.available_from, 'start'); return d ? +d : null; } },
+      minstay: { label: 'Shortest minimum contract', get: it => { const c = contractOf(it); return c.min_months ?? (c.flexible || c.max_months != null ? 0 : null); } },
       scam: { label: 'Lowest risk', get: riskScore },
       found: { label: 'First seen', get: foundMs }
     },
@@ -425,6 +449,7 @@ const TABS = [
       { id: 'cheapest', label: 'Cheapest', keys: [['total', 'asc'], ['bills', 'asc']] },
       { id: 'closest', label: 'Closest, then cheapest', keys: [['distance', 'asc'], ['total', 'asc']] },
       { id: 'movein', label: 'Earliest move-in', keys: [['avail', 'asc'], ['total', 'asc']] },
+      { id: 'shortest', label: 'Shortest contract first', keys: [['minstay', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
       { id: 'safe', label: 'Lowest risk first', keys: [['scam', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
       { id: 'newest', label: 'Newest first', keys: [['found', 'desc']] }
     ],
@@ -437,10 +462,10 @@ const TABS = [
         ['Rent', r == null ? '<span class="muted">not stated</span>' : `<span class="num">${money(r)}/wk</span>`],
         ['Bond', num(it.bond) == null ? '' : `<span class="num">${money(num(it.bond))}</span>`],
         ['With bills', t == null ? '' : `<span class="num">≈ ${money(t)}/wk</span>${num(it.bills_estimate_pw) ? ' <span class="muted">⚠️ est.</span>' : ''}`],
-        ['Bills', `<span class="num">${billsCount(it)} of 4</span> included`],
+        ['Bills', `<span class="num">${billsCount(it)} of 4</span> included<br>${billsLine(it)}`],
+        ['Contract', `<b>${esc(contractOf(it).summary)}</b>${it.lease && it.lease !== contractOf(it).summary ? `<br><span class="muted">Listing says: ${esc(it.lease)}</span>` : ''}`],
         ['Distance', distanceText(it) + (it.walkable ? ' · walkable' : '')],
         ['Room', esc(it.room_type || '')],
-        ['Lease', esc(it.lease || '') || '<span class="muted">not stated</span>'],
         ['Furnished', esc(titleCase(it.furnished || 'unknown'))],
         ['Own bathroom', esc(titleCase(it.own_bathroom || 'unknown'))],
         ['Laundry', `${LAUNDRY_ICON[laundryOf(it)]} ${esc(LAUNDRY_LABEL[laundryOf(it)])}`],
@@ -463,6 +488,10 @@ const TABS = [
       if (trustOf(it) === 'A') c.push(['Trusted source', 'good']);
       if (it.women_only) c.push([WOMEN_LABEL[it.women_only] || 'Women only', 'warn']);
       if (n === 4) c.push(['All bills included', 'good']);
+      { const k = contractOf(it);
+        if (k.bucket === 'Short stay (under 3 months)') c.push(['Short stay', 'warn']);
+        else if (k.flexible) c.push(['Flexible contract', 'good']);
+        else if (k.min_months != null && k.min_months >= 12) c.push(['12-month minimum', 'info']); }
       if (['yes', 'shared'].includes(laundryOf(it))) c.push(['Washing machine', 'good']);
       if (laundryOf(it) === 'no') c.push(['No washing machine', 'warn']);
       if (it.walkable) c.push(['Walkable', 'good']);
@@ -471,11 +500,14 @@ const TABS = [
     },
     more: it => {
       const bills = BILLS.map(b => {
-        const v = (it.bills || {})[b] || 'not mentioned';
+        const v = billState(it, b);
         const cls = v === 'included' ? 'included' : v === 'excluded' ? 'excluded' : 'unknown';
-        return `<div class="bill ${cls}"><span>${titleCase(b)}</span><b>${esc(v)}</b></div>`;
+        const icon = v === 'included' ? '✅' : v === 'excluded' ? '❌' : '❔';
+        return `<div class="bill ${cls}"><span>${titleCase(b)}</span><b>${icon} ${esc(BILL_LABEL[v])}</b></div>`;
       }).join('');
-      let h = `<div><h4>Bills</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}</div>`;
+      let h = `<div><h4>Bills: included or extra</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}${BILLS.some(b => billState(it, b) === 'not mentioned') ? '<p class="muted">❔ Not mentioned means the listing does not say: ask before you sign.</p>' : ''}</div>`;
+      { const k = contractOf(it);
+        h += `<div><h4>Contract length</h4><p><b>${esc(k.summary)}</b> <span class="muted">(${esc(k.bucket)})</span></p>${it.lease ? `<p class="muted">Listing wording: <q>${esc(it.lease)}</q></p>` : ''}${k.note ? `<p>⚠️ ${esc(k.note)}</p>` : ''}</div>`; }
       h += `<div><h4>Laundry</h4><p>${LAUNDRY_ICON[laundryOf(it)]} ${esc(LAUNDRY_LABEL[laundryOf(it)])}${it.laundry_evidence ? `: <q>${esc(it.laundry_evidence)}</q>` : ''}</p></div>`;
       { const c = contactOf(it), u = safeUrl(c.url);
         h += `<div><h4>How to contact</h4><p>${esc([c.business, c.channel].filter(Boolean).join(': ') || 'See the listing page')}${u ? ` · <a href="${esc(u)}" target="_blank" rel="noopener">contact page ↗</a>` : ''}</p><p class="muted">Names, phone numbers and emails are kept in your private Sheet, not on this public site. Keep the first messages on the listing site.</p></div>`; }
@@ -687,7 +719,8 @@ function applyFilters(tab, items, s, skipKey) {
       if (v == null || v === '' || v === false || (Array.isArray(v) && !v.length)) continue;
       if (def.type === 'multi') {
         const vals = arr(def.get(it)).map(String);
-        if (!vals.some(x => v.includes(x))) return false;
+        /* def.all: every ticked value must be present (e.g. bills that must all be included) */
+        if (def.all ? !v.every(x => vals.includes(x)) : !vals.some(x => v.includes(x))) return false;
       } else if (def.type === 'toggle') {
         if (!def.test(it)) return false;
       } else if (def.type === 'select') {
@@ -799,7 +832,8 @@ function renderFilters() {
       for (const it of items) for (const x of arr(def.get(it))) if (x != null && x !== '') counts.set(String(x), 0);
       for (const it of pool) for (const x of arr(def.get(it))) if (x != null && x !== '') counts.set(String(x), (counts.get(String(x)) || 0) + 1);
       if (!counts.size) continue;
-      const vals = [...counts.keys()].sort((a, b) => a.localeCompare(b));
+      const rank = x => { const i = (def.order || []).indexOf(x); return i < 0 ? 999 : i; };
+      const vals = [...counts.keys()].sort((a, b) => (rank(a) - rank(b)) || a.localeCompare(b));
       parts.push(`<fieldset class="fgroup" style="border:0;margin:0;padding:0"><legend class="ft">${esc(def.label)}</legend><div class="opts">${vals.map((x, i) =>
         `<label class="opt"><input type="checkbox" id="${id}-${i}" data-f="${def.key}" value="${esc(x)}"${arr(v).includes(x) ? ' checked' : ''}><span>${esc(x)} <i>${counts.get(x)}</i></span></label>`).join('')}</div></fieldset>`);
     } else if (def.type === 'toggle') {

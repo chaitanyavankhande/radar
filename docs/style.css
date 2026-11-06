@@ -270,6 +270,10 @@ details.more > summary { cursor: pointer; color: var(--accent); font-size: var(-
 .bill.included b { color: var(--good); }
 .bill.excluded b { color: var(--crit); }
 .bill.unknown b { color: var(--warn); }
+.billline { display: inline-flex; flex-wrap: wrap; gap: 2px 6px; font-size: var(--step--1); }
+.billline .b-in { color: var(--good); }
+.billline .b-ex { color: var(--crit); }
+.billline .b-nm { color: var(--ink-2); }
 .flagbox { background: var(--crit-bg); color: var(--crit); border-radius: 8px; padding: 8px 12px; }
 .flagbox ul { padding-left: 18px; }
 .risk { border-radius: 8px; padding: 8px 12px; margin: 8px 0 4px; font-size: 0.9rem; border-left: 4px solid currentColor; }
