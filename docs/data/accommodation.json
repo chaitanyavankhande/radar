@@ -1,300 +1,300 @@
 {
- "updated_at": "2026-11-04T21:30:00+11:00",
- "previous_run_at": "2026-11-04T09:25:00+11:00",
+ "updated_at": "2026-11-06T17:30:00+11:00",
+ "previous_run_at": "2026-11-04T21:30:00+11:00",
  "sources": [
   {
    "name": "Flatmates.com.au",
    "rank": 1,
    "result": "checked",
-   "found": 2,
-   "note": "4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee (3 pages) searches read, 89 links. 3 new in area: P2045417 (88 Barker St shared room $250, all bills) and P1202754 (Kingsford private room $350, all bills, from 5 Dec) added; P2043881 closed on arrival (sublet ends 3 Jan 2027). All 50 other tracked open listings re-read: rents unchanged; P1356556 deactivated and closed. || 4 Nov (Chrome): max-350 search (68 results), bills-included max-300 and South Coogee searches read; 81 links, 12 new in area, all 52 tracked open listings re-read. Added 7 trusted rooms (P1388146, P2044650, P2044540, P1149222 women only, P2044399 all-female, P2044397, P2044478). Closed on arrival: P2003621 (high risk, pushes WhatsApp), P2042640 and P2045212 (short stays), P1884109 ($375), P1985377 (duplicate of P1534820). Closed: 7 deactivated listings (P2036233, P1931805, P2031888, P2034126, P2037102, P1755005, P1772003) and P1140738 (now $395). P1209326 marked on hold by the lister. P312300 now available now."
+   "found": 1,
+   "note": "6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee (3 pages) searches read, 89 links. 3 new in area: P2045417 (88 Barker St shared room $250, all bills) and P1202754 (Kingsford private room $350, all bills, from 5 Dec) added; P2043881 closed on arrival (sublet ends 3 Jan 2027). All 50 other tracked open listings re-read: rents unchanged; P1356556 deactivated and closed."
   },
   {
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent. || 4 Nov (cloud): 64 matches across 6 pages (Pages 7-8 empty). Default and OrderBy=Cheapest page 1 differed, so both were read to cover all 64 IDs. In-criteria: 376475, 379389, 381028, 381213, 381221 (existing, all still listed), 381277 (new, but it is the same room as downunderstay:boyce-rd-room-2), 381364 (new). Excluded: 381372 Randwick $250 twin share (female only, sublet 30 Nov 2026 to 13 Feb 2027, about 11 weeks, under 3 months; table says 3-6 months, which conflicts). Every other listing is over $350 or outside the target suburbs (Bardwell Valley, Woollahra, Paddington, Chippendale). Existing 380722 and 380549 are no longer in the results (already closed)."
+   "note": "6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
   },
   {
    "name": "Down Under Stay",
    "rank": 3,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays closed. villiers-st-room-3 $355 is $5 over the cap. || 4 Nov (cloud): Read all 85 room pages in rooms-sitemap.xml. Index and homepage show no prices (homepage says 'No rooms available at the moment'), so each price comes from its room page. Open or soon: harbourne-rd-ii-room-2 Available $285 shared; harbourne-iii-room-4 Available Soon 30 Nov $285; harbourne-iii-room-6 Available Soon 8 Dec $285; boyce-rd-room-3 Available Soon 28 Nov $255; boyce-rd-room-2 Available Soon 16 Nov $265. Over cap: villiers-st-room-3 Available single $355; garden-st-room-1 Available $455; meeks-st-room-2 Available $425; harbourne-iv-room-5/6/7 Available Soon 13-15 Dec, single $455 with no shared price. All others Occupied. All rooms: 4 months minimum (granny flat 6), bond 3 weeks' rent, Wi-Fi not included, utilities shared about $15-30 per person per week."
+   "note": "6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays closed. villiers-st-room-3 $355 is $5 over the cap."
   },
   {
    "name": "Gumtree flatshare",
    "rank": 4,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule). || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Australian Homestay Network (UNSW partner)",
    "rank": 5,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
+   "note": "6 Nov (cloud): Sydney 2027 adult rates unchanged: no meals $325 shared, $355 private; placement fee $370. || 4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
   },
   {
    "name": "Domain rentals",
    "rank": 6,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602. || 4 Nov (cloud): All 6 suburb URLs read. Results add neighbouring suburbs (Paddington, Rosebery, Zetland, Waterloo, Mascot, Bondi Junction, Hillsdale), all excluded as out of area, along with car spaces and storerooms. Eastlakes had no in-suburb rooms. In-area: 127 Barker St x3 (existing), 11/1-3 Vicar St Coogee (existing), 39 Rainbow St Kingsford (new on Domain, but probably the same boarding house as rea:418962602)."
+   "note": "6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
   },
   {
    "name": "UNSW Village 2027 (CLV)",
    "rank": 7,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov (cloud): 2027 shared from $404/wk on shorter contracts; full-year 2027 shared $453.50-$521. No deals. Most options show Waitlist."
+   "note": "6 Nov (cloud, UNSW's own UNSW Village page): 2027 full-year rates $404 (7 and 8 bed) to $453.50 (2 bed) per week, studios from $544.50; 48 or 52 week contracts only; utilities and wifi included. Over the cap. || 4 Nov (cloud): 2027 shared from $404/wk on shorter contracts; full-year 2027 shared $453.50-$521. No deals. Most options show Waitlist."
   },
   {
    "name": "UNSW Accommodation",
    "rank": 8,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "4 Nov (cloud): '2027 Applications - Now Open!'; no dates or deadlines given."
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || 4 Nov (cloud): '2027 Applications - Now Open!'; no dates or deadlines given."
   },
   {
    "name": "UniLodge Kensington",
    "rank": 9,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "4 Nov (cloud): Twin Studio from $575/wk (early bird, 52 wks). Page does not say per person or per room. Over cap either way."
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || 4 Nov (cloud): Twin Studio from $575/wk (early bird, 52 wks). Page does not say per person or per room. Over cap either way."
   },
   {
    "name": "Scape Sydney + UNSW Summer Stays",
    "rank": 10,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "scape.com.au/sydney/ was refused. Via search I read booking.scape.com.au/sydney: Scape Kensington from $749/wk, Scape Kingsford from $749/wk (cheapest Sydney: Broadway x Scape, Scape Sydney Central and Mountain x Scape from $489, all outside the target suburbs). It says 'flexible and summer stays in selected buildings', with no prices. The scape-kensington page shows room types with blank prices. The UNSW Summer Stays URL was not fetched (the same domain was refused and search returned no copy). Cheapest in-scope price: $749/wk (Kensington or Kingsford). Price watch only."
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || scape.com.au/sydney/ was refused. Via search I read booking.scape.com.au/sydney: Scape Kensington from $749/wk, Scape Kingsford from $749/wk (cheapest Sydney: Broadway x Scape, Scape Sydney Central and Mountain x Scape from $489, all outside the target suburbs). It says 'flexible and summer stays in selected buildings', with no prices. The scape-kensington page shows room types with blank prices. The UNSW Summer Stays URL was not fetched (the same domain was refused and search returned no copy). Cheapest in-scope price: $749/wk (Kensington or Kingsford). Price watch only."
   },
   {
    "name": "Iglu Sydney (short stays)",
    "rank": 11,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "iglu.com.au/short-stay-specials/ was refused. Via search I read stg.iglu.com.au/short-stay-specials-ss/ (Iglu staging subdomain, warning: may be stale; it still shows a 2020 Chatswood special). Sydney short-stay rates per person per week: Central $535, Redfern $544, Chatswood $435 (expired 2020 special). 4-week minimum. Iglu Kingsford appears in the menu only, with no short-stay rate. Cheapest Sydney short stay: $535/wk (outside the target suburbs). No Kingsford price found."
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || iglu.com.au/short-stay-specials/ was refused. Via search I read stg.iglu.com.au/short-stay-specials-ss/ (Iglu staging subdomain, warning: may be stale; it still shows a 2020 Chatswood special). Sydney short-stay rates per person per week: Central $535, Redfern $544, Chatswood $435 (expired 2020 special). 4-week minimum. Iglu Kingsford appears in the menu only, with no short-stay rate. Cheapest Sydney short stay: $535/wk (outside the target suburbs). No Kingsford price found."
   },
   {
    "name": "The Switch Kensington",
    "rank": 12,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "4 Nov (cloud): No prices on page; 'Now Leasing 2027', all-inclusive; enquire for rates."
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || 4 Nov (cloud): No prices on page; 'Now Leasing 2027', all-inclusive; enquire for rates."
   },
   {
    "name": "rent.com.au",
    "rank": 13,
-   "result": "not checked",
+   "result": "failed",
    "found": 0,
-   "note": "https://www.rent.com.au/properties/kensington-nsw-2033 refused by WebFetch (PROVENANCE_REQUIRED). WebSearch with site:rent.com.au returned no rent.com.au pages, so there was no fallback URL and no suburb pages were reached."
+   "note": "6 Nov: https://www.rent.com.au/properties/kensington-nsw-2033 failed at the site (client_error). || https://www.rent.com.au/properties/kensington-nsw-2033 refused by WebFetch (PROVENANCE_REQUIRED). WebSearch with site:rent.com.au returned no rent.com.au pages, so there was no fallback URL and no suburb pages were reached."
   },
   {
    "name": "Haush · ZUWU · Oz Homestay",
    "rank": 14,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Roomgo",
    "rank": 15,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. Domain no longer resolves (since 23 Oct); not retried."
+   "note": "6 Nov: not checked. the domain no longer resolves (since 23 Oct); not retried. || 2 Nov: not read this run. Domain no longer resolves (since 23 Oct); not retried."
   },
   {
    "name": "realestate.com.au",
    "rank": 15,
    "result": "checked",
    "found": 0,
-   "note": "4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed. || 4 Nov (Chrome): six-suburb search, 6 results: 2 tracked Rainbow St rooms, the 3 tracked 127 Barker St rooms (also on Domain) and a car space. Nothing new."
+   "note": "6 Nov (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed."
   },
   {
    "name": "Facebook groups",
    "rank": 16,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: needs a Facebook sign-in, which Claude does not do."
+   "note": "6 Nov: not checked. needs a Facebook sign-in, which Claude does not do. || 4 Nov: needs a Facebook sign-in, which Claude does not do."
   },
   {
    "name": "uhomes",
    "rank": 17,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Casita (student-room marketplace)",
    "rank": 18,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Amber Student · UniAcco · Student.com",
    "rank": 19,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Other cloud sites (admistay, Trovit, onthehouse)",
    "rank": 20,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 29 Oct: not in this run's source list; not checked."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 2 Nov: not read this run. 29 Oct: not in this run's source list; not checked."
   },
   {
    "name": "allhomes (Domain Group)",
    "rank": 20,
    "result": "not checked",
    "found": 0,
-   "note": "All 4 existing allhomes items are already closed. None reappeared on Domain search results, so nothing to re-check. allhomes pages are known to be stale copies via fetch."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || All 4 existing allhomes items are already closed. None reappeared on Domain search results, so nothing to re-check. allhomes pages are known to be stale copies via fetch."
   },
   {
    "name": "homely",
    "rank": 20,
-   "result": "failed",
+   "result": "not checked",
    "found": 0,
-   "note": "Search returned only Randwick unit pages (under-400 and up). https://www.homely.com.au/for-rent/randwick-nsw-2031/units/under-400 failed at the site (client_error). .../randwick-nsw-2031/units/under-550 loaded: 13 rows with no listing URLs; nothing in the six suburbs at or under $350 (cheapest in scope U/86 Houston Rd Kingsford $534, 221/161-165 Bunnerong Rd Kingsford $450; two sub-$350 rows are garages in Bellevue Hill, out of scope). No homely under-350 pages for Kensington, Kingsford, Eastlakes, Maroubra or Coogee were returned by search."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || Search returned only Randwick unit pages (under-400 and up). https://www.homely.com.au/for-rent/randwick-nsw-2031/units/under-400 failed at the site (client_error). .../randwick-nsw-2031/units/under-550 loaded: 13 rows with no listing URLs; nothing in the six suburbs at or under $350 (cheapest in scope U/86 Houston Rd Kingsford $534, 221/161-165 Bunnerong Rd Kingsford $450; two sub-$350 rows are garages in Bellevue Hill, out of scope). No homely under-350 pages for Kensington, Kingsford, Eastlakes, Maroubra or Coogee were returned by search."
   },
   {
    "name": "view.com.au",
    "rank": 20,
    "result": "checked",
    "found": 0,
-   "note": "Search returned only one view.com.au rent page: https://view.com.au/for-rent/nsw/in-eastlakes-2018/studios/ (loaded: 18 studios incl. surrounding suburbs, none leased). No studio in the six suburbs at or under $350; cheapest in scope is 44/305 Anzac Pde Kingsford $470 (Ray White Kingsford); the only Eastlakes one is $495. A $300 studio at 5/1003 Botany Rd is in Mascot (out of area). The page has no under-350 filter link (lowest is under-500-a-week). Linked suburb pages for Kingsford and Kensington were refused by WebFetch (PROVENANCE_REQUIRED). No under-350 view.com.au pages for the six suburbs were returned by search."
+   "note": "6 Nov (cloud): Kingsford rent page 1 (25 of 269): nothing at or under $350; cheapest living space 12/26 Houston Rd $490 (Raine & Horne). || Search returned only one view.com.au rent page: https://view.com.au/for-rent/nsw/in-eastlakes-2018/studios/ (loaded: 18 studios incl. surrounding suburbs, none leased). No studio in the six suburbs at or under $350; cheapest in scope is 44/305 Anzac Pde Kingsford $470 (Ray White Kingsford); the only Eastlakes one is $495. A $300 studio at 5/1003 Botany Rd is in Mascot (out of area). The page has no under-350 filter link (lowest is under-500-a-week). Linked suburb pages for Kingsford and Kensington were refused by WebFetch (PROVENANCE_REQUIRED). No under-350 view.com.au pages for the six suburbs were returned by search."
   },
   {
    "name": "2stay",
    "rank": 21,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: home page read: no Sydney rooms or prices listed. || 2 Nov: not read this run. 31 Oct: home, /traveller/, /sydney/ and /coliving/ read: co-living 'from $310 p/w' (bills included, up to 15 people per property), homestay from $350, studio from $600; no addresses (suburbs list shows Randwick but no listing or price; co-living page has an unfilled 'XXXXX' suburb placeholder). Noth"
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov deep run: home page read: no Sydney rooms or prices listed."
   },
   {
    "name": "Belong",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: home page read: six 1-bed whole apartments $860 to $1,025 (Parramatta, Melbourne, Eastgardens, Rosebery, Mascot, Waterloo); nothing in the six suburbs. Unchanged."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: home page read: six 1-bed whole apartments $860 to $1,025 (Parramatta, Melbourne, Eastgardens, Rosebery, Mascot, Waterloo); nothing in the six suburbs. Unchanged."
   },
   {
    "name": "CosyEasy",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: /rentalproperties read: 24 furnished apartments, 364-day minimum; only in-area one 86/255 Anzac Pde Kingsford $1,200 (available 19 Nov). Unchanged; nothing under $350."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: /rentalproperties read: 24 furnished apartments, 364-day minimum; only in-area one 86/255 Anzac Pde Kingsford $1,200 (available 19 Nov). Unchanged; nothing under $350."
   },
   {
    "name": "Flatmate Finders",
    "rank": 21,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
+   "note": "6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
   },
   {
    "name": "Independent colleges on campus",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: New College fees read: 2027 New College catered $630 (ensuite $707), NCPV apartment $538 (48 wk) / $574 (44 wk), studio $605 / $640; no application dates. Shalom /apply/ read: 2026 rates $599 and $677, 2027 not shown, applications open all year, summer stays at a daily rate (amount not given"
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: New College fees read: 2027 New College catered $630 (ensuite $707), NCPV apartment $538 (48 wk) / $574 (44 wk), studio $605 / $640; no application dates. Shalom /apply/ read: 2026 rates $599 and $677, 2027 not shown, applications open all year, summer stays at a daily rate (amount not given"
   },
   {
    "name": "Muse Living",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: home page (locations only: Woollahra, Bondi, Coogee 302 Arden St) and /coogee/ read: Private Single, Private Double, Twin Share, Superior Studio, 'one simple, all-inclusive rate', still no prices. UniAcco shows Muse Living Bondi from $380 (out of area). Unchanged."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: home page (locations only: Woollahra, Bondi, Coogee 302 Arden St) and /coogee/ read: Private Single, Private Double, Twin Share, Superior Studio, 'one simple, all-inclusive rate', still no prices. UniAcco shows Muse Living Bondi from $380 (out of area). Unchanged."
   },
   {
    "name": "Myola Coogee",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: home page has no prices in text; the booking page is JavaScript only and could not be read. || 2 Nov: not read this run. 31 Oct: home and /facilities read: single and share/double rooms at Coogee, free Wi-Fi, new furniture, fridge in room; rates only as images (no text prices); booking widget dates still 2019. Unchanged; no confirmed price."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov deep run: home page has no prices in text; the booking page is JavaScript only and could not be read."
   },
   {
    "name": "Primus Property",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: /properties page 1 of 4 read: 18 Maroubra Rd studio $460 (cheapest), Randwick 12-14 Belmore Rd $520, Kingsford $600 to $660. Unchanged; nothing under $350."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: /properties page 1 of 4 read: 18 Maroubra Rd studio $460 (cheapest), Randwick 12-14 Belmore Rd $520, Kingsford $600 to $660. Unchanged; nothing under $350."
   },
   {
    "name": "SOL Kingsford by Canvas",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: CHANGED: Middle St page now shows prices: Studio Balcony from $700 (available 11 Dec), Studio Terrace from $730 (10 Dec), Studio Corner from $730 (29 Dec); other types 'Contact Us'; utilities and internet included, shared laundry. Over budget."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: CHANGED: Middle St page now shows prices: Studio Balcony from $700 (available 11 Dec), Studio Terrace from $730 (10 Dec), Studio Corner from $730 (29 Dec); other types 'Contact Us'; utilities and internet included, shared laundry. Over budget."
   },
   {
    "name": "Semester In Australia",
    "rank": 21,
    "result": "checked",
    "found": 0,
-   "note": "2 Nov deep run: Sydney page read: all three houses (Coogee, Kingsford, Randwick) sold out for Semester 1 2027 with a waitlist; Kingsford summer rate $1,400/month for Dec and/or Jan only. Nothing that fits. || 2 Nov: not read this run. 31 Oct: /city/sydney read: Coogee, Kingsford (35 Willis St, 15 Forsyth St, 21 Harbourne Rd) and Randwick (St Pauls St) houses all sold out for Semester 1 2027 (waitlist); semester fees twin $9,500 to $9,750, single $13,500 to $14,500. Kingsford SUMMER RATE AUD$1,400/month (Dec and/or Jan) = about $3"
+   "note": "6 Nov (cloud): Coogee, Kingsford and Randwick houses all sold out for Semester 1 2027 (wait lists); Kingsford summer rate $1,400 a month for Dec and/or Jan only. || 2 Nov deep run: Sydney page read: all three houses (Coogee, Kingsford, Randwick) sold out for Semester 1 2027 with a waitlist; Kingsford summer rate $1,400/month for Dec and/or Jan only. Nothing that fits."
   },
   {
    "name": "Sweet Pea Living",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: home page read: no locations or prices ('all expenses included'); 'Our Properties' still has no URL; a search returned no Sweet Pea pages. Nothing confirmed."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: home page read: no locations or prices ('all expenses included'); 'Our Properties' still has no URL; a search returned no Sweet Pea pages. Nothing confirmed."
   },
   {
    "name": "UKO Kensington / UKO Randwick",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct: UKO's own pages not returned by search; UniAcco UKO Kensington (search-returned) $540 to $725 and UKO Randwick $730 to $860, all 'currently unavailable', dates from 2024/25. Nothing at or under $350."
+   "note": "6 Nov: not checked. not re-read this run (price watch or low yield; nothing at or under $350 in the six suburbs at the last check). || 2 Nov: not read this run. 31 Oct: UKO's own pages not returned by search; UniAcco UKO Kensington (search-returned) $540 to $725 and UKO Randwick $730 to $860, all 'currently unavailable', dates from 2024/25. Nothing at or under $350."
   },
   {
    "name": "Discovery search (web)",
    "rank": 22,
-   "result": "not checked",
+   "result": "checked",
    "found": 0,
-   "note": "2 Nov: not read this run. 31 Oct deep pass: 45+ extended web searches (room for rent per suburb, boarding houses, granny flats, studios, homestay, Facebook Marketplace, Airbnb monthly, Spareroom/Roomies/Roomster/Kangaroom/OzFlatmates, co-living, church hostels, NSW/council boarding-house lists). New sites read: Sharehouse.ap"
+   "note": "6 Nov: 8 extended searches (rooms per suburb, bills included, boarding rooms, agents). Results were aggregators (rent.com.au, view, homely, Trovit), tier C marketplaces (Gumtree, Casita, uhomes, Amber, sabbaticalhomes) or pages already covered. No new tier A or B room found. || 2 Nov: not read this run. 31 Oct deep pass: 45+ extended web searches (room for rent per suburb, boarding houses, granny flats, studios, homestay, Facebook Marketplace, Airbnb monthly, Spareroom/Roomies/Roomster/Kangaroom/OzFlatmates, co-living, church hostels, NSW/council boarding-house lists). New sites read: Sharehouse.ap"
   },
   {
    "name": "CK Realty agency website",
    "rank": 6,
    "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it. || Existing item ckrealty:carl4 re-open refused by WebFetch (PROVENANCE_REQUIRED). A WebSearch for the room returned no ckrealty.com.au page, so there was no fallback URL."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 2 Nov deep run: not re-read. Trust tier C (or Facebook sign-in): rooms from it are never considered under the 2 Nov trusted-and-safe rule, so no time was spent on it."
   },
   {
    "name": "Sharehouse.app",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "Living High Co-Living",
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
+   "note": "6 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so no reads were spent on it. || 4 Nov: not checked. Trust tier C, and tier C rooms are never considered (2 Nov rule), so this run spent no reads on it."
   },
   {
    "name": "UNSW-listed co-living operators",
    "rank": 21,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "2 Nov deep run: Semester In Australia Sydney page read: Coogee, Kingsford and Randwick houses sold out for Semester 1 2027 (waitlist); semester fees twin $9,500 to $9,750, single $13,500 to $14,500; Kingsford summer rate $1,400/month for Dec and/or Jan only (short stay). Myola Coogee: no prices in text, booking widget is JavaScript only (not read). 2stay home page: no Sydney listings. || Earlier 2 Nov run: Refused (PROVENANCE_REQUIRED): myolacoogeeaccommodation.com.au, museliving.com.au and /coogee/, sweetpealiving.com.au, semesterinaustralia.com/city/sydney, 2stay.com.au, cosyeasy.com/rentalproperties, primusproperty.com.au/properties, belonghere.me, and the Living High tracked link. The /facilities page was not tried after the home page was refused. Searches gave no official copies. Secondary reads: coliving.com says Muse Living has only Bondi and Woollahra (no Coogee price). The UNSW Study Stays copy of 'Belong Randick Studio' (#375686) is closed, $745/wk. Cheapest price per operator: Myola, "
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || 2 Nov deep run: Semester In Australia Sydney page read: Coogee, Kingsford and Randwick houses sold out for Semester 1 2027 (waitlist); semester fees twin $9,500 to $9,750, single $13,500 to $14,500; Kingsford summer rate $1,400/month for Dec and/or Jan only (short stay). Myola Coogee: no prices in text, booking widget is JavaScript only (not read). 2stay home page: no Sydney listings."
   },
   {
    "name": "Colleges and purpose-built near UNSW",
    "rank": 21,
-   "result": "checked",
+   "result": "not checked",
    "found": 0,
-   "note": "newcollege.unsw.edu.au/admissions/fees, shalomcollege.unsw.edu.au and canvasliving.com.au/canvas-middle-st were refused. Via search (official UNSW pages): New College 2027 Single $630 p/w (catered, cleaning, 44-week Feb to Dec contract, no summer stays stated). Shalom College 2026 cheapest single with shared bathroom $599.00 p/w (catered; 2027 not listed; 44 weeks; single-term contracts not available). A search result 'shalomcollege.com' 2027 fee PDF is a Rockhampton school and is irrelevant. Canvas Middle St not found by search. Cheapest: Shalom $599/wk (2026), New College $630/wk (2027), Canvas not checked. Price watch only."
+   "note": "6 Nov: not re-read (price watch only, all over $350 at the last check). || newcollege.unsw.edu.au/admissions/fees, shalomcollege.unsw.edu.au and canvasliving.com.au/canvas-middle-st were refused. Via search (official UNSW pages): New College 2027 Single $630 p/w (catered, cleaning, 44-week Feb to Dec contract, no summer stays stated). Shalom College 2026 cheapest single with shared bathroom $599.00 p/w (catered; 2027 not listed; 44 weeks; single-term contracts not available). A search result 'shalomcollege.com' 2027 fee PDF is a Rockhampton school and is irrelevant. Canvas Middle St not found by search. Cheapest: Shalom $599/wk (2026), New College $630/wk (2027), Canvas not checked. Price watch only."
   }
  ],
  "items": [
@@ -392,7 +392,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -446,8 +446,8 @@
     "photos": 1,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
-    "rate": "Response rate: 86%",
+    "online": "Online Yesterday",
+    "rate": "Response rate: 88%",
     "early": false
    },
    "risk": "low",
@@ -603,7 +603,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -647,7 +647,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 96%",
+    "rate": "Response rate: 94%",
     "early": false
    },
    "risk": "none",
@@ -668,7 +668,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -713,11 +713,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 10,
+    "photos": 8,
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 88%",
+    "rate": "Response rate: 71%",
     "early": false
    },
    "risk": "low",
@@ -809,7 +809,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -859,7 +859,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 81%",
+    "rate": "Response rate: 79%",
     "early": false
    },
    "risk": "low",
@@ -1154,7 +1154,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1194,11 +1194,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 11,
+    "photos": 12,
     "social": true,
     "nosocial": false,
-    "online": "Online Yesterday",
-    "rate": "Response rate: 79%",
+    "online": "Online Today",
+    "rate": "Response rate: 83%",
     "early": false
    },
    "risk": "none",
@@ -1219,7 +1219,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1270,11 +1270,11 @@
    "trust": "B",
    "women_only": "likely",
    "lister": {
-    "photos": 0,
+    "photos": 4,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
-    "rate": "Response rate: 25%",
+    "online": "Online Today",
+    "rate": "Response rate: 40%",
     "early": false
    },
    "risk": "low",
@@ -1295,7 +1295,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1335,11 +1335,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 10,
+    "photos": 13,
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 93%",
+    "rate": "Response rate: 91%",
     "early": false
    },
    "risk": "none",
@@ -1734,7 +1734,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1777,8 +1777,8 @@
     "photos": 7,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "online": "Online Yesterday",
+    "rate": "Response rate: 98%",
     "early": false
    },
    "risk": "none",
@@ -2067,7 +2067,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -2122,7 +2122,7 @@
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 75%",
+    "rate": "Response rate: 50%",
     "early": false
    },
    "risk": "low",
@@ -2354,7 +2354,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -2397,8 +2397,8 @@
     "photos": 4,
     "social": true,
     "nosocial": false,
-    "online": "Online Today",
-    "rate": "Response rate: 79%",
+    "online": "Online Yesterday",
+    "rate": "Response rate: 83%",
     "early": false
    },
    "risk": "none",
@@ -2419,7 +2419,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -2480,10 +2480,10 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 5,
+    "photos": 7,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
+    "online": "Online Yesterday",
     "rate": "Response rate: 97%",
     "early": false
    },
@@ -2862,12 +2862,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water, Gas, Internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 3, 1, 3 (bedrooms, bathrooms, people). 23 Oct: Rent changed from $340 to $320. 23 Oct: Rent down from $340 to $320. 27 Oct: still in the Flatmates max-350 results.",
+   "notes": "Bills included: Electricity, Water, Gas, Internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 3, 1, 3 (bedrooms, bathrooms, people). 23 Oct: Rent changed from $340 to $320. 23 Oct: Rent down from $340 to $320. 27 Oct: still in the Flatmates max-350 results. 6 Nov: response rate now 83%, so the low-response flag was removed.",
    "suburb": "Eastlakes",
    "distance_km": 3.0,
    "transit_min": 20,
@@ -2897,13 +2897,7 @@
     "Can I see the room in person or on a live video call before paying anything?",
     "Is there a washing machine I can use, and is it included in the rent?"
    ],
-   "scam_flags": [
-    {
-     "code": "low_response",
-     "level": "low",
-     "reason": "The lister has a 0% response rate on Flatmates: no replies to messages recorded."
-    }
-   ],
+   "scam_flags": [],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Eastlakes (listing P1980008). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
    "trust": "B",
    "women_only": null,
@@ -2912,10 +2906,10 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 50%",
+    "rate": "Response rate: 83%",
     "early": false
    },
-   "risk": "low",
+   "risk": "none",
    "contact": {
     "channel": "Flatmates message (free); the lister also shares a mobile number, which needs a paid Flatmates upgrade to see",
     "business": null,
@@ -3212,7 +3206,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3262,7 +3256,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 73%",
+    "rate": "Response rate: 65%",
     "early": false
    },
    "risk": "low",
@@ -3283,7 +3277,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3633,7 +3627,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3677,7 +3671,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 93%",
+    "rate": "Response rate: 81%",
     "early": false
    },
    "risk": "none",
@@ -3692,7 +3686,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3836,7 +3830,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3874,7 +3868,7 @@
    ],
    "scam_flags": [],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a homestay from early January 2027. I'm looking at the No Meals package and would prefer a host within walking distance of UNSW Kensington. Could you tell me the minimum stay, whether a private room is possible near my budget of $350 a week, and confirm that utilities and internet are included? I'd also like to know how the matching fee works. Thank you.",
-   "notes": "Official 2027 price list, not a single listing. Prices include internet, laundry and utilities ('e.g. power, water'); gas not named, so estimate kept at $0 ⚠️ estimate. One-off matching fee about $370 (2027). Host location unknown, so distance not set. Prices subject to change. Re-read 18 Oct: 2026 rates are $310 shared and $340 private (no meals), which apply only to nights in 2026. 23 Oct: 2027 shared room no meals $325 unchanged; private no meals $355; matching fee $370 (2027). Internet, laundry and utilities included. 24 Oct: 24 Oct: unchanged. 2027 Over-18s shared room No Meals still $325/wk (incl internet, laundry, utilities); 2027 matching fee $370. 2026 rate for Dec days: $310. 27 Oct: Pricing page read: 2027 shared no meals $325, private no meals $355, matching fee $370; utilities, internet and laundry included. Unchanged. 29 Oct: sydney-pricing page re-read: 2027 over-18s no meals shared $325, private $355, dinner-only shared $365; matching fee about $370 (2027); airport pickup $200; includes internet, laundry and utilities (power, water). Unchanged. 31 Oct: sydney-pricing re-read: 2027 over-18s no meals shared $325, private $355; matching fee $370 (2027); 2026 no meals shared $310. No deadlines listed. Unchanged. 2 Nov: could not re-check (sydney-pricing refused (PROVENANCE_REQUIRED). The secondary 2027 fee schedule PDF (apc.edu.au) lists only private rooms (no meals $355/wk), with no shared rate, so $325 could not be confirmed). 2 Nov (deep run): official sydney-pricing page read: 2027 over-18 shared room, no meals $325/wk (private $355); 2027 matching fee $370; packages include internet, laundry facilities and utilities.",
+   "notes": "Official 2027 price list, not a single listing. Prices include internet, laundry and utilities ('e.g. power, water'); gas not named, so estimate kept at $0 ⚠️ estimate. One-off matching fee about $370 (2027). Host location unknown, so distance not set. Prices subject to change. Re-read 18 Oct: 2026 rates are $310 shared and $340 private (no meals), which apply only to nights in 2026. 23 Oct: 2027 shared room no meals $325 unchanged; private no meals $355; matching fee $370 (2027). Internet, laundry and utilities included. 24 Oct: 24 Oct: unchanged. 2027 Over-18s shared room No Meals still $325/wk (incl internet, laundry, utilities); 2027 matching fee $370. 2026 rate for Dec days: $310. 27 Oct: Pricing page read: 2027 shared no meals $325, private no meals $355, matching fee $370; utilities, internet and laundry included. Unchanged. 29 Oct: sydney-pricing page re-read: 2027 over-18s no meals shared $325, private $355, dinner-only shared $365; matching fee about $370 (2027); airport pickup $200; includes internet, laundry and utilities (power, water). Unchanged. 31 Oct: sydney-pricing re-read: 2027 over-18s no meals shared $325, private $355; matching fee $370 (2027); 2026 no meals shared $310. No deadlines listed. Unchanged. 2 Nov: could not re-check (sydney-pricing refused (PROVENANCE_REQUIRED). The secondary 2027 fee schedule PDF (apc.edu.au) lists only private rooms (no meals $355/wk), with no shared rate, so $325 could not be confirmed). 2 Nov (deep run): official sydney-pricing page read: 2027 over-18 shared room, no meals $325/wk (private $355); 2027 matching fee $370; packages include internet, laundry facilities and utilities. 6 Nov: Sydney 2027 rates unchanged ($325 shared, $355 private, no meals; placement fee $370).",
    "bills_included_count": 3,
    "who_can_apply": null,
    "bond": null,
@@ -3958,7 +3952,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4042,7 +4036,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4085,8 +4079,8 @@
     "photos": 4,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
-    "rate": "Response rate: 64%",
+    "online": "Online 3 days ago",
+    "rate": "Response rate: 39%",
     "early": false
    },
    "risk": "none",
@@ -4311,7 +4305,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4355,7 +4349,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 37%",
+    "rate": "Response rate: 33%",
     "early": false
    },
    "risk": "none",
@@ -4709,7 +4703,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4747,7 +4741,7 @@
    ],
    "scam_flags": [],
    "enquiry_draft": "Hi, I'm [your name], a current UNSW Village resident. I'd like to know whether I can book a shared apartment for Term 1 2027 starting 1 January, so there is no gap after my current contract ends. Could you confirm the cheapest weekly rate for 2027, whether utilities are included, and how the security deposit is handled? Thank you.",
-   "notes": "Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: shared still $404-$521 (69 cards); $404 cards waitlist; cheapest Book now $411.50; Book-now cards down to 14 of 69 (from about 22). Over cap. 27 Oct: Brief URLs refused; read search-returned https://campuslivingvillages.com/australia/sydney/unsw-village/studio, which lists all 2027 types: Shared $404.00 to $521.00 (some Book now, some waitlist; counts not readable), Studio $544.50 to $675.50 all waitlist, 1 Bed $587 to $691.50 all waitlist. Page also says 'no terms available for you to book at this time'. Nothing at or under $350. 29 Oct: the /unsw-village/shared/ page loaded from the cloud today: Shared Apartment $404.00 to $521.00 (mostly 'Join waitlist', some 'Book now' labels), Studio $544.50 to $675.50 (waitlist), 1 Bed $587 to $732 (waitlist); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, cleaning fee $116 to $210, deposit 4 weeks; Wi-Fi listed, utilities not named on this page. The page also showed 'no terms available for you to book at this time / ineligible to book on this account' (a generic unauthenticated message). Still over budget, reference only. 31 Oct: /shared/ page re-read: Shared $404.00 to $521.00, Studio $544.50 to $675.50, 1 Bed $587 to $732 (mostly Waitlist, some Limited availability or Book now); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, deposit 4 weeks, cleaning fee $116 to $210. No early-bird, summer offer or deadline shown. Unchanged, over budget (reference only). 2 Nov: village page (not the /shared/ page, which was refused) shows Shared Apartment $404.00 to $521.00 per week, mostly Waitlist, some Limited availability. 2027 contracts from 1 Jan, 6 Jan or 29 Jan 2027. Page says no terms bookable at this time. Unchanged at $404. 4 Nov: still from $404/wk, most options now on a waitlist, no deals.",
+   "notes": "Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: Above budget, reference only. $404 to $521/wk (shared apartment, 11 m2 room, King Single, 1 to 3 shared bathrooms); 4-week deposit, application fee, annual cleaning fee. 19 Oct: the CLV UNSW Village page says rent covers 'utilities (water, electricity, and gas), high-speed Wi-Fi', so all 4 bills are included. It says '2027 bookings open now!', most 2027 contracts start 1 to 29 Jan 2027, many options show 'Waitlist' or 'Limited availability', and the booking widget still says no terms are available to book. 23 Oct: Shared $404 to $521 unchanged. Village page says 2027 bookings open; some rooms Book now, others waitlist; booking widget showed no bookable terms. No twin share. $55 application fee, 4 weeks deposit. 24 Oct: 24 Oct: cheapest shared still $404.00/wk but both $404 cards show 'Join waitlist'; cheapest 'Book now' card $411.50. 2027 starts listed: 1 Jan, 6 Jan (T1&2 to 31 Aug), 29 Jan (48 wks to 31 Dec); page does not tie status to start date. Over cap. 26 Oct: shared still $404-$521 (69 cards); $404 cards waitlist; cheapest Book now $411.50; Book-now cards down to 14 of 69 (from about 22). Over cap. 27 Oct: Brief URLs refused; read search-returned https://campuslivingvillages.com/australia/sydney/unsw-village/studio, which lists all 2027 types: Shared $404.00 to $521.00 (some Book now, some waitlist; counts not readable), Studio $544.50 to $675.50 all waitlist, 1 Bed $587 to $691.50 all waitlist. Page also says 'no terms available for you to book at this time'. Nothing at or under $350. 29 Oct: the /unsw-village/shared/ page loaded from the cloud today: Shared Apartment $404.00 to $521.00 (mostly 'Join waitlist', some 'Book now' labels), Studio $544.50 to $675.50 (waitlist), 1 Bed $587 to $732 (waitlist); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, cleaning fee $116 to $210, deposit 4 weeks; Wi-Fi listed, utilities not named on this page. The page also showed 'no terms available for you to book at this time / ineligible to book on this account' (a generic unauthenticated message). Still over budget, reference only. 31 Oct: /shared/ page re-read: Shared $404.00 to $521.00, Studio $544.50 to $675.50, 1 Bed $587 to $732 (mostly Waitlist, some Limited availability or Book now); 2027 terms from 1 Jan, 6 Jan or 29 Jan 2027; application fee $55, deposit 4 weeks, cleaning fee $116 to $210. No early-bird, summer offer or deadline shown. Unchanged, over budget (reference only). 2 Nov: village page (not the /shared/ page, which was refused) shows Shared Apartment $404.00 to $521.00 per week, mostly Waitlist, some Limited availability. 2027 contracts from 1 Jan, 6 Jan or 29 Jan 2027. Page says no terms bookable at this time. Unchanged at $404. 4 Nov: still from $404/wk, most options now on a waitlist, no deals. 6 Nov: UNSW's own UNSW Village page lists 2027 full-year rates from $404/wk (7 and 8 bed apartments) to $453.50 (2 bed); 48 or 52 week contracts; no summer contract shown.",
    "bills_included_count": 4,
    "who_can_apply": null,
    "bond": null,
@@ -4848,12 +4842,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": true,
    "verified": "✅",
-   "notes": "⚠️ estimate: about $25/wk for bills not included. Available after early Feb 2027. Short stay only (3 – 12 months stay). Listing icons: 3, 2, 4 (bedrooms, bathrooms, people). Closed 21 Oct 2026: Flatmates says this listing is no longer available.",
+   "notes": "⚠️ estimate: about $25/wk for bills not included. Available after early Feb 2027. Short stay only (3 – 12 months stay). Listing icons: 3, 2, 4 (bedrooms, bathrooms, people). Closed 21 Oct 2026: Flatmates says this listing is no longer available. 6 Nov: re-listed and back in the max-350 search, but women only and available 5 Mar 2027, after the 15 Feb 2027 window, so it stays closed.",
    "suburb": "Kensington",
    "distance_km": 1.0,
    "transit_min": 8,
@@ -4894,10 +4888,10 @@
    "trust": "B",
    "women_only": "stated",
    "lister": {
-    "photos": 5,
+    "photos": 4,
     "social": false,
     "nosocial": true,
-    "online": "Online 6 days ago",
+    "online": "Online Today",
     "rate": "Response rate: 25%",
     "early": true
    },
@@ -5070,7 +5064,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5120,7 +5114,7 @@
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 96%",
+    "rate": "Response rate: 92%",
     "early": false
    },
    "risk": "low",
@@ -5357,7 +5351,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5406,7 +5400,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a shared bed in Harbourne III Room 4, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "9 min walk to UNSW per listing. Available 30 Nov 2026, the closest to the move-in window among the walkable Down Under Stay rooms. Only Wi-Fi stated (not included); other bills not mentioned, $25/wk ⚠️ estimate. 23 Oct: Available from 30 Nov 2026, $285 shared (2 people), fully furnished, 7-bed house with about 9 people. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 30 Nov 2026, Shared Occupancy $285/wk (only price on page), 2 people. Still on the /rooms/ list. 27 Oct: unchanged: Available from 30 Nov 2026, Shared Occupancy $285/wk. 29 Oct: room page read: 'Available Soon', 30 Nov 2026, Shared $285/wk, 2 people, deposit 3 weeks, minimum 4 months, 7 bedrooms, 9 residents, 9 min walk. Also on the /rooms/ list. Unchanged. 31 Oct: room page read: 'Available Soon', from 30 Nov 2026, Shared Occupancy $285/wk (only price), capacity 2, deposit 3 weeks ($855), minimum 4 months; on the /rooms/ list ('from' $285, 30/11/26). Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED, permission timed out); search returned no copy).",
+   "notes": "9 min walk to UNSW per listing. Available 30 Nov 2026, the closest to the move-in window among the walkable Down Under Stay rooms. Only Wi-Fi stated (not included); other bills not mentioned, $25/wk ⚠️ estimate. 23 Oct: Available from 30 Nov 2026, $285 shared (2 people), fully furnished, 7-bed house with about 9 people. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 30 Nov 2026, Shared Occupancy $285/wk (only price on page), 2 people. Still on the /rooms/ list. 27 Oct: unchanged: Available from 30 Nov 2026, Shared Occupancy $285/wk. 29 Oct: room page read: 'Available Soon', 30 Nov 2026, Shared $285/wk, 2 people, deposit 3 weeks, minimum 4 months, 7 bedrooms, 9 residents, 9 min walk. Also on the /rooms/ list. Unchanged. 31 Oct: room page read: 'Available Soon', from 30 Nov 2026, Shared Occupancy $285/wk (only price), capacity 2, deposit 3 weeks ($855), minimum 4 months; on the /rooms/ list ('from' $285, 30/11/26). Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED, permission timed out); search returned no copy). 6 Nov: room page still 'Available Soon' from 30 Nov 2026; unchanged.",
    "bills_included_count": 0,
    "who_can_apply": "Not stated (described as ideal for students)",
    "bond": 855,
@@ -5426,7 +5420,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5475,7 +5469,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a shared bed in Harbourne III Room 6, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "$285 is the shared-occupancy price; single occupancy is $455 and double occupancy $525 (over budget). Available 8 Dec 2026. Bills $25/wk ⚠️ estimate. 23 Oct: Available from 8 Dec 2026. $285 is the shared rate; same page shows $455 single and $525 double occupancy. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 8 Dec 2026, Shared Occupancy $285/wk. The page also shows Single Occupancy $455 and Double Occupancy $525 (the room to yourself costs $455). The list shows 'from $285'. Still listed. 27 Oct: unchanged: Available from 8 Dec 2026, Shared $285, Single $455, Double $525. 29 Oct: room page read: 'Available Soon', 8 Dec 2026, Shared $285/wk (single $455, double $525), 2 people, deposit 3 weeks, minimum 4 months, 9 min walk. Also on the /rooms/ list. Unchanged. 31 Oct: room page read: 'Available Soon', from 08 Dec 2026; Shared $285/wk, Single $455, Double $525 (only shared is under cap); deposit 3 weeks ($855), minimum 4 months; on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded).",
+   "notes": "$285 is the shared-occupancy price; single occupancy is $455 and double occupancy $525 (over budget). Available 8 Dec 2026. Bills $25/wk ⚠️ estimate. 23 Oct: Available from 8 Dec 2026. $285 is the shared rate; same page shows $455 single and $525 double occupancy. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 8 Dec 2026, Shared Occupancy $285/wk. The page also shows Single Occupancy $455 and Double Occupancy $525 (the room to yourself costs $455). The list shows 'from $285'. Still listed. 27 Oct: unchanged: Available from 8 Dec 2026, Shared $285, Single $455, Double $525. 29 Oct: room page read: 'Available Soon', 8 Dec 2026, Shared $285/wk (single $455, double $525), 2 people, deposit 3 weeks, minimum 4 months, 9 min walk. Also on the /rooms/ list. Unchanged. 31 Oct: room page read: 'Available Soon', from 08 Dec 2026; Shared $285/wk, Single $455, Double $525 (only shared is under cap); deposit 3 weeks ($855), minimum 4 months; on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 6 Nov: room page still 'Available Soon' from 8 Dec 2026; unchanged.",
    "bills_included_count": 0,
    "who_can_apply": "Not stated",
    "bond": 855,
@@ -5778,12 +5772,12 @@
    "source": "realestate.com.au",
    "source_rank": 15,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct). 24 Oct: 39 Rainbow St is live 24 Oct on Domain (7640084), rent.com.au (1494305) and homely (9518120): $330, Olsen Romano, available now, open inspection Mon 26 Oct 4:15-4:30pm. Licensed boarding house aimed at students; single bed, desk and cupboard; separate men's and women's bathrooms; shared kitchen. Bills, bond and lease are not stated. 2 Nov (deep run): still listed on realestate.com.au and Domain (7640084) at $330; Domain shows an open inspection on Monday at 4:15 pm. 4 Nov: also on Domain (7640084), same 39 Rainbow St boarding house and agency; Domain metadata dates it to Mar 2026.",
+   "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct). 24 Oct: 39 Rainbow St is live 24 Oct on Domain (7640084), rent.com.au (1494305) and homely (9518120): $330, Olsen Romano, available now, open inspection Mon 26 Oct 4:15-4:30pm. Licensed boarding house aimed at students; single bed, desk and cupboard; separate men's and women's bathrooms; shared kitchen. Bills, bond and lease are not stated. 2 Nov (deep run): still listed on realestate.com.au and Domain (7640084) at $330; Domain shows an open inspection on Monday at 4:15 pm. 4 Nov: also on Domain (7640084), same 39 Rainbow St boarding house and agency; Domain metadata dates it to Mar 2026. 6 Nov: still in the realestate.com.au six-suburb search at $330/wk.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -5916,7 +5910,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5956,11 +5950,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 2,
+    "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
-    "rate": "Response rate: 57%",
+    "online": "Online 3 days ago",
+    "rate": "Response rate: 44%",
     "early": false
    },
    "risk": "none",
@@ -6056,7 +6050,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6115,8 +6109,8 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Online 3 days ago",
-    "rate": "Response rate: 47%",
+    "online": "Online 5 days ago",
+    "rate": "Response rate: 42%",
     "early": false
    },
    "risk": "low",
@@ -6131,7 +6125,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6180,7 +6174,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a shared bed in Boyce Rd Room 3, Maroubra. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "Price conflict: room page says $225/wk; Down Under Stay rooms list says from $255. Higher figure used. Not walkable; bus time ⚠️ estimate. Bills $25/wk ⚠️ estimate. 23 Oct: Available from 28 Nov 2026, $255 shared (2 people), 6-bed house with about 10 people. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 28 Nov 2026, Shared Occupancy $255/wk (only price on page), 2 people, house of 6 bedrooms with about 10 residents. Still on the /rooms/ list. 27 Oct: unchanged: Available from 28 Nov 2026, Shared Occupancy $255/wk. 29 Oct: room page read: 'Available Soon', available 28 Nov 2026, Shared $255/wk, 2 people, deposit 3 weeks, minimum 4 months, 6 bedrooms, about 10 residents. Also on the /rooms/ list (from $255, 28/11/26). Unchanged. 31 Oct: room page read: 'Available Soon', move-in 28 Nov 2026, Shared Occupancy $255/wk (only price), capacity 2, deposit 3 weeks ($765), minimum 4 months; on the /rooms/ list. Unchanged. Not walkable; bus time ⚠️ estimate. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded).",
+   "notes": "Price conflict: room page says $225/wk; Down Under Stay rooms list says from $255. Higher figure used. Not walkable; bus time ⚠️ estimate. Bills $25/wk ⚠️ estimate. 23 Oct: Available from 28 Nov 2026, $255 shared (2 people), 6-bed house with about 10 people. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 28 Nov 2026, Shared Occupancy $255/wk (only price on page), 2 people, house of 6 bedrooms with about 10 residents. Still on the /rooms/ list. 27 Oct: unchanged: Available from 28 Nov 2026, Shared Occupancy $255/wk. 29 Oct: room page read: 'Available Soon', available 28 Nov 2026, Shared $255/wk, 2 people, deposit 3 weeks, minimum 4 months, 6 bedrooms, about 10 residents. Also on the /rooms/ list (from $255, 28/11/26). Unchanged. 31 Oct: room page read: 'Available Soon', move-in 28 Nov 2026, Shared Occupancy $255/wk (only price), capacity 2, deposit 3 weeks ($765), minimum 4 months; on the /rooms/ list. Unchanged. Not walkable; bus time ⚠️ estimate. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 6 Nov: room page still 'Available Soon' from 28 Nov 2026; unchanged.",
    "bills_included_count": 0,
    "who_can_apply": "Not stated (described as ideal for professionals or students)",
    "bond": 765,
@@ -6277,7 +6271,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6312,7 +6306,13 @@
     "How many people live here, and how are cleaning and kitchen time shared?",
     "Is there a washing machine I can use, and is it included in the rent?"
    ],
-   "scam_flags": [],
+   "scam_flags": [
+    {
+     "code": "low_response",
+     "level": "low",
+     "reason": "Response rate 10% and last online 11 days ago (6 Nov): the room may already be taken; ask for a live video call before visiting"
+    }
+   ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your private room in Maroubra (listing P2014019). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
    "trust": "B",
    "women_only": null,
@@ -6320,11 +6320,11 @@
     "photos": 5,
     "social": false,
     "nosocial": true,
-    "online": "Online 9 days ago",
-    "rate": "Response rate: 13%",
+    "online": "Online 11 days ago",
+    "rate": "Response rate: 10%",
     "early": false
    },
-   "risk": "none",
+   "risk": "low",
    "contact": {
     "channel": "Flatmates message (free)",
     "business": null,
@@ -6342,7 +6342,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6394,11 +6394,11 @@
    "trust": "B",
    "women_only": "stated",
    "lister": {
-    "photos": 15,
+    "photos": 7,
     "social": false,
     "nosocial": true,
-    "online": "Online 2 days ago",
-    "rate": "100%",
+    "online": "Online 4 days ago",
+    "rate": "Response rate: 100%",
     "early": true
    },
    "risk": "low",
@@ -6687,7 +6687,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8193,7 +8193,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8238,11 +8238,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 7,
+    "photos": 8,
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 97%",
+    "rate": "Response rate: 100%",
     "early": false
    },
    "risk": "low",
@@ -8263,7 +8263,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8312,11 +8312,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 15,
+    "photos": 24,
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 67%",
+    "rate": "Response rate: 56%",
     "early": false
    },
    "risk": "medium",
@@ -8401,7 +8401,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8459,7 +8459,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "rate": "Response rate: 82%",
     "early": false
    },
    "risk": "low",
@@ -8480,12 +8480,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Internet included; others not: ⚠️ estimate about $25/wk. Bond $945 (3 weeks). Has a cat. 27 Oct: still in the Flatmates max-350 results. 4 Nov: the ad now says the room is currently on hold because of a high volume of messages; response rate dropped to 9%.",
+   "notes": "Internet included; others not: ⚠️ estimate about $25/wk. Bond $945 (3 weeks). Has a cat. 27 Oct: still in the Flatmates max-350 results. 4 Nov: the ad now says the room is currently on hold because of a high volume of messages; response rate dropped to 9%. 6 Nov: no longer marked on hold; overview says available 15 Nov 2026, minimum 1 month. Response rate now 7%.",
    "suburb": "Coogee",
    "distance_km": 3.5,
    "transit_min": 25,
@@ -8523,6 +8523,11 @@
      "code": "unverified_lister",
      "level": "low",
      "reason": "No verified social media on Flatmates, plus other weak signs: response rate 9%, room marked on hold"
+    },
+    {
+     "code": "low_response",
+     "level": "low",
+     "reason": "Response rate 7% (6 Nov): expect slow replies; never pay before an in-person inspection"
     }
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the private room in your Coogee apartment (listing P1209326). I'm looking to move in between late December 2026 and early February 2027. Which bills would I pay apart from internet? I am fine living with a cat. Is there a washing machine I can use? I'd also like to arrange an inspection. Thank you.",
@@ -8532,9 +8537,9 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
-    "rate": "Response rate: 9%",
-    "early": true
+    "online": "Online 3 days ago",
+    "rate": "Response rate: 7%",
+    "early": false
    },
    "risk": "low",
    "contact": {
@@ -8713,7 +8718,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8926,7 +8931,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Licensed agent on Domain, 6 photos, first listed 21 Oct 2026. Cheapest of three RnJ rooms here. Bills not mentioned, so ask. Bond is 4 weeks, within the NSW limit. May overlap with the Flatmates Barker St rooms; compare photos. Also listed on realestate.com.au as rea:445299852. 24 Oct: Live on Domain 24 Oct (RnJ Realty), first listed 21 Oct: room with shared kitchen, bathroom, common area and yard. Bond $1,000, available Fri 13 Nov. No inspections scheduled yet (booked via Snug). Bills not stated. 27 Oct: Listing page read: live, $250, bond $1,000, available 13 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages (Kensington 15, Kingsford 8, Randwick 14, Maroubra 9, Coogee 2, Eastlakes 14 results). Listing page re-read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, room with shared kitchen, bathroom, common area and yard, RNJ Realty, 6 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299852, same rent and bond); Domain itself not re-read this run.",
+   "notes": "Licensed agent on Domain, 6 photos, first listed 21 Oct 2026. Cheapest of three RnJ rooms here. Bills not mentioned, so ask. Bond is 4 weeks, within the NSW limit. May overlap with the Flatmates Barker St rooms; compare photos. Also listed on realestate.com.au as rea:445299852. 24 Oct: Live on Domain 24 Oct (RnJ Realty), first listed 21 Oct: room with shared kitchen, bathroom, common area and yard. Bond $1,000, available Fri 13 Nov. No inspections scheduled yet (booked via Snug). Bills not stated. 27 Oct: Listing page read: live, $250, bond $1,000, available 13 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages (Kensington 15, Kingsford 8, Randwick 14, Maroubra 9, Coogee 2, Eastlakes 14 results). Listing page re-read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, room with shared kitchen, bathroom, common area and yard, RNJ Realty, 6 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299852, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 12,
@@ -8994,7 +8999,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Licensed agent on Domain, 7 photos. Available now, so it may be gone by late December; ask if a later start is possible. Bond 4 weeks. Bills not mentioned. Also listed on realestate.com.au as rea:445300436. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen and bathroom. Bond $1,080, available now. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $270, bond $1,080, Available Now (ask to hold), RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $270/wk, bond $1,080, 'Available now', shared kitchen and bathroom, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $270/wk, bond $1,080, 'Available Now', RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445300436, same rent and bond); Domain itself not re-read this run.",
+   "notes": "Licensed agent on Domain, 7 photos. Available now, so it may be gone by late December; ask if a later start is possible. Bond 4 weeks. Bills not mentioned. Also listed on realestate.com.au as rea:445300436. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen and bathroom. Bond $1,080, available now. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $270, bond $1,080, Available Now (ask to hold), RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $270/wk, bond $1,080, 'Available now', shared kitchen and bathroom, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $270/wk, bond $1,080, 'Available Now', RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445300436, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 12,
@@ -9062,7 +9067,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Licensed agent on Domain, 7 photos. Dearest of the three Barker St rooms; ask what the extra $50 to $70 buys (size, bills). Bond 4 weeks. Also listed on realestate.com.au as rea:445299972. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen, bathroom and yard. Bond $1,280, available Sun 15 Nov. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $320, bond $1,280, available 15 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, shared kitchen, bathroom, common area and yard, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299972, same rent and bond); Domain itself not re-read this run.",
+   "notes": "Licensed agent on Domain, 7 photos. Dearest of the three Barker St rooms; ask what the extra $50 to $70 buys (size, bills). Bond 4 weeks. Also listed on realestate.com.au as rea:445299972. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen, bathroom and yard. Bond $1,280, available Sun 15 Nov. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $320, bond $1,280, available 15 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, shared kitchen, bathroom, common area and yard, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299972, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 12,
@@ -9633,7 +9638,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -9850,7 +9855,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -10068,7 +10073,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -10120,8 +10125,8 @@
     "photos": 11,
     "social": true,
     "nosocial": false,
-    "online": "Online 5 days ago",
-    "rate": "Response rate: 94%",
+    "online": "Online 7 days ago",
+    "rate": "Response rate: 60%",
     "early": false
    }
   },
@@ -10282,7 +10287,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -10347,7 +10352,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -10399,9 +10404,9 @@
     "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Online 5 days ago",
-    "rate": "",
-    "early": true
+    "online": "Online Today",
+    "rate": "Response rate: 100%",
+    "early": false
    }
   },
   {
@@ -10412,7 +10417,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-24",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -10463,11 +10468,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 2,
+    "photos": 3,
     "social": true,
     "nosocial": false,
-    "online": "Online 7 days ago",
-    "rate": "Response rate: 30%",
+    "online": "Online 9 days ago",
+    "rate": "Response rate: 17%",
     "early": false
    },
    "laundry": "not mentioned",
@@ -11733,7 +11738,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-26",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -12273,12 +12278,12 @@
    "source": "Down Under Stay",
    "source_rank": 3,
    "found_at": "2026-10-27",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Room page read 27 Oct: 'Available from 17 Nov 2026' (Available Soon). Shared Occupancy $265/wk per person; the room alone is $505 (single) or $525 (double), over budget. Deposit 3 weeks, minimum 4 months, room capacity 2, flexible double or 2 singles. Same house as Boyce Rd Room 3. Very likely the same room as flatmates:P1276675. Wi-Fi is not included in rent; other bills not stated (operator earlier said about $25 per person per week, ⚠️). Exact address given only on application. Not walkable; bus time ⚠️ estimate. Same room is also listed on UNSW Study Stays (listing 381277, $265, from 16 Nov, minimum 3 months, self-managed bond $795, flags: bond not lodged with Rental Bonds Online, 9 people in 6 bedrooms so check the boarding house register). De-duplicated: Down Under Stay kept as the operator page. Also advertised on Flatmates (P1276675, $265, twin share, says \"available now\" while the operator page says 17 Nov). De-duplicated across three sites. 29 Oct: conflict. The room page now shows status 'Occupied' (shared $255, single $425, double $515 on the page), but the operator's /rooms/ list still shows 'Available Soon' from 17/11/26 at $265 and Study Stays #381277 (page read today) still offers the twin bed at $265 from 16 Nov 2026 with a $795 self-managed deposit, 8 occupants and 1 vacancy. Kept open with the higher list price; confirm with the operator. 31 Oct: conflict persists. Room page: 'Occupied', Shared $255, Single $425, Double $515. /rooms/ list: 'Available Soon', from 17/11/26, 'from' $265. Study Stays 381277 (page read today): twin share $265 per person 'plus bills', single $505, from 16 Nov 2026, bond $795 self-managed, at least 3 months, 8 occupants, 1 vacancy, 'bedroom door does not have a key lock', classified Sub-let or Transfer. Kept open at the higher $265; confirm with the operator. 2 Nov: could not re-check (Room page refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 4 Nov: available date now 16 Nov 2026 (was 17 Nov). Same room is on UNSW Study Stays as 381277.",
+   "notes": "Room page read 27 Oct: 'Available from 17 Nov 2026' (Available Soon). Shared Occupancy $265/wk per person; the room alone is $505 (single) or $525 (double), over budget. Deposit 3 weeks, minimum 4 months, room capacity 2, flexible double or 2 singles. Same house as Boyce Rd Room 3. Very likely the same room as flatmates:P1276675. Wi-Fi is not included in rent; other bills not stated (operator earlier said about $25 per person per week, ⚠️). Exact address given only on application. Not walkable; bus time ⚠️ estimate. Same room is also listed on UNSW Study Stays (listing 381277, $265, from 16 Nov, minimum 3 months, self-managed bond $795, flags: bond not lodged with Rental Bonds Online, 9 people in 6 bedrooms so check the boarding house register). De-duplicated: Down Under Stay kept as the operator page. Also advertised on Flatmates (P1276675, $265, twin share, says \"available now\" while the operator page says 17 Nov). De-duplicated across three sites. 29 Oct: conflict. The room page now shows status 'Occupied' (shared $255, single $425, double $515 on the page), but the operator's /rooms/ list still shows 'Available Soon' from 17/11/26 at $265 and Study Stays #381277 (page read today) still offers the twin bed at $265 from 16 Nov 2026 with a $795 self-managed deposit, 8 occupants and 1 vacancy. Kept open with the higher list price; confirm with the operator. 31 Oct: conflict persists. Room page: 'Occupied', Shared $255, Single $425, Double $515. /rooms/ list: 'Available Soon', from 17/11/26, 'from' $265. Study Stays 381277 (page read today): twin share $265 per person 'plus bills', single $505, from 16 Nov 2026, bond $795 self-managed, at least 3 months, 8 occupants, 1 vacancy, 'bedroom door does not have a key lock', classified Sub-let or Transfer. Kept open at the higher $265; confirm with the operator. 2 Nov: could not re-check (Room page refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 4 Nov: available date now 16 Nov 2026 (was 17 Nov). Same room is on UNSW Study Stays as 381277. 6 Nov: room page now agrees with the list: 'Available Soon' from 16 Nov 2026, shared price $265, so the inconsistent-details flag was removed.",
    "suburb": "Maroubra",
    "distance_km": 3.1,
    "transit_min": 20,
@@ -12323,11 +12328,6 @@
      "code": "sublet_check",
      "level": "low",
      "reason": "The same room on UNSW Study Stays (381277) is classified 'Sub-let or Transfer': ask who holds the head lease and for written consent"
-    },
-    {
-     "code": "inconsistent_details",
-     "level": "low",
-     "reason": "Room page says 'Occupied' (shared $255), while the /rooms/ list says 'Available Soon' from 17/11/26 at $265 and Study Stays 381277 offers the twin bed at $265 from 16 Nov 2026"
     }
    ],
    "risk": "medium",
@@ -12426,7 +12426,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -12481,7 +12481,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "rate": "Response rate: 98%",
     "early": false
    },
    "laundry": "yes",
@@ -12502,7 +12502,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -12554,10 +12554,10 @@
    "women_only": null,
    "lister": {
     "photos": 9,
-    "social": null,
-    "nosocial": null,
+    "social": false,
+    "nosocial": true,
     "online": "Online Today",
-    "rate": null,
+    "rate": "Response rate: 97%",
     "early": false
    },
    "laundry": "shared",
@@ -12581,9 +12581,9 @@
    "last_seen_at": "2026-11-04",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Single bed in a male twin room, Alison Road, Randwick (6 bed, 2 bath, 7 people). $250/week with water, gas, electricity and WiFi included. Available 16 Nov 2026. Terms: 3 weeks bond ($750), 2 weeks rent in advance, minimum 3 months. '15 min walk to UNSW'. Lister Angie, response rate 90%, online today, no verified social media. Shared room, so lower privacy; 7 people in the house.",
+   "notes": "Single bed in a male twin room, Alison Road, Randwick (6 bed, 2 bath, 7 people). $250/week with water, gas, electricity and WiFi included. Available 16 Nov 2026. Terms: 3 weeks bond ($750), 2 weeks rent in advance, minimum 3 months. '15 min walk to UNSW'. Lister Angie, response rate 90%, online today, no verified social media. Shared room, so lower privacy; 7 people in the house. 6 Nov: closed, Flatmates says this listing is no longer available (it also dropped out of the max-350 search).",
    "suburb": "Randwick",
    "distance_km": 2.0,
    "transit_min": 15,
@@ -12649,12 +12649,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Room 2 of a 6-bed, 4-bath Down Under Stay house in Maroubra. Twin share $265 per person plus bills; single occupancy with double bed $505 plus bills (over budget). Bills not included (electricity, water, gas, internet, gardener, cleaner); fortnightly common-area cleaning cost shared. Minimum stay 4 months + 3 weeks; bond 3 weeks ($795). No key lock on the bedroom door. Available now. Likely the same room as a Down Under Stay room page: de-duplicate to the operator page if the scout finds it. Lister response rate 96%, verified social media.",
+   "notes": "Room 2 of a 6-bed, 4-bath Down Under Stay house in Maroubra. Twin share $265 per person plus bills; single occupancy with double bed $505 plus bills (over budget). Bills not included (electricity, water, gas, internet, gardener, cleaner); fortnightly common-area cleaning cost shared. Minimum stay 4 months + 3 weeks; bond 3 weeks ($795). No key lock on the bedroom door. Available now. Likely the same room as a Down Under Stay room page: de-duplicate to the operator page if the scout finds it. Lister response rate 96%, verified social media. 6 Nov: two shared beds now listed, $265 each, from 15 Nov and 27 Nov 2026, 4 to 12 months.",
    "suburb": "Maroubra",
    "distance_km": 3.5,
    "transit_min": 25,
@@ -12671,7 +12671,7 @@
    "bills_included_count": 0,
    "bills_estimate_pw": 50.0,
    "room_type": "Shared room",
-   "available_from": "2026-10-29",
+   "available_from": "2026-11-15",
    "lease": "4 to 12 months (minimum 4 months + 3 weeks)",
    "furnished": "yes",
    "own_bathroom": "no",
@@ -12695,11 +12695,11 @@
    "trust": "B",
    "women_only": null,
    "lister": {
-    "photos": 13,
+    "photos": 19,
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 96%",
+    "rate": "Response rate: 92%",
     "early": false
    },
    "laundry": "not mentioned",
@@ -12795,7 +12795,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13244,7 +13244,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13308,7 +13308,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "rate": "Response rate: 98%",
     "early": false
    },
    "laundry": "yes",
@@ -13329,7 +13329,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13398,7 +13398,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "rate": "Response rate: 98%",
     "early": false
    },
    "laundry": "yes",
@@ -13419,7 +13419,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13473,7 +13473,7 @@
     "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Online 5 days ago",
+    "online": "Online 7 days ago",
     "rate": "",
     "early": true
    },
@@ -14305,7 +14305,7 @@
   },
   {
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14317,7 +14317,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": 100,
+    "rate": "Response rate: 17%",
     "early": false
    },
    "laundry": "yes",
@@ -14369,7 +14369,7 @@
   },
   {
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14380,8 +14380,8 @@
     "photos": 21,
     "social": false,
     "nosocial": true,
-    "online": "Online 2 days ago",
-    "rate": null,
+    "online": "Online Today",
+    "rate": "Response rate: 50%",
     "early": true
    },
    "laundry": "not mentioned",
@@ -14669,7 +14669,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14718,7 +14718,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "57%",
+    "rate": "Response rate: 56%",
     "early": true
    },
    "laundry": "not mentioned",
@@ -14740,7 +14740,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14774,16 +14774,22 @@
     "Is there a washing machine I can use, and is it included in the rent?",
     "How many people live here, and how are cleaning and kitchen time shared?"
    ],
-   "scam_flags": [],
-   "risk": "none",
+   "scam_flags": [
+    {
+     "code": "low_response",
+     "level": "low",
+     "reason": "Flatmates shows a 0% response rate for this lister (6 Nov): follow up if a message gets no reply, and inspect in person before paying"
+    }
+   ],
+   "risk": "low",
    "trust": "B",
    "women_only": null,
    "lister": {
     "photos": 5,
     "social": false,
     "nosocial": true,
-    "online": "Online Yesterday",
-    "rate": "Response rate: 43%",
+    "online": "Online Today",
+    "rate": "Response rate: 0%",
     "early": false
    },
    "contact": {
@@ -14804,7 +14810,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14854,7 +14860,7 @@
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "rate": "Response rate: 56%",
     "early": false
    },
    "contact": {
@@ -14875,7 +14881,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14927,8 +14933,8 @@
     "photos": 6,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
-    "rate": "Response rate: N/A",
+    "online": "Online Yesterday",
+    "rate": "",
     "early": true
    },
    "contact": {
@@ -14949,7 +14955,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14993,8 +14999,8 @@
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 100%",
-    "early": true
+    "rate": "Response rate: 33%",
+    "early": false
    },
    "contact": {
     "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
@@ -15014,7 +15020,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15068,8 +15074,8 @@
     "photos": 2,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
-    "rate": "Response rate: N/A",
+    "online": "Online 2 days ago",
+    "rate": "",
     "early": true
    },
    "contact": {
@@ -15090,7 +15096,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15143,8 +15149,8 @@
     "photos": 8,
     "social": false,
     "nosocial": true,
-    "online": "Online Today",
-    "rate": "Response rate: 100%",
+    "online": "Online Yesterday",
+    "rate": "Response rate: 33%",
     "early": true
    },
    "contact": {
@@ -15165,12 +15171,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "1 of 4 bills included: ⚠️ estimate about $20/wk for the rest. Found 4 Nov 2026.",
+   "notes": "1 of 4 bills included: ⚠️ estimate about $20/wk for the rest. Found 4 Nov 2026. 6 Nov: ad text now says available from 3 Dec 2026.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -15186,7 +15192,7 @@
    "bills_included_count": 1,
    "bills_estimate_pw": 20,
    "room_type": "Studio",
-   "available_from": "2026-12-02",
+   "available_from": "2026-12-03",
    "lease": "1 to 12 months stay",
    "furnished": "yes",
    "own_bathroom": "yes",
@@ -15220,7 +15226,7 @@
     "social": false,
     "nosocial": true,
     "online": "Online Today",
-    "rate": "Response rate: 96%",
+    "rate": "Response rate: 95%",
     "early": false
    },
    "contact": {
@@ -15512,7 +15518,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15590,7 +15596,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15666,7 +15672,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-04",
+   "last_seen_at": "2026-11-06",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15681,7 +15687,7 @@
     "mobile_on_listing": false
    },
    "title": "Private room in Kingsford, 1 minute walk to UNSW, all bills included",
-   "notes": "All 4 bills plus home essentials included. Ad text says available on 5 Dec; the overview says available now. Early Bird listing (free messages are delayed). Found 4 Nov 2026 (evening run).",
+   "notes": "All 4 bills plus home essentials included. Ad text says available on 5 Dec; the overview says available now. Early Bird listing (free messages are delayed). Found 4 Nov 2026 (evening run). 6 Nov: overview still says available now; rent $350 unchanged.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 5,
@@ -15721,7 +15727,7 @@
     "social": true,
     "nosocial": false,
     "online": "Online Today",
-    "rate": "Response rate: 86%",
+    "rate": "Response rate: 100%",
     "early": true
    },
    "laundry": "not mentioned",
@@ -15794,6 +15800,82 @@
    "enquiry_draft": "",
    "bills_included_count": 4,
    "risk": "low"
+  },
+  {
+   "id": "flatmates:P1416981",
+   "title": "Private queen room in a Kingsford share house, 12 months, bills not included",
+   "org": "Flatmates.com.au listing",
+   "link": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1416981",
+   "source": "Flatmates.com.au",
+   "source_rank": 1,
+   "found_at": "2026-11-06",
+   "last_seen_at": "2026-11-06",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "verified": "✅",
+   "trust": "B",
+   "women_only": null,
+   "notes": "Bills not included (⚠️ estimate about $30/wk for 4 utilities split 4 ways). Available now, so you may pay rent from an earlier date than you need: ask if it can start in December or January. 4-bedroom house, 1 bathroom plus separate toilet, big garden, off-street parking. Two dogs live here. Early Bird listing (free messages are delayed). Found 6 Nov 2026.",
+   "suburb": "Kingsford",
+   "distance_km": 1.5,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 300,
+   "bond": 1100,
+   "bills": {
+    "electricity": "excluded",
+    "gas": "excluded",
+    "water": "excluded",
+    "internet": "excluded"
+   },
+   "bills_included_count": 0,
+   "bills_estimate_pw": 30,
+   "room_type": "Private room",
+   "available_from": "2026-11-06",
+   "lease": "12 months stay",
+   "furnished": "no",
+   "own_bathroom": "no",
+   "who_can_apply": "Anyone except couples",
+   "household": "Three housemates in their late 20s who work and study science at UNSW; one owns two dogs. They want a housemate who will also be a friend.",
+   "about": "Unfurnished queen room with plush carpet, a large window and fly screen in a 4-bedroom Kingsford house with a big garden and entertaining space.",
+   "inspection_questions": [
+    "Could the lease start in mid December 2026 or January 2027 instead of now?",
+    "How are the four bills split, and roughly what does each person pay per week?",
+    "Is the $1,100 bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
+    "Is there a washing machine I can use, and is it included in the rent?",
+    "How do the two dogs fit with the house (shared spaces, cleaning), and can I inspect in person first?"
+   ],
+   "scam_flags": [
+    {
+     "code": "low_response",
+     "level": "low",
+     "reason": "Flatmates shows a 0% response rate for this lister on a brand-new (Early Bird) listing: give it a few days and inspect in person before paying"
+    },
+    {
+     "code": "unverified_lister",
+     "level": "low",
+     "reason": "The lister has no verified social media on Flatmates, plus another weak sign: 0% response rate so far"
+    }
+   ],
+   "risk": "low",
+   "lister": {
+    "photos": 8,
+    "social": false,
+    "nosocial": true,
+    "online": "Online Today",
+    "rate": "Response rate: 0%",
+    "early": true
+   },
+   "contact": {
+    "channel": "Flatmates message (free; delayed because the listing is under 14 days old, unless you upgrade)",
+    "business": null,
+    "url": "https://flatmates.com.au/share-house-sydney-kingsford-2032-P1416981",
+    "mobile_on_listing": false
+   },
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the queen room in your Kingsford share house (listing P1416981). I'm looking to move in between mid December 2026 and early February 2027 and I'm happy with a 12-month stay. Could the start date suit that window? Roughly how much are the shared bills per week, and is there a washing machine I can use? I'd love to arrange an in-person inspection. Thanks!"
   }
  ]
 }
