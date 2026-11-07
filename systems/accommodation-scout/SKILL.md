@@ -67,7 +67,7 @@ The website shows trusted and safe rooms only (it drops every other room on load
 ## 5. Outputs
 
 - `docs/data/accommodation.json` (commit + push).
-- Google Sheet tab **Accommodation** with Status dropdown (new, enquired, inspected, rejected, signed), plus Bills included, Bills extra (you pay), Bills not mentioned, Contract length, Contract group, Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), In default view, Contact via, Contact name, Phone and Email columns. The Sheet's filter hides rows where In default view is `no`. Never overwrite a Status Chaitanya set.
+- Google Sheet tab **Accommodation** with Status dropdown (new, enquired, inspected, rejected, signed), plus Bills included, Bills extra (you pay), Bills not mentioned, Bills not included (one ARRAYFORMULA in its header cell, J1, built from the bill columns: never write values under it), Contract length, Contract group, Longest stay allowed, Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), In default view, Contact via, Contact name, Phone and Email columns. The Sheet's filter hides rows where In default view is `no`. Write cells with the values API (`update_values`): a `repeatCell` batch skips rows the filter hides. Never overwrite a Status Chaitanya set.
 - Run summary: new trusted and safe rooms, best 5 (with contract length and which bills are included), how many women-only rooms are hidden, sources not checked. Rooms that are not trusted and safe are left out of the summary.
 
 Never pay, apply, book an inspection or message anyone.
