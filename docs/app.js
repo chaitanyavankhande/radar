@@ -117,12 +117,35 @@ const leaseBucket = it => {
    from the listing's own wording (it.lease keeps the exact words). Older items fall back to the lease text. */
 const CONTRACT_ORDER = ['Short stay (under 3 months)', 'Under 3 months minimum', '3 to 5 months minimum', '6 to 11 months minimum', '12 months or more', 'Flexible', 'Up to a set end date', 'Not stated'];
 const contractOf = it => it.contract || { min_months: null, max_months: null, ends: null, flexible: /^flex/i.test(it.lease || ''), bucket: leaseBucket(it), summary: it.lease || 'Not stated', note: '' };
-const fitsStay = (it, months) => {
+/* Stay length. The stay is counted from the later of today and the room's available date.
+   longestStay: Infinity when the listing gives a length but no maximum or end date,
+   a number of months when it has a maximum or a fixed end date, null when no length is stated. */
+const MONTH_MS = 30.44 * DAY;
+const stayStart = it => Math.max(Date.now(), +(parseWhen(it.available_from, 'start') || 0));
+const longestStay = it => {
   const c = contractOf(it);
-  if (c.min_months != null && c.min_months > months) return false;
-  if (c.max_months != null && c.max_months + 0.25 < months) return false;
+  if (c.bucket === 'Not stated' && c.min_months == null && c.max_months == null && !c.ends) return null;
+  let m = c.max_months != null ? Number(c.max_months) : Infinity;
+  if (c.ends) { const e = parseWhen(c.ends, 'end'); if (e) m = Math.min(m, (e - stayStart(it)) / MONTH_MS); }
+  return m;
+};
+/* UNSW 2027 term ends (UNSW academic calendar, read 7 Nov 2026) */
+const TERM_ENDS = { t1: ['2027-05-13', 'Term 1 2027 (to 13 May)'], t2: ['2027-08-26', 'Terms 1 and 2 2027 (to 26 Aug)'], t3: ['2027-12-09', 'All 3 terms of 2027 (to 9 Dec)'] };
+/* "I want to stay for": a number of months, or until the end of a 2027 term ('t1', 't2', 't3') */
+const stayNeed = (it, v) => TERM_ENDS[v] ? Math.max(0, ((parseWhen(TERM_ENDS[v][0], 'end') - stayStart(it)) / MONTH_MS)) : Number(v);
+const fitsStay = (it, v) => {
+  const c = contractOf(it), need = stayNeed(it, v), most = longestStay(it);
+  if (c.min_months != null && c.min_months > need + 0.5) return false;
+  if (most != null && most + 0.25 < need) return false;
   return true;
 };
+const stayLabel = it => {
+  const m = longestStay(it);
+  if (m == null) return '❔ Not stated';
+  if (m === Infinity) return '♾️ No maximum stated';
+  return m >= 12 ? `Up to ${(m / 12).toFixed(m % 12 < 0.5 ? 0 : 1)} year${m >= 18 ? 's' : ''}` : `Up to about ${Math.max(0, Math.round(m * 10) / 10)} months`;
+};
+const LONG_LABEL = [['3', '3 months or more (1 term)'], ['6', '6 months or more (2 terms)'], ['10', '10 months or more (3 terms)'], ['12', '1 year or more'], ['24', '2 years or more']];
 const BILL_LABEL = { included: 'Included', excluded: 'Extra (you pay)', 'not mentioned': 'Not mentioned' };
 const billState = (it, b) => { const v = (it.bills || {})[b]; return v === 'included' || v === 'excluded' ? v : 'not mentioned'; };
 /* one line naming every bill by state, e.g. ✅ Electricity, Water · ❌ Gas · ❔ Internet */
@@ -132,6 +155,15 @@ const billsLine = it => {
     return names.length ? `<span class="${cls}" title="${esc(BILL_LABEL[st])}">${icon} ${esc(names.join(', '))}</span>` : '';
   }).filter(Boolean);
   return `<span class="billline">${groups.join(' <span class="muted">·</span> ')}</span>`;
+};
+/* bills that are not included in the rent: extra (you pay) plus not mentioned (ask) */
+const notIncluded = it => BILLS.filter(b => billState(it, b) !== 'included');
+const notIncludedLine = it => {
+  const ex = BILLS.filter(b => billState(it, b) === 'excluded').map(titleCase), nm = BILLS.filter(b => billState(it, b) === 'not mentioned').map(titleCase);
+  if (!ex.length && !nm.length) return '<span class="b-in">None: all 4 included</span>';
+  const est = num(it.bills_estimate_pw);
+  return [ex.length ? `<span class="b-ex">❌ You pay: ${esc(ex.join(', '))}</span>` : '', nm.length ? `<span class="b-nm">❔ Not stated (ask): ${esc(nm.join(', '))}</span>` : '']
+    .filter(Boolean).join('<br>') + (est ? `<br><span class="muted">≈ ${money(est)}/wk extra ⚠️ estimate</span>` : '');
 };
 const whoBucket = it => {
   const t = String(it.who_can_apply || '').trim();
@@ -397,9 +429,9 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 15 Feb 2027. Every room shows its contract length (filter it under Contract length or I want to stay for) and which bills are included, extra or not mentioned. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 15 Feb 2027. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
-    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, contractOf(it).summary, contractOf(it).bucket, it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
+    search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, contractOf(it).summary, contractOf(it).bucket, stayLabel(it), notIncluded(it).map(b => b + ' not included').join(' '), it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     include: isSafe,
     defaultF: { women: 'hide' },
     hiddenNote: (items, s) => {
@@ -423,8 +455,13 @@ const TABS = [
       { type: 'multi', key: 'room', label: 'Room type', get: it => it.room_type },
       { type: 'daterange', key: 'avail', label: 'Available from', get: it => it.available_from },
       { type: 'multi', key: 'contract', label: 'Contract length (the minimum you sign for)', order: CONTRACT_ORDER, get: it => contractOf(it).bucket },
-      { type: 'select', key: 'stay', label: 'I want to stay for', options: [['', 'Any length'], ['1', '1 month'], ['2', '2 months'], ['3', '3 months'], ['4', '4 months'], ['6', '6 months'], ['9', '9 months'], ['12', '12 months']],
-        test: (it, v) => fitsStay(it, Number(v)) },
+      { type: 'select', key: 'long', label: 'Long stays: lets me stay at least', options: [['', 'Any length'], ...LONG_LABEL],
+        test: (it, v) => { const m = longestStay(it); return m != null && m + 0.25 >= Number(v); } },
+      { type: 'select', key: 'stay', label: 'I want to stay for', options: [['', 'Any length'], ['1', '1 month'], ['2', '2 months'], ['3', '3 months'], ['t1', 'Term 1 2027 (to 13 May)'], ['6', '6 months'], ['t2', 'Terms 1 and 2 2027 (to 26 Aug)'], ['9', '9 months'], ['t3', 'All 3 terms of 2027 (to 9 Dec)'], ['12', '1 year'], ['18', '18 months'], ['24', '2 years']],
+        test: (it, v) => fitsStay(it, v) },
+      { type: 'select', key: 'nolen', label: 'Rooms that don\'t state a stay length', options: [['', 'Show them'], ['hide', 'Hide them']],
+        test: (it, v) => v !== 'hide' || longestStay(it) != null },
+      { type: 'multi', key: 'notinc', label: 'Bills not included (any ticked)', order: ['Electricity', 'Gas', 'Water', 'Internet', 'None (all included)'], get: it => { const n = notIncluded(it).map(titleCase); return n.length ? n : ['None (all included)']; } },
       { type: 'multi', key: 'who', label: 'Who can apply', get: whoBucket },
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
@@ -440,6 +477,7 @@ const TABS = [
       distance: { label: 'Distance', get: it => num(it.distance_km) },
       transit: { label: 'Travel time', get: it => num(it.transit_min) },
       avail: { label: 'Available from', get: it => { const d = parseWhen(it.available_from, 'start'); return d ? +d : null; } },
+      longest: { label: 'Longest stay possible', get: it => { const m = longestStay(it); return m == null ? null : m === Infinity ? -1e9 : -m; } },
       minstay: { label: 'Shortest minimum contract', get: it => { const c = contractOf(it); return c.min_months ?? (c.flexible || c.max_months != null ? 0 : null); } },
       scam: { label: 'Lowest risk', get: riskScore },
       found: { label: 'First seen', get: foundMs }
@@ -449,6 +487,7 @@ const TABS = [
       { id: 'cheapest', label: 'Cheapest', keys: [['total', 'asc'], ['bills', 'asc']] },
       { id: 'closest', label: 'Closest, then cheapest', keys: [['distance', 'asc'], ['total', 'asc']] },
       { id: 'movein', label: 'Earliest move-in', keys: [['avail', 'asc'], ['total', 'asc']] },
+      { id: 'longest', label: 'Longest stay possible first', keys: [['longest', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
       { id: 'shortest', label: 'Shortest contract first', keys: [['minstay', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
       { id: 'safe', label: 'Lowest risk first', keys: [['scam', 'asc'], ['bills', 'asc'], ['total', 'asc']] },
       { id: 'newest', label: 'Newest first', keys: [['found', 'desc']] }
@@ -463,6 +502,8 @@ const TABS = [
         ['Bond', num(it.bond) == null ? '' : `<span class="num">${money(num(it.bond))}</span>`],
         ['With bills', t == null ? '' : `<span class="num">≈ ${money(t)}/wk</span>${num(it.bills_estimate_pw) ? ' <span class="muted">⚠️ est.</span>' : ''}`],
         ['Bills', `<span class="num">${billsCount(it)} of 4</span> included<br>${billsLine(it)}`],
+        ['Bills not included', notIncludedLine(it)],
+        ['Longest stay', esc(stayLabel(it))],
         ['Contract', `<b>${esc(contractOf(it).summary)}</b>${it.lease && it.lease !== contractOf(it).summary ? `<br><span class="muted">Listing says: ${esc(it.lease)}</span>` : ''}`],
         ['Distance', distanceText(it) + (it.walkable ? ' · walkable' : '')],
         ['Room', esc(it.room_type || '')],
@@ -491,7 +532,11 @@ const TABS = [
       { const k = contractOf(it);
         if (k.bucket === 'Short stay (under 3 months)') c.push(['Short stay', 'warn']);
         else if (k.flexible) c.push(['Flexible contract', 'good']);
-        else if (k.min_months != null && k.min_months >= 12) c.push(['12-month minimum', 'info']); }
+        else if (k.min_months != null && k.min_months >= 12) c.push(['12-month minimum', 'info']);
+        const m = longestStay(it);
+        if (m == null) c.push(['Stay length not stated', 'warn']);
+        else if (m + 0.25 >= 12) c.push([m === Infinity ? 'Long stay OK (no maximum)' : 'Long stay: 1 year+', 'good']);
+        else if (m + 0.25 >= 6) c.push(['Stay 6 months+', 'info']); }
       if (['yes', 'shared'].includes(laundryOf(it))) c.push(['Washing machine', 'good']);
       if (laundryOf(it) === 'no') c.push(['No washing machine', 'warn']);
       if (it.walkable) c.push(['Walkable', 'good']);
@@ -505,9 +550,10 @@ const TABS = [
         const icon = v === 'included' ? '✅' : v === 'excluded' ? '❌' : '❔';
         return `<div class="bill ${cls}"><span>${titleCase(b)}</span><b>${icon} ${esc(BILL_LABEL[v])}</b></div>`;
       }).join('');
-      let h = `<div><h4>Bills: included or extra</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}${BILLS.some(b => billState(it, b) === 'not mentioned') ? '<p class="muted">❔ Not mentioned means the listing does not say: ask before you sign.</p>' : ''}</div>`;
+      let h = `<div><h4>Bills not included in the rent</h4><p>${notIncludedLine(it)}</p></div>`;
+      h += `<div><h4>Bills: included or extra</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}${BILLS.some(b => billState(it, b) === 'not mentioned') ? '<p class="muted">❔ Not mentioned means the listing does not say: ask before you sign.</p>' : ''}</div>`;
       { const k = contractOf(it);
-        h += `<div><h4>Contract length</h4><p><b>${esc(k.summary)}</b> <span class="muted">(${esc(k.bucket)})</span></p>${it.lease ? `<p class="muted">Listing wording: <q>${esc(it.lease)}</q></p>` : ''}${k.note ? `<p>⚠️ ${esc(k.note)}</p>` : ''}</div>`; }
+        h += `<div><h4>Contract length</h4><p><b>${esc(k.summary)}</b> <span class="muted">(${esc(k.bucket)})</span></p><p>Longest stay: ${esc(stayLabel(it))}${longestStay(it) === Infinity ? ' <span class="muted">(the ad gives a minimum but no end, so a long stay is possible: confirm it)</span>' : ''}</p>${it.lease ? `<p class="muted">Listing wording: <q>${esc(it.lease)}</q></p>` : ''}${k.note ? `<p>⚠️ ${esc(k.note)}</p>` : ''}</div>`; }
       h += `<div><h4>Laundry</h4><p>${LAUNDRY_ICON[laundryOf(it)]} ${esc(LAUNDRY_LABEL[laundryOf(it)])}${it.laundry_evidence ? `: <q>${esc(it.laundry_evidence)}</q>` : ''}</p></div>`;
       { const c = contactOf(it), u = safeUrl(c.url);
         h += `<div><h4>How to contact</h4><p>${esc([c.business, c.channel].filter(Boolean).join(': ') || 'See the listing page')}${u ? ` · <a href="${esc(u)}" target="_blank" rel="noopener">contact page ↗</a>` : ''}</p><p class="muted">Names, phone numbers and emails are kept in your private Sheet, not on this public site. Keep the first messages on the listing site.</p></div>`; }

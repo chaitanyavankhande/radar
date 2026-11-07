@@ -1,27 +1,27 @@
 {
- "updated_at": "2026-11-06T16:30:00+11:00",
- "previous_run_at": "2026-11-04T21:30:00+11:00",
+ "updated_at": "2026-11-07T12:30:00+11:00",
+ "previous_run_at": "2026-11-06T16:30:00+11:00",
  "sources": [
   {
    "name": "Flatmates.com.au",
    "rank": 1,
    "result": "checked",
-   "found": 1,
-   "note": "6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
+   "found": 0,
+   "note": "7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
   },
   {
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
-   "found": 1,
-   "note": "6 Nov (cloud): pages 1 to 6 read (64 to 68 matches; paging is unstable). 6 tracked in-criteria rooms re-read on their detail pages, all still listed. New: 381372 (Randwick twin share, women only, 30 Nov to 13 Feb). 381277 is the same room as Down Under Stay Boyce Rd Room 2. || 6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
+   "found": 0,
+   "note": "7 Nov (cloud): pages 1 to 6 read (64 to 68 matches). No new in-area rooms at or under $350. 6 tracked rooms' detail pages re-read: unchanged. || 6 Nov (cloud): pages 1 to 6 read (64 to 68 matches; paging is unstable). 6 tracked in-criteria rooms re-read on their detail pages, all still listed. New: 381372 (Randwick twin share, women only, 30 Nov to 13 Feb). 381277 is the same room as Down Under Stay Boyce Rd Room 2. || 6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
   },
   {
    "name": "Down Under Stay",
    "rank": 3,
    "result": "checked",
    "found": 0,
-   "note": "6 Nov (Chrome, same-site fetch): sitemap (86 room pages) all read. In budget: boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-4 $285 from 30 Nov, harbourne-iii-room-6 $285 from 8 Dec (all shared, 4 months minimum, Wi-Fi and utilities extra). Harbourne IV rooms 5 to 7 single $455 (over). Everything else Occupied. Cloud fetch of the sitemap was refused this run (permission prompt). || 6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays close"
+   "note": "7 Nov (cloud): /rooms/ read: the same 4 tracked rooms ($255 to $285, Wi-Fi extra, other bills not stated); Harbourne IV rooms $455 (over). || 6 Nov (Chrome, same-site fetch): sitemap (86 room pages) all read. In budget: boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-4 $285 from 30 Nov, harbourne-iii-room-6 $285 from 8 Dec (all shared, 4 months minimum, Wi-Fi and utilities extra). Harbourne IV rooms 5 to 7 single $455 (over). Everything else Occupied. Cloud fetch of the sitemap was refused this run (permission prompt). || 6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays close"
   },
   {
    "name": "Gumtree flatshare",
@@ -35,14 +35,14 @@
    "rank": 5,
    "result": "checked",
    "found": 0,
-   "note": "6 Nov (cloud): 2027 over-18 no-meals $325 shared, $355 private; utilities and internet included; minimum stay not stated. || 6 Nov (cloud): Sydney 2027 adult rates unchanged: no meals $325 shared, $355 private; placement fee $370. || 4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
+   "note": "7 Nov (cloud): pricing page and student FAQ read: $325 shared, $355 private (no meals); placements 28 nights, extendable 28 nights at a time; 14 days' notice. || 6 Nov (cloud): 2027 over-18 no-meals $325 shared, $355 private; utilities and internet included; minimum stay not stated. || 6 Nov (cloud): Sydney 2027 adult rates unchanged: no meals $325 shared, $355 private; placement fee $370. || 4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
   },
   {
    "name": "Domain rentals",
    "rank": 6,
    "result": "checked",
    "found": 0,
-   "note": "6 Nov (cloud): all 6 suburb URLs read. In area: the 3 tracked 127 Barker St rooms, 11/1-3 Vicar St Coogee and 39 Rainbow St (tracked as rea:418962602), plus car spaces. Nothing new. Listing pages state no lease length or bills. || 6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
+   "note": "7 Nov (cloud): all 6 suburb URLs read. Only the tracked 127 Barker St rooms, 39 Rainbow St and 11/1-3 Vicar St, plus car spaces. Nothing new. Listing pages state no lease term or bills. || 6 Nov (cloud): all 6 suburb URLs read. In area: the 3 tracked 127 Barker St rooms, 11/1-3 Vicar St Coogee and 39 Rainbow St (tracked as rea:418962602), plus car spaces. Nothing new. Listing pages state no lease length or bills. || 6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
   },
   {
    "name": "UNSW Village 2027 (CLV)",
@@ -112,7 +112,7 @@
    "rank": 15,
    "result": "checked",
    "found": 0,
-   "note": "6 Nov (Chrome): six-suburb search, 5 results: 39 Rainbow St, the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 6 Nov (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed."
+   "note": "7 Nov (Chrome): six-suburb search read: the 3 tracked 127 Barker St rooms, 39 Rainbow St and a Randwick 'other' (car space). Nothing new. Listing pages state no lease term or bills. || 6 Nov (Chrome): six-suburb search, 5 results: 39 Rainbow St, the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 6 Nov (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed."
   },
   {
    "name": "Facebook groups",
@@ -196,7 +196,7 @@
    "rank": 21,
    "result": "checked",
    "found": 0,
-   "note": "6 Nov (Chrome): Coogee page 1 only (one page per run): 12 listings, none at or under $350. Tracked rooms 1198584 and 1571628 not re-read this run. || 6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
+   "note": "7 Nov (Chrome): Randwick page 1 (12 listings): none at or under $350. Tracked 1198584 re-read ($350 singles, from 7 Nov, 3 months plus). || 6 Nov (Chrome): Coogee page 1 only (one page per run): 12 listings, none at or under $350. Tracked rooms 1198584 and 1571628 not re-read this run. || 6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
   },
   {
    "name": "Independent colleges on campus",
@@ -391,7 +391,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -402,7 +410,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -477,7 +485,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -558,7 +574,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -632,7 +656,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -643,7 +675,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -707,7 +739,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -718,7 +758,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -787,7 +827,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -868,7 +916,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -879,7 +935,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -949,7 +1005,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1030,7 +1094,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1105,7 +1177,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1183,7 +1263,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1263,7 +1351,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1274,7 +1370,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1338,7 +1434,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1349,7 +1453,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1424,7 +1528,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1435,7 +1547,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1499,7 +1611,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "6 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1580,7 +1700,15 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "At least 12 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1671,7 +1799,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1762,7 +1898,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1850,7 +1994,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1923,7 +2075,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -1934,7 +2094,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -1998,7 +2158,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2073,7 +2241,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2152,7 +2328,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2233,7 +2417,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2306,7 +2498,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2317,7 +2517,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -2392,7 +2592,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2467,7 +2675,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 2 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2553,7 +2769,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 2 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2633,7 +2857,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "2 weeks to 1 month, ends about 11 Jan 2027",
-    "note": "2 weeks to 1 month from 11 Dec"
+    "note": "2 weeks to 1 month from 11 Dec",
+    "longest_months": 1.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2644,7 +2876,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -2708,7 +2940,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2719,7 +2959,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -2804,7 +3044,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2895,7 +3143,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "Up to 2 weeks",
-    "note": ""
+    "note": "",
+    "longest_months": 0.46,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -2975,7 +3231,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3050,7 +3314,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3131,7 +3403,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3211,7 +3491,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "1 to 3 months",
-    "note": ""
+    "note": "",
+    "longest_months": 3.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3222,7 +3510,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3286,7 +3574,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3371,7 +3667,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "Up to 2 months",
-    "note": ""
+    "note": "",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3451,7 +3755,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "2 months",
-    "note": ""
+    "note": "",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3530,7 +3842,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3605,7 +3925,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3616,7 +3944,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3686,7 +4014,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3697,7 +4033,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -3767,7 +4103,15 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "At least 12 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3846,7 +4190,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -3926,7 +4278,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -4005,7 +4365,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 to 3 months",
-    "note": ""
+    "note": "",
+    "longest_months": 3.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -4016,7 +4384,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4086,7 +4454,17 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "2 months, ends about 20 Jan 2027",
-    "note": "2-month stay from 20 Nov (end date worked out, not stated)"
+    "note": "2-month stay from 20 Nov (end date worked out, not stated)",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Internet"
+    ],
+    "estimate_pw": 8,
+    "summary": "Not stated (ask): Internet (≈ $8/wk ⚠️ estimate)"
    }
   },
   {
@@ -4097,12 +4475,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water, Gas. The others are not listed; ask. ⚠️ estimate: about $8/wk for bills not included. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Short stay only (3 – 12 months stay). Listing icons: 5, 2, 4 (bedrooms, bathrooms, people). 26 Oct: rent changed from $275 to $285. 27 Oct: still in the Flatmates max-350 results. 6 Nov: household note says the room is available until 31 Jan 2027, with a possible long-term extension.",
+   "notes": "Bills included: Electricity, Water, Gas. The others are not listed; ask. ⚠️ estimate: about $8/wk for bills not included. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Short stay only (3 – 12 months stay). Listing icons: 5, 2, 4 (bedrooms, bathrooms, people). 26 Oct: rent changed from $275 to $285. 27 Oct: still in the Flatmates max-350 results. 6 Nov: household note says the room is available until 31 Jan 2027, with a possible long-term extension. 7 Nov: contract end set to 31 Jan 2027 from the household note.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -4156,17 +4534,27 @@
    "contract": {
     "min_months": 3.0,
     "max_months": 12.0,
-    "ends": null,
+    "ends": "2027-01-31",
     "ends_approx": false,
     "flexible": false,
     "bucket": "3 to 5 months minimum",
-    "summary": "3 to 12 months",
-    "note": "Household note: available until 31 Jan 2027, with a possible long-term extension: ask before relying on more than that"
+    "summary": "Until 31 Jan 2027 (listing says 3 to 12 months; a long-term extension is possible)",
+    "note": "Overview says 3 to 12 months, but the household note says the room is free until 31 Jan 2027 with a possible long-term extension: ask before relying on a longer stay",
+    "longest_months": 2.8,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Internet"
+    ],
+    "estimate_pw": 8,
+    "summary": "Not stated (ask): Internet (≈ $8/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4220,7 +4608,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your double room on Harbourne Rd, Kingsford (Study Stays listing 381028). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "Walkable (site says 0.6 km to UNSW); Study Stays marks it 'below market average'. Available since 13 Sep 2026, so you'd be negotiating a later start. Lease end of 14 Feb 2027 conflicts with the '6 months' field. Electricity not mentioned: +$12/wk ⚠️ estimate. Possibly the same room as flatmates:P995771 on Flatmates.com.au. Possibly the same room as flatmates:P1499898 on Flatmates.com.au. 24 Oct: Unchanged at $340 (double room, Harbourne Rd, male preferred, 1 vacancy). Text wants someone 'to sign until the 14th of Feburary 2027', so the lease ends about two weeks after his window. Water, internet and gas included (electricity not). Deposit $1,360 self-managed. 27 Oct: Listing page read: live, $340 double, 1 vacancy, bond $1,360 self-managed, at least 6 months, sign until 14 Feb 2027; bills field lists phone, internet, gas (water only in description). Unchanged. 29 Oct: all 8 registry pages fetched (59 to 63 matches, pages 7 and 8 empty); card still on page 1 at $340. Listing page re-read: live, double room, gas, internet and phone listed, water in the description, electricity not mentioned, bond $1,360 self-managed, 'until 14 Feb 2027', preferred gender male, 0.6 km to UNSW. Unchanged. 31 Oct: card on registry page 2 at $340; listing page re-read: live, double room, 2 occupants, 1 vacancy, $1,360 self-managed deposit, at least 6 months / until 14 Feb 2027, preferred gender male. Unchanged. Electricity ⚠️ estimate $10/wk. Live 2 Nov. Double $340/wk, 1 of 3 rooms vacant, bond $1360 self-managed, min 6 months (text says term to 14 Feb 2027). Bills field: telephone, internet, gas; text also says water included. Preferred gender Male. Page also says 'Available since 7 October'. Distance sort 0.6 km. Unchanged. 6 Nov: still listed: $340, lease field at least 6 months but the ad says sign until 14 Feb 2027.",
+   "notes": "Walkable (site says 0.6 km to UNSW); Study Stays marks it 'below market average'. Available since 13 Sep 2026, so you'd be negotiating a later start. Lease end of 14 Feb 2027 conflicts with the '6 months' field. Electricity not mentioned: +$12/wk ⚠️ estimate. Possibly the same room as flatmates:P995771 on Flatmates.com.au. Possibly the same room as flatmates:P1499898 on Flatmates.com.au. 24 Oct: Unchanged at $340 (double room, Harbourne Rd, male preferred, 1 vacancy). Text wants someone 'to sign until the 14th of Feburary 2027', so the lease ends about two weeks after his window. Water, internet and gas included (electricity not). Deposit $1,360 self-managed. 27 Oct: Listing page read: live, $340 double, 1 vacancy, bond $1,360 self-managed, at least 6 months, sign until 14 Feb 2027; bills field lists phone, internet, gas (water only in description). Unchanged. 29 Oct: all 8 registry pages fetched (59 to 63 matches, pages 7 and 8 empty); card still on page 1 at $340. Listing page re-read: live, double room, gas, internet and phone listed, water in the description, electricity not mentioned, bond $1,360 self-managed, 'until 14 Feb 2027', preferred gender male, 0.6 km to UNSW. Unchanged. 31 Oct: card on registry page 2 at $340; listing page re-read: live, double room, 2 occupants, 1 vacancy, $1,360 self-managed deposit, at least 6 months / until 14 Feb 2027, preferred gender male. Unchanged. Electricity ⚠️ estimate $10/wk. Live 2 Nov. Double $340/wk, 1 of 3 rooms vacant, bond $1360 self-managed, min 6 months (text says term to 14 Feb 2027). Bills field: telephone, internet, gas; text also says water included. Preferred gender Male. Page also says 'Available since 7 October'. Distance sort 0.6 km. Unchanged. 6 Nov: still listed: $340, lease field at least 6 months but the ad says sign until 14 Feb 2027. 7 Nov: detail page re-read; bills and stay length unchanged (bills still not named stay 'not mentioned').",
    "bills_included_count": 3,
    "who_can_apply": "Single; preferred gender Male (not female-only)",
    "bond": 1360,
@@ -4245,7 +4633,17 @@
     "bucket": "Up to a set end date",
     "summary": "Until 14 Feb 2027 (up to 3.3 months)",
     "note": "Ad: sign until 14 Feb 2027 (but the lease field says at least 6 months). The listing also says at least 6 months, longer than these dates allow: ask which is right",
-    "stated_min_months": 6.0
+    "stated_min_months": 6.0,
+    "longest_months": 3.3,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity"
+    ],
+    "estimate_pw": 10,
+    "summary": "Not stated (ask): Electricity (≈ $10/wk ⚠️ estimate)"
    }
   },
   {
@@ -4326,12 +4724,22 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity"
+    ],
+    "estimate_pw": 12,
+    "summary": "Not stated (ask): Electricity (≈ $12/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4356,7 +4764,7 @@
    "bills_estimate_pw": 0,
    "room_type": "Homestay",
    "available_from": null,
-   "lease": "Not stated on the pricing page",
+   "lease": "Placements start at 28 nights, then extend 28 nights at a time; 14 days' notice to leave (AHN student FAQ)",
    "furnished": "unknown",
    "own_bathroom": "unknown",
    "household": "Depends on the host family matched. Shared room means sharing the bedroom with another student. Private room, no meals, is $355/wk in 2027 (over budget).",
@@ -4365,11 +4773,12 @@
     "What is the minimum stay, and can I start on a set date in early January 2027?",
     "Who would I share the room with, and is a private room ever offered under $350?",
     "Is the matching fee (about $370 in 2027) refundable if no suitable host is found?",
-    "Is there a washing machine I can use, and is it included in the rent?"
+    "Is there a washing machine I can use, and is it included in the rent?",
+    "Can the same host keep me for a full year (all three 2027 terms), or only about 3 months?"
    ],
    "scam_flags": [],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in a homestay from early January 2027. I'm looking at the No Meals package and would prefer a host within walking distance of UNSW Kensington. Could you tell me the minimum stay, whether a private room is possible near my budget of $350 a week, and confirm that utilities and internet are included? I'd also like to know how the matching fee works. Thank you.",
-   "notes": "Official 2027 price list, not a single listing. Prices include internet, laundry and utilities ('e.g. power, water'); gas not named, so estimate kept at $0 ⚠️ estimate. One-off matching fee about $370 (2027). Host location unknown, so distance not set. Prices subject to change. Re-read 18 Oct: 2026 rates are $310 shared and $340 private (no meals), which apply only to nights in 2026. 23 Oct: 2027 shared room no meals $325 unchanged; private no meals $355; matching fee $370 (2027). Internet, laundry and utilities included. 24 Oct: 24 Oct: unchanged. 2027 Over-18s shared room No Meals still $325/wk (incl internet, laundry, utilities); 2027 matching fee $370. 2026 rate for Dec days: $310. 27 Oct: Pricing page read: 2027 shared no meals $325, private no meals $355, matching fee $370; utilities, internet and laundry included. Unchanged. 29 Oct: sydney-pricing page re-read: 2027 over-18s no meals shared $325, private $355, dinner-only shared $365; matching fee about $370 (2027); airport pickup $200; includes internet, laundry and utilities (power, water). Unchanged. 31 Oct: sydney-pricing re-read: 2027 over-18s no meals shared $325, private $355; matching fee $370 (2027); 2026 no meals shared $310. No deadlines listed. Unchanged. 2 Nov: could not re-check (sydney-pricing refused (PROVENANCE_REQUIRED). The secondary 2027 fee schedule PDF (apc.edu.au) lists only private rooms (no meals $355/wk), with no shared rate, so $325 could not be confirmed). 2 Nov (deep run): official sydney-pricing page read: 2027 over-18 shared room, no meals $325/wk (private $355); 2027 matching fee $370; packages include internet, laundry facilities and utilities. 6 Nov: Sydney 2027 rates unchanged ($325 shared, $355 private, no meals; placement fee $370). 6 Nov: 2027 over-18 no-meals shared still $325/wk (private $355). Page: prices include internet, laundry and utilities (power, water). Minimum stay not stated. Matching fee $370 (2027).",
+   "notes": "Official 2027 price list, not a single listing. Prices include internet, laundry and utilities ('e.g. power, water'); gas not named, so estimate kept at $0 ⚠️ estimate. One-off matching fee about $370 (2027). Host location unknown, so distance not set. Prices subject to change. Re-read 18 Oct: 2026 rates are $310 shared and $340 private (no meals), which apply only to nights in 2026. 23 Oct: 2027 shared room no meals $325 unchanged; private no meals $355; matching fee $370 (2027). Internet, laundry and utilities included. 24 Oct: 24 Oct: unchanged. 2027 Over-18s shared room No Meals still $325/wk (incl internet, laundry, utilities); 2027 matching fee $370. 2026 rate for Dec days: $310. 27 Oct: Pricing page read: 2027 shared no meals $325, private no meals $355, matching fee $370; utilities, internet and laundry included. Unchanged. 29 Oct: sydney-pricing page re-read: 2027 over-18s no meals shared $325, private $355, dinner-only shared $365; matching fee about $370 (2027); airport pickup $200; includes internet, laundry and utilities (power, water). Unchanged. 31 Oct: sydney-pricing re-read: 2027 over-18s no meals shared $325, private $355; matching fee $370 (2027); 2026 no meals shared $310. No deadlines listed. Unchanged. 2 Nov: could not re-check (sydney-pricing refused (PROVENANCE_REQUIRED). The secondary 2027 fee schedule PDF (apc.edu.au) lists only private rooms (no meals $355/wk), with no shared rate, so $325 could not be confirmed). 2 Nov (deep run): official sydney-pricing page read: 2027 over-18 shared room, no meals $325/wk (private $355); 2027 matching fee $370; packages include internet, laundry facilities and utilities. 6 Nov: Sydney 2027 rates unchanged ($325 shared, $355 private, no meals; placement fee $370). 6 Nov: 2027 over-18 no-meals shared still $325/wk (private $355). Page: prices include internet, laundry and utilities (power, water). Minimum stay not stated. Matching fee $370 (2027). 7 Nov: stay length from AHN's student FAQ: 28-night placements, extendable in 28-night blocks, 14 days' notice. Gas still not named.",
    "bills_included_count": 3,
    "who_can_apply": null,
    "bond": null,
@@ -4386,14 +4795,24 @@
    "laundry": "likely",
    "laundry_evidence": "Packages prices include internet access, laundry facilities and utilities",
    "contract": {
-    "min_months": null,
+    "min_months": 0.92,
     "max_months": null,
     "ends": null,
     "ends_approx": false,
-    "flexible": false,
-    "bucket": "Not stated",
-    "summary": "Not stated",
-    "note": ""
+    "flexible": true,
+    "bucket": "Flexible",
+    "summary": "28 nights minimum, then extend 28 nights at a time (no maximum stated)",
+    "note": "AHN says most stays last about 3 months; longer stays depend on the host agreeing to extend",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 0,
+    "summary": "Not stated (ask): Gas"
    }
   },
   {
@@ -4468,12 +4887,22 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Internet"
+    ],
+    "estimate_pw": 8,
+    "summary": "Not stated (ask): Internet (≈ $8/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4532,7 +4961,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a twin-share bed at your Alfreda St house in Coogee (Study Stays listing 376475). I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "Twin share $350 (single room $450, over budget). 1-week deposit ($350). Water not mentioned; tenants usually pay $0 ⚠️ estimate. Stale dates (available 10 May 2025) so confirm it is live. Bus to UNSW ⚠️ estimate. 24 Oct: Unchanged: Myola Coogee, Alfreda St, twin $350 and single $450, 25 occupants in 18 bedrooms, 2 vacancies, lease 1 to 12 months, page says 'Available since 15 October 2025'. 27 Oct: Listing page read: live, twin $350 / single $450, 25 occupants, dates on page still conflict (May 2025 / Oct 2025). Unchanged. 29 Oct: card on page 4 at $350; listing page re-read: live, twin $350 and single $450, 25 occupants, 2 vacancies, 1 to 12 months, electricity, internet and gas included, dates still 2025 (stale). Unchanged. 31 Oct: card on registry page 1 at $350; listing page re-read: live, twin $350 (deposit $350), single $450, 25 occupants, 2 vacancies, 1 to 12 months, dates still 2025. Unchanged. Straight-line 2.3 km per listing. Live 2 Nov. Room 2 twin share $350/wk (bond $350), Room 1 single $450/wk; 2 of 27 vacancies, 25 occupants. Bills included: electricity, internet, gas, streaming. Lease 1 to 12 months. Available date still 10 May 2025 (stale) while page says 'Available since 15 October 2025'. Unchanged. 6 Nov: still listed: twin share $350, 1 to 12 months, electricity, gas and internet included.",
+   "notes": "Twin share $350 (single room $450, over budget). 1-week deposit ($350). Water not mentioned; tenants usually pay $0 ⚠️ estimate. Stale dates (available 10 May 2025) so confirm it is live. Bus to UNSW ⚠️ estimate. 24 Oct: Unchanged: Myola Coogee, Alfreda St, twin $350 and single $450, 25 occupants in 18 bedrooms, 2 vacancies, lease 1 to 12 months, page says 'Available since 15 October 2025'. 27 Oct: Listing page read: live, twin $350 / single $450, 25 occupants, dates on page still conflict (May 2025 / Oct 2025). Unchanged. 29 Oct: card on page 4 at $350; listing page re-read: live, twin $350 and single $450, 25 occupants, 2 vacancies, 1 to 12 months, electricity, internet and gas included, dates still 2025 (stale). Unchanged. 31 Oct: card on registry page 1 at $350; listing page re-read: live, twin $350 (deposit $350), single $450, 25 occupants, 2 vacancies, 1 to 12 months, dates still 2025. Unchanged. Straight-line 2.3 km per listing. Live 2 Nov. Room 2 twin share $350/wk (bond $350), Room 1 single $450/wk; 2 of 27 vacancies, 25 occupants. Bills included: electricity, internet, gas, streaming. Lease 1 to 12 months. Available date still 10 May 2025 (stale) while page says 'Available since 15 October 2025'. Unchanged. 6 Nov: still listed: twin share $350, 1 to 12 months, electricity, gas and internet included. 7 Nov: detail page re-read; bills and stay length unchanged (bills still not named stay 'not mentioned').",
    "bills_included_count": 3,
    "who_can_apply": "Either gender; described as ideal for students",
    "bond": 350,
@@ -4556,7 +4985,17 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "1 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Water"
+    ],
+    "estimate_pw": 3,
+    "summary": "Not stated (ask): Water (≈ $3/wk ⚠️ estimate)"
    }
   },
   {
@@ -4567,7 +5006,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4631,7 +5070,18 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas"
+    ],
+    "estimate_pw": 17,
+    "summary": "Not stated (ask): Electricity, Gas (≈ $17/wk ⚠️ estimate)"
    }
   },
   {
@@ -4704,7 +5154,18 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 5,
+    "summary": "Not stated (ask): Gas, Water (≈ $5/wk ⚠️ estimate)"
    }
   },
   {
@@ -4790,7 +5251,18 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "2 months",
-    "note": ""
+    "note": "",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas",
+     "Internet"
+    ],
+    "estimate_pw": 13,
+    "summary": "Not stated (ask): Gas, Internet (≈ $13/wk ⚠️ estimate)"
    }
   },
   {
@@ -4865,7 +5337,18 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "6 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas"
+    ],
+    "estimate_pw": 17,
+    "summary": "Not stated (ask): Electricity, Gas (≈ $17/wk ⚠️ estimate)"
    }
   },
   {
@@ -4876,7 +5359,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -4940,7 +5423,18 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas"
+    ],
+    "estimate_pw": 17,
+    "summary": "Not stated (ask): Electricity, Gas (≈ $17/wk ⚠️ estimate)"
    }
   },
   {
@@ -5013,7 +5507,19 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 17,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $17/wk ⚠️ estimate)"
    }
   },
   {
@@ -5094,7 +5600,19 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 17,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $17/wk ⚠️ estimate)"
    }
   },
   {
@@ -5180,7 +5698,19 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 17,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $17/wk ⚠️ estimate)"
    }
   },
   {
@@ -5254,7 +5784,19 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 30,
+    "summary": "You pay: Electricity, Gas, Internet (≈ $30/wk ⚠️ estimate)"
    }
   },
   {
@@ -5329,7 +5871,19 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -5396,7 +5950,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4.5 to 12 months",
-    "note": "Contracts: Term 1 (1 Jan to 18 May 2027), Terms 1 and 2 (to 31 Aug), 48 weeks or full year 2027"
+    "note": "Contracts: Term 1 (1 Jan to 18 May 2027), Terms 1 and 2 (to 31 Aug), 48 weeks or full year 2027",
+    "longest_months": 12,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -5482,7 +6044,19 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -5563,7 +6137,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -5648,7 +6235,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 28,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -5734,7 +6334,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -5745,7 +6358,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -5815,7 +6428,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -5900,7 +6526,21 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 28,
+    "summary": "You pay: Electricity, Water, Internet · Not stated (ask): Gas (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -5981,7 +6621,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 28,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -6067,12 +6720,25 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 2 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6146,12 +6812,25 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6225,7 +6904,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6310,7 +7002,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6394,7 +7099,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6467,7 +7185,21 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Internet"
+    ],
+    "not_mentioned": [
+     "Water"
+    ],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Internet · Not stated (ask): Water (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6542,7 +7274,20 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6553,12 +7298,12 @@
    "source": "realestate.com.au",
    "source_rank": 15,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct). 24 Oct: 39 Rainbow St is live 24 Oct on Domain (7640084), rent.com.au (1494305) and homely (9518120): $330, Olsen Romano, available now, open inspection Mon 26 Oct 4:15-4:30pm. Licensed boarding house aimed at students; single bed, desk and cupboard; separate men's and women's bathrooms; shared kitchen. Bills, bond and lease are not stated. 2 Nov (deep run): still listed on realestate.com.au and Domain (7640084) at $330; Domain shows an open inspection on Monday at 4:15 pm. 4 Nov: also on Domain (7640084), same 39 Rainbow St boarding house and agency; Domain metadata dates it to Mar 2026. 6 Nov: still in the realestate.com.au six-suburb search at $330/wk. 6 Nov: still listed on realestate.com.au and Domain (7640084), $330, licensed boarding house. Lease length and bills not stated.",
+   "notes": "Listed as a fully licensed boarding house (check it on the NSW boarding house register). Bills not mentioned. ⚠️ estimate: about $25/wk if none are included. Available now: ask about a later start. Possibly the same room as gumtree:1344812669 on Gumtree flatshare. Possibly the same room as flatmates:P2017007 on Flatmates.com.au. Same listing also on Domain (Olsen Romano Estate Agents): https://www.domain.com.au/39-rainbow-street-kingsford-nsw-2032-7640084, which shows 39 Rainbow St, separate men's and women's bathrooms, availability 25 Mar 2026 and no inspections scheduled (cloud run 18 Oct). 24 Oct: 39 Rainbow St is live 24 Oct on Domain (7640084), rent.com.au (1494305) and homely (9518120): $330, Olsen Romano, available now, open inspection Mon 26 Oct 4:15-4:30pm. Licensed boarding house aimed at students; single bed, desk and cupboard; separate men's and women's bathrooms; shared kitchen. Bills, bond and lease are not stated. 2 Nov (deep run): still listed on realestate.com.au and Domain (7640084) at $330; Domain shows an open inspection on Monday at 4:15 pm. 4 Nov: also on Domain (7640084), same 39 Rainbow St boarding house and agency; Domain metadata dates it to Mar 2026. 6 Nov: still in the realestate.com.au six-suburb search at $330/wk. 6 Nov: still listed on realestate.com.au and Domain (7640084), $330, licensed boarding house. Lease length and bills not stated. 7 Nov: listing re-read on both Domain and realestate.com.au: no lease term and no bills stated.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -6575,7 +7320,7 @@
    "bills_estimate_pw": 25,
    "room_type": "Private room",
    "available_from": "2026-10-18",
-   "lease": null,
+   "lease": "Not stated on Domain or realestate.com.au (re-checked 7 Nov 2026)",
    "furnished": "yes",
    "own_bathroom": "no",
    "household": "Student-style boarding house: each room has a single bed, desk and cupboard; two shared bathrooms, shared kitchen, backyard.",
@@ -6586,7 +7331,9 @@
     "How many residents share each bathroom and the kitchen?",
     "Is the boarding house registered with NSW Fair Trading, and is there a written occupancy agreement?",
     "What notice period and minimum stay apply?",
-    "Is there a washing machine I can use, and is it included in the rent?"
+    "Is there a washing machine I can use, and is it included in the rent?",
+    "What is the lease term (6 months, 12 months or periodic), and can I renew for all of 2027?",
+    "Which bills are included in the rent: electricity, gas, water and internet?"
    ],
    "scam_flags": [
     {
@@ -6614,8 +7361,21 @@
     "ends_approx": false,
     "flexible": false,
     "bucket": "Not stated",
-    "summary": "Not stated",
-    "note": ""
+    "summary": "Not stated: ask the agent",
+    "note": "Agent listings in NSW usually use a 6 or 12 month fixed term ⚠️ (general practice, not stated in this ad)",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6700,7 +7460,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6711,12 +7484,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Some bills included (not itemised); ask which. ⚠️ estimate: about $25/wk for bills not included. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 4, 2, 4 (bedrooms, bathrooms, people). Possibly the same room as studystays:381028 on UNSW Study Stays. 27 Oct: still in the Flatmates max-350 results.",
+   "notes": "Some bills included (not itemised); ask which. ⚠️ estimate: about $25/wk for bills not included. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 4, 2, 4 (bedrooms, bathrooms, people). Possibly the same room as studystays:381028 on UNSW Study Stays. 27 Oct: still in the Flatmates max-350 results. 7 Nov: ad says 'Internet facility included' (overview: some bills included), so internet is included; electricity, gas and water not mentioned.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -6727,10 +7500,10 @@
     "electricity": "not mentioned",
     "gas": "not mentioned",
     "water": "not mentioned",
-    "internet": "not mentioned"
+    "internet": "included"
    },
-   "bills_included_count": 0,
-   "bills_estimate_pw": 25,
+   "bills_included_count": 1,
+   "bills_estimate_pw": 18,
    "room_type": "Private room",
    "available_from": "2026-10-18",
    "lease": "Minimum 6 months stay",
@@ -6775,7 +7548,19 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 18,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $18/wk ⚠️ estimate)"
    }
   },
   {
@@ -6860,7 +7645,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -6871,7 +7669,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -6951,12 +7749,25 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -7030,7 +7841,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7111,7 +7935,20 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "1 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7122,7 +7959,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -7192,7 +8029,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7203,7 +8053,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -7279,7 +8129,20 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "At least 12 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7354,7 +8217,20 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7427,7 +8303,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7508,7 +8397,20 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7587,7 +8489,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7598,7 +8513,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -7668,12 +8583,25 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "6 to 9 months",
-    "note": ""
+    "note": "",
+    "longest_months": 9.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -7698,7 +8626,7 @@
    "bills_estimate_pw": 25,
    "room_type": "Studio",
    "available_from": "2026-10-21",
-   "lease": "Not stated",
+   "lease": "Not stated on Domain or realestate.com.au (re-checked 7 Nov 2026)",
    "furnished": "unknown",
    "own_bathroom": "unknown",
    "household": "Whole studio (Domain lists it as 0-bedroom); no flatmates.",
@@ -7707,7 +8635,9 @@
     "Could the lease start in early January 2027 instead of 21 October 2026?",
     "What lease length is offered, and is water usage charged?",
     "Is the studio furnished?",
-    "Is there a washing machine I can use, and is it included in the rent?"
+    "Is there a washing machine I can use, and is it included in the rent?",
+    "What is the lease term (6 months, 12 months or periodic), and can I renew for all of 2027?",
+    "Which bills are included in the rent: electricity, gas, water and internet?"
    ],
    "scam_flags": [
     {
@@ -7718,7 +8648,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in the studio at 11/1-3 Vicar St, Coogee. I'm looking for a start between late December 2026 and early February 2027: is a later start possible? Could you confirm whether the studio has its own kitchen and bathroom, whether it is furnished, which bills the tenant pays (electricity, gas, water, internet), and the lease length? Thank you.",
-   "notes": "Agency listing (first listed 13 Oct); bond $1,400 = 4 weeks, the legal maximum. Available 21 Oct 2026, so a January start needs the agent's agreement. Inspections and applications run through Snug. Bills not stated; a solo studio usually pays more than the share-house $25/wk ⚠️ estimate. Distance is the Coogee suburb centre ⚠️. The page metadata says 'Contact agent for price' while the listing shows $350/week; Domain lists it as 0 bedrooms. Inspection was listed for a Saturday at 12:15 pm (18 Oct check). 23 Oct: Still live on Domain (IB Property), no leased or deposit-taken tag. Bond $1,400. Only inspection shown is the past one on Sat 17 Oct; no new time listed. 24 Oct: Live on Domain 24 Oct (IB Property): 0-bed unit, bond $1,400, available now, open inspection Sat 24 Oct 12:45pm. Bills, furniture and lease are not stated. Probably the same unit as rea:445270852. 24 Oct: possibly the same unit as rea:445270852 on realestate.com.au (both Vicar St, Coogee, $350, available 21 Oct); Domain calls it a studio, realestate.com.au a unit with a shared bathroom, so ask which it is. 27 Oct: Listing page read: live, $350, 'Available Now' (ask to hold), bond $1,400, IB Property, 0-bed studio; bills and furnishing not stated. Back on the Randwick, Maroubra and Coogee result pages. 29 Oct: on the Maroubra and Coogee pages (Coogee page: 2 results, this and a car space). Listing page re-read: live, $350/wk, bond $1,400, 'Available now', 0-bed (studio) 1-bath, IB Property, 4 photos, inspection shown for Thu 29 Oct 12:45 pm, bills not stated. Unchanged. 31 Oct: on the Coogee and Maroubra Domain pages; listing page read: live, $350/wk, bond $1,400, 'Available Now', IB Property; bills and laundry still not mentioned. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 6 Nov: still listed, $350, available now. Lease length and bills not stated.",
+   "notes": "Agency listing (first listed 13 Oct); bond $1,400 = 4 weeks, the legal maximum. Available 21 Oct 2026, so a January start needs the agent's agreement. Inspections and applications run through Snug. Bills not stated; a solo studio usually pays more than the share-house $25/wk ⚠️ estimate. Distance is the Coogee suburb centre ⚠️. The page metadata says 'Contact agent for price' while the listing shows $350/week; Domain lists it as 0 bedrooms. Inspection was listed for a Saturday at 12:15 pm (18 Oct check). 23 Oct: Still live on Domain (IB Property), no leased or deposit-taken tag. Bond $1,400. Only inspection shown is the past one on Sat 17 Oct; no new time listed. 24 Oct: Live on Domain 24 Oct (IB Property): 0-bed unit, bond $1,400, available now, open inspection Sat 24 Oct 12:45pm. Bills, furniture and lease are not stated. Probably the same unit as rea:445270852. 24 Oct: possibly the same unit as rea:445270852 on realestate.com.au (both Vicar St, Coogee, $350, available 21 Oct); Domain calls it a studio, realestate.com.au a unit with a shared bathroom, so ask which it is. 27 Oct: Listing page read: live, $350, 'Available Now' (ask to hold), bond $1,400, IB Property, 0-bed studio; bills and furnishing not stated. Back on the Randwick, Maroubra and Coogee result pages. 29 Oct: on the Maroubra and Coogee pages (Coogee page: 2 results, this and a car space). Listing page re-read: live, $350/wk, bond $1,400, 'Available now', 0-bed (studio) 1-bath, IB Property, 4 photos, inspection shown for Thu 29 Oct 12:45 pm, bills not stated. Unchanged. 31 Oct: on the Coogee and Maroubra Domain pages; listing page read: live, $350/wk, bond $1,400, 'Available Now', IB Property; bills and laundry still not mentioned. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 6 Nov: still listed, $350, available now. Lease length and bills not stated. 7 Nov: listing re-read on both Domain and realestate.com.au: no lease term and no bills stated.",
    "bond": 1400,
    "about": "Coogee residence close to the beach, cafes, dining and local amenities.",
    "who_can_apply": null,
@@ -7741,8 +8671,21 @@
     "ends_approx": false,
     "flexible": false,
     "bucket": "Not stated",
-    "summary": "Not stated",
-    "note": ""
+    "summary": "Not stated: ask the agent",
+    "note": "Agent listings in NSW usually use a 6 or 12 month fixed term ⚠️ (general practice, not stated in this ad)",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7833,7 +8776,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -7908,7 +8864,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -7994,7 +8958,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "1 week to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8005,7 +8977,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-19",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -8081,7 +9053,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8155,7 +9135,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 9 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8241,7 +9229,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8323,7 +9319,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "6 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8398,7 +9402,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -8477,7 +9494,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8561,7 +9586,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8633,7 +9666,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -8705,7 +9751,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -8790,7 +9849,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -8869,7 +9936,17 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Internet"
+    ],
+    "estimate_pw": 8,
+    "summary": "Not stated (ask): Internet (≈ $8/wk ⚠️ estimate)"
    }
   },
   {
@@ -8948,7 +10025,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -9038,7 +10128,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9128,7 +10226,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9218,7 +10324,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9303,7 +10417,15 @@
     "flexible": true,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9314,7 +10436,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -9383,7 +10505,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9394,7 +10524,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -9467,7 +10597,19 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -9541,7 +10683,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 months",
-    "note": ""
+    "note": "",
+    "longest_months": 3.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -9552,7 +10707,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -9630,7 +10785,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "6 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9641,7 +10804,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -9719,7 +10882,19 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -9814,7 +10989,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -9898,7 +11081,20 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -9909,12 +11105,12 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Electricity, gas and internet included; water not mentioned (⚠️ estimate about $5/wk). Bond $1,400 (4 weeks). Preferred gender female, so hidden by default. 24 Oct: Unchanged at $350 (single room, Hincks St, 1 vacancy). Preferred gender Female (not female-only); text says 'International student only'. Bond $1,400 lodged with RBO; electricity, gas and internet included. 27 Oct: Listing page read: live, single $350, available 20 Oct 2026 (ask to hold), bond $1,400 lodged with RBO, at least 3 months; electricity, gas, internet included. Unchanged. 29 Oct: card on page 2 at $350; listing page re-read: live, available 20 Oct 2026, bond $1,400 lodged with RBO, electricity, gas and internet included, preferred gender female (not female-only), 'International student only'. Unchanged. 31 Oct: card on registry page 2 at $350; listing page re-read: live, available 20 Oct 2026 (ask if it can be held), bond $1,400 lodged with RBO (good sign), at least 3 months. Unchanged. Water ⚠️ estimate $3/wk. Live 2 Nov. Single $350/wk, 1 vacancy, bond $1400 lodged with RBO, min 3 months. Bills included: electricity, internet, gas. Says international students only and 'Preferred gender: Female' (female-only marked No): consider women_only 'likely'. Unchanged price. 6 Nov: still listed: $350, bond $1,400 lodged with RBO, at least 3 months; preferred gender female, international students only.",
+   "notes": "Electricity, gas and internet included; water not mentioned (⚠️ estimate about $5/wk). Bond $1,400 (4 weeks). Preferred gender female, so hidden by default. 24 Oct: Unchanged at $350 (single room, Hincks St, 1 vacancy). Preferred gender Female (not female-only); text says 'International student only'. Bond $1,400 lodged with RBO; electricity, gas and internet included. 27 Oct: Listing page read: live, single $350, available 20 Oct 2026 (ask to hold), bond $1,400 lodged with RBO, at least 3 months; electricity, gas, internet included. Unchanged. 29 Oct: card on page 2 at $350; listing page re-read: live, available 20 Oct 2026, bond $1,400 lodged with RBO, electricity, gas and internet included, preferred gender female (not female-only), 'International student only'. Unchanged. 31 Oct: card on registry page 2 at $350; listing page re-read: live, available 20 Oct 2026 (ask if it can be held), bond $1,400 lodged with RBO (good sign), at least 3 months. Unchanged. Water ⚠️ estimate $3/wk. Live 2 Nov. Single $350/wk, 1 vacancy, bond $1400 lodged with RBO, min 3 months. Bills included: electricity, internet, gas. Says international students only and 'Preferred gender: Female' (female-only marked No): consider women_only 'likely'. Unchanged price. 6 Nov: still listed: $350, bond $1,400 lodged with RBO, at least 3 months; preferred gender female, international students only. 7 Nov: detail page re-read; bills and stay length unchanged (bills still not named stay 'not mentioned').",
    "suburb": "Kingsford",
    "distance_km": 1.4,
    "transit_min": 10,
@@ -9977,7 +11173,17 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Water"
+    ],
+    "estimate_pw": 3,
+    "summary": "Not stated (ask): Water (≈ $3/wk ⚠️ estimate)"
    }
   },
   {
@@ -10049,7 +11255,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -10136,7 +11350,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -10147,12 +11369,12 @@
    "source": "Domain rentals",
    "source_rank": 6,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Licensed agent on Domain, 6 photos, first listed 21 Oct 2026. Cheapest of three RnJ rooms here. Bills not mentioned, so ask. Bond is 4 weeks, within the NSW limit. May overlap with the Flatmates Barker St rooms; compare photos. Also listed on realestate.com.au as rea:445299852. 24 Oct: Live on Domain 24 Oct (RnJ Realty), first listed 21 Oct: room with shared kitchen, bathroom, common area and yard. Bond $1,000, available Fri 13 Nov. No inspections scheduled yet (booked via Snug). Bills not stated. 27 Oct: Listing page read: live, $250, bond $1,000, available 13 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages (Kensington 15, Kingsford 8, Randwick 14, Maroubra 9, Coogee 2, Eastlakes 14 results). Listing page re-read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, room with shared kitchen, bathroom, common area and yard, RNJ Realty, 6 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299852, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent. 6 Nov: still listed, $250, available from 13 Nov 2026. Lease length and bills not stated.",
+   "notes": "Licensed agent on Domain, 6 photos, first listed 21 Oct 2026. Cheapest of three RnJ rooms here. Bills not mentioned, so ask. Bond is 4 weeks, within the NSW limit. May overlap with the Flatmates Barker St rooms; compare photos. Also listed on realestate.com.au as rea:445299852. 24 Oct: Live on Domain 24 Oct (RnJ Realty), first listed 21 Oct: room with shared kitchen, bathroom, common area and yard. Bond $1,000, available Fri 13 Nov. No inspections scheduled yet (booked via Snug). Bills not stated. 27 Oct: Listing page read: live, $250, bond $1,000, available 13 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages (Kensington 15, Kingsford 8, Randwick 14, Maroubra 9, Coogee 2, Eastlakes 14 results). Listing page re-read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, room with shared kitchen, bathroom, common area and yard, RNJ Realty, 6 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $250/wk, bond $1,000, available Fri 13 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299852, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent. 6 Nov: still listed, $250, available from 13 Nov 2026. Lease length and bills not stated. 7 Nov: listing re-read on both Domain and realestate.com.au: no lease term and no bills stated.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 12,
@@ -10169,7 +11391,7 @@
    "bills_estimate_pw": 25,
    "room_type": "Private room",
    "available_from": "2026-11-13",
-   "lease": "not stated",
+   "lease": "Not stated on Domain or realestate.com.au (re-checked 7 Nov 2026)",
    "furnished": "unknown",
    "own_bathroom": "no",
    "household": "Shared kitchen, bathroom, common area and yard; number of residents not stated",
@@ -10180,7 +11402,9 @@
     "Which bills are included, and roughly what do the others cost each week?",
     "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
     "How many people live here, and how are cleaning and kitchen time shared?",
-    "Can I see the room in person or on a live video call before paying anything?"
+    "Can I see the room in person or on a live video call before paying anything?",
+    "What is the lease term (6 months, 12 months or periodic), and can I renew for all of 2027?",
+    "Which bills are included in the rent: electricity, gas, water and internet?"
    ],
    "scam_flags": [
     {
@@ -10213,8 +11437,21 @@
     "ends_approx": false,
     "flexible": false,
     "bucket": "Not stated",
-    "summary": "Not stated",
-    "note": ""
+    "summary": "Not stated: ask the agent",
+    "note": "Agent listings in NSW usually use a 6 or 12 month fixed term ⚠️ (general practice, not stated in this ad)",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10225,12 +11462,12 @@
    "source": "Domain rentals",
    "source_rank": 6,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Licensed agent on Domain, 7 photos. Available now, so it may be gone by late December; ask if a later start is possible. Bond 4 weeks. Bills not mentioned. Also listed on realestate.com.au as rea:445300436. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen and bathroom. Bond $1,080, available now. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $270, bond $1,080, Available Now (ask to hold), RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $270/wk, bond $1,080, 'Available now', shared kitchen and bathroom, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $270/wk, bond $1,080, 'Available Now', RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445300436, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent. 6 Nov: still listed, $270, available now. Lease length and bills not stated.",
+   "notes": "Licensed agent on Domain, 7 photos. Available now, so it may be gone by late December; ask if a later start is possible. Bond 4 weeks. Bills not mentioned. Also listed on realestate.com.au as rea:445300436. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen and bathroom. Bond $1,080, available now. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $270, bond $1,080, Available Now (ask to hold), RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $270/wk, bond $1,080, 'Available now', shared kitchen and bathroom, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $270/wk, bond $1,080, 'Available Now', RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445300436, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent. 6 Nov: still listed, $270, available now. Lease length and bills not stated. 7 Nov: listing re-read on both Domain and realestate.com.au: no lease term and no bills stated.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 12,
@@ -10247,7 +11484,7 @@
    "bills_estimate_pw": 25,
    "room_type": "Private room",
    "available_from": "2026-10-21",
-   "lease": "not stated",
+   "lease": "Not stated on Domain or realestate.com.au (re-checked 7 Nov 2026)",
    "furnished": "unknown",
    "own_bathroom": "no",
    "household": "Shared kitchen, bathroom, common area and yard; number of residents not stated",
@@ -10258,7 +11495,9 @@
     "Which bills are included, and roughly what do the others cost each week?",
     "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
     "How many people live here, and how are cleaning and kitchen time shared?",
-    "Can I see the room in person or on a live video call before paying anything?"
+    "Can I see the room in person or on a live video call before paying anything?",
+    "What is the lease term (6 months, 12 months or periodic), and can I renew for all of 2027?",
+    "Which bills are included in the rent: electricity, gas, water and internet?"
    ],
    "scam_flags": [
     {
@@ -10291,8 +11530,21 @@
     "ends_approx": false,
     "flexible": false,
     "bucket": "Not stated",
-    "summary": "Not stated",
-    "note": ""
+    "summary": "Not stated: ask the agent",
+    "note": "Agent listings in NSW usually use a 6 or 12 month fixed term ⚠️ (general practice, not stated in this ad)",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10303,12 +11555,12 @@
    "source": "Domain rentals",
    "source_rank": 6,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Licensed agent on Domain, 7 photos. Dearest of the three Barker St rooms; ask what the extra $50 to $70 buys (size, bills). Bond 4 weeks. Also listed on realestate.com.au as rea:445299972. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen, bathroom and yard. Bond $1,280, available Sun 15 Nov. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $320, bond $1,280, available 15 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, shared kitchen, bathroom, common area and yard, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299972, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent. 6 Nov: still listed, $320, available from 15 Nov 2026. Lease length and bills not stated.",
+   "notes": "Licensed agent on Domain, 7 photos. Dearest of the three Barker St rooms; ask what the extra $50 to $70 buys (size, bills). Bond 4 weeks. Also listed on realestate.com.au as rea:445299972. 24 Oct: Live on Domain 24 Oct (RnJ Realty): room with shared kitchen, bathroom and yard. Bond $1,280, available Sun 15 Nov. No inspections scheduled yet. Bills not stated. 27 Oct: Listing page read: live, $320, bond $1,280, available 15 Nov 2026, RNJ Realty, no inspections scheduled. Unchanged. 29 Oct: on all six Domain suburb pages. Listing page re-read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, shared kitchen, bathroom, common area and yard, RNJ Realty, 7 photos, bills not stated. Unchanged. 31 Oct: on all six Domain pages; listing page read: live, $320/wk, bond $1,280, available Sun 15 Nov 2026, RnJ Realty, no inspections scheduled. Unchanged. 2 Nov: could not re-check (Re-open refused by WebFetch (PROVENANCE_REQUIRED); not found via WebSearch. Re-check in Chrome.). 2 Nov: still listed on realestate.com.au (445299972, same rent and bond); Domain itself not re-read this run. 6 Nov: Domain not read (Chrome permission prompt unanswered), but the same room is still on realestate.com.au at the same rent. 6 Nov: still listed, $320, available from 15 Nov 2026. Lease length and bills not stated. 7 Nov: listing re-read on both Domain and realestate.com.au: no lease term and no bills stated.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 12,
@@ -10325,7 +11577,7 @@
    "bills_estimate_pw": 25,
    "room_type": "Private room",
    "available_from": "2026-11-15",
-   "lease": "not stated",
+   "lease": "Not stated on Domain or realestate.com.au (re-checked 7 Nov 2026)",
    "furnished": "unknown",
    "own_bathroom": "no",
    "household": "Shared kitchen, bathroom, common area and yard; number of residents not stated",
@@ -10336,7 +11588,9 @@
     "Which bills are included, and roughly what do the others cost each week?",
     "Is the bond lodged with NSW Rental Bonds Online, and is there a written agreement?",
     "How many people live here, and how are cleaning and kitchen time shared?",
-    "Can I see the room in person or on a live video call before paying anything?"
+    "Can I see the room in person or on a live video call before paying anything?",
+    "What is the lease term (6 months, 12 months or periodic), and can I renew for all of 2027?",
+    "Which bills are included in the rent: electricity, gas, water and internet?"
    ],
    "scam_flags": [
     {
@@ -10369,8 +11623,21 @@
     "ends_approx": false,
     "flexible": false,
     "bucket": "Not stated",
-    "summary": "Not stated",
-    "note": ""
+    "summary": "Not stated: ask the agent",
+    "note": "Agent listings in NSW usually use a 6 or 12 month fixed term ⚠️ (general practice, not stated in this ad)",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10459,7 +11726,20 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10553,7 +11833,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10636,7 +11929,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10719,7 +12025,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10797,7 +12116,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10870,7 +12202,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10948,7 +12293,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -10959,7 +12317,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11030,7 +12388,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11120,7 +12486,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11195,7 +12569,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11206,7 +12588,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11281,7 +12663,15 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "At least 12 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11362,7 +12752,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11443,7 +12841,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11454,7 +12860,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11518,7 +12924,18 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas"
+    ],
+    "estimate_pw": 15,
+    "summary": "Not stated (ask): Electricity, Gas (≈ $15/wk ⚠️ estimate)"
    }
   },
   {
@@ -11591,7 +13008,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11687,7 +13112,17 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 5,
+    "summary": "Not stated (ask): Gas (≈ $5/wk ⚠️ estimate)"
    }
   },
   {
@@ -11698,7 +13133,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11762,7 +13197,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11773,7 +13216,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-23",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11837,7 +13280,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -11848,7 +13299,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-24",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11923,7 +13374,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -12002,7 +13461,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -12086,7 +13558,21 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Internet"
+    ],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 25,
+    "summary": "You pay: Internet · Not stated (ask): Electricity, Gas, Water (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -12170,7 +13656,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -12259,7 +13753,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -12353,7 +13855,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12442,7 +13957,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12526,7 +14054,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12620,7 +14161,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12714,7 +14268,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12798,7 +14365,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12887,7 +14467,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -12970,7 +14563,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -13064,7 +14670,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 28,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
    }
   },
   {
@@ -13148,7 +14767,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13241,7 +14868,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13329,7 +14964,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13339,7 +14982,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-26",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13410,7 +15053,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13496,7 +15147,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13577,7 +15236,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "1 month, ends 2 Jan 2027",
-    "note": "Ad: 22 Nov 2026 to 2 Jan 2027"
+    "note": "Ad: 22 Nov 2026 to 2 Jan 2027",
+    "longest_months": 1.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13676,7 +15343,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -13765,7 +15440,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -13849,7 +15537,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -13938,7 +15639,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -13949,7 +15663,7 @@
    "source": "Down Under Stay",
    "source_rank": 3,
    "found_at": "2026-10-27",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14022,7 +15736,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 4 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -14106,7 +15833,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14117,7 +15852,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14150,7 +15885,8 @@
     "Which bills are excluded apart from water (gas?), and what is the usual water share per person?",
     "Is the $1400 bond lodged with NSW Rental Bonds Online, and is there a written agreement and condition report?",
     "How many people live here now and who manages the house day to day?",
-    "Can I inspect in person before paying anything?"
+    "Can I inspect in person before paying anything?",
+    "The ad runs to early February 2027 but asks for 3 months minimum: how long can I actually stay?"
    ],
    "scam_flags": [
     {
@@ -14192,7 +15928,19 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 3.1 months, ends about 7 Feb 2027",
-    "note": "Ad: any time until early Feb 2027 (exact day not given)"
+    "note": "Ad: any time until early Feb 2027 (exact day not given)",
+    "longest_months": 3.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Water"
+    ],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 20.0,
+    "summary": "You pay: Water · Not stated (ask): Gas (≈ $20/wk ⚠️ estimate)"
    }
   },
   {
@@ -14203,7 +15951,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14278,7 +16026,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14359,7 +16115,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14370,7 +16134,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14440,7 +16204,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 50.0,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $50/wk ⚠️ estimate)"
    }
   },
   {
@@ -14451,7 +16228,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-29",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -14525,7 +16302,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "1 to 2 months, ends about 6 Feb 2027",
-    "note": "1 to 2 months from 6 Dec (latest end worked out)"
+    "note": "1 to 2 months from 6 Dec (latest end worked out)",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14536,12 +16321,12 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "31 Oct: NEW within cap. Card on registry page 2 at $350; listing page read: Room 1 single $350 (bond $1,400 = 4 weeks), available 26 Oct 2026 (ask if it can be held); Rooms 2 and 3 are doubles at $400 and $375 (over cap). Classified 'Sub-let or Transfer'; deposit self-managed. Only internet stated as included; electricity, gas, water ⚠️ estimate $20/wk. 0.8 km straight line, '5 minutes walk to UNSW Main Library'. 29 Oct run saw only over-cap prices on this page. Live 2 Nov. Room 1 single $350/wk (bond $1400, from 26 Oct), Room 3 double $375 (from 27 Oct), Room 2 double $400 (from 28 Oct); 3 vacancies, 1 occupant, min 6 months. Internet and weekly cleaning included; washer and dryer included. Rooms search card showed '$375, single and double bedroom' on one load while the detail page and other cards show $350: confirm the $350 single is still free. 6 Nov: still listed: Room 1 $350 (single) from 26 Oct, at least 6 months, internet included, washing machine and dryer.",
+   "notes": "31 Oct: NEW within cap. Card on registry page 2 at $350; listing page read: Room 1 single $350 (bond $1,400 = 4 weeks), available 26 Oct 2026 (ask if it can be held); Rooms 2 and 3 are doubles at $400 and $375 (over cap). Classified 'Sub-let or Transfer'; deposit self-managed. Only internet stated as included; electricity, gas, water ⚠️ estimate $20/wk. 0.8 km straight line, '5 minutes walk to UNSW Main Library'. 29 Oct run saw only over-cap prices on this page. Live 2 Nov. Room 1 single $350/wk (bond $1400, from 26 Oct), Room 3 double $375 (from 27 Oct), Room 2 double $400 (from 28 Oct); 3 vacancies, 1 occupant, min 6 months. Internet and weekly cleaning included; washer and dryer included. Rooms search card showed '$375, single and double bedroom' on one load while the detail page and other cards show $350: confirm the $350 single is still free. 6 Nov: still listed: Room 1 $350 (single) from 26 Oct, at least 6 months, internet included, washing machine and dryer. 7 Nov: detail page re-read; bills and stay length unchanged (bills still not named stay 'not mentioned').",
    "suburb": "Randwick",
    "distance_km": 0.8,
    "transit_min": 10,
@@ -14614,7 +16399,19 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 20,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $20/wk ⚠️ estimate)"
    }
   },
   {
@@ -14698,7 +16495,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14782,7 +16587,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14871,7 +16684,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -14955,7 +16776,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -14986,7 +16820,7 @@
     "internet": "not mentioned"
    },
    "bills_included_count": 0,
-   "bills_estimate_pw": 0,
+   "bills_estimate_pw": 24,
    "room_type": "Private room",
    "available_from": "2026-12-01",
    "lease": "Monthly summer stay, December and/or January only",
@@ -15034,7 +16868,20 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "1 to 2 months, ends 31 Jan 2027",
-    "note": "December and/or January only"
+    "note": "December and/or January only",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 24,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $24/wk ⚠️ estimate)"
    }
   },
   {
@@ -15045,12 +16892,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 31 Oct. Only water is included per the ad text (overview says bills included): budget about $24/wk extra. Bond $1,200 = 4 weeks (at the legal limit). 6 Nov: the ad gives the lease period as 6 Feb to 3 Sep 2027, so the room starts 6 Feb 2027 (the overview says available now).",
+   "notes": "New 31 Oct. Only water is included per the ad text (overview says bills included): budget about $24/wk extra. Bond $1,200 = 4 weeks (at the legal limit). 6 Nov: the ad gives the lease period as 6 Feb to 3 Sep 2027, so the room starts 6 Feb 2027 (the overview says available now). 7 Nov: ad says only the water bill is included, so electricity, gas and internet are extra.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -15059,13 +16906,13 @@
    "bond": 1200.0,
    "about": "Furnished private room in a 3b1b house on Harbourne Rd, Kingsford; full kitchen; furniture list includes a washing machine.",
    "bills": {
-    "electricity": "not mentioned",
-    "gas": "not mentioned",
+    "electricity": "excluded",
+    "gas": "excluded",
     "water": "included",
-    "internet": "not mentioned"
+    "internet": "excluded"
    },
    "bills_included_count": 1,
-   "bills_estimate_pw": 24,
+   "bills_estimate_pw": 21,
    "room_type": "Private room",
    "available_from": "2027-02-06",
    "lease": "3 to 12 months (available to Sep 2027)",
@@ -15129,7 +16976,19 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 6.9 months, ends 3 Sep 2027",
-    "note": "Ad: lease period 6 Feb to 3 Sep 2027"
+    "note": "Ad: lease period 6 Feb to 3 Sep 2027",
+    "longest_months": 6.9,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 21,
+    "summary": "You pay: Electricity, Gas, Internet (≈ $21/wk ⚠️ estimate)"
    }
   },
   {
@@ -15140,12 +16999,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 31 Oct. Cheapest walkable private room this run, but 'dormitory' wording plus a 2b1b+study home means ask exactly how many people live there.",
+   "notes": "New 31 Oct. Cheapest walkable private room this run, but 'dormitory' wording plus a 2b1b+study home means ask exactly how many people live there. 7 Nov: ad says only the water bill is included, so electricity, gas and internet are extra.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -15154,13 +17013,13 @@
    "bond": 800.0,
    "about": "Furnished private room (single bed) on Houston Rd, Kingsford; furniture list includes a washing machine.",
    "bills": {
-    "electricity": "not mentioned",
-    "gas": "not mentioned",
+    "electricity": "excluded",
+    "gas": "excluded",
     "water": "included",
-    "internet": "not mentioned"
+    "internet": "excluded"
    },
    "bills_included_count": 1,
-   "bills_estimate_pw": 24,
+   "bills_estimate_pw": 21,
    "room_type": "Private room",
    "available_from": "2026-10-31",
    "lease": "3 to 12 months (available to Sep 2027)",
@@ -15229,7 +17088,19 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 9.9 months, ends 4 Sep 2027",
-    "note": "Ad: any time until 4 Sep 2027"
+    "note": "Ad: any time until 4 Sep 2027",
+    "longest_months": 9.9,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 21,
+    "summary": "You pay: Electricity, Gas, Internet (≈ $21/wk ⚠️ estimate)"
    }
   },
   {
@@ -15240,7 +17111,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15315,7 +17186,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "1 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -15326,7 +17205,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15400,7 +17279,20 @@
     "bucket": "Short stay (under 3 months)",
     "summary": "Until 7 Feb 2027 (up to 1.3 months)",
     "note": "Ad: 28 Dec 2026 to 7 Feb 2027. The listing also says at least 3 months, longer than these dates allow: ask which is right",
-    "stated_min_months": 3.0
+    "stated_min_months": 3.0,
+    "longest_months": 1.3,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -15411,7 +17303,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15479,7 +17371,20 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "1 to 1.8 months, ends 7 Feb 2027",
-    "note": "Ad: 15 Dec 2026 to 7 Feb 2027"
+    "note": "Ad: 15 Dec 2026 to 7 Feb 2027",
+    "longest_months": 1.8,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -15547,7 +17452,20 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "Until about 8 Jan 2027 (up to 1 month)",
-    "note": "1 month from 8 Dec"
+    "note": "1 month from 8 Dec",
+    "longest_months": 1.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 27,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $27/wk ⚠️ estimate)"
    }
   },
   {
@@ -15558,7 +17476,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15615,7 +17533,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "1 to 2 months, ends about 25 Jan 2027",
-    "note": "1 to 2 months from 25 Nov (latest end worked out)"
+    "note": "1 to 2 months from 25 Nov (latest end worked out)",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -15623,7 +17549,7 @@
    "source": "Flatmate Finders",
    "source_rank": 21,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-02",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -15651,7 +17577,7 @@
    },
    "bills_included_count": 2,
    "bills_estimate_pw": 10,
-   "available_from": "2026-10-31",
+   "available_from": "2026-11-07",
    "lease": "3 months plus",
    "who_can_apply": "Singles $350; couples $500",
    "household": "One man aged 41+, outdoor smoker, no pets",
@@ -15684,7 +17610,7 @@
     "mobile_on_listing": false
    },
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in your room in Coogee (listing 1198584). I'm looking to move in between late December 2026 and early February 2027. Could you confirm which bills are included (the ad mentions splitting electricity) and the lease length you prefer? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "New 31 Oct (Chrome). Washer in the home. Bond 2 weeks, within NSW limits.",
+   "notes": "New 31 Oct (Chrome). Washer in the home. Bond 2 weeks, within NSW limits. 7 Nov: page re-read: singles $350/wk, available 7 Nov for 3 months plus.",
    "contract": {
     "min_months": 3.0,
     "max_months": null,
@@ -15693,7 +17619,19 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity"
+    ],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 10,
+    "summary": "You pay: Electricity · Not stated (ask): Gas (≈ $10/wk ⚠️ estimate)"
    }
   },
   {
@@ -15760,7 +17698,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 2 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -15839,7 +17785,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -15933,7 +17887,15 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 to 3 months",
-    "note": ""
+    "note": "",
+    "longest_months": 3.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -16017,7 +17979,20 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -16106,7 +18081,20 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 25,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -16199,7 +18187,15 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -16279,12 +18275,22 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 7,
+    "summary": "Not stated (ask): Gas (≈ $7/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -16353,12 +18359,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "4 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -16443,12 +18457,25 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 weeks to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 26,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $26/wk ⚠️ estimate)"
    }
   },
   {
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -16517,7 +18544,17 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "Until about 10 Feb 2027 (up to 2 months)",
-    "note": "Maximum 2 months from 10 Dec (end worked out)"
+    "note": "Maximum 2 months from 10 Dec (end worked out)",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Internet"
+    ],
+    "estimate_pw": 6,
+    "summary": "Not stated (ask): Internet (≈ $6/wk ⚠️ estimate)"
    }
   },
   {
@@ -16554,7 +18591,7 @@
     "internet": "not mentioned"
    },
    "bills_included_count": 0,
-   "bills_estimate_pw": null,
+   "bills_estimate_pw": 24,
    "room_type": "Private room",
    "available_from": null,
    "lease": "short stay",
@@ -16574,7 +18611,20 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "Until 2 Jan 2027 (up to 1.3 months)",
-    "note": "Ad: 22 Nov 2026 to 2 Jan 2027"
+    "note": "Ad: 22 Nov 2026 to 2 Jan 2027",
+    "longest_months": 1.3,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 24,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $24/wk ⚠️ estimate)"
    }
   },
   {
@@ -16611,7 +18661,7 @@
     "internet": "not mentioned"
    },
    "bills_included_count": 0,
-   "bills_estimate_pw": null,
+   "bills_estimate_pw": 24,
    "room_type": "Private room",
    "available_from": null,
    "lease": "short stay",
@@ -16631,7 +18681,20 @@
     "flexible": false,
     "bucket": "Not stated",
     "summary": "Not stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 24,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $24/wk ⚠️ estimate)"
    }
   },
   {
@@ -16714,7 +18777,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -16725,7 +18796,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-02",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -16795,7 +18866,19 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 20,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $20/wk ⚠️ estimate)"
    }
   },
   {
@@ -16806,7 +18889,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -16875,7 +18958,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -16886,7 +18977,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -16956,7 +19047,17 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas"
+    ],
+    "estimate_pw": 8,
+    "summary": "Not stated (ask): Gas (≈ $8/wk ⚠️ estimate)"
    }
   },
   {
@@ -16967,7 +19068,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17040,7 +19141,15 @@
     "flexible": true,
     "bucket": "Flexible",
     "summary": "Flexible length",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -17051,7 +19160,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17115,7 +19224,20 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "At least 1 month, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -17126,7 +19248,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17201,7 +19323,20 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "2 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -17212,7 +19347,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17286,7 +19421,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -17297,7 +19440,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17372,7 +19515,19 @@
     "flexible": false,
     "bucket": "Under 3 months minimum",
     "summary": "1 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 20,
+    "summary": "Not stated (ask): Electricity, Gas, Water (≈ $20/wk ⚠️ estimate)"
    }
   },
   {
@@ -17402,7 +19557,7 @@
     "internet": "not mentioned"
    },
    "bills_included_count": 0,
-   "bills_estimate_pw": null,
+   "bills_estimate_pw": 24,
    "room_type": "Private room",
    "available_from": "2026-11-30",
    "lease": "3 to 12 months",
@@ -17445,7 +19600,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 24,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $24/wk ⚠️ estimate)"
    }
   },
   {
@@ -17456,7 +19624,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17523,7 +19691,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "2 months, ends 29 Jan 2027",
-    "note": "Ad: 30 Nov 2026 to 29 Jan 2027 (move-in date can change)"
+    "note": "Ad: 30 Nov 2026 to 29 Jan 2027 (move-in date can change)",
+    "longest_months": 1.9,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -17534,7 +19710,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17602,7 +19778,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "2 weeks to 2 months, ends 25 Jan 2027",
-    "note": "Ad: 25 Nov 2026 to 25 Jan 2027"
+    "note": "Ad: 25 Nov 2026 to 25 Jan 2027",
+    "longest_months": 2.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -17613,7 +19797,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17681,7 +19865,20 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "6 to 9 months",
-    "note": ""
+    "note": "",
+    "longest_months": 9.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
    }
   },
   {
@@ -17711,7 +19908,7 @@
     "internet": "not mentioned"
    },
    "bills_included_count": 0,
-   "bills_estimate_pw": null,
+   "bills_estimate_pw": 24,
    "room_type": "Private room",
    "available_from": "2026-11-25",
    "lease": "Minimum 3 months",
@@ -17743,7 +19940,20 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "estimate_pw": 24,
+    "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $24/wk ⚠️ estimate)"
    }
   },
   {
@@ -17754,12 +19964,12 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Electricity and internet included; gas and water not mentioned: ⚠️ estimate about $13/wk. Bond $680 (2 weeks), listing says lodged with Rental Bonds Online. Found 4 Nov 2026. 6 Nov: still listed: $340, bond $680 lodged with RBO, at least 3 months, available 3 Nov.",
+   "notes": "Electricity and internet included; gas and water not mentioned: ⚠️ estimate about $13/wk. Bond $680 (2 weeks), listing says lodged with Rental Bonds Online. Found 4 Nov 2026. 6 Nov: still listed: $340, bond $680 lodged with RBO, at least 3 months, available 3 Nov. 7 Nov: detail page re-read; bills and stay length unchanged (bills still not named stay 'not mentioned').",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -17832,7 +20042,18 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "At least 3 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 13,
+    "summary": "Not stated (ask): Gas, Water (≈ $13/wk ⚠️ estimate)"
    }
   },
   {
@@ -17842,10 +20063,10 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
    "trust": "B",
    "women_only": null,
@@ -17857,7 +20078,7 @@
     "mobile_on_listing": true
    },
    "title": "Shared (twin) room at 88 Barker St, Kingsford, all bills included",
-   "notes": "All 4 bills included. $250/wk per person when you share with someone you bring; the ad says $265/wk if you come alone and they find the other occupant. Private room in the same house is $430/wk (over cap). Found 4 Nov 2026 (evening run).",
+   "notes": "All 4 bills included. $250/wk per person when you share with someone you bring; the ad says $265/wk if you come alone and they find the other occupant. Private room in the same house is $430/wk (over cap). Found 4 Nov 2026 (evening run). 7 Nov: the listing page says it is no longer available, closed.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -17918,7 +20139,15 @@
     "flexible": false,
     "bucket": "3 to 5 months minimum",
     "summary": "3 to 6 months",
-    "note": ""
+    "note": "",
+    "longest_months": 6.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -17928,7 +20157,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17999,7 +20228,15 @@
     "flexible": false,
     "bucket": "6 to 11 months minimum",
     "summary": "At least 6 months, no maximum stated",
-    "note": ""
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -18074,7 +20311,15 @@
     "flexible": false,
     "bucket": "Short stay (under 3 months)",
     "summary": "1 week to 1.3 months, ends 3 Jan 2027",
-    "note": "Ad: sublet 23 Nov 2026 to 3 Jan 2027 only"
+    "note": "Ad: sublet 23 Nov 2026 to 3 Jan 2027 only",
+    "longest_months": 1.3,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [],
+    "estimate_pw": null,
+    "summary": "None: all 4 bills are included"
    }
   },
   {
@@ -18085,7 +20330,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-06",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -18154,9 +20399,22 @@
     "flexible": false,
     "bucket": "12 months or more",
     "summary": "12 months",
-    "note": ""
+    "note": "",
+    "longest_months": 12.0,
+    "open_ended": false
    },
-   "bills_included_count": 0
+   "bills_included_count": 0,
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Gas",
+     "Water",
+     "Internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 25,
+    "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   }
   },
   {
    "id": "studystays:381372",
@@ -18166,7 +20424,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-11-06",
-   "last_seen_at": "2026-11-06",
+   "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -18223,7 +20481,7 @@
     "Can I inspect the room in person before paying anything?"
    ],
    "enquiry_draft": "Hi, I'm [your name], a UNSW postgraduate student, and I'm interested in your room in Randwick (UNSW Study Stays listing 381372). I'm looking to move in between mid December 2026 and mid February 2027. Could you confirm which bills are included, the exact lease length, and whether there is a washing machine I can use? I'd like to inspect the room in person before paying anything. Thank you.",
-   "notes": "New 6 Nov. Women only (hidden by default). Electricity and internet excluded: ⚠️ estimate about $15/wk.",
+   "notes": "New 6 Nov. Women only (hidden by default). Electricity and internet excluded: ⚠️ estimate about $15/wk. 7 Nov: detail page re-read; bills and stay length unchanged (bills still not named stay 'not mentioned').",
    "contract": {
     "min_months": null,
     "max_months": 2.5,
@@ -18233,9 +20491,23 @@
     "bucket": "Short stay (under 3 months)",
     "summary": "Until 13 Feb 2027 (up to 2.5 months)",
     "note": "Ad: 30 Nov 2026 to 13 Feb 2027 (the lease field says 3 to 6 months). The listing also says at least 3 months, longer than these dates allow: ask which is right",
-    "stated_min_months": 3.0
+    "stated_min_months": 3.0,
+    "longest_months": 2.5,
+    "open_ended": false
    },
-   "bills_included_count": 0
+   "bills_included_count": 0,
+   "bills_not_included": {
+    "extra": [
+     "Electricity",
+     "Internet"
+    ],
+    "not_mentioned": [
+     "Gas",
+     "Water"
+    ],
+    "estimate_pw": 15,
+    "summary": "You pay: Electricity, Internet · Not stated (ask): Gas, Water (≈ $15/wk ⚠️ estimate)"
+   }
   }
  ],
  "move_in_window": {
