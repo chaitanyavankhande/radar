@@ -1,6 +1,6 @@
 ---
 name: accommodation-scout
-description: Daily scout for long-stay rooms near UNSW Village up to $350/wk, moving in any time from now to 28 Feb 2027. Records contract length, bills not included, NSW renting rules and scam flags per room; updates the radar site and Sheet.
+description: Daily scout for long-stay rooms near UNSW Village under $350/wk, moving in by 28 Feb 2027. Records lease length, bills, NSW renting rules and scam flags; updates radar and Sheet.
 ---
 
 # 🏠 accommodation-scout
