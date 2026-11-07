@@ -1,74 +1,100 @@
 ---
 name: accommodation-scout
-description: Daily scout for rooms near UNSW Village up to the rent cap, moving in any time from now until 28 Feb 2027, long stays first. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
+description: Daily scout for long-stay rooms near UNSW Village up to $350/wk, moving in any time from now to 28 Feb 2027. Records contract length, bills not included, NSW renting rules and scam flags per room; updates the radar site and Sheet.
 ---
 
 # 🏠 accommodation-scout
 
-Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chaitanya types `/accommodation-scout`. Stops when Chaitanya says he has signed a lease.
+Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chaitanya types `/accommodation-scout`. Stops when Chaitanya says he has signed a lease. Never pay, apply, book an inspection, sign in for him or message anyone.
 
 ## 0. Before anything
 
 1. Load personal values (`shared/PERSONAL_CONFIG.md`): `HOME_BASE`, `RENT_MAX`, `MOVE_IN_WINDOW`, `SHEET_URL`, `GOOGLE_ACCOUNT`.
-2. Read `https://raw.githubusercontent.com/chaitanyavankhande/radar/main/shared/RULES.md`, `.../shared/SOURCES.md` (section 5) and `.../shared/SCAM_FLAGS.md`. If they can't be fetched, carry on with this file and note it in the run summary.
+2. Attach the repo (`add_repo` chaitanyavankhande/radar, push), clone it, and read `shared/RULES.md`, `shared/SOURCES.md` (section 5), `shared/SCAM_FLAGS.md` and `shared/DATA_SCHEMA.md` from the clone. If that fails, carry on with this file and say so in the run summary.
+3. Read `docs/data/accommodation.json`: every open room is re-read this run, not only new ones.
 
 ## 1. What to find
 
 | Filter | Value |
 |---|---|
-| Rent | **≤ $350 per week** (every room within budget is shown) |
-| Suburbs | Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee |
+| Rent | **$350 per week or less** (ideally $300 or less). A room that rises above $350 is closed |
+| Suburbs | Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee (South Coogee counts as Coogee). Skip the out-of-area rows search sites pad results with (Rosebery, Mascot, Zetland, Redfern, Waterloo and so on) |
+| Move-in | Any start date from today until **28 Feb 2027**. Rooms that start after 28 Feb are closed |
+| Stay length | **Long stays are the target: 6 months or more possible** (`contract.longest_months` 6 or more, or `open_ended`). Rooms whose length is **unknown** count as possible long stays: keep them, mark "Lease length unknown", list them last, and ask the length. Shorter stays found by the normal searches stay in the data only if they last until at least 14 Jan 2027, but get no ranking, enquiry draft or summary line and are hidden by default |
 | Room types | Private room in a share house · Shared (twin) room · Studio · Student building · UNSW Village 2027 · Homestay |
-| Move-in | Any start date from today until 28 Feb 2027 (widened 7 Nov 2026; was 15 Feb 2027). Rooms that start after 28 Feb are closed |
-| Lease | **Long stays are the target (7 Nov 2026): a room that lets him stay 6 months or more** (`contract.longest_months` ≥ 6, or `open_ended`). The site shows only these by default (Long stays filter set to 6 months) and the Sheet's In default view is `no` for shorter ones. Shorter stays found by the normal searches stay in the data, kept only when they last until at least 14 Jan 2027, but get no ranking, enquiry draft or summary line. Rooms with no stated length are listed separately as "ask the length" |
-| Must-haves | None. Walking distance to UNSW ranks higher. |
-| Women-only rooms | Keep them in the data with `women_only` set, but they are **hidden by default** on the site and Sheet |
-| Trusted and safe only | A room counts only if its source is tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are **not considered at all**: no ranking, no enquiry draft, not in the run summary, never on the site, kept out of the Sheet view |
+| Trusted and safe only | A room counts only if its source is trust tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are not considered at all: never on the site, never ranked, summarised or drafted for, kept out of the Sheet view, kept in the JSON as history only |
+| Women-only rooms | Kept in the data with `women_only` set, **hidden by default** on the site and Sheet |
+| Must-haves | None. Walking distance to UNSW ranks higher. Chaitanya needs a washing machine, so laundry is always recorded |
 
-Don't run separate short-stay searches unless asked; short stays found by the normal searches are kept under the rule above.
+Don't run separate short-stay searches unless asked.
 
-## 2. Sources in rank order (all, every run)
+## 2. Sources (all, every run, in `shared/SOURCES.md` section 5 order)
 
-Use `shared/SOURCES.md` section 5. UNSW Study Stays, Down Under Stay, Gumtree, Domain and homestay pages work from the cloud. Flatmates, realestate.com.au, Roomgo and Facebook groups need Chrome (Facebook at human pace; Chaitanya accepted the account risk).
+- **Cloud:** UNSW Study Stays (pages 1 to 6 plus every tracked detail page), Down Under Stay (`/rooms/` and the room sitemap), Domain (one URL per suburb), AHN pricing and student FAQ, UNSW Village, price-watch operators.
+- **Chrome:** Flatmates, realestate.com.au, Flatmate Finders (one page per run), the NSW boarding house register. Domain pages also read well in Chrome; call `get_page_text` on its own, not inside `browser_batch`, so the site permission can be granted.
+- Tier C sources (Gumtree, uhomes, Casita, Facebook, overseas marketplaces) are never considered; don't spend reads on them.
 
-**Flatmates in Chrome (works, tested 18 Oct 2026):** open `https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+eastlakes-2018+randwick-2031+maroubra-2035+coogee-2034/max-350` in one tab (signed in). Collect listing links page by page with `?page=N` (12 per page; drop links outside these suburbs). Then fetch each listing page from that same tab with `fetch()` at 2 to 5 second intervals and read its "Room overview" block: weekly rent, bond, which bills are included, room and bathroom, stay length, available date, who can apply, furnished, and "Who you'll be living with". Also run the bills-included search (`.../bills-included+max-300`) so those listings are never missed. Hand bulk results back as a downloaded JSON file, because tool output is short. From the same page also record the lister signals: number of photos, "View <name> on social media" (verified) or "has no verified social media", "Online ...", "Response rate: N%" and "Early Bird" (new listing). Collect the listing photo URLs (`user_property/<id>`) and a 64-bit difference hash of each photo (fetch the Cloudinary image at `c_scale,w_72`, draw it to a 9 by 8 canvas, compare neighbouring pixels) so reused photos can be caught.
+**Flatmates in Chrome (works):** open `https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+eastlakes-2018+randwick-2031+maroubra-2035+coogee-2034/max-350` in one tab (signed in). Collect listing links page by page with `?page=N` by `fetch()` from that tab (links appear as `flatmates.com.au/<type>-sydney-<suburb>-<postcode>-P<id>` inside the page data; stop when a page adds nothing new). Also run `.../bills-included+max-300`, the newest-first sort and `https://flatmates.com.au/rooms/south-coogee-2034/max-350`. Then fetch every in-area listing page (new and tracked) at about 2 second intervals in a background loop, strip scripts, and keep the text from "About the property" to "Report this property". Read it back by writing it into a `<pre>` and calling `get_page_text` in batches of about 20 listings (tool output is short). Record from each page: weekly rent, bond (or "Bond amount to be confirmed"), bills included list, room and bathroom, stay length, available date, who can apply, furnished, the house icons (bedrooms, bathrooms, people), "Who you'll be living with", and the lister signals (photos, verified social media or not, "Online ...", "Response rate", "Early Bird", "Show mobile number"). Collect photo URLs and a 64-bit difference hash of each photo so reused photos can be caught. A page that says "no longer available" closes the room.
 
-## 3. For every room
+**NSW boarding house register (Chrome):** `https://applications.fairtrading.nsw.gov.au/accomregister/`. Tick Register of Boarding Houses, type "<Suburb> NSW <postcode>" or a street name in the top search box with real typing (JavaScript value changes don't register), click Search, and page with "Next". Only street addresses are listed; a search for a street with no match shows no results.
 
-1. De-duplicate (address or listing photos + rent).
-2. Fill `accommodation.json` fields (`shared/DATA_SCHEMA.md`).
-3. **Bills:** for electricity, gas, water and internet, record each as `included`, `excluded` or `not mentioned` (on Flatmates, "Bills not included in rent" means all four are `excluded`; bills missing from an "included" list are `not mentioned` unless the description says they are extra). Estimate the weekly cost of anything not included and store it in `bills_estimate_pw` with ⚠️. The site and Sheet name every bill as included, extra or not mentioned.
-   **Contract length:** copy the listing's wording to `lease`, then fill `contract` (`shared/DATA_SCHEMA.md`): minimum and maximum months, a fixed end date when the ad gives one (sublets, summer stays), the bucket and a one-line summary. When the stated minimum is longer than the ad's dates allow, say so in `contract.note`. Also fill `contract.longest_months` and `contract.open_ended` (how long he could stay, for the long-stay filter). Every room must have a stay length: if the results card lacks it, read the listing page, then the provider's own FAQ or terms (e.g. AHN: 28-night placements, extendable). Agent listings that give no term stay `Not stated` with the question "What is the lease term, and can I renew for all of 2027?".
-   **Bills not included:** fill `bills_not_included` for every room (`extra`, `not_mentioned`, `estimate_pw`, `summary`). Read the description as well as the overview: "only water is included" makes the other three extra; "internet included" in the text upgrades a not-mentioned internet.
-4. **NSW renting rules:** fill `rules_check` and `rules_summary` (`shared/DATA_SCHEMA.md`) for every open room from its own listing page: each of the 12 rules is ✅ follows, ❌ does not follow, ❔ not mentioned, ⚠️ depends (say what to ask) or ➖ doesn't apply, with the reason. Look the address up on the NSW boarding house register (applications.fairtrading.nsw.gov.au/accomregister, Chrome) when a house has 5 or more residents and the address is known. The site's ⓘ button next to the heading opens the rules guide (`RENT_GUIDE` in `docs/app.js`); update it when a rule changes.
-5. **Laundry:** Chaitanya needs a washing machine. Record `laundry` as `yes`, `shared`, `likely`, `no` or `not mentioned` with the exact phrase in `laundry_evidence` (Flatmates has no laundry field, so read the description). If it isn't `yes`, add the inspection question "Is there a washing machine I can use, and is it included in the rent?"
-6. **Contact:** record how to contact every room. Public `contact` field: channel (e.g. "Flatmates message", "Agent: phone or enquiry form"), business name for businesses only, and the contact page link. Private, Sheet only (never in the repo): the lister's or agent's name, and any phone number or email printed on the listing or the business's own contact page. Note when a lister offers a mobile number, but don't try to reveal it: on Flatmates it needs a paid upgrade (tested 18 Oct 2026), and Gumtree's "Show number" needs a Gumtree sign-in. Flatmates messages are free, but delayed for listings under 14 days old ("Early Bird") unless upgraded. Study Stays provider contacts need Chaitanya's own Study Stays sign-in. Never pay for an upgrade or sign in for him. Keep first contact on the listing site.
-7. **Household:** copy what the listing says (number of people, ages, work or study, habits, house rules) and who can apply (`who_can_apply`, e.g. "Anyone except couples", "Females only"). Claude cannot vet people; write 3 to 5 `inspection_questions` instead.
-8. **Fraud and scam checks** (catalogue, levels and sources: `shared/SCAM_FLAGS.md`). Think through every listing, from any source, as if it might be fake:
-   - Give the source its trust tier: **A** official or licensed agent (UNSW Village, AHN, realestate.com.au and Domain agent listings), **B** moderated site, verify (Flatmates, UNSW Study Stays, Down Under Stay), **C** open classifieds or overseas marketplace, extra checks (Gumtree, uhomes, Casita, Facebook, anything new).
-   - Check the listing text for every flag in the catalogue: money before inspection, owner away or keys posted, untraceable payment, ID or bank documents up front, off-platform contact, rent in advance over 2 weeks, bond over 4 weeks or not lodged, cash only, boarding house not on the register, sub-let without consent, pressure, "from" prices, stale dates, contradictions.
-   - Cross-checks: rent below 65% of the middle price of the same room type in the same suburb in today's data; the same photos (hash distance 6 or less) or the same description in another suburb; Flatmates lister signals (no verified social media together with another weak sign, last online 14 days or more ago, response rate 15% or less, fewer than 3 photos, no description).
-   - Write each hit to `scam_flags` as `{code, level, reason}`. The reason says why in plain words and quotes the listing where it can. Set `risk` to the highest level and `trust` to the tier.
-   - Set `women_only`: `stated` when the listing says women, females, girls or ladies only; `likely` when it is tagged "All female flat" or is a shared room with a woman. If it says "Anyone" but is tagged all-female, add an `inconsistent_details` flag.
-   - Never contact, pay or apply to test a listing. Flags are prompts to check, not proof.
-   - If the room is tier C, unverified, or gets a 🔴 high flag, stop there: it is not considered (no draft, no ranking, not summarised). It may be kept in the JSON as history only.
-9. **Verify:** keep the official listing link (photos are there). Mark ✅ only when the listing page itself was read.
-10. Draft an `enquiry_draft` message for good listings. Chaitanya sends it himself.
-11. Inspections and deadlines go to the **Accommodation** calendar (🟡 / 🔵 ladder).
+## 3. For every room (new and tracked)
 
-## 4. Ranking (default)
+1. **De-duplicate** (address, listing photos or the same operator's room number, plus rent). Note duplicates in `notes`.
+2. **Changes since last run:** rent, bond, available date, stay length, bills. Rent above $350 or "no longer available" closes the room (`closed: true`, never delete). Say what changed in `notes` with the date.
+3. **Bills:** for electricity, gas, water and internet record `included`, `excluded` or `not mentioned`. Read the description as well as the overview: "only water is included" makes the other three `excluded`; "internet included" in the text upgrades a not-mentioned internet; "Bills not included in rent" on Flatmates makes all four `excluded`. Estimate the weekly cost of anything not included (share house guide: electricity $10, gas $5, water $3, internet $6; ⚠️ estimate) in `bills_estimate_pw`. Then fill **`bills_not_included`** for every room: `{ extra, not_mentioned, estimate_pw, summary }`, summary "None: all 4 bills are included" when nothing is missing.
+4. **Contract length:** copy the listing's wording to `lease`, then fill `contract` (`shared/DATA_SCHEMA.md`): minimum and maximum months, a fixed end date (`ends`) when the ad gives one (sublets, "lease period", "available until"), `flexible`, the bucket, a one-line summary and a `note` for conflicts (overview vs description, a minimum longer than the dates allow). Read the description and "Who you'll be living with" for dates too ("available until 31/01/2027"). Then fill **`contract.longest_months`** (months from the later of today and `available_from` to the end date, or the maximum) and **`contract.open_ended`** (true when there is a minimum or "flexible" but no maximum or end). If the length is not stated anywhere, look for the provider's own terms or FAQ (for example AHN: 28-night placements extended 28 nights at a time). If still unknown: `lease` says where it was checked, `contract.bucket` is `Not stated`, `longest_months` null, and add the inspection question "What is the lease term, and can I stay for all of 2027?".
+5. **NSW renting rules:** fill `rules_check` and `rules_summary` for every open room from its own listing page (section 4). Never mark ✅ from a guess.
+6. **Laundry:** `laundry` is `yes`, `shared`, `likely`, `no` or `not mentioned`, with the exact phrase in `laundry_evidence`. If it isn't `yes`, add "Is there a washing machine I can use, and is it included in the rent?" to the questions.
+7. **Contact:** public `contact` field: channel, business name for businesses only, contact page link, and `mobile_on_listing`. Private, Sheet only (never in the repo): the lister's or agent's name and any phone or email printed on the listing. Don't reveal hidden numbers (Flatmates needs a paid upgrade, Gumtree a sign-in). Keep first contact on the listing site.
+8. **Household:** copy what the listing says (people, ages, work or study, house rules, pets) into `household`, and `who_can_apply` as the listing words it. Write 3 to 6 `inspection_questions`: always ask to hold the room until about 1 January when it is available earlier, ask about every contradiction found, and ask the lease length when unknown.
+9. **Fraud and scam checks** (`shared/SCAM_FLAGS.md`): trust tier (A official or licensed agent, B moderated site, C open classifieds), every flag in the catalogue, the cross-checks (rent under 65% of similar rooms, reused photos or text in another suburb, Flatmates lister signals), contradictions between the overview and the description (for example "private room" in the text but "Shared room" in the overview), a street address that isn't given. Write each hit to `scam_flags` as `{code, level, reason}` quoting the listing; set `risk` and `trust`. Set `women_only` (`stated` or `likely`).
+10. **Verify:** keep the official listing link. Mark ✅ only when the listing page itself was read this run or earlier.
+11. **Enquiry draft** (`enquiry_draft`) for good listings, for Chaitanya to send himself: greet the lister by first name; "I'm Chaitanya, a UNSW Master of IT student", quiet, tidy, non-smoker (mention house rules he fits); the room and listing id; long stay ideally all of 2027, moving in around 1 January when his current place ends; numbered questions (hold until early January, every contradiction, bills fully included or capped, how many people live there, written agreement and bond lodged with Rental Bonds Online, lease length if unknown, washing machine if not stated); ask for an in-person viewing before paying anything. Keep Flatmates drafts under 1,024 characters. No phone number, email or documents in the draft.
+12. **Calendar:** inspections and deadlines go to the Accommodation calendar (🟡 / 🔵 ladder).
 
-1. Most bills included (4 of 4 first)
-2. Walkable to UNSW
-3. Cheapest rent (plus estimated missing bills)
-4. Earliest suitable move-in date
+## 4. NSW renting rules (`rules_check`)
 
-The website shows trusted and safe rooms only (it drops every other room on load). Sorts: cheapest · closest then cheapest · earliest move-in · longest stay possible first · shortest contract first · lowest risk first · newest. Filters: NSW renting rules (breaks no rule, breaks at least one, follows 3 or more), Flags (any, none, flagged only), Women-only rooms (default: hidden, including all-female flat tags), Contract length (the minimum you sign for), Long stays: lets me stay at least (3 months, 6 months, 10 months or 3 terms, 1 year, 2 years), I want to stay for (months, Term 1 2027, Terms 1 and 2, all 3 terms of 2027, 1 year, 18 months, 2 years), Rooms that don't state a stay length (show or hide), Bills not included (Electricity, Gas, Water, Internet, None), These bills must be included, Washing machine, Risk, Source trust, and the usual room filters. Each card names every bill as ✅ included, ❌ extra or ❔ not mentioned, has a "Bills not included" line with the ⚠️ weekly estimate, shows the longest stay allowed, and shows the contract summary next to the listing's own wording.
+For each of the 12 rules record `{ s, why }`: `follows` ✅, `breaks` ❌, `not_mentioned` ❔ (the ad doesn't say: ask), `check` ⚠️ (depends, say what to ask) or `na` ➖ (doesn't apply). `why` quotes or explains the listing. `rules_summary` counts each state.
 
-## 5. Outputs
+| Key | Rule | How to judge |
+|---|---|---|
+| `status` | Legal status is clear | Sublet, take-over or "subtenants" = sub-tenant; owner or landlord living there = lodger (tenancy law doesn't cover them); registered boarding house; homestay lodger; agent-leased whole studio = tenant. Lister lives there but ownership unclear = ⚠️ |
+| `bond_cap` | Bond within the limit | 4 weeks' rent; 2 weeks in a boarding house (5 or more paying residents). Compute bond ÷ rent. "To be confirmed" = ❔ |
+| `bond_lodged` | Bond lodged with NSW Fair Trading | "Lodged with RBO" = ✅; "self managed" = ❌ (for a sub-let the head tenant must lodge within 10 days). Boarding houses: ➖ (the operator holds it and refunds within 14 days) |
+| `rent_advance` | Rent in advance 2 weeks or less | From the ad's terms |
+| `holding_fee` | Holding fee 1 week or less, after approval | From the ad's terms |
+| `no_banned_fees` | No banned fees | Application, background check, viewing, lease preparation, first keys, pet bond are banned for tenancies. Ongoing extras (cleaning, air-con) = ⚠️ get them in writing |
+| `written_agreement` | Written agreement | Contract attached, lease or agreement mentioned, fixed lease period, agent application |
+| `condition_report` | Condition report | Attached or mentioned |
+| `receipts` | Receipts or fee-free payment | "Receipt provided", Rental Bonds Online, direct debit or invoices |
+| `inspect_first` | Inspection before paying | Ad invites a viewing or inspection; agent listings with "Book inspection". Video only = ⚠️ |
+| `boarding_register` | Boarding house registered | If 5 or more people pay to live there (not counting the owner, manager or their relatives), the address must be on the NSW register: on it ✅; clearly 5+ paying and the address checked and absent ❌; 5+ bedrooms or people but no address ⚠️; fewer than 5 ➖; size unknown ❔ |
+| `sublet_consent` | Landlord consent for a sublet | Only for sublets: ❔ unless the ad shows written consent; otherwise ➖ |
 
-- `docs/data/accommodation.json` (commit + push).
-- Google Sheet tab **Accommodation** with Status dropdown (new, enquired, inspected, rejected, signed), plus Bills included, Bills extra (you pay), Bills not mentioned, Bills not included (one ARRAYFORMULA in its header cell, J1, built from the bill columns: never write values under it), Contract length, Contract group, Longest stay allowed, Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), NSW renting rules, In default view, Contact via, Contact name, Phone and Email columns. The Sheet's filter hides rows where In default view is `no`. Write cells with the values API (`update_values`): a `repeatCell` batch skips rows the filter hides. Never overwrite a Status Chaitanya set.
-- Run summary: new trusted and safe rooms, best 5 (with contract length and which bills are included), how many women-only rooms are hidden, sources not checked. Rooms that are not trusted and safe are left out of the summary.
+Limits and sources live in the site's ⓘ guide (`RENT_GUIDE` in `docs/app.js`); update it when a rule changes.
 
-Never pay, apply, book an inspection or message anyone.
+## 5. Ranking (default)
+
+1. Known lease length before unknown (unknown lengths always last, in every sort)
+2. Most bills included (4 of 4 first)
+3. Walkable to UNSW
+4. Cheapest rent plus estimated missing bills
+5. Earliest suitable move-in
+
+## 6. What the radar site shows (`docs/app.js`)
+
+- **Page:** heading with an **ⓘ button** that opens and closes the NSW renting rules guide (remembered per browser); lede; sources table.
+- **Default view:** trusted and safe rooms only; women-only hidden; Long stays filter at 6 months, which also keeps rooms of unknown length (listed last).
+- **Card facts, in order:** Rent · Bond · With bills (rent plus ⚠️ estimate) · Bills (N of 4, each ✅ ❌ ❔) · Bills not included (you pay, not stated, estimate) · Renting rules (✅ ❌ ❔ ⚠️ counts) · Longest stay (♾️ no maximum, up to N months or years, or ❔ Unknown length) · Contract (summary and the listing's wording, or "❔ Lease of unknown length: ask") · Distance · Room · Furnished · Own bathroom · Laundry · Who can apply · Contact · Source.
+- **Flags box:** every scam flag with its reason.
+- **Chips:** risk, trusted source, women only, all bills included, "Breaks N renting rules", short stay, flexible contract, long stay OK or 1 year+, stay 6 months+, "Lease length unknown", washing machine, walkable, who can apply.
+- **More details:** NSW renting rules table (all 12 rules with reasons) · Bills not included · Bills included or extra · Contract length and longest stay · Laundry · How to contact · About the lister · Safety checks · About the place · Household · Questions to ask · Enquiry draft (copy button) · Notes.
+- **Filters:** NSW renting rules · Flags · Women-only rooms · Risk · Source trust · Rent at most · Bills included count · These bills must be included · Suburb · Room type · Available from · Contract length (Unknown length is its own group) · Long stays (3 months, 6 months, 10 months or 3 terms, 1 year, 2 years) · I want to stay for (months, Term 1 2027, Terms 1 and 2, all 3 terms of 2027, 1 year, 18 months, 2 years) · Rooms with a lease of unknown length (show at the bottom or hide) · Bills not included · Who can apply · Furnished · Own bathroom · Washing machine · Walkable.
+- **Sorts:** bills then cheapest (default) · cheapest · closest · earliest move-in · longest stay first · shortest contract first · lowest risk · newest. Unknown lengths go last in each.
+
+## 7. Outputs
+
+- `docs/data/accommodation.json`: validate with `python3 -m json.tool`, one commit per run (`data(accommodation-scout): YYYY-MM-DD run, N new, M closed`), push. Site code changes: `site: ...`; skill and docs: `docs(accommodation-scout): ...` plus a `decisions/DECISION_LOG.md` line.
+- **Google Sheet tab Accommodation** (one row per room, matched by ID in the last column, Status in column A, never overwrite a Status Chaitanya set). Columns: Status, Listing, Suburb, Rent $/wk, Bills included (of 4), Bills included, Bills extra (you pay), Bills not mentioned, Est. extra bills $/wk, **Bills not included** (one ARRAYFORMULA in J1 built from the bill columns: never write values under it), Km, Transit min, Walkable, Room, Available from, Lease, Contract length, Contract group, **Longest stay allowed** ("Unknown length (the ad does not say)" when unknown), Furnished, Own bathroom, Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), **NSW renting rules** (counts, then which rules break, need checking and are followed), In default view, Contact via, Contact name, Phone, Email, Link, Source, First seen, Closed, Checked, ID. In default view is `no` for closed, untrusted, women-only and short-stay rooms (longest stay under 6 months); unknown lengths stay `yes`. Write cells with `update_values`: a `repeatCell` batch skips rows the Sheet's filter hides. Write dates and phone numbers with a leading apostrophe.
+- **Run summary:** new trusted long-stay rooms; the best 5 (rent, contract and longest stay, bills not included, rules broken); rooms that break a renting rule; rooms closed and why; how many women-only and short-stay rooms are hidden; sources not checked and why. Leave out rooms that are not trusted and safe.
