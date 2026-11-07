@@ -165,6 +165,60 @@ const notIncludedLine = it => {
   return [ex.length ? `<span class="b-ex">❌ You pay: ${esc(ex.join(', '))}</span>` : '', nm.length ? `<span class="b-nm">❔ Not stated (ask): ${esc(nm.join(', '))}</span>` : '']
     .filter(Boolean).join('<br>') + (est ? `<br><span class="muted">≈ ${money(est)}/wk extra ⚠️ estimate</span>` : '');
 };
+/* NSW renting rules: the per-room check (it.rules_check, written by the scout) and the guide behind the ⓘ button */
+const RULES = [
+  ['status', 'Your legal status is clear'], ['bond_cap', 'Bond within the legal limit'], ['bond_lodged', 'Bond lodged with NSW Fair Trading'],
+  ['rent_advance', 'Rent in advance 2 weeks or less'], ['holding_fee', 'Holding fee 1 week or less, after approval'], ['no_banned_fees', 'No banned fees'],
+  ['written_agreement', 'Written agreement'], ['condition_report', 'Condition report'], ['receipts', 'Receipts or fee-free payment'],
+  ['inspect_first', 'Inspection before paying'], ['boarding_register', 'Boarding house registered (5+ residents)'], ['sublet_consent', 'Landlord consent for a sublet']
+];
+const RULE_STATE = { follows: ['✅', 'Follows'], breaks: ['❌', 'Does not follow'], not_mentioned: ['❔', 'Not mentioned'], check: ['⚠️', 'Depends: check'], na: ['➖', 'Does not apply'] };
+const rulesOf = it => it.rules_check || null;
+const rulesCount = (it, st) => { const r = rulesOf(it); return r ? Object.values(r).filter(v => v.s === st).length : 0; };
+const rulesLine = it => {
+  const r = rulesOf(it); if (!r) return '<span class="muted">not checked yet</span>';
+  return ['follows', 'breaks', 'not_mentioned', 'check'].map(st => `<span class="rl-${st}" title="${esc(RULE_STATE[st][1])}">${RULE_STATE[st][0]} ${rulesCount(it, st)}</span>`).join(' <span class="muted">·</span> ');
+};
+const RENT_GUIDE = `
+<p class="muted">NSW rules for renting a room, checked 7 Nov 2026 against official NSW pages. General information, not legal advice. The ✅ ❌ ❔ ⚠️ marks on each room come from reading its listing.</p>
+<h3>0. First, find out what you are</h3>
+<table class="rg"><thead><tr><th>You are a…</th><th>What it means</th><th>Covered by tenancy law?</th></tr></thead><tbody>
+<tr><td>Co-tenant</td><td>Your name is on the main lease</td><td>✅ Yes</td></tr>
+<tr><td>Sub-tenant</td><td>A tenant on the lease rents you a room under a separate written agreement</td><td>✅ Yes, if the landlord gave written permission to sublet</td></tr>
+<tr><td>Lodger or boarder</td><td>You rent a room from someone who lives there and controls the home</td><td>❌ No (<a href="https://www.nsw.gov.au/housing-and-construction/rules/application-of-residential-tenancy-laws" target="_blank" rel="noopener">NSW Gov</a>)</td></tr>
+<tr><td>Boarding house resident</td><td>5 or more paying residents (not counting the owner, manager or their relatives)</td><td>Boarding Houses Act 2012 (different rules)</td></tr>
+</tbody></table>
+<p>Ask every lister: "Am I a co-tenant, a sub-tenant or a lodger, and does the landlord know about me in writing?"</p>
+<h3>1. Money</h3>
+<ul>
+<li><b>Bond:</b> at most 4 weeks' rent, lodged with NSW Fair Trading within 10 days. A head tenant must not keep it in their own account. Pay it through <a href="https://www.nsw.gov.au/housing-and-construction/renting-a-place-to-live/residential-rental-bonds/rental-bonds-online-for-tenants" target="_blank" rel="noopener">Rental Bonds Online</a>: Fair Trading emails and texts you a receipt.</li>
+<li><b>Rent in advance:</b> at most 2 weeks.</li>
+<li><b>Holding fee:</b> at most 1 week, only after your application is approved; it goes towards rent and they can't sign anyone else for 7 days.</li>
+<li><b>Banned fees:</b> background checks, viewing the place, preparing the lease, the first set of keys, a pet bond.</li>
+<li><b>Fee-free payment:</b> they must offer at least one way to pay rent with no extra charge.</li>
+<li><b>Boarding house:</b> security deposit at most 2 weeks, refunded within 14 days of leaving.</li>
+<li><b>Lodgers:</b> the landlord doesn't have to lodge your bond, so always get a written receipt.</li>
+</ul>
+<h3>2. Paperwork</h3>
+<ul>
+<li>A <b>written agreement</b> (UNSW says no contract is a warning sign) and the tenant information statement.</li>
+<li>A <b>condition report</b>: fill it in and return it within 7 days of moving in, with date-stamped photos.</li>
+<li><b>Receipts</b> for every payment (bank transfer records count).</li>
+<li><b>Inspect in person before paying anything.</b></li>
+</ul>
+<h3>3. While you live there</h3>
+<ul>
+<li>Rent can rise at most once every 12 months, never in the first 12 months, with 60 days' written notice.</li>
+<li>Since 19 May 2025 a landlord needs a valid reason to end a lease (tenants and sub-tenants, not lodgers).</li>
+<li>Urgent repairs up to $1,000 can be arranged by you if the landlord doesn't act; keep receipts.</li>
+</ul>
+<h3>4. Coming soon</h3>
+<ul><li>Smart Rental Bonds: move your bond to a new rental for $25 (all of NSW expected by end of 2026).</li>
+<li>Early 2027: no photos or social media on applications; ID only from the chosen applicant.</li></ul>
+<h3>Help</h3>
+<p>NSW Fair Trading 13 32 20 · <a href="https://www.unsw.edu.au/student/student-life/campus/accommodation/renting-tips" target="_blank" rel="noopener">UNSW renting tips and Off-Campus Accommodation Support</a> · <a href="https://www.tenants.org.au/factsheet-share-housing" target="_blank" rel="noopener">Tenants' Union: share housing</a> · <a href="https://applications.fairtrading.nsw.gov.au/accomregister/" target="_blank" rel="noopener">NSW boarding house register</a></p>
+<p class="muted">Sources: <a href="https://www.nsw.gov.au/housing-and-construction/rules/costs-at-start-of-a-residential-tenancy" target="_blank" rel="noopener">costs at the start of a tenancy</a> · <a href="https://www.nsw.gov.au/housing-and-construction/rules/sharing-a-residential-rental-property" target="_blank" rel="noopener">sharing a rental</a> · <a href="https://www.nsw.gov.au/housing-and-construction/renting-a-place-to-live/starting-a-residential-tenancy/signing-a-lease-and-moving" target="_blank" rel="noopener">signing a lease</a> · <a href="https://www.nsw.gov.au/housing-and-construction/community-living/boarding-houses/living-a-boarding-house" target="_blank" rel="noopener">living in a boarding house</a> · <a href="https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2010-042" target="_blank" rel="noopener">Residential Tenancies Act 2010</a> · <a href="https://legislation.nsw.gov.au/view/pdf/asmade/act-2012-74" target="_blank" rel="noopener">Boarding Houses Act 2012 s 5</a></p>`;
+let guideOpen = (() => { try { return localStorage.getItem('radar-rent-guide') === '1'; } catch (e) { return false; } })();
 const whoBucket = it => {
   const t = String(it.who_can_apply || '').trim();
   if (!t) return 'Not stated';
@@ -429,7 +483,8 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 28 Feb 2027. Long stays (6 months or more) are shown by default: change Long stays in Filters to see shorter ones. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
+    info: { label: 'NSW renting rules', html: () => RENT_GUIDE },
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 28 Feb 2027. Long stays (6 months or more) are shown by default: change Long stays in Filters to see shorter ones. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Each room is checked against the NSW renting rules (✅ follows, ❌ does not follow, ❔ not mentioned): tap ⓘ for the rules. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
     search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, contractOf(it).summary, contractOf(it).bucket, stayLabel(it), notIncluded(it).map(b => b + ' not included').join(' '), it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     include: isSafe,
@@ -461,6 +516,8 @@ const TABS = [
         test: (it, v) => fitsStay(it, v) },
       { type: 'select', key: 'nolen', label: 'Rooms that don\'t state a stay length', options: [['', 'Show them'], ['hide', 'Hide them']],
         test: (it, v) => v !== 'hide' || longestStay(it) != null },
+      { type: 'select', key: 'rules', label: 'NSW renting rules', options: [['', 'Any'], ['ok', 'Breaks no rule'], ['breaks', 'Breaks at least one rule'], ['followsmost', 'Follows 3 or more']],
+        test: (it, v) => v === 'ok' ? rulesCount(it, 'breaks') === 0 : v === 'breaks' ? rulesCount(it, 'breaks') > 0 : v === 'followsmost' ? rulesCount(it, 'follows') >= 3 : true },
       { type: 'multi', key: 'notinc', label: 'Bills not included (any ticked)', order: ['Electricity', 'Gas', 'Water', 'Internet', 'None (all included)'], get: it => { const n = notIncluded(it).map(titleCase); return n.length ? n : ['None (all included)']; } },
       { type: 'multi', key: 'who', label: 'Who can apply', get: whoBucket },
       { type: 'multi', key: 'furnished', label: 'Furnished', get: it => titleCase(it.furnished || 'unknown') },
@@ -503,6 +560,7 @@ const TABS = [
         ['With bills', t == null ? '' : `<span class="num">≈ ${money(t)}/wk</span>${num(it.bills_estimate_pw) ? ' <span class="muted">⚠️ est.</span>' : ''}`],
         ['Bills', `<span class="num">${billsCount(it)} of 4</span> included<br>${billsLine(it)}`],
         ['Bills not included', notIncludedLine(it)],
+        ['Renting rules', rulesLine(it)],
         ['Longest stay', esc(stayLabel(it))],
         ['Contract', `<b>${esc(contractOf(it).summary)}</b>${it.lease && it.lease !== contractOf(it).summary ? `<br><span class="muted">Listing says: ${esc(it.lease)}</span>` : ''}`],
         ['Distance', distanceText(it) + (it.walkable ? ' · walkable' : '')],
@@ -529,6 +587,7 @@ const TABS = [
       if (trustOf(it) === 'A') c.push(['Trusted source', 'good']);
       if (it.women_only) c.push([WOMEN_LABEL[it.women_only] || 'Women only', 'warn']);
       if (n === 4) c.push(['All bills included', 'good']);
+      if (rulesCount(it, 'breaks')) c.push([`Breaks ${rulesCount(it, 'breaks')} renting rule${rulesCount(it, 'breaks') > 1 ? 's' : ''}`, 'crit']);
       { const k = contractOf(it);
         if (k.bucket === 'Short stay (under 3 months)') c.push(['Short stay', 'warn']);
         else if (k.flexible) c.push(['Flexible contract', 'good']);
@@ -550,7 +609,10 @@ const TABS = [
         const icon = v === 'included' ? '✅' : v === 'excluded' ? '❌' : '❔';
         return `<div class="bill ${cls}"><span>${titleCase(b)}</span><b>${icon} ${esc(BILL_LABEL[v])}</b></div>`;
       }).join('');
-      let h = `<div><h4>Bills not included in the rent</h4><p>${notIncludedLine(it)}</p></div>`;
+      let h = '';
+      { const r = rulesOf(it);
+        if (r) h += `<div><h4>NSW renting rules: what this listing shows</h4><table class="rules"><tbody>${RULES.map(([k, label]) => { const v = r[k] || { s: 'not_mentioned', why: '' }; const [ic, word] = RULE_STATE[v.s] || RULE_STATE.not_mentioned; return `<tr class="r-${esc(v.s)}"><td>${ic}</td><th scope="row">${esc(label)}</th><td><b>${esc(word)}</b>${v.why ? `: ${esc(v.why)}` : ''}</td></tr>`; }).join('')}</tbody></table><p class="muted">❔ means the ad doesn't say: ask before you pay. Tap ⓘ next to the page heading for the full rules.</p></div>`; }
+      h += `<div><h4>Bills not included in the rent</h4><p>${notIncludedLine(it)}</p></div>`;
       h += `<div><h4>Bills: included or extra</h4><div class="bills">${bills}</div>${num(it.bills_estimate_pw) ? `<p class="muted">⚠️ Estimated extra for bills not included: ${money(num(it.bills_estimate_pw))}/wk</p>` : ''}${BILLS.some(b => billState(it, b) === 'not mentioned') ? '<p class="muted">❔ Not mentioned means the listing does not say: ask before you sign.</p>' : ''}</div>`;
       { const k = contractOf(it);
         h += `<div><h4>Contract length</h4><p><b>${esc(k.summary)}</b> <span class="muted">(${esc(k.bucket)})</span></p><p>Longest stay: ${esc(stayLabel(it))}${longestStay(it) === Infinity ? ' <span class="muted">(the ad gives a minimum but no end, so a long stay is possible: confirm it)</span>' : ''}</p>${it.lease ? `<p class="muted">Listing wording: <q>${esc(it.lease)}</q></p>` : ''}${k.note ? `<p>⚠️ ${esc(k.note)}</p>` : ''}</div>`; }
@@ -829,7 +891,8 @@ function renderSummary() {
   const upd = d.updated_at ? showWhen(d.updated_at) : 'not run yet';
   const srcRows = d.sources.map(x => `<tr><td class="num">${esc(x.rank ?? '')}</td><td>${esc(x.name)}</td><td>${x.result === 'checked' ? '✅ checked' : x.result === 'failed' ? '🚫 failed' : '⏸️ not checked'}</td><td class="num">${esc(x.found ?? '')}</td><td>${esc(x.note || '')}</td></tr>`).join('');
   $('#summary').innerHTML = `
-    <h1>${esc(tab.heading)}</h1>
+    <div class="head-row"><h1>${esc(tab.heading)}</h1>${tab.info ? `<button type="button" class="info-btn" data-info aria-expanded="${guideOpen}" aria-controls="info-panel" title="${esc(tab.info.label)}: click to ${guideOpen ? 'hide' : 'show'}" aria-label="${esc(tab.info.label)}">ⓘ</button>` : ''}</div>
+    ${tab.info && guideOpen ? `<section class="info-panel" id="info-panel" aria-label="${esc(tab.info.label)}"><h2>${esc(tab.info.label)}</h2>${tab.info.html()}</section>` : ''}
     <p class="lede">${esc(tab.lede)}</p>
     <div class="stats">
       <span><b>${open.length}</b> open</span>
@@ -1055,6 +1118,7 @@ document.addEventListener('click', e => {
     const s = cur(); s.f = { ...(TAB[state.tab].defaultF || {}) }; s.q = ''; s.nw = false; s.hc = true;
     $('#q').value = ''; refresh(); return;
   }
+  if (e.target.closest('[data-info]')) { guideOpen = !guideOpen; try { localStorage.setItem('radar-rent-guide', guideOpen ? '1' : '0'); } catch (err) { /* storage unavailable */ } renderSummary(); return; }
   if (e.target.closest('[data-fopen]')) { openFilters(); return; }
   if (e.target.closest('[data-fclose]')) { closeFilters(); return; }
   const un = e.target.closest('[data-unf]');

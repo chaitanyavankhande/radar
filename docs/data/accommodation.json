@@ -494,6 +494,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $390 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -748,6 +805,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $520 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -769,7 +883,7 @@
    "transit_min": 10,
    "walkable": true,
    "rent_pw": 275.0,
-   "bond": 1140.0,
+   "bond": 1100.0,
    "bills": {
     "electricity": "included",
     "gas": "included",
@@ -842,6 +956,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,100 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Says 'Minimum 6-month agreement'"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "6 bedrooms: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -1020,6 +1191,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $960 = 3.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "7-bedroom house with 7 people: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -1449,6 +1677,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "No bond asked"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -1543,6 +1828,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -1626,6 +1968,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $680 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "5 bedrooms: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -1913,6 +2312,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $480 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -2173,6 +2629,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $750 = 3.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "follows",
+     "why": "2 weeks' rent in advance (the limit)"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -2343,6 +2856,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -2607,6 +3177,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The owner lives there at least some of the time, so you may be a lodger (not covered by tenancy law): ask"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,200 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "6 bedrooms: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 2,
+    "na": 1
    }
   },
   {
@@ -2955,6 +3582,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $640 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -3059,6 +3743,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,200 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -3589,6 +4330,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $640 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -4029,6 +4827,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "at least 8 rooms (Room 5 and Room 8 advertised): if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -4118,6 +4973,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The owner lives there at least some of the time, so you may be a lodger (not covered by tenancy law): ask"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,050 = 3.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -4471,6 +5383,63 @@
     ],
     "estimate_pw": 8,
     "summary": "Not stated (ask): Internet (≈ $8/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $920 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -4556,6 +5525,63 @@
     ],
     "estimate_pw": 8,
     "summary": "Not stated (ask): Internet (≈ $8/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,140 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "5 bedrooms: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -4650,6 +5676,63 @@
     ],
     "estimate_pw": 10,
     "summary": "Not stated (ask): Electricity (≈ $10/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,360 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "breaks",
+     "why": "Listing says the deposit is 'self managed' (kept by the provider, not lodged with Fair Trading)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A contract is attached to the listing"
+    },
+    "condition_report": {
+     "s": "follows",
+     "why": "A condition report is attached to the listing"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Listing says 'receipt provided'"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 4,
+    "breaks": 1,
+    "not_mentioned": 5,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -4819,6 +5902,63 @@
     ],
     "estimate_pw": 0,
     "summary": "Not stated (ask): Gas"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Homestay lodger in the host's home: tenancy law does not cover you"
+    },
+    "bond_cap": {
+     "s": "na",
+     "why": "No bond"
+    },
+    "bond_lodged": {
+     "s": "na",
+     "why": "No bond; AHN invoices 4 weeks at a time"
+    },
+    "rent_advance": {
+     "s": "check",
+     "why": "Invoiced 4 weeks ahead: more than the 2-week tenancy limit, but homestay lodgers aren't covered by it"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "check",
+     "why": "$370 non-refundable matching fee: homestay isn't a tenancy, so the fee ban may not apply"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Invoiced; pay by direct deposit, card, PayPal or AliPay"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 4,
+    "check": 2,
+    "na": 4
    }
   },
   {
@@ -5002,6 +6142,63 @@
     ],
     "estimate_pw": 3,
     "summary": "Not stated (ask): Water (≈ $3/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Boarding house resident: the Boarding Houses Act applies"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $350 = 1.0 weeks (limit 2 weeks)"
+    },
+    "bond_lodged": {
+     "s": "na",
+     "why": "Boarding house: the operator holds the deposit and must refund it within 14 days of leaving"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A 'Myola Guest Agreement' is attached"
+    },
+    "condition_report": {
+     "s": "follows",
+     "why": "A condition report is attached to the listing"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Listing says 'receipt provided'"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "follows",
+     "why": "On the NSW boarding house register"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 6,
+    "breaks": 0,
+    "not_mentioned": 4,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -5088,6 +6285,63 @@
     ],
     "estimate_pw": 17,
     "summary": "Not stated (ask): Electricity, Gas (≈ $17/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -5172,6 +6426,63 @@
     ],
     "estimate_pw": 5,
     "summary": "Not stated (ask): Gas, Water (≈ $5/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -5441,6 +6752,63 @@
     ],
     "estimate_pw": 17,
     "summary": "Not stated (ask): Electricity, Gas (≈ $17/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -5526,6 +6894,63 @@
     ],
     "estimate_pw": 17,
     "summary": "Not stated (ask): Electricity, Gas, Water (≈ $17/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -5965,6 +7390,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Resident under a Campus Living Villages 'Residential Agreement'"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "4 weeks' security deposit (the limit)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "check",
+     "why": "$55 application fee and a $116 to $210 yearly cleaning fee: application fees are banned for tenancies, so ask whether this agreement is under the Residential Tenancies Act"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "You sign a 'Residential Agreement'"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Rent by direct debit"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 4,
+    "breaks": 0,
+    "not_mentioned": 6,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -6448,6 +7930,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: Down Under Stay rents the house and sublets rooms (its ads call residents 'subtenants')"
+    },
+    "bond_cap": {
+     "s": "check",
+     "why": "3 weeks' rent deposit: within the 4-week tenancy limit, but over the 2-week boarding-house limit if it counts as one"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "check",
+     "why": "Cleaning and gardening costs are shared on top of rent: ask the weekly amount"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Down Under Stay emails a proposal to sign before you pay"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Down Under Stay shows the room before you apply ('Book an Inspection')"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "9 or more residents, so it must be registered; the exact address is only given on application, so check it then"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask Down Under Stay for the owner's written consent to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 6,
+    "check": 3,
+    "na": 0
    }
   },
   {
@@ -6832,6 +8371,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: Down Under Stay rents the house and sublets rooms (its ads call residents 'subtenants')"
+    },
+    "bond_cap": {
+     "s": "check",
+     "why": "3 weeks' rent deposit: within the 4-week tenancy limit, but over the 2-week boarding-house limit if it counts as one"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Down Under Stay emails a proposal to sign before you pay"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Down Under Stay shows the room before you apply ('Book an Inspection')"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "9 or more residents, so it must be registered; the exact address is only given on application, so check it then"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask Down Under Stay for the owner's written consent to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 2,
+    "na": 0
    }
   },
   {
@@ -6924,6 +8520,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: Down Under Stay rents the house and sublets rooms (its ads call residents 'subtenants')"
+    },
+    "bond_cap": {
+     "s": "check",
+     "why": "3 weeks' rent deposit: within the 4-week tenancy limit, but over the 2-week boarding-house limit if it counts as one"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Down Under Stay emails a proposal to sign before you pay"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Down Under Stay shows the room before you apply ('Book an Inspection')"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "9 or more residents, so it must be registered; the exact address is only given on application, so check it then"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask Down Under Stay for the owner's written consent to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 2,
+    "na": 0
    }
   },
   {
@@ -7022,6 +8675,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -7119,6 +8829,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -7206,6 +8973,63 @@
     ],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Internet · Not stated (ask): Water (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -7382,6 +9206,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Boarding house resident: the Boarding Houses Act applies"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "na",
+     "why": "Boarding house: the operator holds the deposit and must refund it within 14 days of leaving"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Agent listing: request an inspection on realestate.com.au or Domain"
+    },
+    "boarding_register": {
+     "s": "follows",
+     "why": "On the NSW boarding house register"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -7480,6 +9361,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -7567,6 +9505,63 @@
     ],
     "estimate_pw": 18,
     "summary": "Not stated (ask): Electricity, Gas, Water (≈ $18/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,360 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -7665,6 +9660,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -7769,6 +9821,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "6 bedrooms: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -7861,6 +9970,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: Down Under Stay rents the house and sublets rooms (its ads call residents 'subtenants')"
+    },
+    "bond_cap": {
+     "s": "breaks",
+     "why": "3 weeks' rent deposit; a house with 5 or more paying residents is a boarding house, where the limit is 2 weeks"
+    },
+    "bond_lodged": {
+     "s": "na",
+     "why": "Boarding house: the operator holds the deposit and must refund it within 14 days of leaving"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Down Under Stay emails a proposal to sign before you pay"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Down Under Stay shows the room before you apply ('Book an Inspection')"
+    },
+    "boarding_register": {
+     "s": "breaks",
+     "why": "About 10 paying residents in a 6-bedroom house, but no Boyce Rd address is on the NSW boarding house register"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask Down Under Stay for the owner's written consent to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 2,
+    "not_mentioned": 6,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -8049,6 +10215,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -8149,6 +10372,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "You'd apply through the agent (ID, bank statement, payslips), so you may join the lease as a co-tenant: confirm"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $864 = 2.7 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Application goes through the agent"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -8509,6 +10789,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -8603,6 +10940,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $800 = 2.3 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -8692,6 +11086,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Tenant: the whole studio is leased through a licensed agent"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Agent listing: request an inspection on realestate.com.au or Domain"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -8796,6 +11247,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -8988,7 +11496,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Bills included: electricity, water, gas, internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 5, 3, 5 (bedrooms, bathrooms, people). 26 Oct: rent changed from $330 to $370. 26 Oct: rent is now $370/wk, over the $350 cap. 27 Oct: reopened. The listing page (read 27 Oct) shows two rooms: Room 1 $370 (over cap) and Room 2 $330/wk, bond $660, bills included (electricity, water, gas, internet), double bed, desk, 3 to 12 months, available now. Rent set to Room 2's $330. The description still mentions a $15/wk cleaning fee and says 'Only one room available': confirm which room is free. 4 Nov: rent is now $395/wk, over the $350 cap. 6 Nov: reopened. Room 2 is $330/wk with all four bills, available now (Room 1 is $395, over the cap).",
+   "notes": "Bills included: electricity, water, gas, internet. Available now: ask if it can be held until late Dec 2026 or Jan 2027. Listing icons: 5, 3, 5 (bedrooms, bathrooms, people). 26 Oct: rent changed from $330 to $370. 26 Oct: rent is now $370/wk, over the $350 cap. 27 Oct: reopened. The listing page (read 27 Oct) shows two rooms: Room 1 $370 (over cap) and Room 2 $330/wk, bond $660, bills included (electricity, water, gas, internet), double bed, desk, 3 to 12 months, available now. Rent set to Room 2's $330. The description still mentions a $15/wk cleaning fee and says 'Only one room available': confirm which room is free. 4 Nov: rent is now $395/wk, over the $350 cap. 6 Nov: reopened. Room 2 is $330/wk with all four bills, available now (Room 1 is $395, over the cap). 7 Nov: the ad adds a $15/wk cleaning fee on top of rent; Room 1 is now $395 from 15 Dec (over the cap), Room 2 still $330 now.",
    "suburb": "Kensington",
    "distance_km": 1.0,
    "transit_min": 8,
@@ -9068,6 +11576,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $660 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "check",
+     "why": "$15/wk cleaning fee on top of rent: not a banned start-up fee, but get it in the written agreement"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "5 rooms; the address (Samuel Terry Ave) is not on the NSW register: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 2,
+    "na": 1
    }
   },
   {
@@ -9601,6 +12166,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -10520,6 +13142,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $660 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Says 'Lease agreement'"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -10533,9 +13212,9 @@
    "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "Internet included; other bills not. ⚠️ estimate: about $25/wk for the rest. Bond $1,400 (4 weeks, at the NSW limit). Available 8 Feb 2027: end of the window. 23 Oct: Now shows available now. 27 Oct: still in the Flatmates max-350 results. 4 Nov: listing now says available now (no longer 8 Feb 2027), $350/wk, bond $1,400, bills not included. 6 Nov: stay now 3 to 12 months (was 6 to 12). Fast NBN Wi-Fi is included per the ad; electricity, gas and water are extra.",
+   "notes": "Internet included; other bills not. ⚠️ estimate: about $25/wk for the rest. Bond $1,400 (4 weeks, at the NSW limit). Available 8 Feb 2027: end of the window. 23 Oct: Now shows available now. 27 Oct: still in the Flatmates max-350 results. 4 Nov: listing now says available now (no longer 8 Feb 2027), $350/wk, bond $1,400, bills not included. 6 Nov: stay now 3 to 12 months (was 6 to 12). Fast NBN Wi-Fi is included per the ad; electricity, gas and water are extra. 7 Nov 12:20: closed. The ad now says the rooms are taken; Room 1 is $365/wk from 1 Feb 2027 and the main room $435 from 7 Mar 2027, both over the $350 cap.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -10800,6 +13479,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -10901,6 +13637,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $945 = 3.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -11190,6 +13983,63 @@
     ],
     "estimate_pw": 3,
     "summary": "Not stated (ask): Water (≈ $3/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "follows",
+     "why": "Listing says 'Bond (lodged with RBO)'"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A tenancy agreement is attached"
+    },
+    "condition_report": {
+     "s": "follows",
+     "why": "A condition report is attached to the listing"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Bond goes through Rental Bonds Online, which issues the receipt"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 5,
+    "breaks": 0,
+    "not_mentioned": 5,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -11365,6 +14215,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -11458,6 +14365,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "Rooms let by a licensed agent: ask if it's a room tenancy or a boarding house"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,000 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Agent listing: request an inspection on realestate.com.au or Domain"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -11551,6 +14515,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "Rooms let by a licensed agent: ask if it's a room tenancy or a boarding house"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,080 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Agent listing: request an inspection on realestate.com.au or Domain"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -11644,6 +14665,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "Rooms let by a licensed agent: ask if it's a room tenancy or a boarding house"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,280 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Agent listing: request an inspection on realestate.com.au or Domain"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -11746,6 +14824,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $460 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -11853,6 +14988,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,080 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -11949,6 +15141,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -12045,6 +15294,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -12403,6 +15709,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $540 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "breaks",
+     "why": "Listing says the deposit is 'self managed' (kept by the provider, not lodged with Fair Trading)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A contract is attached"
+    },
+    "condition_report": {
+     "s": "follows",
+     "why": "A condition report is attached to the listing"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Listing says 'receipt provided'"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 4,
+    "breaks": 1,
+    "not_mentioned": 5,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -12678,6 +16041,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The owner lives there at least some of the time, so you may be a lodger (not covered by tenancy law): ask"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -12942,6 +16362,63 @@
     ],
     "estimate_pw": 15,
     "summary": "Not stated (ask): Electricity, Gas (≈ $15/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,000 = 2.9 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "check",
+     "why": "Offers a video of the rooms: insist on seeing it in person before paying"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -13212,6 +16689,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -13295,6 +16829,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -13389,6 +16980,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,300 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "check",
+     "why": "Extra charge for air-conditioning and heater use: ask how much and get it in writing"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -13875,6 +17523,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -13977,6 +17682,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14074,6 +17836,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14181,6 +18000,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14288,6 +18164,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14385,6 +18318,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14487,6 +18477,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14583,6 +18630,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14690,6 +18794,63 @@
     ],
     "estimate_pw": 28,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $28/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14883,6 +19044,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,060 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -14979,6 +19197,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,280 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15068,6 +19343,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $640 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Says 'Long-term lease preferred'"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15358,6 +19690,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15460,6 +19849,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15557,6 +20003,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15659,6 +20162,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15756,6 +20316,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: Down Under Stay rents the house and sublets rooms (its ads call residents 'subtenants')"
+    },
+    "bond_cap": {
+     "s": "breaks",
+     "why": "3 weeks' rent deposit; a house with 5 or more paying residents is a boarding house, where the limit is 2 weeks"
+    },
+    "bond_lodged": {
+     "s": "na",
+     "why": "Boarding house: the operator holds the deposit and must refund it within 14 days of leaving"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Down Under Stay emails a proposal to sign before you pay"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Down Under Stay shows the room before you apply ('Book an Inspection')"
+    },
+    "boarding_register": {
+     "s": "breaks",
+     "why": "About 10 paying residents in a 6-bedroom house, but no Boyce Rd address is on the NSW boarding house register"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask Down Under Stay for the owner's written consent to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 2,
+    "not_mentioned": 6,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -15947,6 +20564,63 @@
     ],
     "estimate_pw": 20.0,
     "summary": "You pay: Water · Not stated (ask): Gas (≈ $20/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Gives a fixed lease period"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Says 'Viewings available anytime'"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "5 bedrooms, run by a room operator; 205 Botany St is not on the NSW register: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -16041,6 +20715,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $640 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Gives lease details (bond, minimum stay)"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -16224,6 +20955,63 @@
     "not_mentioned": [],
     "estimate_pw": 50.0,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $50/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: Down Under Stay rents the house and sublets rooms (its ads call residents 'subtenants')"
+    },
+    "bond_cap": {
+     "s": "breaks",
+     "why": "3 weeks' rent deposit; a house with 5 or more paying residents is a boarding house, where the limit is 2 weeks"
+    },
+    "bond_lodged": {
+     "s": "na",
+     "why": "Boarding house: the operator holds the deposit and must refund it within 14 days of leaving"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "check",
+     "why": "Cleaning and gardening costs are shared on top of rent: ask the weekly amount"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Down Under Stay emails a proposal to sign before you pay"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Down Under Stay shows the room before you apply ('Book an Inspection')"
+    },
+    "boarding_register": {
+     "s": "breaks",
+     "why": "About 10 paying residents in a 6-bedroom house, but no Boyce Rd address is on the NSW boarding house register"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask Down Under Stay for the owner's written consent to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 2,
+    "not_mentioned": 5,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -16317,6 +21105,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Lodger: the landlord lives in the house, so tenancy law does not cover you"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "A tenant is subletting her room in the landlord's home: ask if the landlord agreed"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -16418,6 +21263,63 @@
     ],
     "estimate_pw": 20,
     "summary": "Not stated (ask): Electricity, Gas, Water (≈ $20/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: the ad is classed 'Sub-let or Transfer'"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "breaks",
+     "why": "Sub-let with a 'self managed' deposit: the head tenant must lodge it with Fair Trading within 10 days"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A 'New Occupancy Agreement' is attached"
+    },
+    "condition_report": {
+     "s": "follows",
+     "why": "A condition report is attached to the listing"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Listing says 'receipt provided'"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Sub-let: ask to see the landlord's written permission"
+    }
+   },
+   "rules_summary": {
+    "follows": 5,
+    "breaks": 1,
+    "not_mentioned": 5,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -16510,6 +21412,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -16796,6 +21755,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -16995,6 +22011,63 @@
     "not_mentioned": [],
     "estimate_pw": 21,
     "summary": "You pay: Electricity, Gas, Internet (≈ $21/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,200 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Gives a fixed lease period"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Says 'Viewings available anytime'"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -17107,6 +22180,63 @@
     "not_mentioned": [],
     "estimate_pw": 21,
     "summary": "You pay: Electricity, Gas, Internet (≈ $21/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $800 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Gives a fixed lease period"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Says 'Viewings available anytime'"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -17201,6 +22331,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -17299,6 +22486,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Gives a fixed lease period"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Says 'Viewings available anytime'"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -17391,6 +22635,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $840 = 3.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Gives a fixed lease period"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Says 'Viewings available anytime'"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -17548,6 +22849,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: the person on the lease is subletting or handing over the room"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask to see the landlord's written permission to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 0
    }
   },
   {
@@ -17638,6 +22996,63 @@
     ],
     "estimate_pw": 10,
     "summary": "You pay: Electricity · Not stated (ask): Gas (≈ $10/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -17713,6 +23128,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -17902,6 +23374,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $460 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -17999,6 +23528,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,134 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -18101,6 +23687,63 @@
     ],
     "estimate_pw": 25,
     "summary": "Not stated (ask): Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -18202,6 +23845,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -18374,6 +24074,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "Says '6-month lease minimum'"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -18477,6 +24234,63 @@
     "not_mentioned": [],
     "estimate_pw": 26,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $26/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -18561,6 +24375,63 @@
     ],
     "estimate_pw": 6,
     "summary": "Not stated (ask): Internet (≈ $6/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "breaks",
+     "why": "Bond $1,500 = 4.3 weeks, over the 4-week limit"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 1,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -18792,6 +24663,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 11,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -18885,6 +24813,63 @@
     ],
     "estimate_pw": 20,
     "summary": "Not stated (ask): Electricity, Gas, Water (≈ $20/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $580 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "you would share with 5 people: if 5 or more people pay to live there it must be on the NSW register. Ask for the address and check"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -18973,6 +24958,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,400 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -19064,6 +25106,63 @@
     ],
     "estimate_pw": 8,
     "summary": "Not stated (ask): Gas (≈ $8/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -19156,6 +25255,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "follows",
+     "why": "1 week's rent up front"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 7,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -19244,6 +25400,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,280 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -19343,6 +25556,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 0,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -19436,6 +25706,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: the person on the lease is subletting or handing over the room"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask to see the landlord's written permission to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -19534,6 +25861,63 @@
     ],
     "estimate_pw": 20,
     "summary": "Not stated (ask): Electricity, Gas, Water (≈ $20/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "not_mentioned",
+     "why": "Bond amount not given"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "The ad invites you to inspect or view first"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 9,
+    "check": 0,
+    "na": 2
    }
   },
   {
@@ -19633,15 +26017,15 @@
    "last_seen_at": "2026-11-07",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
-   "notes": "4 Nov: closed on arrival: short stay only (30 Nov 2026 to 29 Jan 2027, a sublet of the lister's room), breaks the no-short-stays rule. 6 Nov: reopened. Private room 30 Nov 2026 to 29 Jan 2027, all bills included, female preferred.",
+   "notes": "4 Nov: closed on arrival: short stay only (30 Nov 2026 to 29 Jan 2027, a sublet of the lister's room), breaks the no-short-stays rule. 6 Nov: reopened. Private room 30 Nov 2026 to 29 Jan 2027, all bills included, female preferred. 7 Nov 12:20: closed. The page now says $370/wk (over the $350 cap), bond $1,400.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
    "walkable": true,
-   "rent_pw": 350,
-   "bond": 1050,
+   "rent_pw": 370.0,
+   "bond": 1400.0,
    "bills": {
     "electricity": "included",
     "gas": "included",
@@ -19793,6 +26177,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: the person on the lease is subletting or handing over the room"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $520 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask to see the landlord's written permission to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 2,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 0
    }
   },
   {
@@ -19885,6 +26326,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: the person on the lease is subletting or handing over the room"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,300 = 4.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "follows",
+     "why": "Wants to meet you a few times before you move in"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Ask to see the landlord's written permission to sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 3,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -20060,6 +26558,63 @@
     ],
     "estimate_pw": 13,
     "summary": "Not stated (ask): Gas, Water (≈ $13/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Boarding house resident: the Boarding Houses Act applies"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $680 = 2.0 weeks (limit 2 weeks)"
+    },
+    "bond_lodged": {
+     "s": "follows",
+     "why": "Listing says 'Bond (lodged with RBO)'"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A boarding house agreement is attached"
+    },
+    "condition_report": {
+     "s": "check",
+     "why": "The file labelled 'Condition report' looks like an onboarding letter: ask for a real one"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Bond goes through Rental Bonds Online, which issues the receipt"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "follows",
+     "why": "On the NSW boarding house register"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 6,
+    "breaks": 0,
+    "not_mentioned": 4,
+    "check": 1,
+    "na": 1
    }
   },
   {
@@ -20243,6 +26798,63 @@
     "not_mentioned": [],
     "estimate_pw": null,
     "summary": "None: all 4 bills are included"
+   },
+   "rules_check": {
+    "status": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say if you'd be a co-tenant, a sub-tenant or a lodger"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,200 = 3.4 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "not_mentioned",
+     "why": "House size not given: ask how many people live there"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 10,
+    "check": 0,
+    "na": 1
    }
   },
   {
@@ -20420,6 +27032,63 @@
     "not_mentioned": [],
     "estimate_pw": 25,
     "summary": "You pay: Electricity, Gas, Water, Internet (≈ $25/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The lister lives there: ask if they own it (you'd be a lodger) or rent it (you'd be a sub-tenant, which needs the landlord's consent)"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $1,100 = 3.7 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to NSW Fair Trading (Rental Bonds Online)"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 1,
+    "na": 2
    }
   },
   {
@@ -20513,6 +27182,63 @@
     ],
     "estimate_pw": 15,
     "summary": "You pay: Electricity, Internet · Not stated (ask): Gas, Water (≈ $15/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "follows",
+     "why": "Sub-tenant: the ad is classed 'Sub-let or Transfer'"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $150 = 0.6 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "breaks",
+     "why": "Sub-let with a 'self managed' deposit: the head tenant must lodge it with Fair Trading within 10 days"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "follows",
+     "why": "A contract is attached"
+    },
+    "condition_report": {
+     "s": "follows",
+     "why": "A condition report is attached to the listing"
+    },
+    "receipts": {
+     "s": "follows",
+     "why": "Listing says 'receipt provided'"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "na",
+     "why": "Fewer than 5 residents, so no registration needed"
+    },
+    "sublet_consent": {
+     "s": "not_mentioned",
+     "why": "Sub-let: ask to see the landlord's written permission"
+    }
+   },
+   "rules_summary": {
+    "follows": 5,
+    "breaks": 1,
+    "not_mentioned": 5,
+    "check": 0,
+    "na": 1
    }
   }
  ],
@@ -20520,5 +27246,6 @@
   "from": "2026-11-07",
   "to": "2027-02-28",
   "long_stay_months": 6
- }
+ },
+ "rules_checked_at": "2026-11-07"
 }

@@ -310,3 +310,35 @@ details.info summary { display: inline-flex; align-items: center; justify-conten
 details.info summary::-webkit-details-marker { display: none; }
 details.info[open] p { margin: 6px 0 0; padding: 8px 10px; background: var(--accent-soft); border-radius: var(--r); font-size: var(--step--1); color: var(--ink); }
 .fact:has(.leg) { grid-column: 1 / -1; }
+
+/* renting rules: info button, guide panel, per-room table */
+.head-row { display: flex; align-items: center; gap: 10px; }
+.info-btn { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--accent); font-size: 18px; line-height: 1; cursor: pointer; display: inline-grid; place-items: center; flex: none; }
+.info-btn:hover, .info-btn[aria-expanded="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.info-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.info-panel { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 8px; max-width: 80ch; }
+.info-panel h2 { margin: 0; font-size: var(--step-1); }
+.info-panel h3 { margin: 6px 0 0; font-size: var(--step-0); }
+.info-panel p, .info-panel ul { margin: 0; }
+.info-panel ul { padding-left: 20px; display: grid; gap: 4px; }
+.info-panel a { color: var(--accent); }
+table.rg, table.rules { border-collapse: collapse; width: 100%; font-size: var(--step--1); }
+table.rg th, table.rg td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+table.rules th, table.rules td { border-bottom: 1px solid var(--line); padding: 5px 6px; text-align: left; vertical-align: top; }
+table.rules th { font-weight: 600; white-space: nowrap; }
+table.rules td:first-child { width: 1.6em; }
+table.rules tr.r-breaks b { color: var(--crit); }
+table.rules tr.r-follows b { color: var(--good); }
+table.rules tr.r-not_mentioned b, table.rules tr.r-check b { color: var(--warn); }
+table.rules tr.r-na { color: var(--ink-3); }
+.rl-breaks { color: var(--crit); font-weight: 700; }
+.rl-follows { color: var(--good); }
+@media (max-width: 560px) { table.rules th { white-space: normal; } .info-panel { padding: 12px; } }
+table.rules { table-layout: fixed; }
+table.rules th { width: 34%; }
+table.rules td:last-child { overflow-wrap: anywhere; }
+@media (max-width: 560px) { table.rules th { width: 38%; } }
+.card-title { min-width: 0; }
+.card-title h3 { overflow-wrap: anywhere; }
+.card { grid-template-columns: minmax(0, 1fr); }
+.chip { max-width: 100%; white-space: normal; }
