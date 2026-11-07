@@ -429,11 +429,11 @@ const TABS = [
   {
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 15 Feb 2027. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 28 Feb 2027. Long stays (6 months or more) are shown by default: change Long stays in Filters to see shorter ones. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
     search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, contractOf(it).summary, contractOf(it).bucket, stayLabel(it), notIncluded(it).map(b => b + ' not included').join(' '), it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     include: isSafe,
-    defaultF: { women: 'hide' },
+    defaultF: { women: 'hide', long: '6' },
     hiddenNote: (items, s) => {
       const out = [];
       const w = s.f.women || 'hide';

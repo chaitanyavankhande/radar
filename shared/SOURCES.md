@@ -131,7 +131,7 @@ Dropped: hackathon.com (no Sydney events), Kaggle (needs API key).
 
 ## 5. 🏠 `accommodation-scout`
 
-Room starting any time from now until 15 Feb 2027 (widened 6 Nov 2026), any contract length recorded per room · near UNSW Village · Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee · budget under $350/week (ideally under $300).
+Room starting any time from now until 28 Feb 2027 (widened 7 Nov 2026), long stays of 6 months or more first, contract length recorded per room · near UNSW Village · Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee · budget under $350/week (ideally under $300).
 
 | Rank | Tier | Source | Official link | Why this rank | Access | Status |
 |---|---|---|---|---|---|---|

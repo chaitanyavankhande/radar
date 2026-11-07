@@ -1,6 +1,6 @@
 ---
 name: accommodation-scout
-description: Daily scout for rooms near UNSW Village up to the rent cap, moving in any time from now until 15 Feb 2027. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
+description: Daily scout for rooms near UNSW Village up to the rent cap, moving in any time from now until 28 Feb 2027, long stays first. Ranks bills-included first, flags fraud and scam signs with reasons, hides women-only and untrusted rooms by default, records laundry and contacts, drafts enquiries. Updates radar site and Sheet.
 ---
 
 # 🏠 accommodation-scout
@@ -19,8 +19,8 @@ Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chai
 | Rent | **≤ $350 per week** (every room within budget is shown) |
 | Suburbs | Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee |
 | Room types | Private room in a share house · Shared (twin) room · Studio · Student building · UNSW Village 2027 · Homestay |
-| Move-in | Any start date from today until 15 Feb 2027 (widened 6 Nov 2026; was 10 Dec 2026 to early Feb 2027). Rooms that start after 15 Feb are closed |
-| Lease | Any length, recorded per room (`contract`) so the site's Contract length and "I want to stay for" filters can narrow it. Short stays are kept only when they last until at least mid January 2027 (14 Jan), so they can cover the gap after UNSW Village ends on 31 Dec |
+| Move-in | Any start date from today until 28 Feb 2027 (widened 7 Nov 2026; was 15 Feb 2027). Rooms that start after 28 Feb are closed |
+| Lease | **Long stays are the target (7 Nov 2026): a room that lets him stay 6 months or more** (`contract.longest_months` ≥ 6, or `open_ended`). The site shows only these by default (Long stays filter set to 6 months) and the Sheet's In default view is `no` for shorter ones. Shorter stays found by the normal searches stay in the data, kept only when they last until at least 14 Jan 2027, but get no ranking, enquiry draft or summary line. Rooms with no stated length are listed separately as "ask the length" |
 | Must-haves | None. Walking distance to UNSW ranks higher. |
 | Women-only rooms | Keep them in the data with `women_only` set, but they are **hidden by default** on the site and Sheet |
 | Trusted and safe only | A room counts only if its source is tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are **not considered at all**: no ranking, no enquiry draft, not in the run summary, never on the site, kept out of the Sheet view |

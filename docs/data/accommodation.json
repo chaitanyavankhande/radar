@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T12:30:00+11:00",
+ "updated_at": "2026-11-07T11:40:00+11:00",
  "previous_run_at": "2026-11-06T16:30:00+11:00",
  "sources": [
   {
@@ -7,7 +7,7 @@
    "rank": 1,
    "result": "checked",
    "found": 0,
-   "note": "7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
+   "note": "7 Nov 11:30 (Chrome): max-350 pages 1 to 7 and newest-first page 1 re-read for the long-stay window (now to 28 Feb 2027): no new listings. || 7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
   },
   {
    "name": "UNSW Study Stays",
@@ -196,7 +196,7 @@
    "rank": 21,
    "result": "checked",
    "found": 0,
-   "note": "7 Nov (Chrome): Randwick page 1 (12 listings): none at or under $350. Tracked 1198584 re-read ($350 singles, from 7 Nov, 3 months plus). || 6 Nov (Chrome): Coogee page 1 only (one page per run): 12 listings, none at or under $350. Tracked rooms 1198584 and 1571628 not re-read this run. || 6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
+   "note": "7 Nov 11:30 (Chrome): Kingsford and Kensington page 1: only 1179761 ($320, from 9 Nov, 1 month plus) at or under $350, the same room as Flatmates P1149222 (women only). || 7 Nov (Chrome): Randwick page 1 (12 listings): none at or under $350. Tracked 1198584 re-read ($350 singles, from 7 Nov, 3 months plus). || 6 Nov (Chrome): Coogee page 1 only (one page per run): 12 listings, none at or under $350. Tracked rooms 1198584 and 1571628 not re-read this run. || 6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
   },
   {
    "name": "Independent colleges on campus",
@@ -20511,7 +20511,8 @@
   }
  ],
  "move_in_window": {
-  "from": "2026-11-06",
-  "to": "2027-02-15"
+  "from": "2026-11-07",
+  "to": "2027-02-28",
+  "long_stay_months": 6
  }
 }
