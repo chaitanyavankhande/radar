@@ -131,11 +131,11 @@ Dropped: hackathon.com (no Sydney events), Kaggle (needs API key).
 
 ## 5. 🏠 `accommodation-scout`
 
-Room starting any time from now until 28 Feb 2027 (widened 7 Nov 2026), long stays of 6 months or more first, contract length recorded per room · near UNSW Village · Kensington, Kingsford, Eastlakes, Randwick, Maroubra, Coogee · budget under $350/week (ideally under $300).
+Room starting any time from now until 28 Feb 2027 (widened 7 Nov 2026), long stays of 6 months or more first, contract length recorded per room · within about 15 min of UNSW Village (widened 9 Nov 2026): Kensington, Kingsford, Randwick, Moore Park, Daceyville, Eastlakes, Zetland, Waterloo, Rosebery, Eastgardens, plus Coogee and Maroubra · budget under $350/week (ideally under $300).
 
 | Rank | Tier | Source | Official link | Why this rank | Access | Status |
 |---|---|---|---|---|---|---|
-| 1 | 🥇 P1 | Flatmates.com.au | https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+eastlakes-2018+randwick-2031+maroubra-2035+coogee-2034/max-350 | Most rooms in budget, shows available-from dates | 🖥️ Chrome (signed in) | ✅ Chrome works (18 Oct: 68 listings ≤ $350 across 6 suburbs); cloud fetch failed |
+| 1 | 🥇 P1 | Flatmates.com.au | https://flatmates.com.au/rooms/kensington-2033+kingsford-2032+eastlakes-2018+randwick-2031+maroubra-2035+coogee-2034/max-350 · https://flatmates.com.au/rooms/daceyville-2032+zetland-2017+rosebery-2018+waterloo-2017+eastgardens-2036+moore-park-2021/max-350 | Most rooms in budget, shows available-from dates | 🖥️ Chrome (signed in) | ✅ Chrome works (18 Oct: 68 listings ≤ $350 across 6 suburbs); cloud fetch failed |
 | 2 | 🥇 P1 | UNSW Study Stays | https://studystays.unsw.edu.au/listings/search | UNSW-run board for students (listings not checked by UNSW) | ☁️ (login to contact) | ✅ (24 Oct): plain `?Page=N` returns page 1; use `?Page=N&IsProbe=False&ShouldLogProbeBan=True`. Also read the Kensington distance sort and the suburb filters (misspelt suburbs slip through filters) |
 | 3 | 🥇 P1 | Down Under Stay | https://downunderstay.com.au/rooms/ | Cheapest furnished rooms in Kensington, UNSW-listed | ☁️ | ✅ $235 to $285. The /rooms/ list hides some open rooms: also read every page in https://downunderstay.com.au/rooms-sitemap.xml (24 Oct: 85 room pages). Some room pages differ from the list price, use the higher figure |
 | 4 | 🥈 P2 | Gumtree flatshare | https://www.gumtree.com.au/s-flatshare-houseshare/kingsford/k0c18294l3003648 plus Eastern Suburbs https://www.gumtree.com.au/s-flatshare-houseshare/eastern-suburbs/c18294l3003633 | Cheap rooms; higher scam risk, extra checks | ☁️ · 🖥️ Chrome | ✅ (23 Oct: the old Eastern Suburbs link now redirects to Kensington; use the c18294l3003633 URL). 24 Oct: page 2 links return page 1, so also run keyword searches per suburb and "unsw", and check the Roomshare category for twin rooms |
@@ -236,6 +236,12 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 - https://www.domain.com.au/rent/maroubra-nsw-2035/?price=0-350&excludedeposittaken=1
 - https://www.domain.com.au/rent/coogee-nsw-2034/?price=0-350&excludedeposittaken=1
 - https://www.domain.com.au/rent/eastlakes-nsw-2018/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/daceyville-nsw-2032/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/moore-park-nsw-2021/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/zetland-nsw-2017/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/waterloo-nsw-2017/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/rosebery-nsw-2018/?price=0-350&excludedeposittaken=1
+- https://www.domain.com.au/rent/eastgardens-nsw-2036/?price=0-350&excludedeposittaken=1
 
 **Flatmate Finders (Chrome, one page at a time)**
 
@@ -245,6 +251,12 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 - https://www.flatmatefinders.com.au/rooms/maroubra-2035
 - https://www.flatmatefinders.com.au/rooms/coogee-2034
 - https://www.flatmatefinders.com.au/rooms/eastlakes-2018
+- https://www.flatmatefinders.com.au/rooms/daceyville-2032
+- https://www.flatmatefinders.com.au/rooms/moore-park-2021
+- https://www.flatmatefinders.com.au/rooms/zetland-2017
+- https://www.flatmatefinders.com.au/rooms/waterloo-2017
+- https://www.flatmatefinders.com.au/rooms/rosebery-2018
+- https://www.flatmatefinders.com.au/rooms/eastgardens-2036
 
 **Gumtree flatshare keyword searches (cloud)** ⚠️ written from Gumtree's standard search pattern; if one fails, mark it "not checked" and report it
 
@@ -261,6 +273,8 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 **realestate.com.au (Chrome), all six suburbs in one search** (added 2 Nov 2026; 6 results, surrounding suburbs off)
 
 - https://www.realestate.com.au/rent/between-0-350-in-kensington,+nsw+2033%3b+kingsford,+nsw+2032%3b+randwick,+nsw+2031%3b+maroubra,+nsw+2035%3b+coogee,+nsw+2034%3b+eastlakes,+nsw+2018/list-1?includeSurrounding=false
+- https://www.realestate.com.au/rent/between-0-350-in-zetland,+nsw+2017%3b+waterloo,+nsw+2017%3b+rosebery,+nsw+2018%3b+daceyville,+nsw+2032%3b+eastgardens,+nsw+2036%3b+moore+park,+nsw+2021/list-1?includeSurrounding=false (added 9 Nov 2026: the six suburbs within about 15 min)
+- https://flatmates.com.au/rooms/daceyville-2032+zetland-2017+rosebery-2018+waterloo-2017+eastgardens-2036+moore-park-2021/max-350 (Flatmates, added 9 Nov 2026)
 
 **Flatmates extra search (Chrome)**: https://flatmates.com.au/rooms/south-coogee-2034/max-350 (South Coogee shares the Coogee postcode but is not in the six-suburb search)
 

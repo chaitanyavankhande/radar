@@ -168,12 +168,21 @@ No Sheet tab. `deadline` is null; `status` stays `new`. Items from an earlier ro
 
 ## Distance table (approx., from UNSW Village, suburb centre)
 
-| Suburb | km | Suburb | km |
-|---|---|---|---|
-| Kensington | 1.0 | Maroubra | 3.5 |
-| Kingsford | 1.5 | Coogee | 3.5 |
-| Eastlakes | 3.0 | | |
-| Randwick | 2.0 | Rosebery | 3.0 |
-| Daceyville | 2.5 | Zetland | 3.5 |
+| Suburb | km | Transit min (Google Maps, door to door, 9 Nov 2026) |
+|---|---|---|
+| Kensington | 1.0 | walk |
+| Kingsford | 1.5 | about 10 |
+| Randwick | 2.0 | 14 |
+| Moore Park | 2.5 | 16 |
+| Daceyville | 2.5 | 17 |
+| Eastlakes | 3.0 | 18 |
+| Zetland | 3.5 | 19 |
+| Waterloo | 4.5 | 19 |
+| Rosebery | 3.0 | 20 |
+| Eastgardens | 4.5 | 20 |
+| Coogee | 3.5 | 22 |
+| Maroubra | 3.5 | 23 |
 
-⚠️ Straight-line estimates, not travel distance. Scouts may refine with a listing's exact address.
+Scope since 9 Nov 2026: every room within about 15 min of UNSW Village (suburb centres up to about 20 min door to door), plus Coogee and Maroubra. Out of scope: Surry Hills 24, Pagewood 27, Clovelly 30, Hillsdale 33, Centennial Park 34, Paddington 34.
+
+⚠️ km are straight-line estimates, not travel distance; minutes include the wait for the next service at that time of day. Scouts may refine with a listing's exact address.
