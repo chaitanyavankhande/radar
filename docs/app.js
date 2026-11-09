@@ -484,7 +484,7 @@ const TABS = [
     id: 'accommodation', file: 'accommodation', label: 'Accommodation', icon: '🏠', noun: 'room',
     heading: 'Rooms near UNSW Village',
     info: { label: 'NSW renting rules', html: () => RENT_GUIDE },
-    lede: 'Up to $350 a week in Kensington, Kingsford, Eastlakes, Randwick, Maroubra and Coogee, moving in any time from now until 28 Feb 2027. Long stays (6 months or more) are shown by default, plus rooms whose lease length is unknown (marked Lease length unknown and listed last): change Long stays in Filters to see shorter ones. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Each room is checked against the NSW renting rules (✅ follows, ❌ does not follow, ❔ not mentioned): tap ⓘ for the rules. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
+    lede: 'Up to $350 a week within about 15 minutes of UNSW Village: Kensington, Kingsford, Randwick, Daceyville, Moore Park, Eastlakes, Zetland, Waterloo, Rosebery and Eastgardens (Google Maps door to door, 14 to 20 min), plus Coogee and Maroubra (about 22 min), moving in any time from now until 28 Feb 2027. Long stays (6 months or more) are shown by default, plus rooms whose lease length is unknown (marked Lease length unknown and listed last): change Long stays in Filters to see shorter ones. Every room shows its contract length and the longest stay it allows (filter long stays by 6 months, 1 year, one to three 2027 terms or 2 years), and names every bill that is not included in the rent. Each room is checked against the NSW renting rules (✅ follows, ❌ does not follow, ❔ not mentioned): tap ⓘ for the rules. Only trusted and safe rooms are listed: a trusted source, listing page checked, no high-risk flag. Rooms with more bills included rank higher. Open each listing for photos.',
     schedule: 'The scout refreshes this every day at 4:54 am until a lease is signed.',
     search: it => [it.title, it.org, it.suburb, it.room_type, it.household, it.notes, it.lease, contractOf(it).summary, contractOf(it).bucket, stayLabel(it), notIncluded(it).map(b => b + ' not included').join(' '), it.laundry_evidence, LAUNDRY_LABEL[laundryOf(it)], contactOf(it).channel, contactOf(it).business, ...flagsOf(it).map(f => f.reason)],
     include: isSafe,
@@ -524,6 +524,8 @@ const TABS = [
       { type: 'multi', key: 'bath', label: 'Own bathroom', get: it => titleCase(it.own_bathroom || 'unknown') },
       { type: 'multi', key: 'laundry', label: 'Washing machine', get: it => LAUNDRY_LABEL[laundryOf(it)] },
       { type: 'toggle', key: 'walk', label: 'Walkable to UNSW', test: it => it.walkable === true },
+      { type: 'select', key: 'travel', label: 'Travel time from UNSW Village (door to door, public transport or walking)', options: [['', 'Any'], ['10', '10 min or less'], ['15', '15 min or less'], ['20', 'About 15 min (20 or less)'], ['25', '25 min or less']],
+        test: (it, v) => { const m = num(it.transit_min); return m == null || m <= Number(v); } },
       ...commonFilters()
     ],
     keys: {
