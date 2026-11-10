@@ -131,7 +131,7 @@ Dropped: hackathon.com (no Sydney events), Kaggle (needs API key).
 
 ## 5. 🏠 `accommodation-scout`
 
-Room starting any time from now until 28 Feb 2027 (widened 7 Nov 2026), long stays of 6 months or more first, contract length recorded per room · within about 15 min of UNSW Village (widened 9 Nov 2026): Kensington, Kingsford, Randwick, Moore Park, Daceyville, Eastlakes, Zetland, Waterloo, Rosebery, Eastgardens, plus Coogee and Maroubra · budget under $350/week (ideally under $300).
+Room starting any time from now until 28 Feb 2027 (widened 7 Nov 2026), long stays of 6 months or more first, contract length recorded per room · within about 15 min of UNSW Village (widened 9 Nov 2026): Kensington, Kingsford, Randwick, Moore Park, Daceyville, Eastlakes, Zetland, Waterloo, Rosebery, Eastgardens, plus Coogee and Maroubra · **widened 11 Nov 2026 to about 15 to 30 min by bus**: Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville, Bondi Junction, Mascot, Redfern, Botany, Centennial Park, Malabar, Chifley, Bronte, Waverley, Alexandria, Beaconsfield, Darlinghurst, Queens Park, Little Bay, Phillip Bay, Banksmeadow · budget under $350/week (ideally under $300).
 
 | Rank | Tier | Source | Official link | Why this rank | Access | Status |
 |---|---|---|---|---|---|---|
@@ -278,6 +278,13 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 
 **Flatmates extra search (Chrome)**: https://flatmates.com.au/rooms/south-coogee-2034/max-350 (South Coogee shares the Coogee postcode but is not in the six-suburb search)
 
+**Flatmates 15 to 30 min ring (Chrome, added 11 Nov 2026)**; listing pages with several rooms label each block "<name> overview", so parse every "overview Details" block, not only "Room overview"
+
+- https://flatmates.com.au/rooms/surry-hills-2010+paddington-2021+clovelly-2031+pagewood-2035+hillsdale-2036+matraville-2036/max-350
+- https://flatmates.com.au/rooms/bondi-junction-2022+mascot-2020+redfern-2016+botany-2019+centennial-park-2021+malabar-2036/max-350
+- https://flatmates.com.au/rooms/chifley-2036+bronte-2024+waverley-2024+alexandria-2015+beaconsfield-2015+darlinghurst-2010/max-350
+- https://flatmates.com.au/rooms/queens-park-2022+little-bay-2036+phillip-bay-2036+banksmeadow-2019/max-350
+
 ### Added 29 Oct 2026 (from the run summaries)
 
 **casual-and-part-time-jobs (cloud)**
@@ -349,4 +356,5 @@ On demand only, while Chaitanya is present. Fares change by the minute, so route
 | 26 Oct 2026 | New section 7 for the on-demand `flight-scout`: ranked flight sources, trusted sellers, offer and student pages. |
 | 29 Oct 2026 | First manual run of all five systems. Cloud: Wellfound, Down Under Stay, Domain, Gumtree ad pages, CTFtime API (recompute the unix window each run) and dev.events all load from the cloud; jobs.theshout.com.au mirrors CareerOne with the same ids; Indeed connector works best with the suburb name as the keyword and rate-limits after about 50 calls; Devpost feed returns page 1 only; CPMSoc's new site is www.unswcpmsoc.com (Chrome). Chrome: Seek now serves au.seek.com (navigate each suburb URL; cross-origin fetch fails); Jobs@UNSW list needs 6 "More Jobs" clicks (121 jobs); Prosple pages via the "Goto next page" button, job pages return only the nav; UNSWConnect closing times are UTC; Flatmates pads the six-suburb search with out-of-area rows (Zetland, Mascot, Redfern, Surry Hills, Waterloo, Chippendale). myUNSW exam timetable sits behind UNSW SSO, not readable. Run was cut by the usage limit at 2:30 am and resumed 11:20 am: LinkedIn, Jane Street/Amazon, JobsDB HK, Jora, Workforce Australia, Meetup, realestate.com.au, ZUWU and Flatmate Finders not read. |
 | 2 Nov 2026 | Accommodation deep run (interactive): Study Stays pages 1 to 5 and all six Domain suburb pages loaded by WebFetch; Down Under Stay sitemap loads in the cloud, room pages read in Chrome; one realestate.com.au search covers all six suburbs (URL in section 6); Flatmates South Coogee search added. Flatmate Finders showed "Human Verification" after 4 list pages fetched 8 seconds apart: read page 1 only per run. Myola Coogee rates sit in a JavaScript booking widget (not readable). |
+| 11 Nov 2026 | Accommodation: scope widened to about 15 to 30 min by bus (new Flatmates ring searches in section 6); Flatmates multi-room listings need every "overview Details" block parsed; Down Under Stay room pages show single and shared occupancy prices separately (twin "Shared Occupancy" $285 vs "Single Occupancy" $455). |
 | 27 Oct 2026 | Manual run of all three daily systems. UNSW Outlook in Chrome marks a message read when the selection changes, so restore unread after moving away (row checkbox, then Mark as unread). Gmail account 2 is not signed in to the connected Chrome profile. WebCMS3 course home pages read fine interactively. Domain's six suburb URLs worked from the cloud. Flatmate Finders: the Chrome extension needs site permission for flatmatefinders.com.au. ZUWU's UNSW list now shows 23 of 113 rooms with no page control. The same Down Under Stay room can appear on Flatmates and UNSW Study Stays too: de-duplicate to the operator page. |
