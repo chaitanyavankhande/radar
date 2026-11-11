@@ -1,27 +1,27 @@
 {
- "updated_at": "2026-11-11T12:45:00+11:00",
- "previous_run_at": "2026-11-09T19:30:00+11:00",
+ "updated_at": "2026-11-12T10:15:00+11:00",
+ "previous_run_at": "2026-11-11T12:45:00+11:00",
  "sources": [
   {
    "name": "Flatmates.com.au",
    "rank": 1,
    "result": "checked",
    "found": 140,
-   "note": "11 Nov 12:00 (Chrome): Flatmates date filter found (URL part available-DD-MM-YYYY = rooms available on or after that date). All of Sydney, available from 15 Dec 2026, max $350: 67 results (79 listings) read; 17 within reach of UNSW. For men or anyone and in budget: only Newtown P1759356 (excluded, WhatsApp push) and Enmore P1759445 (43 min, over limit). || 11 Nov (Chrome): scope widened to about 15 to 30 min by bus. 7 searches (old six, the 15-min six, South Coogee, plus new rings: Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville / Bondi Junction, Mascot, Redfern, Botany, Centennial Park, Malabar / Chifley, Bronte, Waverley, Alexandria, Beaconsfield, Darlinghurst / Queens Park, Little Bay, Phillip Bay, Banksmeadow): 246 in-area listings, all listing pages read. Multi-room listings now parsed room by room. Only rooms with a start from 15 Dec to 31 Jan for men or anyone: none on Flatmates (all 4 in-window rooms are women only). || 9 Nov (Chrome): scope widened to about 15 min. Searches: old six max-350 (7 pages, 82 links), bills-included max-300, South Coogee, and new Daceyville+Zetland+Rosebery+Waterloo+Eastgardens+Moore Park max-350 (30 links). 96 listing pages read (30 new, 66 tracked). New in-area rooms: 30 plus 1 reopened (P2042796, now a 6 to 12 month room). Closed (no longer available): P1654205, P1978717, P1975258, P1534820, P2042324, P2044397, P1416981. Changed: P2029561 $210 to $250 from 6 Dec; P2044478 from 2 Dec. Skipped: P2037334 Zetland (ends 5 Jan 2027) || 7 Nov 11:30 (Chrome): max-350 pages 1 to 7 and newest-first page 1 re-read for the long-stay window (now to 28 Feb 2027): no new listings. || 7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
+   "note": "12 Nov (Chrome): date-filter search, all Sydney, available from 15 Dec, max $350: 67 results (78 listings), 13 near UNSW, every room block read. In window, open to men, in budget, trusted: only Redfern P2041266 (4 Feb). || 11 Nov 12:00 (Chrome): Flatmates date filter found (URL part available-DD-MM-YYYY = rooms available on or after that date). All of Sydney, available from 15 Dec 2026, max $350: 67 results (79 listings) read; 17 within reach of UNSW. For men or anyone and in budget: only Newtown P1759356 (excluded, WhatsApp push) and Enmore P1759445 (43 min, over limit). || 11 Nov (Chrome): scope widened to about 15 to 30 min by bus. 7 searches (old six, the 15-min six, South Coogee, plus new rings: Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville / Bondi Junction, Mascot, Redfern, Botany, Centennial Park, Malabar / Chifley, Bronte, Waverley, Alexandria, Beaconsfield, Darlinghurst / Queens Park, Little Bay, Phillip Bay, Banksmeadow): 246 in-area listings, all listing pages read. Multi-room listings now parsed room by room. Only rooms with a start from 15 Dec to 31 Jan for men or anyone: none on Flatmates (all 4 in-window rooms are women only). || 9 Nov (Chrome): scope widened to about 15 min. Searches: old six max-350 (7 pages, 82 links), bills-included max-300, South Coogee, and new Daceyville+Zetland+Rosebery+Waterloo+Eastgardens+Moore Park max-350 (30 links). 96 listing pages read (30 new, 66 tracked). New in-area rooms: 30 plus 1 reopened (P2042796, now a 6 to 12 month room). Closed (no longer available): P1654205, P1978717, P1975258, P1534820, P2042324, P2044397, P1416981. Changed: P2029561 $210 to $250 from 6 Dec; P2044478 from 2 Dec. Skipped: P2037334 Zetland (ends 5 Jan 2027) || 7 Nov 11:30 (Chrome): max-350 pages 1 to 7 and newest-first page 1 re-read for the long-stay window (now to 28 Feb 2027): no new listings. || 7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
   },
   {
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
    "found": 3,
-   "note": "11 Nov: pages 1 to 6 (69 results) read. New in budget: 381482 Matraville, 379046 Paddington boarding house, 381403 Mascot takeover. None start 15 Dec to 31 Jan. || 9 Nov (cloud): pages 1 to 8 read (69, 64 and 60 matches on different pages; pages 7 and 8 empty; pages 3, 5 and 6 overlap, so up to about 10 listings may not have been seen). 7 tracked detail pages read: all unchanged (381028 and 376475 were not on the listing pages but their detail pages are live). New-scope suburbs: Rosebery 381451 $530, 381263 $450, 379282 $750; Waterloo 381446 $450, 380369 $1,335, 380703 $980; Zetland 379521 $670, 380401 $980; Eastgardens 381161 and 381162 $550: none at or under $350. Out of scope at or under $350: 381482 Matraville $300, 379046 Paddington $190, 381403 Mascot $311 (lease takeover), 375918 Woollahra $320, 381357 Chippendale $350, 380848 Bardwell Valley $350. || 7 Nov (cloud): pages 1 to 6 read (64 to 68 matches). No new in-area rooms at or under $350. 6 tracked rooms' detail pages re-read: unchanged. || 6 Nov (cloud): pages 1 to 6 read (64 to 68 matches; paging is unstable). 6 tracked in-criteria rooms re-read on their detail pages, all still listed. New: 381372 (Randwick twin share, women only, 30 Nov to 13 Feb). 381277 is the same room as Down Under Stay Boyce Rd Room 2. || 6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
+   "note": "12 Nov: pages 1 and 2 read; new 381293 Kingsford $350 (available now). || 11 Nov: pages 1 to 6 (69 results) read. New in budget: 381482 Matraville, 379046 Paddington boarding house, 381403 Mascot takeover. None start 15 Dec to 31 Jan. || 9 Nov (cloud): pages 1 to 8 read (69, 64 and 60 matches on different pages; pages 7 and 8 empty; pages 3, 5 and 6 overlap, so up to about 10 listings may not have been seen). 7 tracked detail pages read: all unchanged (381028 and 376475 were not on the listing pages but their detail pages are live). New-scope suburbs: Rosebery 381451 $530, 381263 $450, 379282 $750; Waterloo 381446 $450, 380369 $1,335, 380703 $980; Zetland 379521 $670, 380401 $980; Eastgardens 381161 and 381162 $550: none at or under $350. Out of scope at or under $350: 381482 Matraville $300, 379046 Paddington $190, 381403 Mascot $311 (lease takeover), 375918 Woollahra $320, 381357 Chippendale $350, 380848 Bardwell Valley $350. || 7 Nov (cloud): pages 1 to 6 read (64 to 68 matches). No new in-area rooms at or under $350. 6 tracked rooms' detail pages re-read: unchanged. || 6 Nov (cloud): pages 1 to 6 read (64 to 68 matches; paging is unstable). 6 tracked in-criteria rooms re-read on their detail pages, all still listed. New: 381372 (Randwick twin share, women only, 30 Nov to 13 Feb). 381277 is the same room as Down Under Stay Boyce Rd Room 2. || 6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
   },
   {
    "name": "Down Under Stay",
    "rank": 3,
    "result": "checked",
    "found": 2,
-   "note": "11 Nov (Chrome): all 85 room pages from the sitemap read. In budget and in the 15 Dec to 31 Jan window: Harbourne III Room 2 (20 Dec, $285 twin) and Harbourne Rd II Room 2 (11 Jan, $285 twin). Harbourne III Room 6 and Boyce Rd Room 2 now over $350. || 9 Nov (cloud): /rooms/ (8 rooms) and all 85 room pages in rooms-sitemap.xml read. Open at or under $350: villiers-st-room-5 $235 shared, 'Available' (REOPENED), boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-6 $285 from 8 Dec (unchanged). harbourne-iii-room-4 now Occupied (closed). Over the cap: botany-st-room2 $425 from 17 Dec; Harbourne IV rooms 5 and 6 $455 from 13 Dec, room 7 $455 from 15 Dec. Everything else Occupied. Bulk fetch outside WebFetch is blocked by the proxy. || 7 Nov (cloud): /rooms/ read: the same 4 tracked rooms ($255 to $285, Wi-Fi extra, other bills not stated); Harbourne IV rooms $455 (over). || 6 Nov (Chrome, same-site fetch): sitemap (86 room pages) all read. In budget: boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-4 $285 from 30 Nov, harbourne-iii-room-6 $285 from 8 Dec (all shared, 4 months minimum, Wi-Fi and utilities extra). Harbourne IV rooms 5 to 7 single $455 (over). Everything else Occupied. Cloud fetch of the sitemap was refused this run (permission prompt). || 6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays close"
+   "note": "12 Nov (Chrome): all 85 room pages read. In window: Harbourne III R2 (20 Dec), Harbourne Rd II R2 (11 Jan), Villiers St R1 (21 Jan, new), Harbourne IV R1 (22 Jan, new); all $265 to $285 twin. Harbourne III R6 and Boyce Rd R2 reopened at shared prices. || 11 Nov (Chrome): all 85 room pages from the sitemap read. In budget and in the 15 Dec to 31 Jan window: Harbourne III Room 2 (20 Dec, $285 twin) and Harbourne Rd II Room 2 (11 Jan, $285 twin). Harbourne III Room 6 and Boyce Rd Room 2 now over $350. || 9 Nov (cloud): /rooms/ (8 rooms) and all 85 room pages in rooms-sitemap.xml read. Open at or under $350: villiers-st-room-5 $235 shared, 'Available' (REOPENED), boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-6 $285 from 8 Dec (unchanged). harbourne-iii-room-4 now Occupied (closed). Over the cap: botany-st-room2 $425 from 17 Dec; Harbourne IV rooms 5 and 6 $455 from 13 Dec, room 7 $455 from 15 Dec. Everything else Occupied. Bulk fetch outside WebFetch is blocked by the proxy. || 7 Nov (cloud): /rooms/ read: the same 4 tracked rooms ($255 to $285, Wi-Fi extra, other bills not stated); Harbourne IV rooms $455 (over). || 6 Nov (Chrome, same-site fetch): sitemap (86 room pages) all read. In budget: boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-4 $285 from 30 Nov, harbourne-iii-room-6 $285 from 8 Dec (all shared, 4 months minimum, Wi-Fi and utilities extra). Harbourne IV rooms 5 to 7 single $455 (over). Everything else Occupied. Cloud fetch of the sitemap was refused this run (permission prompt). || 6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays close"
   },
   {
    "name": "Gumtree flatshare",
@@ -42,7 +42,7 @@
    "rank": 6,
    "result": "checked",
    "found": 5,
-   "note": "11 Nov 12:00: Surry Hills, Redfern, Bondi Junction and Matraville pages read; 9 room or studio listings opened, all Available Now. || 11 Nov: Kingsford, Kensington, Randwick, Maroubra, Coogee and Eastlakes pages (each includes surrounding suburbs). 5 new rooms read, all Available Now. Mascot rooms 17482731, 17054741, 12275485 not opened. || 9 Nov (cloud): all 12 suburb URLs read (original six plus Daceyville, Moore Park, Zetland, Waterloo, Rosebery, Eastgardens). NEW: domain:16677777 Rosebery $300 (men only, boarding house room, 3 bills), domain:18391820 Rosebery $350 (Wi-Fi only, from 18 Nov), domain:18292200 Waterloo $295 (all 4 bills, study room). The 6 tracked listings (3 Barker St rooms, 11/1-3 Vicar St, 18410714 Kensington, 39 Rainbow St) re-read: unchanged. Others are car spaces or out of scope (Paddington, Mascot, Darlinghurst, Surry Hills, Redfern, Alexandria, Hillsdale, Botany). URLs to add to SOURCES.md section 6: https://www.domain.com.au/rent/daceyville-nsw-2032/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/moore-park-nsw-2021/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/zetland-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/waterloo-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/rosebery-nsw-2018/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/eastgardens-nsw-2036/?price=0-350&excludedeposittaken=1 || 7 Nov 13:40 (Chrome): Kingsford page (10 results incl. surroundings) re-read: NEW domain:18410714 Kensington room $305 (first listed 7 Nov). Others: the 3 tracked 127 Barker St rooms, 39 Rainbow St, Rosebery listings (out of area) and car spaces. || 7 Nov (cloud): all 6 suburb URLs read. Only the tracked 127 Barker St rooms, 39 Rainbow St and 11/1-3 Vicar St, plus car spaces. Nothing new. Listing pages state no lease term or bills. || 6 Nov (cloud): all 6 suburb URLs read. In area: the 3 tracked 127 Barker St rooms, 11/1-3 Vicar St Coogee and 39 Rainbow St (tracked as rea:418962602), plus car spaces. Nothing new. Listing pages state no lease length or bills. || 6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
+   "note": "12 Nov: Kensington and Randwick pages: no new rooms. || 11 Nov 12:00: Surry Hills, Redfern, Bondi Junction and Matraville pages read; 9 room or studio listings opened, all Available Now. || 11 Nov: Kingsford, Kensington, Randwick, Maroubra, Coogee and Eastlakes pages (each includes surrounding suburbs). 5 new rooms read, all Available Now. Mascot rooms 17482731, 17054741, 12275485 not opened. || 9 Nov (cloud): all 12 suburb URLs read (original six plus Daceyville, Moore Park, Zetland, Waterloo, Rosebery, Eastgardens). NEW: domain:16677777 Rosebery $300 (men only, boarding house room, 3 bills), domain:18391820 Rosebery $350 (Wi-Fi only, from 18 Nov), domain:18292200 Waterloo $295 (all 4 bills, study room). The 6 tracked listings (3 Barker St rooms, 11/1-3 Vicar St, 18410714 Kensington, 39 Rainbow St) re-read: unchanged. Others are car spaces or out of scope (Paddington, Mascot, Darlinghurst, Surry Hills, Redfern, Alexandria, Hillsdale, Botany). URLs to add to SOURCES.md section 6: https://www.domain.com.au/rent/daceyville-nsw-2032/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/moore-park-nsw-2021/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/zetland-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/waterloo-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/rosebery-nsw-2018/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/eastgardens-nsw-2036/?price=0-350&excludedeposittaken=1 || 7 Nov 13:40 (Chrome): Kingsford page (10 results incl. surroundings) re-read: NEW domain:18410714 Kensington room $305 (first listed 7 Nov). Others: the 3 tracked 127 Barker St rooms, 39 Rainbow St, Rosebery listings (out of area) and car spaces. || 7 Nov (cloud): all 6 suburb URLs read. Only the tracked 127 Barker St rooms, 39 Rainbow St and 11/1-3 Vicar St, plus car spaces. Nothing new. Listing pages state no lease term or bills. || 6 Nov (cloud): all 6 suburb URLs read. In area: the 3 tracked 127 Barker St rooms, 11/1-3 Vicar St Coogee and 39 Rainbow St (tracked as rea:418962602), plus car spaces. Nothing new. Listing pages state no lease length or bills. || 6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
   },
   {
    "name": "UNSW Village 2027 (CLV)",
@@ -8432,10 +8432,10 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-09",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
-   "closed": true,
+   "closed": false,
    "id": "downunderstay:harbourne-iii-room-6",
    "title": "Harbourne III Room 6, shared occupancy (double or 2 singles)",
    "org": "Down Under Stay",
@@ -8481,7 +8481,7 @@
     }
    ],
    "enquiry_draft": "Hi, I'm a UNSW postgraduate student interested in a shared bed in Harbourne III Room 6, Kingsford. I'm looking to move in between late December 2026 and early February 2027. Could you tell me which bills are included and what lease length you prefer? Is there a washing machine I can use? I'd also like to arrange an inspection. Thanks, [your name]",
-   "notes": "$285 is the shared-occupancy price; single occupancy is $455 and double occupancy $525 (over budget). Available 8 Dec 2026. Bills $25/wk ⚠️ estimate. 23 Oct: Available from 8 Dec 2026. $285 is the shared rate; same page shows $455 single and $525 double occupancy. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 8 Dec 2026, Shared Occupancy $285/wk. The page also shows Single Occupancy $455 and Double Occupancy $525 (the room to yourself costs $455). The list shows 'from $285'. Still listed. 27 Oct: unchanged: Available from 8 Dec 2026, Shared $285, Single $455, Double $525. 29 Oct: room page read: 'Available Soon', 8 Dec 2026, Shared $285/wk (single $455, double $525), 2 people, deposit 3 weeks, minimum 4 months, 9 min walk. Also on the /rooms/ list. Unchanged. 31 Oct: room page read: 'Available Soon', from 08 Dec 2026; Shared $285/wk, Single $455, Double $525 (only shared is under cap); deposit 3 weeks ($855), minimum 4 months; on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 6 Nov: room page still 'Available Soon' from 8 Dec 2026; unchanged. 6 Nov: still \"Available Soon\" from 8 Dec 2026, shared occupancy $285/wk, 4 months minimum, deposit 3 weeks. Wi-Fi and utilities are extra. 11 Nov 2026: room page now prices it Single Occupancy $455/wk, Double $525 (from 8 Dec): over the $350 cap. Closed.",
+   "notes": "$285 is the shared-occupancy price; single occupancy is $455 and double occupancy $525 (over budget). Available 8 Dec 2026. Bills $25/wk ⚠️ estimate. 23 Oct: Available from 8 Dec 2026. $285 is the shared rate; same page shows $455 single and $525 double occupancy. Unchanged. 24 Oct: Unchanged: 'Available Soon', from 8 Dec 2026, Shared Occupancy $285/wk. The page also shows Single Occupancy $455 and Double Occupancy $525 (the room to yourself costs $455). The list shows 'from $285'. Still listed. 27 Oct: unchanged: Available from 8 Dec 2026, Shared $285, Single $455, Double $525. 29 Oct: room page read: 'Available Soon', 8 Dec 2026, Shared $285/wk (single $455, double $525), 2 people, deposit 3 weeks, minimum 4 months, 9 min walk. Also on the /rooms/ list. Unchanged. 31 Oct: room page read: 'Available Soon', from 08 Dec 2026; Shared $285/wk, Single $455, Double $525 (only shared is under cap); deposit 3 weeks ($855), minimum 4 months; on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 6 Nov: room page still 'Available Soon' from 8 Dec 2026; unchanged. 6 Nov: still \"Available Soon\" from 8 Dec 2026, shared occupancy $285/wk, 4 months minimum, deposit 3 weeks. Wi-Fi and utilities are extra. 11 Nov 2026: room page now prices it Single Occupancy $455/wk, Double $525 (from 8 Dec): over the $350 cap. Closed. 12 Nov 2026: Shared Occupancy $285 is offered again (single $455, double $525), from 8 Dec 2026. Reopened.",
    "bills_included_count": 0,
    "who_can_apply": "Not stated",
    "bond": 855,
@@ -9882,7 +9882,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-11",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17139,7 +17139,7 @@
    "source": "Down Under Stay",
    "source_rank": 3,
    "found_at": "2026-10-24",
-   "last_seen_at": "2026-11-11",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -20229,12 +20229,12 @@
    "source": "Down Under Stay",
    "source_rank": 3,
    "found_at": "2026-10-27",
-   "last_seen_at": "2026-11-09",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
-   "closed": true,
+   "closed": false,
    "verified": "✅",
-   "notes": "Room page read 27 Oct: 'Available from 17 Nov 2026' (Available Soon). Shared Occupancy $265/wk per person; the room alone is $505 (single) or $525 (double), over budget. Deposit 3 weeks, minimum 4 months, room capacity 2, flexible double or 2 singles. Same house as Boyce Rd Room 3. Very likely the same room as flatmates:P1276675. Wi-Fi is not included in rent; other bills not stated (operator earlier said about $25 per person per week, ⚠️). Exact address given only on application. Not walkable; bus time ⚠️ estimate. Same room is also listed on UNSW Study Stays (listing 381277, $265, from 16 Nov, minimum 3 months, self-managed bond $795, flags: bond not lodged with Rental Bonds Online, 9 people in 6 bedrooms so check the boarding house register). De-duplicated: Down Under Stay kept as the operator page. Also advertised on Flatmates (P1276675, $265, twin share, says \"available now\" while the operator page says 17 Nov). De-duplicated across three sites. 29 Oct: conflict. The room page now shows status 'Occupied' (shared $255, single $425, double $515 on the page), but the operator's /rooms/ list still shows 'Available Soon' from 17/11/26 at $265 and Study Stays #381277 (page read today) still offers the twin bed at $265 from 16 Nov 2026 with a $795 self-managed deposit, 8 occupants and 1 vacancy. Kept open with the higher list price; confirm with the operator. 31 Oct: conflict persists. Room page: 'Occupied', Shared $255, Single $425, Double $515. /rooms/ list: 'Available Soon', from 17/11/26, 'from' $265. Study Stays 381277 (page read today): twin share $265 per person 'plus bills', single $505, from 16 Nov 2026, bond $795 self-managed, at least 3 months, 8 occupants, 1 vacancy, 'bedroom door does not have a key lock', classified Sub-let or Transfer. Kept open at the higher $265; confirm with the operator. 2 Nov: could not re-check (Room page refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 4 Nov: available date now 16 Nov 2026 (was 17 Nov). Same room is on UNSW Study Stays as 381277. 6 Nov: room page now agrees with the list: 'Available Soon' from 16 Nov 2026, shared price $265, so the inconsistent-details flag was removed. 6 Nov: still \"Available Soon\" from 16 Nov 2026, shared occupancy $265/wk, 4 months minimum, deposit 3 weeks. Wi-Fi and utilities are extra. 11 Nov 2026: room page now shows $505/wk from 16 Nov: over the $350 cap. Closed.",
+   "notes": "Room page read 27 Oct: 'Available from 17 Nov 2026' (Available Soon). Shared Occupancy $265/wk per person; the room alone is $505 (single) or $525 (double), over budget. Deposit 3 weeks, minimum 4 months, room capacity 2, flexible double or 2 singles. Same house as Boyce Rd Room 3. Very likely the same room as flatmates:P1276675. Wi-Fi is not included in rent; other bills not stated (operator earlier said about $25 per person per week, ⚠️). Exact address given only on application. Not walkable; bus time ⚠️ estimate. Same room is also listed on UNSW Study Stays (listing 381277, $265, from 16 Nov, minimum 3 months, self-managed bond $795, flags: bond not lodged with Rental Bonds Online, 9 people in 6 bedrooms so check the boarding house register). De-duplicated: Down Under Stay kept as the operator page. Also advertised on Flatmates (P1276675, $265, twin share, says \"available now\" while the operator page says 17 Nov). De-duplicated across three sites. 29 Oct: conflict. The room page now shows status 'Occupied' (shared $255, single $425, double $515 on the page), but the operator's /rooms/ list still shows 'Available Soon' from 17/11/26 at $265 and Study Stays #381277 (page read today) still offers the twin bed at $265 from 16 Nov 2026 with a $795 self-managed deposit, 8 occupants and 1 vacancy. Kept open with the higher list price; confirm with the operator. 31 Oct: conflict persists. Room page: 'Occupied', Shared $255, Single $425, Double $515. /rooms/ list: 'Available Soon', from 17/11/26, 'from' $265. Study Stays 381277 (page read today): twin share $265 per person 'plus bills', single $505, from 16 Nov 2026, bond $795 self-managed, at least 3 months, 8 occupants, 1 vacancy, 'bedroom door does not have a key lock', classified Sub-let or Transfer. Kept open at the higher $265; confirm with the operator. 2 Nov: could not re-check (Room page refused by WebFetch (PROVENANCE_REQUIRED); not loaded). 4 Nov: available date now 16 Nov 2026 (was 17 Nov). Same room is on UNSW Study Stays as 381277. 6 Nov: room page now agrees with the list: 'Available Soon' from 16 Nov 2026, shared price $265, so the inconsistent-details flag was removed. 6 Nov: still \"Available Soon\" from 16 Nov 2026, shared occupancy $265/wk, 4 months minimum, deposit 3 weeks. Wi-Fi and utilities are extra. 11 Nov 2026: room page now shows $505/wk from 16 Nov: over the $350 cap. Closed. 12 Nov 2026: Available now; Shared Occupancy $265 offered (single $505). Reopened.",
    "suburb": "Maroubra",
    "distance_km": 3.1,
    "transit_min": 20,
@@ -20251,7 +20251,7 @@
    "bills_included_count": 0,
    "bills_estimate_pw": 25,
    "room_type": "Shared room",
-   "available_from": "2026-11-16",
+   "available_from": "2026-11-12",
    "lease": "4 months minimum",
    "furnished": "yes",
    "own_bathroom": "no",
@@ -22553,12 +22553,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-11",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Seen 31 Oct, closed on arrival under the no-short-stays rule: study room for a female housemate, 15 Dec 2026 to 7 Feb 2027 only. 6 Nov: reopened. Study room, 15 Dec 2026 to 7 Feb 2027 only. Ad asks for a female housemate.",
+   "notes": "Seen 31 Oct, closed on arrival under the no-short-stays rule: study room for a female housemate, 15 Dec 2026 to 7 Feb 2027 only. 6 Nov: reopened. Study room, 15 Dec 2026 to 7 Feb 2027 only. Ad asks for a female housemate. 12 Nov 2026: still listed, short-term only 15 Dec 2026 to 7 Feb 2027 (not a long stay).",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -45892,12 +45892,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-11",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 11 Nov 2026 (scope widened to rooms about 15 to 30 min from UNSW Village by bus). Travel: Redfern about 28 min door to door ⚠️ estimate, not measured. 11 Nov 2026: travel re-measured on Google Maps (public transport, leave now, about 11:10 am, suburb centre): 30 min.",
+   "notes": "New 11 Nov 2026 (scope widened to rooms about 15 to 30 min from UNSW Village by bus). Travel: Redfern about 28 min door to door ⚠️ estimate, not measured. 11 Nov 2026: travel re-measured on Google Maps (public transport, leave now, about 11:10 am, suburb centre): 30 min. 12 Nov 2026: re-read in Chrome: $350/wk, bills not included (about $27/wk extra, ⚠️ estimate, so about $377 total), bond $1,400 (4 weeks), own bathroom, unfurnished, men only, minimum 3 months, available 4 Feb 2027. No description; lister last online 3 days ago.",
    "suburb": "Redfern",
    "distance_km": 5.5,
    "transit_min": 30,
@@ -45926,8 +45926,19 @@
     "How many people live here, and do you own or rent the place?",
     "Which bills are included, and roughly what do the others cost per week?"
    ],
-   "scam_flags": [],
-   "enquiry_draft": "Hi, I'm Chaitanya, a UNSW Master of IT student (non-smoker, quiet, tidy). I'm interested in your listing (Private room in Redfern). Would a move-in around 15 December work, and could I inspect it in person this week? I'm looking for a stay of 6 months or more. Thanks!",
+   "scam_flags": [
+    {
+     "code": "no_description",
+     "level": "low",
+     "reason": "The ad has no description of the place: ask for the address and what the house is like"
+    },
+    {
+     "code": "unverified_lister",
+     "level": "low",
+     "reason": "Lister has no verified social media; response rate 36%"
+    }
+   ],
+   "enquiry_draft": "Hi, I'm Chaitanya, a UNSW Master of IT student (non-smoker, quiet, tidy). I'm interested in your listing (Private room with own bathroom in Redfern). Would a move-in around 4 February work, and could I inspect it in person this week? I'm looking for a stay of 6 months or more. Thanks!",
    "trust": "B",
    "women_only": null,
    "lister": {
@@ -45938,7 +45949,7 @@
     "rate": "Response rate: 42%",
     "early": false
    },
-   "risk": "none",
+   "risk": "low",
    "contact": {
     "channel": "Flatmates message",
     "business": null,
@@ -52912,7 +52923,7 @@
   },
   {
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-11",
+   "last_seen_at": "2026-11-12",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -54639,6 +54650,302 @@
     "check": 1,
     "na": 2
    }
+  },
+  {
+   "found_at": "2026-11-12",
+   "last_seen_at": "2026-11-12",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "id": "downunderstay:harbourne-iv-room-1-kingsford",
+   "title": "Harbourne Iv Room 1, shared twin room (2 people), Kingsford",
+   "org": "Down Under Stay",
+   "link": "https://downunderstay.com.au/room/harbourne-iv-room-1-kingsford/",
+   "source": "Down Under Stay",
+   "source_rank": 3,
+   "verified": "✅",
+   "suburb": "Kingsford",
+   "distance_km": 1.2,
+   "transit_min": 9,
+   "walkable": true,
+   "rent_pw": 285,
+   "bills": {
+    "electricity": "excluded",
+    "gas": "excluded",
+    "water": "excluded",
+    "internet": "excluded"
+   },
+   "bills_estimate_pw": 23,
+   "room_type": "Shared room",
+   "available_from": "2027-01-22",
+   "lease": "4 months minimum",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "household": "7-bedroom house, 3 bathrooms, about 9 people",
+   "inspection_questions": [
+    "Can I inspect in person before paying anything?",
+    "Is there a written agreement, and will the bond go to NSW Rental Bonds Online?",
+    "How many people live here, and do you own or rent the place?",
+    "Which bills are included, and roughly what do the others cost per week?"
+   ],
+   "scam_flags": [
+    {
+     "code": "boarding_house_check",
+     "level": "medium",
+     "reason": "About 9 residents in a 7-bedroom house: check the NSW boarding house register"
+    },
+    {
+     "code": "address_unverifiable",
+     "level": "medium",
+     "reason": "'Exact address provided upon application': ask for the street number before applying or paying"
+    }
+   ],
+   "enquiry_draft": "Hi, I'm Chaitanya, a UNSW Master of IT student (non-smoker, quiet, tidy). I'm interested in your listing (Harbourne Iv Room 1, shared twin room (2 people), Kingsford). Would a move-in around mid to late January work, and could I inspect it in person this week? I'm looking for a stay of 6 months or more. Thanks!",
+   "notes": "New 12 Nov 2026. Available from 2027-01-22, Shared Occupancy $285/wk (twin, you share the bedroom), deposit 3 weeks, minimum 4 months, Wi-Fi not in rent (room page read in Chrome, 12 Nov 2026).",
+   "bills_included_count": 0,
+   "who_can_apply": "Not stated (described as ideal for students)",
+   "bond": 855,
+   "about": "Cheapest room in Harbourne IV, 9 min walk to UNSW; desk, ceiling fan, lockable door; two living areas, laundry, garden.",
+   "trust": "B",
+   "women_only": null,
+   "risk": "medium",
+   "contact": {
+    "channel": "'Register Interest' / 'Book an Inspection' form on the room page, or Down Under Stay's business phone and email printed on the page (in your Sheet)",
+    "business": "Down Under Stay",
+    "url": "https://downunderstay.com.au/room/harbourne-iii-room-4/",
+    "mobile_on_listing": true
+   },
+   "laundry": "yes",
+   "laundry_evidence": "Laundry (with dryer)",
+   "lister": null,
+   "contract": {
+    "min_months": 4.0,
+    "max_months": null,
+    "ends": null,
+    "ends_approx": false,
+    "flexible": false,
+    "bucket": "3 to 5 months minimum",
+    "summary": "At least 4 months, no maximum stated",
+    "note": "",
+    "longest_months": null,
+    "open_ended": true
+   },
+   "bills_not_included": {
+    "extra": [
+     "electricity",
+     "gas",
+     "water",
+     "internet"
+    ],
+    "not_mentioned": [],
+    "estimate_pw": 27,
+    "summary": "extra: all utilities and Wi-Fi, which the listing says average $15 to $30 per person per week (Down Under Stay bills each resident)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The ad does not say whether the lister owns or rents the place: ask"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $855 = 3.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to Rental Bonds Online"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "Ask how many paying residents live there (5+ must be on the NSW register)"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 2,
+    "na": 1
+   }
+  },
+  {
+   "id": "studystays:381293",
+   "title": "Single room in an 8-bedroom lodging house, Strachan St, Kingsford",
+   "org": "Private provider (UNSW Study Stays)",
+   "link": "https://studystays.unsw.edu.au/Listings/Detail/381293",
+   "source": "UNSW Study Stays",
+   "source_rank": 2,
+   "found_at": "2026-11-12",
+   "last_seen_at": "2026-11-12",
+   "deadline": null,
+   "status": "new",
+   "closed": false,
+   "verified": "✅",
+   "notes": "New 12 Nov 2026. Listing read: $350/wk, bond $700, internet included (other bills not mentioned), available since 20 Aug 2026 (so available now, not in the 15 Dec to 28 Feb window), 3 to 24 months.",
+   "suburb": "Kingsford",
+   "distance_km": 1.2,
+   "transit_min": 10,
+   "walkable": true,
+   "rent_pw": 350,
+   "bond": 700,
+   "bills": {
+    "electricity": "not mentioned",
+    "gas": "not mentioned",
+    "water": "not mentioned",
+    "internet": "included"
+   },
+   "bills_included_count": 1,
+   "bills_estimate_pw": 20,
+   "room_type": "Private room",
+   "available_from": "2026-11-12",
+   "lease": "3 to 24 months",
+   "furnished": "yes",
+   "own_bathroom": "no",
+   "household": "8 bedrooms, 7 current residents, 2 bathrooms",
+   "who_can_apply": "Either gender (female preferred for balance)",
+   "about": "Lodging house 5 min walk to UNSW; lockable rooms; smoking outside only; laundromat nearby.",
+   "inspection_questions": [
+    "Could the room be held for a move-in in late December 2026 or early January 2027?",
+    "Is water included with electricity, gas and internet?",
+    "Is a male student accepted, given the preferred gender is female?",
+    "Can I inspect in person before paying anything?",
+    "Is there a washing machine I can use, and is it included in the rent?"
+   ],
+   "scam_flags": [
+    {
+     "code": "study_stays",
+     "level": "low",
+     "reason": "UNSW Study Stays: UNSW does not check its properties"
+    },
+    {
+     "code": "boarding_house_check",
+     "level": "medium",
+     "reason": "Lodging house with 8 residents: check the NSW boarding house register"
+    }
+   ],
+   "enquiry_draft": "Hi, I'm Chaitanya, a UNSW Master of IT student (non-smoker, quiet, tidy). I'm interested in your listing (Single room in an 8-bedroom lodging house, Strachan St, Kingsford). Would a move-in around 15 December work, and could I inspect it in person this week? I'm looking for a stay of 6 months or more. Thanks!",
+   "trust": "B",
+   "women_only": null,
+   "lister": null,
+   "risk": "medium",
+   "contact": {
+    "channel": "UNSW Study Stays message (student sign-in shows the provider's contact details)",
+    "business": null,
+    "url": "https://studystays.unsw.edu.au/Listings/Detail/381213",
+    "mobile_on_listing": false
+   },
+   "laundry": "not mentioned",
+   "laundry_evidence": "",
+   "contract": {
+    "min_months": 3.0,
+    "max_months": 24.0,
+    "ends": null,
+    "ends_approx": false,
+    "flexible": false,
+    "bucket": "3 to 5 months minimum",
+    "summary": "3 to 24 months",
+    "note": "",
+    "longest_months": 24.0,
+    "open_ended": false
+   },
+   "bills_not_included": {
+    "extra": [],
+    "not_mentioned": [
+     "electricity",
+     "gas",
+     "water"
+    ],
+    "estimate_pw": 20,
+    "summary": "not mentioned: electricity, gas, water (about $20/wk ⚠️ estimate)"
+   },
+   "rules_check": {
+    "status": {
+     "s": "check",
+     "why": "The ad does not say whether the lister owns or rents the place: ask"
+    },
+    "bond_cap": {
+     "s": "follows",
+     "why": "Bond $700 = 2.0 weeks (limit 4 weeks)"
+    },
+    "bond_lodged": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't say the bond goes to Rental Bonds Online"
+    },
+    "rent_advance": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "holding_fee": {
+     "s": "not_mentioned",
+     "why": "Not stated"
+    },
+    "no_banned_fees": {
+     "s": "not_mentioned",
+     "why": "No extra fees mentioned"
+    },
+    "written_agreement": {
+     "s": "not_mentioned",
+     "why": "No written agreement mentioned"
+    },
+    "condition_report": {
+     "s": "not_mentioned",
+     "why": "Not mentioned"
+    },
+    "receipts": {
+     "s": "not_mentioned",
+     "why": "Payment method and receipts not mentioned"
+    },
+    "inspect_first": {
+     "s": "not_mentioned",
+     "why": "The ad doesn't offer an inspection"
+    },
+    "boarding_register": {
+     "s": "check",
+     "why": "Ask how many paying residents live there (5+ must be on the NSW register)"
+    },
+    "sublet_consent": {
+     "s": "na",
+     "why": "Not a sublet"
+    }
+   },
+   "rules_summary": {
+    "follows": 1,
+    "breaks": 0,
+    "not_mentioned": 8,
+    "check": 2,
+    "na": 1
+   }
   }
  ],
  "move_in_window": {
@@ -54713,8 +55020,8 @@
  },
  "requested_window": {
   "from": "2026-12-15",
-  "to": "2027-01-31",
-  "asked": "2026-11-11",
-  "note": "Rooms whose start date falls 15 Dec 2026 to 31 Jan 2027 (filter: Available from)"
+  "to": "2027-02-28",
+  "asked": "2026-11-12",
+  "note": "Rooms whose start date falls 15 Dec 2026 to 28 Feb 2027 (asked \"15 Dec to Feb 31\"; February ends on the 28th)"
  }
 }
