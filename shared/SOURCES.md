@@ -278,6 +278,13 @@ Every URL a scout needs, written in full. **Never edit a URL** (page number, sub
 
 **Flatmates extra search (Chrome)**: https://flatmates.com.au/rooms/south-coogee-2034/max-350 (South Coogee shares the Coogee postcode but is not in the six-suburb search)
 
+**Flatmates date filter (Chrome, added 11 Nov 2026)**: `available-DD-MM-YYYY` in the path returns only listings with a room available on or after that date. Run the all-Sydney search first, then keep listings within about 30 min of UNSW Village; it finds every future-dated room in one pass (67 results on 11 Nov)
+
+- https://flatmates.com.au/rooms/sydney/available-15-12-2026+max-350
+- https://flatmates.com.au/rooms/coogee-2034+eastlakes-2018+kensington-2033+kingsford-2032+maroubra-2035+randwick-2031/available-15-12-2026+max-350
+
+**Measured travel (Google Maps, public transport, Wed 11 Nov 2026 about 11:10 am, suburb centre)**: Waverley 19, Matraville 26, Darlinghurst 29, Redfern 30, Newtown 32, Bondi Junction 32, Enmore 43, Botany 46, Chippendale 47, Mascot 71. Mascot, Botany, Chippendale and Enmore are over 30 min despite being close on a map.
+
 **Flatmates 15 to 30 min ring (Chrome, added 11 Nov 2026)**; listing pages with several rooms label each block "<name> overview", so parse every "overview Details" block, not only "Room overview"
 
 - https://flatmates.com.au/rooms/surry-hills-2010+paddington-2021+clovelly-2031+pagewood-2035+hillsdale-2036+matraville-2036/max-350
