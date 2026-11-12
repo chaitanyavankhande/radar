@@ -1,14 +1,14 @@
 # 🛡️ Shared rules (every system, every run)
 
-These rules apply to all five systems: `uni-daily-brief`, `casual-and-part-time-jobs`, `internship-scout`, `hackathon-scout`, `accommodation-scout`. If a skill and this file disagree, the stricter rule wins.
+These rules apply to every system: `uni-daily-brief`, `casual-and-part-time-jobs`, `internship-scout`, `hackathon-scout`, `accommodation-scout`, `accommodation-apply-watch`. If a skill and this file disagree, the stricter rule wins.
 
 ## 1. Never do these
 
 | # | Rule |
 |---|---|
-| 1 | Never apply, submit, enquire, message, book, pay, sign up or accept anything on Chaitanya's behalf. Drafts only; he sends. |
+| 1 | Never apply, submit, enquire, message, book, pay, sign up or accept anything on Chaitanya's behalf. Drafts only; he sends. One exception: `accommodation-apply-watch` sends a prepared reply only when Chaitanya types `send P#` for that exact reply in chat. Scheduled runs never send. |
 | 2 | Never submit assignments, quizzes or practicals on any platform. |
-| 3 | Never send, reply to, forward, delete, archive or move an email. |
+| 3 | Never send, reply to, forward, delete, archive or move an email (the only send is the `send P#` exception in rule 1). |
 | 4 | Never click links inside emails or listings that lead to sign-in, payment or download pages. |
 | 5 | Never type passwords, tokens or codes. Never repeat a security code found in an email. |
 | 6 | Never write personal details (email addresses, zID, phone, home address, his own class rooms or tutorial sections, visa or residence details, resume facts) into this public repo or the public site. They live in Claude memory and the scheduled-task prompt only. |

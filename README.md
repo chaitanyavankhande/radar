@@ -1,6 +1,6 @@
 # 📡 radar
 
-Five Claude automations that keep a UNSW Master of IT student on top of uni, work, internships, hackathons and housing. Each one is a **Claude skill** (run it any time as a slash command) and a **scheduled task** (runs it automatically). Both use the same instruction file, so they always behave the same way.
+Five Claude automations that keep a UNSW Master of IT student on top of uni, work, internships, hackathons and housing, plus a watcher that chases every room enquiry. Each one is a **Claude skill** (run it any time as a slash command) and a **scheduled task** (runs it automatically). Both use the same instruction file, so they always behave the same way.
 
 The results show up on one filterable website: **https://chaitanyavankhande.github.io/radar/**
 
@@ -13,6 +13,7 @@ The results show up on one filterable website: **https://chaitanyavankhande.gith
 | 🚀 [internship-scout](systems/internship-scout/SKILL.md) | Software internships, Australia first, that fit UNSW breaks | Daily 4:38 am | `/internship-scout` |
 | 🏠 [accommodation-scout](systems/accommodation-scout/SKILL.md) | Rooms near UNSW Village within budget, bills-included first, with scam checks and enquiry drafts | Daily 4:54 am | `/accommodation-scout` |
 | 🏆 [hackathon-scout](systems/hackathon-scout/SKILL.md) | Hackathons and CTFs, Sydney first, then Australia and online | Mon, Wed, Fri 5:12 am | `/hackathon-scout` |
+| 👀 [accommodation-apply-watch](systems/accommodation-apply-watch/SKILL.md) | Watches every room enquiry, waitlist and application: catches replies, prepares replies and follow-ups (2 days, 4 days, then weekly, counted), checks portals, sends nothing until Chaitanya says `send P#` | Daily 8:36 am, 12:36 pm, 5:36 pm (plus catch-up runs when the Mac was off) | `/accommodation-apply-watch` |
 
 Scouts run early so the usage limit is fresh again before morning lectures.
 
