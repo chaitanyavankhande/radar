@@ -13102,7 +13102,7 @@
     {
      "code": "same_listing_other_lister",
      "level": "high",
-     "reason": "Same Sturt St, Kingsford room terms as P2044790 (CdA Co-Living, 14 Sturt St): $340 all bills, $680 bond, minimum 3 months, from 17 Dec, 'drop us your mobile number', 'we manage a variety of listings'. That operator asked for payment to an unverified company name and for passport details by WhatsApp (Sheet E9)"
+     "reason": "Same room as P2044790 (CdA Co-Living, Room 8, 14 Sturt St): identical photo (checked 18 Nov), same $340, $680 bond, 17 Dec start. That operator asks for passport and visa by WhatsApp and a non-refundable holding deposit before showing the agreement (Sheet E9)"
     },
     {
      "code": "bait_switch_risk",
@@ -55048,7 +55048,7 @@
    "status": "enquired",
    "closed": false,
    "verified": "✅",
-   "notes": "First seen 12 Nov 2026 (Sheet); added to the data 13 Nov. Read on Flatmates: $340/wk, bond $680, all 4 bills included, private room, shared bathroom, minimum 3 months, available 17 Dec 2026, furnished. Travel: Kingsford, about 10 min walk to UNSW (the ad's own figure; ⚠️ not measured). 15 Nov: re-read in Chrome, unchanged. 15 Nov 2026: enquiry sent by Flatmates message (Seen 11:09 am). 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins). 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept).",
+   "notes": "First seen 12 Nov 2026 (Sheet); added to the data 13 Nov. Read on Flatmates: $340/wk, bond $680, all 4 bills included, private room, shared bathroom, minimum 3 months, available 17 Dec 2026, furnished. Travel: Kingsford, about 10 min walk to UNSW (the ad's own figure; ⚠️ not measured). 15 Nov: re-read in Chrome, unchanged. 15 Nov 2026: enquiry sent by Flatmates message (Seen 11:09 am). 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins). 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept). 18 Nov 2026 correction: the payee 'Co-Living Solutions VIC Pty' IS on ABN Lookup (old name of CIV SLC Pty Ltd, ABN 64 658 070 805); the earlier 'not found' came from an active-names search that stopped early. Passport-by-WhatsApp and the unanswered agreement request confirmed in WhatsApp.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -55096,19 +55096,24 @@
      "reason": "Lister has no verified social media and asks for your mobile number to arrange an inspection: keep first contact on Flatmates"
     },
     {
-     "code": "payment_unverified_account",
-     "level": "high",
-     "reason": "After the 16 Nov inspection the operator (CdA Co-Living, 14 Sturt St) asked for payment to 'Co-Living Solutions VIC Pty', a name not found on ABN Lookup; the real company is CDA CO-LIVING PTY LIMITED (Sheet Enquiries row E9)"
+     "code": "boarding_house_unregistered",
+     "level": "medium",
+     "reason": "14 Sturt St has 7 residents (lister, 15 Nov) but was not found on the NSW boarding house register (E9 check)"
+    },
+    {
+     "code": "payment_other_company",
+     "level": "medium",
+     "reason": "Payment details (WhatsApp, 16 Nov) name the account 'CO-LIVING SOLUTIONS VIC PTY' (CBA, BSB 062-155): that is the old name (16 Mar 2022 to 24 Dec 2025) of CIV SLC PTY LTD, ABN 64 658 070 805, active, NSW 2022. A real company, but not CDA CO-LIVING PTY LIMITED: get the payee named in the written agreement before paying"
     },
     {
      "code": "id_docs_upfront",
      "level": "high",
-     "reason": "Passport and visa details were requested over WhatsApp before any written agreement (Sheet Enquiries row E9)"
+     "reason": "Dani's WhatsApp template (16 Nov) asks for passport, visa and a payment screenshot by WhatsApp, and 1 week's rent as a non-refundable holding deposit, before any agreement is shown"
     },
     {
-     "code": "boarding_house_unregistered",
+     "code": "agreement_withheld",
      "level": "medium",
-     "reason": "14 Sturt St has 7 residents (lister, 15 Nov) but was not found on the NSW boarding house register (E9 check)"
+     "reason": "Request to read the agreement (16 Nov 6:53 pm) and follow-up (10:26 pm) not answered; Dani has offered a call instead (18 Nov)"
     }
    ],
    "enquiry_draft": "Hi Juan Carlos, I'm Chaitanya, a UNSW Master of IT student: quiet, tidy, non-smoker. I'm interested in the $340 bills-included room in Kingsford (P2044790). I'm after a long stay, ideally all of 2027, moving in around 17 to 20 December when my current place ends. A few questions: 1) Can I stay 12 months on a written agreement? 2) Will the bond be lodged with NSW Rental Bonds Online? 3) How many people live there, and what is the street address? 4) Is the room in the photos the one on offer? 5) Is there a washing machine included? Could I inspect in person this week or next before paying anything? Happy to keep chatting here on Flatmates. Thanks!",
@@ -55686,7 +55691,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 17 Nov 2026 (listing page read in Chrome). Same price, bills, minimum stay, 17 Dec start and 6/2/4 house icons as P2044790 (Juan Carlos), but posted by a different lister name and with no description: probably the same operator or the same room, ask for the street address. Kingsford, about 10 min walk to UNSW ⚠️ suburb estimate. 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins). 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept).",
+   "notes": "New 17 Nov 2026 (listing page read in Chrome). Same price, bills, minimum stay, 17 Dec start and 6/2/4 house icons as P2044790 (Juan Carlos), but posted by a different lister name and with no description: probably the same operator or the same room, ask for the street address. Kingsford, about 10 min walk to UNSW ⚠️ suburb estimate. 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins). 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept). 18 Nov 2026 correction: the payee 'Co-Living Solutions VIC Pty' IS on ABN Lookup (old name of CIV SLC Pty Ltd, ABN 64 658 070 805); the earlier 'not found' came from an active-names search that stopped early. Passport-by-WhatsApp and the unanswered agreement request confirmed in WhatsApp.",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -55734,16 +55739,6 @@
      "reason": "No verified social media on Flatmates, plus another weak sign: no description"
     },
     {
-     "code": "payment_unverified_account",
-     "level": "high",
-     "reason": "After the 16 Nov inspection the operator (CdA Co-Living, 14 Sturt St) asked for payment to 'Co-Living Solutions VIC Pty', a name not found on ABN Lookup; the real company is CDA CO-LIVING PTY LIMITED (Sheet Enquiries row E9)"
-    },
-    {
-     "code": "id_docs_upfront",
-     "level": "high",
-     "reason": "Passport and visa details were requested over WhatsApp before any written agreement (Sheet Enquiries row E9)"
-    },
-    {
      "code": "boarding_house_unregistered",
      "level": "medium",
      "reason": "14 Sturt St has 7 residents (lister, 15 Nov) but was not found on the NSW boarding house register (E9 check)"
@@ -55752,6 +55747,21 @@
      "code": "reused_photos",
      "level": "high",
      "reason": "Uses the same room photo as P2044790 under the name 'Janet', whose other listing P2049072 copies another lister's Darlinghurst room (P1909334): likely a copied ad (E9 check, 17 Nov)"
+    },
+    {
+     "code": "payment_other_company",
+     "level": "medium",
+     "reason": "Payment details (WhatsApp, 16 Nov) name the account 'CO-LIVING SOLUTIONS VIC PTY' (CBA, BSB 062-155): that is the old name (16 Mar 2022 to 24 Dec 2025) of CIV SLC PTY LTD, ABN 64 658 070 805, active, NSW 2022. A real company, but not CDA CO-LIVING PTY LIMITED: get the payee named in the written agreement before paying"
+    },
+    {
+     "code": "id_docs_upfront",
+     "level": "high",
+     "reason": "Dani's WhatsApp template (16 Nov) asks for passport, visa and a payment screenshot by WhatsApp, and 1 week's rent as a non-refundable holding deposit, before any agreement is shown"
+    },
+    {
+     "code": "agreement_withheld",
+     "level": "medium",
+     "reason": "Request to read the agreement (16 Nov 6:53 pm) and follow-up (10:26 pm) not answered; Dani has offered a call instead (18 Nov)"
     }
    ],
    "enquiry_draft": "Hi Janet, I'm Chaitanya, a UNSW Master of IT student: quiet, tidy, non-smoker. I'm interested in the $340 bills-included room in Kingsford (P2051337, from 17 Dec). I'm after a long stay, ideally all of 2027, moving in around 1 January when my current place ends. 1) Could you hold the room until about 1 January? 2) Is this the same house as listing P2044790, and what is the street address? 3) How much is the bond, and is it lodged with Rental Bonds Online? 4) How many people live there? 5) Is there a washing machine? Could I inspect in person before paying anything? Thanks!",
