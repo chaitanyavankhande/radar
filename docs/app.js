@@ -96,7 +96,7 @@ const riskScore = it => flagsOf(it).reduce((s, f) => s + (LEVEL_W[f.level] || 0)
 const RISK_LABEL = { high: 'High risk', medium: 'Medium risk', low: 'Low risk', none: 'No flags' };
 const TRUST_LABEL = { A: 'Trusted: official or licensed', B: 'Moderated site: verify', C: 'Open classifieds: extra checks' };
 const trustOf = it => TRUST_LABEL[it.trust] ? it.trust : 'C';
-const isSafe = it => trustOf(it) !== 'C' && it.verified === '✅' && riskOf(it) !== 'high';
+const isSafe = it => trustOf(it) !== 'C' && it.verified === '✅' && (riskOf(it) !== 'high' || it.considered === true);
 const WOMEN_LABEL = { stated: 'Women only', likely: 'Likely women only' };
 const LAUNDRY_LABEL = { yes: 'Washing machine', shared: 'Shared laundry', likely: 'Laundry mentioned, machine not stated', no: 'No washing machine', 'not mentioned': 'Not mentioned' };
 const LAUNDRY_ICON = { yes: '✅', shared: '✅', likely: '🟡', no: '❌', 'not mentioned': '❔' };

@@ -130,6 +130,7 @@ Every scout writes one JSON file in `docs/data/`. The website reads these files;
 | `laundry_evidence` | string | The exact short phrase relied on (empty when not mentioned) |
 | `contact` | object | Public-safe contact route only: `{ channel, business, url, mobile_on_listing }`. `business` is filled only for businesses (agency, operator, marketplace). **Never** put a private person's name, phone number or email here: the repo is public. Those go only to the private Sheet's Contact name, Phone and Email columns |
 | `enquiry_draft` | string | Draft message for Chaitanya to send himself |
+| `considered`, `considered_note` | bool, string | Chaitanya's per-room override (added 18 Nov 2026): `considered: true` keeps a room on the site and in the Sheet's default view even with a 🔴 high flag. Flags and risk are never lowered; the note says when and why |
 
 **Trusted and safe only (Chaitanya's rule, 2 Nov 2026):** a room counts only if its source is trust tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are not considered at all: never shown on the site (it drops them on load, with no filter to bring them back), never ranked, summarised or drafted for, and kept out of the Sheet's view. They may stay in the JSON as history so later runs don't re-read them. Women-only rooms are trusted rooms, hidden by default with a filter to show them.
 

@@ -13069,7 +13069,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "Bills included: Electricity, Water, Gas, Internet. Available 19 Dec 2026: fits the move-in window. Verified social media. 27 Oct: still in the Flatmates max-350 results. Available-from date on the results card is now 25 November 2026 (was 2026-12-19). Listing page re-read: Room 1 $330 available 19 Dec 2026, Room 2 $320 available 25 Nov 2026, both bills included, minimum 3 months, anyone except couples. 31 Oct photo check: shares photos with P1975258, P1534820 (all Kingsford), so these are likely the same house listed more than once; ask which room is which. 2 Nov (deep run): rent now $330/wk (was $320) and available from 19 Dec 2026, which fits the late-Dec move. 4 Nov: listing page re-read: $330/wk, bond $660, all four bills plus home essentials, minimum 3 months. Same operator as P1534820 (room codes #2176 and #2179). 6 Nov: same room codes (#2176, #2179), rents and dates as P1534820: treat as one house. Closed 9 Nov 2026: Flatmates says this listing is no longer available. Reopened 18 Nov 2026: listing live again, now $340/wk, bond $680, from 17 Dec 2026, lister 'Andie', text names Sturt St, Kingsford. Same terms as P2044790 (CdA Co-Living, E9), so it carries that operator's red flags and is not considered.",
+   "notes": "Bills included: Electricity, Water, Gas, Internet. Available 19 Dec 2026: fits the move-in window. Verified social media. 27 Oct: still in the Flatmates max-350 results. Available-from date on the results card is now 25 November 2026 (was 2026-12-19). Listing page re-read: Room 1 $330 available 19 Dec 2026, Room 2 $320 available 25 Nov 2026, both bills included, minimum 3 months, anyone except couples. 31 Oct photo check: shares photos with P1975258, P1534820 (all Kingsford), so these are likely the same house listed more than once; ask which room is which. 2 Nov (deep run): rent now $330/wk (was $320) and available from 19 Dec 2026, which fits the late-Dec move. 4 Nov: listing page re-read: $330/wk, bond $660, all four bills plus home essentials, minimum 3 months. Same operator as P1534820 (room codes #2176 and #2179). 6 Nov: same room codes (#2176, #2179), rents and dates as P1534820: treat as one house. Closed 9 Nov 2026: Flatmates says this listing is no longer available. Reopened 18 Nov 2026: listing live again, now $340/wk, bond $680, from 17 Dec 2026, lister 'Andie', text names Sturt St, Kingsford. Same terms as P2044790 (CdA Co-Living, E9), so it carries that operator's red flags and is not considered. 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept).",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -13204,7 +13204,9 @@
     "not_mentioned": 8,
     "check": 0,
     "na": 1
-   }
+   },
+   "considered": true,
+   "considered_note": "Chaitanya chose on 18 Nov 2026 to consider this room despite its high-risk flags; flags stay visible."
   },
   {
    "id": "flatmates:P312300",
@@ -55046,7 +55048,7 @@
    "status": "enquired",
    "closed": false,
    "verified": "✅",
-   "notes": "First seen 12 Nov 2026 (Sheet); added to the data 13 Nov. Read on Flatmates: $340/wk, bond $680, all 4 bills included, private room, shared bathroom, minimum 3 months, available 17 Dec 2026, furnished. Travel: Kingsford, about 10 min walk to UNSW (the ad's own figure; ⚠️ not measured). 15 Nov: re-read in Chrome, unchanged. 15 Nov 2026: enquiry sent by Flatmates message (Seen 11:09 am). 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins).",
+   "notes": "First seen 12 Nov 2026 (Sheet); added to the data 13 Nov. Read on Flatmates: $340/wk, bond $680, all 4 bills included, private room, shared bathroom, minimum 3 months, available 17 Dec 2026, furnished. Travel: Kingsford, about 10 min walk to UNSW (the ad's own figure; ⚠️ not measured). 15 Nov: re-read in Chrome, unchanged. 15 Nov 2026: enquiry sent by Flatmates message (Seen 11:09 am). 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins). 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept).",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -55203,7 +55205,9 @@
     "not_mentioned": 7,
     "check": 2,
     "na": 1
-   }
+   },
+   "considered": true,
+   "considered_note": "Chaitanya chose on 18 Nov 2026 to consider this room despite its high-risk flags; flags stay visible."
   },
   {
    "id": "flatmates:P1366856:end-dec-room",
@@ -55682,7 +55686,7 @@
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 17 Nov 2026 (listing page read in Chrome). Same price, bills, minimum stay, 17 Dec start and 6/2/4 house icons as P2044790 (Juan Carlos), but posted by a different lister name and with no description: probably the same operator or the same room, ask for the street address. Kingsford, about 10 min walk to UNSW ⚠️ suburb estimate. 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins).",
+   "notes": "New 17 Nov 2026 (listing page read in Chrome). Same price, bills, minimum stay, 17 Dec start and 6/2/4 house icons as P2044790 (Juan Carlos), but posted by a different lister name and with no description: probably the same operator or the same room, ask for the street address. Kingsford, about 10 min walk to UNSW ⚠️ suburb estimate. 18 Nov 2026: listing still live, unchanged ($340, 17 Dec). Risk raised to high from the E9 evidence in the Sheet (payment to an unverified company name, passport by WhatsApp), so under the trusted-and-safe rule it is no longer considered. Status kept (Sheet wins). 18 Nov 2026: Chaitanya asked to consider the Sturt St rooms despite the high-risk flags, so it is shown again (flags kept).",
    "suburb": "Kingsford",
    "distance_km": 1.5,
    "transit_min": 10,
@@ -55844,7 +55848,9 @@
     "not_mentioned": 9,
     "check": 2,
     "na": 1
-   }
+   },
+   "considered": true,
+   "considered_note": "Chaitanya chose on 18 Nov 2026 to consider this room despite its high-risk flags; flags stay visible."
   },
   {
    "found_at": "2026-11-17",
