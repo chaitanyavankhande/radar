@@ -1,27 +1,27 @@
 {
- "updated_at": "2026-11-18T12:45:00+11:00",
- "previous_run_at": "2026-11-17T11:15:00+11:00",
+ "updated_at": "2026-11-19T11:45:00+11:00",
+ "previous_run_at": "2026-11-18T12:45:00+11:00",
  "sources": [
   {
    "name": "Flatmates.com.au",
    "rank": 1,
    "result": "checked",
    "found": 168,
-   "note": "18 Nov 12 pm (Chrome, manual run, window 15 Dec 2026 to 28 Feb 2027): 9 searches (all-Sydney and six-suburb 'available from 15 Dec' filters, the old six, the 15-min six, South Coogee, the four 15 to 30 min rings), every page: 369 unique listings, 269 in scope; every in-scope page read room block by room block plus the descriptions, and 11 tracked listings not in the results re-read. In window, at or under $350, open to men: NEW P1714615 Redfern Room 8 $310 all bills (1 Jan; same room as P1972425 and P1692418), NEW P1972041 Mascot $325 all bills (20 Dec, 3 to 6 months, Mascot measured 71 min), P1978717 REOPENED (Sturt St, same terms as E9: high risk), P2051270, P2051272, P1336012 boys beds now $160 (15 Dec), P2041266 (4 Feb, enquired), P1366856 end-December room. P2044790 and P2051337 now high risk from the E9 evidence. P1602130 is Down Under Stay's Harbourne Rd II house. Women only, hidden: NEW P1879551 (22 Dec), P1512507, P1352074. Closed 10 (9 gone, P1149222 now $400). Rent changes on 37 operator rooms, all starting before 15 Dec. || 17 Nov 10:40 am (Chrome): 9 searches (all-Sydney and six-suburb 'available from 15 Dec' filters, the old six, the 15-min six, South Coogee, the four 15 to 30 min rings), every page: 365 unique listings, 257 in scope or tracked. Every one of the 257 listing pages read room block by room block, plus the descriptions scanned for December to February dates. In window, open to men, at or under $350: P2044790 (unchanged, enquired), P2041266 (unchanged, enquired), NEW P2051337 Kingsford $340 (17 Dec), NEW P2051270 and P2051272 Redfern $180 boys bed (15 Dec), P1336012 REOPENED (15 Dec bed). Closed 22 deactivated listings. Rent or date updates on 38 operator listings (all before 15 Dec). || 15 Nov 5 pm (Chrome, second deep pass): all 9 searches re-run (326 listings, 226 in scope); every in-scope listing page read, every room block parsed AND the full description and \"Who you'll be living with\" scanned for later start dates (December, January, February, 2027). Only rooms starting 15 Dec to 28 Feb, at or under $350 and open to men: P2044790 (17 Dec, enquired, inspection Mon 16 Nov 3 pm) and P2041266 (4 Feb, enquired); P1366856 description still offers a room \"end of December\" from $320. 3 listings new since 11 am (P2042665 Kensington, max 1 month; P1778584 Waterloo, now; P1534466 Darlinghurst, men-only shared, now): none in window. || 15 Nov (Chrome, deep run): 9 searches (all-Sydney and six-suburb \"available from 15 Dec\" filters, the old six, the 15-min six, South Coogee and the four 15 to 30 min rings, all pages): 322 unique listings. 48 in-scope listings not yet in the data, every listing page read room by room: none starts between 15 Dec 2026 and 28 Feb 2027 (latest starts: Surry Hills P1644930 13 Dec, Surry Hills P1621215 10 Dec, Rosebery P1743890 9 Dec, Darlinghurst P1909334 and P2049072 9 Dec); all start on or before 13 Dec, are short stays or are women only, so not added (same rule as 13 Nov). Every in-scope result of the 15 Dec date filter is already tracked. Re-read: P2044790, P1366856, P2041266, P1512507, P1352074, P2042611, P2047648, P2043868, P1855905: all live, no price or date changes. || 13 Nov (Chrome, deep run): date filter 'available from 15 Dec' (6 suburb groups plus all Sydney, 74 results) and full max-350 scan of all in-scope suburb groups (227 listings, every listing page read room by room, plus 44 tracked listings not in the results). In window 15 Dec to 31 Jan, open to men, at or under $350: P2044790 Kingsford (first seen 12 Nov) $340 all bills (17 Dec); P1366856 Matraville second room $320 (end of December, from the description); P2043686 Hillsdale $290 (8 Dec, date adjustable). Closed 43 (gone, removed or over $350). 33 live listings outside the window not yet in the data (all start before 15 Dec or are short stays). || 12 Nov (Chrome): date-filter search, all Sydney, available from 15 Dec, max $350: 67 results (78 listings), 13 near UNSW, every room block read. In window, open to men, in budget, trusted: only Redfern P2041266 (4 Feb). || 11 Nov 12:00 (Chrome): Flatmates date filter found (URL part available-DD-MM-YYYY = rooms available on or after that date). All of Sydney, available from 15 Dec 2026, max $350: 67 results (79 listings) read; 17 within reach of UNSW. For men or anyone and in budget: only Newtown P1759356 (excluded, WhatsApp push) and Enmore P1759445 (43 min, over limit). || 11 Nov (Chrome): scope widened to about 15 to 30 min by bus. 7 searches (old six, the 15-min six, South Coogee, plus new rings: Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville / Bondi Junction, Mascot, Redfern, Botany, Centennial Park, Malabar / Chifley, Bronte, Waverley, Alexandria, Beaconsfield, Darlinghurst / Queens Park, Little Bay, Phillip Bay, Banksmeadow): 246 in-area listings, all listing pages read. Multi-room listings now parsed room by room. Only rooms with a start from 15 Dec to 31 Jan for men or anyone: none on Flatmates (all 4 in-window rooms are women only). || 9 Nov (Chrome): scope widened to about 15 min. Searches: old six max-350 (7 pages, 82 links), bills-included max-300, South Coogee, and new Daceyville+Zetland+Rosebery+Waterloo+Eastgardens+Moore Park max-350 (30 links). 96 listing pages read (30 new, 66 tracked). New in-area rooms: 30 plus 1 reopened (P2042796, now a 6 to 12 month room). Closed (no longer available): P1654205, P1978717, P1975258, P1534820, P2042324, P2044397, P1416981. Changed: P2029561 $210 to $250 from 6 Dec; P2044478 from 2 Dec. Skipped: P2037334 Zetland (ends 5 Jan 2027) || 7 Nov 11:30 (Chrome): max-350 pages 1 to 7 and newest-first page 1 re-read for the long-stay window (now to 28 Feb 2027): no new listings. || 7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
+   "note": "19 Nov 11:00 am (Chrome, manual run, window 15 Dec 2026 to 28 Feb 2027): the two date-filter searches (all Sydney and the six suburbs, available from 15 Dec, max $350), every page: 117 listing links, 24 within about 30 min or tracked. All 24 listing pages read room by room, plus 2 tracked rooms not in the results. No new trusted in-window room for men in scope. Closed: P1714615 (Room 8 from 1 Jan gone). New but out: P1984478 Rose Bay $275 shared all bills from 9 Jan, flexible (Rose Bay outside the travel scope), P1981491 Newtown (women only), P2052691 Ultimo and P2052246 Woollahra (2 to 3 week stays), P2049074 Enmore (43 min), P1616782 Chippendale (47 min, before window), P1927501 Chippendale (women only). P1140738 Kensington Room 1 still $395 from 15 Dec (over). All other tracked in-window rooms unchanged. || 18 Nov 12 pm (Chrome, manual run, window 15 Dec 2026 to 28 Feb 2027): 9 searches (all-Sydney and six-suburb 'available from 15 Dec' filters, the old six, the 15-min six, South Coogee, the four 15 to 30 min rings), every page: 369 unique listings, 269 in scope; every in-scope page read room block by room block plus the descriptions, and 11 tracked listings not in the results re-read. In window, at or under $350, open to men: NEW P1714615 Redfern Room 8 $310 all bills (1 Jan; same room as P1972425 and P1692418), NEW P1972041 Mascot $325 all bills (20 Dec, 3 to 6 months, Mascot measured 71 min), P1978717 REOPENED (Sturt St, same terms as E9: high risk), P2051270, P2051272, P1336012 boys beds now $160 (15 Dec), P2041266 (4 Feb, enquired), P1366856 end-December room. P2044790 and P2051337 now high risk from the E9 evidence. P1602130 is Down Under Stay's Harbourne Rd II house. Women only, hidden: NEW P1879551 (22 Dec), P1512507, P1352074. Closed 10 (9 gone, P1149222 now $400). Rent changes on 37 operator rooms, all starting before 15 Dec. || 17 Nov 10:40 am (Chrome): 9 searches (all-Sydney and six-suburb 'available from 15 Dec' filters, the old six, the 15-min six, South Coogee, the four 15 to 30 min rings), every page: 365 unique listings, 257 in scope or tracked. Every one of the 257 listing pages read room block by room block, plus the descriptions scanned for December to February dates. In window, open to men, at or under $350: P2044790 (unchanged, enquired), P2041266 (unchanged, enquired), NEW P2051337 Kingsford $340 (17 Dec), NEW P2051270 and P2051272 Redfern $180 boys bed (15 Dec), P1336012 REOPENED (15 Dec bed). Closed 22 deactivated listings. Rent or date updates on 38 operator listings (all before 15 Dec). || 15 Nov 5 pm (Chrome, second deep pass): all 9 searches re-run (326 listings, 226 in scope); every in-scope listing page read, every room block parsed AND the full description and \"Who you'll be living with\" scanned for later start dates (December, January, February, 2027). Only rooms starting 15 Dec to 28 Feb, at or under $350 and open to men: P2044790 (17 Dec, enquired, inspection Mon 16 Nov 3 pm) and P2041266 (4 Feb, enquired); P1366856 description still offers a room \"end of December\" from $320. 3 listings new since 11 am (P2042665 Kensington, max 1 month; P1778584 Waterloo, now; P1534466 Darlinghurst, men-only shared, now): none in window. || 15 Nov (Chrome, deep run): 9 searches (all-Sydney and six-suburb \"available from 15 Dec\" filters, the old six, the 15-min six, South Coogee and the four 15 to 30 min rings, all pages): 322 unique listings. 48 in-scope listings not yet in the data, every listing page read room by room: none starts between 15 Dec 2026 and 28 Feb 2027 (latest starts: Surry Hills P1644930 13 Dec, Surry Hills P1621215 10 Dec, Rosebery P1743890 9 Dec, Darlinghurst P1909334 and P2049072 9 Dec); all start on or before 13 Dec, are short stays or are women only, so not added (same rule as 13 Nov). Every in-scope result of the 15 Dec date filter is already tracked. Re-read: P2044790, P1366856, P2041266, P1512507, P1352074, P2042611, P2047648, P2043868, P1855905: all live, no price or date changes. || 13 Nov (Chrome, deep run): date filter 'available from 15 Dec' (6 suburb groups plus all Sydney, 74 results) and full max-350 scan of all in-scope suburb groups (227 listings, every listing page read room by room, plus 44 tracked listings not in the results). In window 15 Dec to 31 Jan, open to men, at or under $350: P2044790 Kingsford (first seen 12 Nov) $340 all bills (17 Dec); P1366856 Matraville second room $320 (end of December, from the description); P2043686 Hillsdale $290 (8 Dec, date adjustable). Closed 43 (gone, removed or over $350). 33 live listings outside the window not yet in the data (all start before 15 Dec or are short stays). || 12 Nov (Chrome): date-filter search, all Sydney, available from 15 Dec, max $350: 67 results (78 listings), 13 near UNSW, every room block read. In window, open to men, in budget, trusted: only Redfern P2041266 (4 Feb). || 11 Nov 12:00 (Chrome): Flatmates date filter found (URL part available-DD-MM-YYYY = rooms available on or after that date). All of Sydney, available from 15 Dec 2026, max $350: 67 results (79 listings) read; 17 within reach of UNSW. For men or anyone and in budget: only Newtown P1759356 (excluded, WhatsApp push) and Enmore P1759445 (43 min, over limit). || 11 Nov (Chrome): scope widened to about 15 to 30 min by bus. 7 searches (old six, the 15-min six, South Coogee, plus new rings: Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville / Bondi Junction, Mascot, Redfern, Botany, Centennial Park, Malabar / Chifley, Bronte, Waverley, Alexandria, Beaconsfield, Darlinghurst / Queens Park, Little Bay, Phillip Bay, Banksmeadow): 246 in-area listings, all listing pages read. Multi-room listings now parsed room by room. Only rooms with a start from 15 Dec to 31 Jan for men or anyone: none on Flatmates (all 4 in-window rooms are women only). || 9 Nov (Chrome): scope widened to about 15 min. Searches: old six max-350 (7 pages, 82 links), bills-included max-300, South Coogee, and new Daceyville+Zetland+Rosebery+Waterloo+Eastgardens+Moore Park max-350 (30 links). 96 listing pages read (30 new, 66 tracked). New in-area rooms: 30 plus 1 reopened (P2042796, now a 6 to 12 month room). Closed (no longer available): P1654205, P1978717, P1975258, P1534820, P2042324, P2044397, P1416981. Changed: P2029561 $210 to $250 from 6 Dec; P2044478 from 2 Dec. Skipped: P2037334 Zetland (ends 5 Jan 2027) || 7 Nov 11:30 (Chrome): max-350 pages 1 to 7 and newest-first page 1 re-read for the long-stay window (now to 28 Feb 2027): no new listings. || 7 Nov (Chrome): max-350 (7 pages), bills-included max-300 (6 pages) and South Coogee (2 pages): 104 links, 71 in area. All 71 in-area listing pages read. No new listings. Closed: P2045417 (no longer available). Bills corrected: P995771 internet included; P2042982 and P2042626 electricity, gas and internet extra. P1750765 end date 31 Jan 2027. || 6 Nov (Chrome): max-350 (8 pages), bills-included max-300 (5 pages) and South Coogee (3 pages) read: 95 links, 71 in area. All 71 listing pages plus 1 tracked listing re-read. New: P1416981. Reopened under the new contract filter (short stays and cheaper rooms): P2042126, P2042611, P2045212, P2042640, P2010858, P1140738, P1884109, P2043868, P2043260, P2042324. Closed: P1277886 (no longer available). Updated: P444075 from 10 Nov, P2042982 starts 6 Feb 2027 (lease to 3 Sep), P312300 now 3 to 12 months. || 6 Nov (Chrome): max-350 (8 pages, 70 results), bills-included max-300 and South Coogee searches read; 71 in-area listings. 1 new: P1416981 (Kingsford private room $300, bills not included, 12 months, available now). All 52 tracked open listings re-read (rents unchanged; P1276675 dates now 15 and 27 Nov; P2044478 from 3 Dec). P1277886 no longer available, closed. P1855905 re-listed but women only and from 5 Mar 2027, stays closed. Window this run: move-in from now to 15 Feb 2027 (Chaitanya, 6 Nov). || 4 Nov evening (Chrome): max-350 (8 pages), bills-included max-300 (4 pages) and South Coogee ("
   },
   {
    "name": "UNSW Study Stays",
    "rank": 2,
    "result": "checked",
    "found": 1,
-   "note": "18 Nov (Chrome): pages 1 to 8 read (66 listings, pages 7 and 8 empty) and 13 detail pages. No new listing at or under $350 in scope. In window: 379046 Paddington Place (27 Dec, unchanged). 379389 Randwick now available 7 Dec (a week early). 381567 Randwick studio from 4 Jan is $580 (over). || 17 Nov (Chrome): pages 1 to 8 read (66 listings). No new listing ids at or under $350. 379046 Paddington Place detail page re-read: 8 rooms now from 27 Dec 2026 (in window). || 15 Nov 5 pm (Chrome): pages 1 to 7 re-read (68 listings) and all 54 untracked detail pages read room by room: only 375918 Woollahra boarding house ($320, stale 2025 dates, out of scope) and 380848 Bardwell Valley ($350, 8.9 km, out of scope) are at or under $350. Nothing new in window. || 15 Nov (cloud WebFetch; curl blocked by proxy): pages 1 to 8 read. Pages 1-6 show 69 to 72 matches, pages 7 and 8 empty (64/60 matches). Page 5 repeats 3 listings from pages 1 and 4, so about 3 listings were not seen. New ids at or under $350 in scope: 381546 (re-post of 381221), 381277 (= Down Under Stay Boyce Rd R2), 378273 Matraville $350 women-only, 381497 Kingsford $300 summer sublet; none is a genuinely new eligible long-stay room. 13 tracked detail pages read: 379046 dates changed, rest unchanged. Out of scope at or under $350: 380848 Bardwell Valley, 375918 Woollahra, 381403 Mascot, 381357 Chippendale. || 13 Nov (Chrome; cloud fetch needed approval): pages 1 to 6 (72 listings) and 13 detail pages read. In window: 379046 Paddington Place (8 rooms from 27 Dec, $195 to $325). 381497 Kingsford $300 is a 10 Dec to 30 Jan sublet (short). 378273 Matraville $350 is female only. || 12 Nov: pages 1 and 2 read; new 381293 Kingsford $350 (available now). || 11 Nov: pages 1 to 6 (69 results) read. New in budget: 381482 Matraville, 379046 Paddington boarding house, 381403 Mascot takeover. None start 15 Dec to 31 Jan. || 9 Nov (cloud): pages 1 to 8 read (69, 64 and 60 matches on different pages; pages 7 and 8 empty; pages 3, 5 and 6 overlap, so up to about 10 listings may not have been seen). 7 tracked detail pages read: all unchanged (381028 and 376475 were not on the listing pages but their detail pages are live). New-scope suburbs: Rosebery 381451 $530, 381263 $450, 379282 $750; Waterloo 381446 $450, 380369 $1,335, 380703 $980; Zetland 379521 $670, 380401 $980; Eastgardens 381161 and 381162 $550: none at or under $350. Out of scope at or under $350: 381482 Matraville $300, 379046 Paddington $190, 381403 Mascot $311 (lease takeover), 375918 Woollahra $320, 381357 Chippendale $350, 380848 Bardwell Valley $350. || 7 Nov (cloud): pages 1 to 6 read (64 to 68 matches). No new in-area rooms at or under $350. 6 tracked rooms' detail pages re-read: unchanged. || 6 Nov (cloud): pages 1 to 6 read (64 to 68 matches; paging is unstable). 6 tracked in-criteria rooms re-read on their detail pages, all still listed. New: 381372 (Randwick twin share, women only, 30 Nov to 13 Feb). 381277 is the same room as Down Under Stay Boyce Rd Room 2. || 6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
+   "note": "19 Nov (Chrome): pages 1 to 8 read (68 listings) and 10 detail pages. No new listing at or under $350 in scope. New 381609 (Harbourne Rd, Kingsford, 4 rooms: three $465 from 15 Dec to 15 Jan, one $295 bed from 10 Jan 2027) is Down Under Stay's Harbourne Rd II house. 379046 Paddington Place unchanged (rooms $195 to $325 from 27 Dec). 381613 Maroubra $355 (over). || 18 Nov (Chrome): pages 1 to 8 read (66 listings, pages 7 and 8 empty) and 13 detail pages. No new listing at or under $350 in scope. In window: 379046 Paddington Place (27 Dec, unchanged). 379389 Randwick now available 7 Dec (a week early). 381567 Randwick studio from 4 Jan is $580 (over). || 17 Nov (Chrome): pages 1 to 8 read (66 listings). No new listing ids at or under $350. 379046 Paddington Place detail page re-read: 8 rooms now from 27 Dec 2026 (in window). || 15 Nov 5 pm (Chrome): pages 1 to 7 re-read (68 listings) and all 54 untracked detail pages read room by room: only 375918 Woollahra boarding house ($320, stale 2025 dates, out of scope) and 380848 Bardwell Valley ($350, 8.9 km, out of scope) are at or under $350. Nothing new in window. || 15 Nov (cloud WebFetch; curl blocked by proxy): pages 1 to 8 read. Pages 1-6 show 69 to 72 matches, pages 7 and 8 empty (64/60 matches). Page 5 repeats 3 listings from pages 1 and 4, so about 3 listings were not seen. New ids at or under $350 in scope: 381546 (re-post of 381221), 381277 (= Down Under Stay Boyce Rd R2), 378273 Matraville $350 women-only, 381497 Kingsford $300 summer sublet; none is a genuinely new eligible long-stay room. 13 tracked detail pages read: 379046 dates changed, rest unchanged. Out of scope at or under $350: 380848 Bardwell Valley, 375918 Woollahra, 381403 Mascot, 381357 Chippendale. || 13 Nov (Chrome; cloud fetch needed approval): pages 1 to 6 (72 listings) and 13 detail pages read. In window: 379046 Paddington Place (8 rooms from 27 Dec, $195 to $325). 381497 Kingsford $300 is a 10 Dec to 30 Jan sublet (short). 378273 Matraville $350 is female only. || 12 Nov: pages 1 and 2 read; new 381293 Kingsford $350 (available now). || 11 Nov: pages 1 to 6 (69 results) read. New in budget: 381482 Matraville, 379046 Paddington boarding house, 381403 Mascot takeover. None start 15 Dec to 31 Jan. || 9 Nov (cloud): pages 1 to 8 read (69, 64 and 60 matches on different pages; pages 7 and 8 empty; pages 3, 5 and 6 overlap, so up to about 10 listings may not have been seen). 7 tracked detail pages read: all unchanged (381028 and 376475 were not on the listing pages but their detail pages are live). New-scope suburbs: Rosebery 381451 $530, 381263 $450, 379282 $750; Waterloo 381446 $450, 380369 $1,335, 380703 $980; Zetland 379521 $670, 380401 $980; Eastgardens 381161 and 381162 $550: none at or under $350. Out of scope at or under $350: 381482 Matraville $300, 379046 Paddington $190, 381403 Mascot $311 (lease takeover), 375918 Woollahra $320, 381357 Chippendale $350, 380848 Bardwell Valley $350. || 7 Nov (cloud): pages 1 to 6 read (64 to 68 matches). No new in-area rooms at or under $350. 6 tracked rooms' detail pages re-read: unchanged. || 6 Nov (cloud): pages 1 to 6 read (64 to 68 matches; paging is unstable). 6 tracked in-criteria rooms re-read on their detail pages, all still listed. New: 381372 (Randwick twin share, women only, 30 Nov to 13 Feb). 381277 is the same room as Down Under Stay Boyce Rd Room 2. || 6 Nov (Chrome, same-origin pages because cloud WebFetch was refused): pages 1 to 6 read, 68 listings, page 7 empty. No new in-criteria rooms; all 6 tracked rooms still listed at the same rent. 381372 (Randwick twin, female, sublet to 13 Feb 2027) still excluded as a short stay. Out of area: 375917 Bondi, 375918 Woollahra. || 4 Nov evening (cloud): pages 1 to 7 read (64 matches, page 7 empty). No new in-criteria ids; all 6 tracked rooms still listed at the same rent."
   },
   {
    "name": "Down Under Stay",
    "rank": 3,
    "result": "checked",
    "found": 7,
-   "note": "18 Nov (Chrome): all 85 room pages from rooms-sitemap.xml plus the /rooms/ list read (69 Occupied). In window: Harbourne III R2 REOPENED $285 (20 Dec), Harbourne IV R1 $285 (3 Jan), Harbourne Rd II R2 now $295 (5 Jan), Norton St R1 $285 (12 Jan). Before the window: Harbourne III R6 $285 (8 Dec), Anzac Pde R3 Maroubra $345 (6 Dec), Boyce Rd R3 $255 (28 Nov), Villiers St R5 $235 (now). Over the cap: Harbourne Rd II R1 and R3 $465 (16 Dec), Harbourne III R7 and Harbourne Rd I R3 $455, Anzac Pde R5 $385, Meeks St R1 $425, Botany St Studio $650. || 17 Nov (Chrome): all 86 room pages from rooms-sitemap.xml read (one new page). NEW in window: Norton St Room 1 Kingsford shared $285 from 12 Jan 2027. Boyce Rd R2 now Occupied (closed). Still open: Harbourne Rd II R2 $285 (5 Jan), Harbourne IV R1 $285 (3 Jan), Harbourne III R6 $285 (8 Dec), Boyce Rd R3 $255 (28 Nov), Villiers St R5 $235 (now). New but before the window: Harbourne IV R3 and R5 shared $285 available now, Anzac Pde R3 Maroubra single $345 from 6 Dec. Over the cap: Harbourne Rd II R1, R3, R4 ($450 to $455), Harbourne III R7, Harbourne Rd I R3, Meeks St R1 ($425), Anzac Pde R5 ($385), Botany St Studio. || 15 Nov (cloud): /rooms/ list (8 rooms) and all 85 room pages from rooms-sitemap.xml read. Villiers St R1 and Harbourne III R2 now Occupied (gone). Still open at or under $350: Boyce Rd R2 $265 (Available), Boyce Rd R3 $255 (28 Nov), Harbourne III R6 $285 (8 Dec), Harbourne Rd II R2 $285 (5 Jan), Harbourne IV R1 $285 (3 Jan), Villiers St R5 $235 (Available). Over cap: Harbourne IV R5/R6 $455 (13 Dec), Harbourne III R7 $455 (21 Dec), Harbourne Rd I R3 $455 (27 Jan), Botany St R2 $425 (17 Dec). Botany St Studio is $650 Available Soon 25 Dec on the list but Occupied $635 on its page. All other rooms Occupied. No new room pages. || 13 Nov (Chrome): all 85 room pages read. In window: Harbourne III R2 (20 Dec), Harbourne IV R1 (now 3 Jan, was 22 Jan), Harbourne Rd II R2 (now 5 Jan, was 11 Jan), Villiers St R1 (21 Jan); all twin share $265 to $285. Harbourne III R7 (21 Dec) and Harbourne Rd I R3 (27 Jan) are $455 singles (over). || 12 Nov (Chrome): all 85 room pages read. In window: Harbourne III R2 (20 Dec), Harbourne Rd II R2 (11 Jan), Villiers St R1 (21 Jan, new), Harbourne IV R1 (22 Jan, new); all $265 to $285 twin. Harbourne III R6 and Boyce Rd R2 reopened at shared prices. || 11 Nov (Chrome): all 85 room pages from the sitemap read. In budget and in the 15 Dec to 31 Jan window: Harbourne III Room 2 (20 Dec, $285 twin) and Harbourne Rd II Room 2 (11 Jan, $285 twin). Harbourne III Room 6 and Boyce Rd Room 2 now over $350. || 9 Nov (cloud): /rooms/ (8 rooms) and all 85 room pages in rooms-sitemap.xml read. Open at or under $350: villiers-st-room-5 $235 shared, 'Available' (REOPENED), boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-6 $285 from 8 Dec (unchanged). harbourne-iii-room-4 now Occupied (closed). Over the cap: botany-st-room2 $425 from 17 Dec; Harbourne IV rooms 5 and 6 $455 from 13 Dec, room 7 $455 from 15 Dec. Everything else Occupied. Bulk fetch outside WebFetch is blocked by the proxy. || 7 Nov (cloud): /rooms/ read: the same 4 tracked rooms ($255 to $285, Wi-Fi extra, other bills not stated); Harbourne IV rooms $455 (over). || 6 Nov (Chrome, same-site fetch): sitemap (86 room pages) all read. In budget: boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-4 $285 from 30 Nov, harbourne-iii-room-6 $285 from 8 Dec (all shared, 4 months minimum, Wi-Fi and utilities extra). Harbourne IV rooms 5 to 7 single $455 (over). Everything else Occupied. Cloud fetch of the sitemap was refused this run (permission prompt). || 6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays close"
+   "note": "19 Nov (Chrome): all 85 room pages from rooms-sitemap.xml read (69 Occupied). In window and at or under $350, unchanged: Harbourne III R2 $285 (20 Dec), Harbourne IV R1 $285 (3 Jan), Harbourne Rd II R2 $295 (5 Jan), Norton St R1 shared $285 (12 Jan). Changed: Anzac Pde R3 Maroubra now $355 from 1 Feb 2027 (was $345 from 6 Dec): $5 over the cap. Over the cap in window: Harbourne Rd II R1 and R3 $465 (16 Dec), Harbourne III R7 $455 (21 Dec), Harbourne Rd I R3 $455 (27 Jan), Botany St Studio $655 (25 Dec). Before the window: Harbourne III R6 $285 shared (8 Dec), Boyce Rd R3 $255 (28 Nov), Villiers St R5 $235 (now). || 18 Nov (Chrome): all 85 room pages from rooms-sitemap.xml plus the /rooms/ list read (69 Occupied). In window: Harbourne III R2 REOPENED $285 (20 Dec), Harbourne IV R1 $285 (3 Jan), Harbourne Rd II R2 now $295 (5 Jan), Norton St R1 $285 (12 Jan). Before the window: Harbourne III R6 $285 (8 Dec), Anzac Pde R3 Maroubra $345 (6 Dec), Boyce Rd R3 $255 (28 Nov), Villiers St R5 $235 (now). Over the cap: Harbourne Rd II R1 and R3 $465 (16 Dec), Harbourne III R7 and Harbourne Rd I R3 $455, Anzac Pde R5 $385, Meeks St R1 $425, Botany St Studio $650. || 17 Nov (Chrome): all 86 room pages from rooms-sitemap.xml read (one new page). NEW in window: Norton St Room 1 Kingsford shared $285 from 12 Jan 2027. Boyce Rd R2 now Occupied (closed). Still open: Harbourne Rd II R2 $285 (5 Jan), Harbourne IV R1 $285 (3 Jan), Harbourne III R6 $285 (8 Dec), Boyce Rd R3 $255 (28 Nov), Villiers St R5 $235 (now). New but before the window: Harbourne IV R3 and R5 shared $285 available now, Anzac Pde R3 Maroubra single $345 from 6 Dec. Over the cap: Harbourne Rd II R1, R3, R4 ($450 to $455), Harbourne III R7, Harbourne Rd I R3, Meeks St R1 ($425), Anzac Pde R5 ($385), Botany St Studio. || 15 Nov (cloud): /rooms/ list (8 rooms) and all 85 room pages from rooms-sitemap.xml read. Villiers St R1 and Harbourne III R2 now Occupied (gone). Still open at or under $350: Boyce Rd R2 $265 (Available), Boyce Rd R3 $255 (28 Nov), Harbourne III R6 $285 (8 Dec), Harbourne Rd II R2 $285 (5 Jan), Harbourne IV R1 $285 (3 Jan), Villiers St R5 $235 (Available). Over cap: Harbourne IV R5/R6 $455 (13 Dec), Harbourne III R7 $455 (21 Dec), Harbourne Rd I R3 $455 (27 Jan), Botany St R2 $425 (17 Dec). Botany St Studio is $650 Available Soon 25 Dec on the list but Occupied $635 on its page. All other rooms Occupied. No new room pages. || 13 Nov (Chrome): all 85 room pages read. In window: Harbourne III R2 (20 Dec), Harbourne IV R1 (now 3 Jan, was 22 Jan), Harbourne Rd II R2 (now 5 Jan, was 11 Jan), Villiers St R1 (21 Jan); all twin share $265 to $285. Harbourne III R7 (21 Dec) and Harbourne Rd I R3 (27 Jan) are $455 singles (over). || 12 Nov (Chrome): all 85 room pages read. In window: Harbourne III R2 (20 Dec), Harbourne Rd II R2 (11 Jan), Villiers St R1 (21 Jan, new), Harbourne IV R1 (22 Jan, new); all $265 to $285 twin. Harbourne III R6 and Boyce Rd R2 reopened at shared prices. || 11 Nov (Chrome): all 85 room pages from the sitemap read. In budget and in the 15 Dec to 31 Jan window: Harbourne III Room 2 (20 Dec, $285 twin) and Harbourne Rd II Room 2 (11 Jan, $285 twin). Harbourne III Room 6 and Boyce Rd Room 2 now over $350. || 9 Nov (cloud): /rooms/ (8 rooms) and all 85 room pages in rooms-sitemap.xml read. Open at or under $350: villiers-st-room-5 $235 shared, 'Available' (REOPENED), boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-6 $285 from 8 Dec (unchanged). harbourne-iii-room-4 now Occupied (closed). Over the cap: botany-st-room2 $425 from 17 Dec; Harbourne IV rooms 5 and 6 $455 from 13 Dec, room 7 $455 from 15 Dec. Everything else Occupied. Bulk fetch outside WebFetch is blocked by the proxy. || 7 Nov (cloud): /rooms/ read: the same 4 tracked rooms ($255 to $285, Wi-Fi extra, other bills not stated); Harbourne IV rooms $455 (over). || 6 Nov (Chrome, same-site fetch): sitemap (86 room pages) all read. In budget: boyce-rd-room-2 $265 from 16 Nov, boyce-rd-room-3 $255 from 28 Nov, harbourne-iii-room-4 $285 from 30 Nov, harbourne-iii-room-6 $285 from 8 Dec (all shared, 4 months minimum, Wi-Fi and utilities extra). Harbourne IV rooms 5 to 7 single $455 (over). Everything else Occupied. Cloud fetch of the sitemap was refused this run (permission prompt). || 6 Nov (Chrome): sitemap (86 room pages) all read: 78 Occupied, 7 Available Soon. The 4 tracked rooms unchanged (boyce-rd-room-2 16 Nov $265, boyce-rd-room-3 28 Nov $255, harbourne-iii-room-4 30 Nov $285, harbourne-iii-room-6 8 Dec $285). harbourne-iv rooms 5, 6 and 7 (13 to 15 Dec) show only a $455 single price, over the cap. villiers-st-room-3, garden-st-room-1 and meeks-st-room-2 are now Occupied. || 4 Nov evening (cloud): sitemap (87 URLs) and all 86 room pages read. The 4 tracked rooms unchanged. harbourne-rd-ii-room-2 still shows Available $285 with the stale 1 Aug date, so it stays close"
   },
   {
    "name": "Gumtree flatshare",
@@ -35,21 +35,21 @@
    "rank": 5,
    "result": "not checked",
    "found": 0,
-   "note": "18 Nov: not re-read (cloud fetch needs approval). 15 Nov: shared $325, private $355. || 17 Nov: not re-read (cloud fetch needs approval). 15 Nov: shared $325, private $355 (no meals). || 15 Nov: unchanged. 2027 over-18 No Meals: shared $325, private $355; matching fee $370 (2026 was $310/$340, fee $350). Minimum stay not stated. || 11 Nov: pricing page read (2027 No Meals private $355, shared $325, matching fee $370). || 9 Nov (cloud): 2027 over-18 no meals: $325 shared, $355 private, matching fee $370. Unchanged. || 7 Nov (cloud): pricing page and student FAQ read: $325 shared, $355 private (no meals); placements 28 nights, extendable 28 nights at a time; 14 days' notice. || 6 Nov (cloud): 2027 over-18 no-meals $325 shared, $355 private; utilities and internet included; minimum stay not stated. || 6 Nov (cloud): Sydney 2027 adult rates unchanged: no meals $325 shared, $355 private; placement fee $370. || 4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
+   "note": "19 Nov: not re-read (cloud fetch permission request unanswered). 15 Nov: shared $325, private $355. || 18 Nov: not re-read (cloud fetch needs approval). 15 Nov: shared $325, private $355. || 17 Nov: not re-read (cloud fetch needs approval). 15 Nov: shared $325, private $355 (no meals). || 15 Nov: unchanged. 2027 over-18 No Meals: shared $325, private $355; matching fee $370 (2026 was $310/$340, fee $350). Minimum stay not stated. || 11 Nov: pricing page read (2027 No Meals private $355, shared $325, matching fee $370). || 9 Nov (cloud): 2027 over-18 no meals: $325 shared, $355 private, matching fee $370. Unchanged. || 7 Nov (cloud): pricing page and student FAQ read: $325 shared, $355 private (no meals); placements 28 nights, extendable 28 nights at a time; 14 days' notice. || 6 Nov (cloud): 2027 over-18 no-meals $325 shared, $355 private; utilities and internet included; minimum stay not stated. || 6 Nov (cloud): Sydney 2027 adult rates unchanged: no meals $325 shared, $355 private; placement fee $370. || 4 Nov (cloud): 2027 over-18 no-meals rates unchanged: $325 shared, $355 private."
   },
   {
    "name": "Domain rentals",
    "rank": 6,
    "result": "not checked",
    "found": 5,
-   "note": "18 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody to click Allow) and the cloud fetch needed approval. Last full read 15 Nov. || 17 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody to click Allow) and the cloud fetch needs approval. Last full read 15 Nov. || 15 Nov (cloud): all 12 suburb URLs read (each includes surrounding suburbs). All tracked domain ids still listed at the same rent (18415104, 18391820, 18410714, 16677777, 18292200, 18375561, 16548418, 18289926, 18365354, 127 Barker St x3; 7640084 = rea:418962602). 11 new in-scope listings opened: 8 kept (Redfern 18389604 $350 and 18342191 $300; Darlinghurst 18292938 $300, 18149593 $340, 16851603 $300; Surry Hills 16938647 $315, 17421500 $340; Alexandria 10111190 $350), all 'Available Now'. Excluded on page read: 18353006 Darlinghurst ($390 on page vs $350 on list), 17271108 Darlinghurst ($355 on page), 16315807 Paddington ('Storeroom Only', not habitable). Mascot and Botany results skipped (out of scope). Bronte, Waverley, Clovelly, Coogee South etc. have no Domain URL in SOURCES.md, so only reached via surrounding-suburb padding. || 13 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody to click Allow) and cloud fetch needed approval. || 12 Nov: Kensington and Randwick pages: no new rooms. || 11 Nov 12:00: Surry Hills, Redfern, Bondi Junction and Matraville pages read; 9 room or studio listings opened, all Available Now. || 11 Nov: Kingsford, Kensington, Randwick, Maroubra, Coogee and Eastlakes pages (each includes surrounding suburbs). 5 new rooms read, all Available Now. Mascot rooms 17482731, 17054741, 12275485 not opened. || 9 Nov (cloud): all 12 suburb URLs read (original six plus Daceyville, Moore Park, Zetland, Waterloo, Rosebery, Eastgardens). NEW: domain:16677777 Rosebery $300 (men only, boarding house room, 3 bills), domain:18391820 Rosebery $350 (Wi-Fi only, from 18 Nov), domain:18292200 Waterloo $295 (all 4 bills, study room). The 6 tracked listings (3 Barker St rooms, 11/1-3 Vicar St, 18410714 Kensington, 39 Rainbow St) re-read: unchanged. Others are car spaces or out of scope (Paddington, Mascot, Darlinghurst, Surry Hills, Redfern, Alexandria, Hillsdale, Botany). URLs to add to SOURCES.md section 6: https://www.domain.com.au/rent/daceyville-nsw-2032/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/moore-park-nsw-2021/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/zetland-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/waterloo-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/rosebery-nsw-2018/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/eastgardens-nsw-2036/?price=0-350&excludedeposittaken=1 || 7 Nov 13:40 (Chrome): Kingsford page (10 results incl. surroundings) re-read: NEW domain:18410714 Kensington room $305 (first listed 7 Nov). Others: the 3 tracked 127 Barker St rooms, 39 Rainbow St, Rosebery listings (out of area) and car spaces. || 7 Nov (cloud): all 6 suburb URLs read. Only the tracked 127 Barker St rooms, 39 Rainbow St and 11/1-3 Vicar St, plus car spaces. Nothing new. Listing pages state no lease term or bills. || 6 Nov (cloud): all 6 suburb URLs read. In area: the 3 tracked 127 Barker St rooms, 11/1-3 Vicar St Coogee and 39 Rainbow St (tracked as rea:418962602), plus car spaces. Nothing new. Listing pages state no lease length or bills. || 6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
+   "note": "19 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody clicked Allow), and the cloud fetch needs approval. Last full read 15 Nov. || 18 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody to click Allow) and the cloud fetch needed approval. Last full read 15 Nov. || 17 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody to click Allow) and the cloud fetch needs approval. Last full read 15 Nov. || 15 Nov (cloud): all 12 suburb URLs read (each includes surrounding suburbs). All tracked domain ids still listed at the same rent (18415104, 18391820, 18410714, 16677777, 18292200, 18375561, 16548418, 18289926, 18365354, 127 Barker St x3; 7640084 = rea:418962602). 11 new in-scope listings opened: 8 kept (Redfern 18389604 $350 and 18342191 $300; Darlinghurst 18292938 $300, 18149593 $340, 16851603 $300; Surry Hills 16938647 $315, 17421500 $340; Alexandria 10111190 $350), all 'Available Now'. Excluded on page read: 18353006 Darlinghurst ($390 on page vs $350 on list), 17271108 Darlinghurst ($355 on page), 16315807 Paddington ('Storeroom Only', not habitable). Mascot and Botany results skipped (out of scope). Bronte, Waverley, Clovelly, Coogee South etc. have no Domain URL in SOURCES.md, so only reached via surrounding-suburb padding. || 13 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out (nobody to click Allow) and cloud fetch needed approval. || 12 Nov: Kensington and Randwick pages: no new rooms. || 11 Nov 12:00: Surry Hills, Redfern, Bondi Junction and Matraville pages read; 9 room or studio listings opened, all Available Now. || 11 Nov: Kingsford, Kensington, Randwick, Maroubra, Coogee and Eastlakes pages (each includes surrounding suburbs). 5 new rooms read, all Available Now. Mascot rooms 17482731, 17054741, 12275485 not opened. || 9 Nov (cloud): all 12 suburb URLs read (original six plus Daceyville, Moore Park, Zetland, Waterloo, Rosebery, Eastgardens). NEW: domain:16677777 Rosebery $300 (men only, boarding house room, 3 bills), domain:18391820 Rosebery $350 (Wi-Fi only, from 18 Nov), domain:18292200 Waterloo $295 (all 4 bills, study room). The 6 tracked listings (3 Barker St rooms, 11/1-3 Vicar St, 18410714 Kensington, 39 Rainbow St) re-read: unchanged. Others are car spaces or out of scope (Paddington, Mascot, Darlinghurst, Surry Hills, Redfern, Alexandria, Hillsdale, Botany). URLs to add to SOURCES.md section 6: https://www.domain.com.au/rent/daceyville-nsw-2032/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/moore-park-nsw-2021/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/zetland-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/waterloo-nsw-2017/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/rosebery-nsw-2018/?price=0-350&excludedeposittaken=1 · https://www.domain.com.au/rent/eastgardens-nsw-2036/?price=0-350&excludedeposittaken=1 || 7 Nov 13:40 (Chrome): Kingsford page (10 results incl. surroundings) re-read: NEW domain:18410714 Kensington room $305 (first listed 7 Nov). Others: the 3 tracked 127 Barker St rooms, 39 Rainbow St, Rosebery listings (out of area) and car spaces. || 7 Nov (cloud): all 6 suburb URLs read. Only the tracked 127 Barker St rooms, 39 Rainbow St and 11/1-3 Vicar St, plus car spaces. Nothing new. Listing pages state no lease term or bills. || 6 Nov (cloud): all 6 suburb URLs read. In area: the 3 tracked 127 Barker St rooms, 11/1-3 Vicar St Coogee and 39 Rainbow St (tracked as rea:418962602), plus car spaces. Nothing new. Listing pages state no lease length or bills. || 6 Nov: not checked. The Chrome site-permission prompt for domain.com.au timed out, and the cloud fetch needs approval for these URLs. The 3 tracked 127 Barker St rooms are still on realestate.com.au at the same rents; 11/1-3 Vicar St Coogee was not re-checked. || 4 Nov evening (cloud): all 6 suburb URLs read. The 4 tracked listings still up at the same rent. Only other in-area room is 7640084, the 39 Rainbow St boarding house already tracked as rea:418962602."
   },
   {
    "name": "UNSW Village 2027 (CLV)",
    "rank": 7,
    "result": "not checked",
    "found": 0,
-   "note": "18 Nov: not re-read (cloud fetch needs approval). Over the cap at the 15 Nov check ($404 to $521); E5 waitlist unchanged. || 17 Nov: not re-read (cloud fetch needs approval). Over the cap at the 15 Nov check ($404 to $521). || 15 Nov: unchanged, 2027 shared $404 to $521; mostly Waitlist, some 'Limited availability'; $55 application fee, 4-week deposit. Over the cap. || 9 Nov (cloud): 2027 shared $404 to $521; 63 of 69 rates Waitlist. Unchanged, over the cap. || 6 Nov (cloud): 2027 shared $404 to $521, mostly waitlist. Over the cap. || 6 Nov (cloud, UNSW's own UNSW Village page): 2027 full-year rates $404 (7 and 8 bed) to $453.50 (2 bed) per week, studios from $544.50; 48 or 52 week contracts only; utilities and wifi included. Over the cap. || 4 Nov (cloud): 2027 shared from $404/wk on shorter contracts; full-year 2027 shared $453.50-$521. No deals. Most options show Waitlist."
+   "note": "19 Nov: not re-read (cloud fetch permission request unanswered). Over the cap at the 15 Nov check ($404 to $521); E5 waitlist unchanged. || 18 Nov: not re-read (cloud fetch needs approval). Over the cap at the 15 Nov check ($404 to $521); E5 waitlist unchanged. || 17 Nov: not re-read (cloud fetch needs approval). Over the cap at the 15 Nov check ($404 to $521). || 15 Nov: unchanged, 2027 shared $404 to $521; mostly Waitlist, some 'Limited availability'; $55 application fee, 4-week deposit. Over the cap. || 9 Nov (cloud): 2027 shared $404 to $521; 63 of 69 rates Waitlist. Unchanged, over the cap. || 6 Nov (cloud): 2027 shared $404 to $521, mostly waitlist. Over the cap. || 6 Nov (cloud, UNSW's own UNSW Village page): 2027 full-year rates $404 (7 and 8 bed) to $453.50 (2 bed) per week, studios from $544.50; 48 or 52 week contracts only; utilities and wifi included. Over the cap. || 4 Nov (cloud): 2027 shared from $404/wk on shorter contracts; full-year 2027 shared $453.50-$521. No deals. Most options show Waitlist."
   },
   {
    "name": "UNSW Accommodation",
@@ -112,7 +112,7 @@
    "rank": 15,
    "result": "not checked",
    "found": 0,
-   "note": "18 Nov: not checked. Not attempted after the Domain and Flatmate Finders permission prompts timed out (same block). Last full read 15 Nov. || 17 Nov: not checked. The Chrome site-permission prompt for realestate.com.au timed out. Last full read 15 Nov. || 15 Nov 5 pm (Chrome): the 15 to 30 min ring searched too (Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville: 7 results; Redfern, Darlinghurst, Waverley, Bronte, Alexandria, Malabar: 11 results). Every listing page read: all \"Available now\" (studios and rooms $300 to $350), none starting 15 Dec to 28 Feb. || 15 Nov (Chrome): both exact searches read (6 + 3 results). One new in-scope listing: 51/243 Anzac Pde Kingsford (rea 445437524, RnJ Realty), room in a shared apartment, $220/wk all bills, bond $880, available now, listed 10 Nov, lease length not stated; starts before 15 Dec, so not added (reported as a near miss). Barker St rooms are the tracked Domain listings; the rest are car spaces. || 13 Nov (Chrome): six-suburb $0 to $350 search, 36 results over 2 pages; all 22 room, studio and apartment pages opened: every one is available now or 13 to 15 Nov, nothing starting 15 Dec to 31 Jan. || 11 Nov (Chrome): six-suburb search: 6 results, same as Domain. 15-min six search not run. || 9 Nov (Chrome): old six (38 results, 2 pages) and new six suburbs (36 results, 2 pages), both padded with surrounding suburbs. New in scope: rea:437750528 Rosebery boarding house room $300 (also on Domain 16677777). 127 Barker St rooms already tracked via Domain || 7 Nov (Chrome): six-suburb search read: the 3 tracked 127 Barker St rooms, 39 Rainbow St and a Randwick 'other' (car space). Nothing new. Listing pages state no lease term or bills. || 6 Nov (Chrome): six-suburb search, 5 results: 39 Rainbow St, the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 6 Nov (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed."
+   "note": "19 Nov: not checked. Not attempted after the Domain permission prompt timed out (same block). Last full read 15 Nov. || 18 Nov: not checked. Not attempted after the Domain and Flatmate Finders permission prompts timed out (same block). Last full read 15 Nov. || 17 Nov: not checked. The Chrome site-permission prompt for realestate.com.au timed out. Last full read 15 Nov. || 15 Nov 5 pm (Chrome): the 15 to 30 min ring searched too (Surry Hills, Paddington, Clovelly, Pagewood, Hillsdale, Matraville: 7 results; Redfern, Darlinghurst, Waverley, Bronte, Alexandria, Malabar: 11 results). Every listing page read: all \"Available now\" (studios and rooms $300 to $350), none starting 15 Dec to 28 Feb. || 15 Nov (Chrome): both exact searches read (6 + 3 results). One new in-scope listing: 51/243 Anzac Pde Kingsford (rea 445437524, RnJ Realty), room in a shared apartment, $220/wk all bills, bond $880, available now, listed 10 Nov, lease length not stated; starts before 15 Dec, so not added (reported as a near miss). Barker St rooms are the tracked Domain listings; the rest are car spaces. || 13 Nov (Chrome): six-suburb $0 to $350 search, 36 results over 2 pages; all 22 room, studio and apartment pages opened: every one is available now or 13 to 15 Nov, nothing starting 15 Dec to 31 Jan. || 11 Nov (Chrome): six-suburb search: 6 results, same as Domain. 15-min six search not run. || 9 Nov (Chrome): old six (38 results, 2 pages) and new six suburbs (36 results, 2 pages), both padded with surrounding suburbs. New in scope: rea:437750528 Rosebery boarding house room $300 (also on Domain 16677777). 127 Barker St rooms already tracked via Domain || 7 Nov (Chrome): six-suburb search read: the 3 tracked 127 Barker St rooms, 39 Rainbow St and a Randwick 'other' (car space). Nothing new. Listing pages state no lease term or bills. || 6 Nov (Chrome): six-suburb search, 5 results: 39 Rainbow St, the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 6 Nov (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms and a car space. Nothing new. || 4 Nov evening (Chrome): six-suburb search, 5 results: Rainbow St 418962602 ($330), the 3 tracked 127 Barker St rooms, a car space and an unrelated $1,075 townhouse. 436818544 (53 Rainbow St) dropped out: its page now says $560/wk, closed."
   },
   {
    "name": "Facebook groups",
@@ -196,7 +196,7 @@
    "rank": 21,
    "result": "not checked",
    "found": 0,
-   "note": "18 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out. || 17 Nov: not checked (Chrome site permission needed; one page per run limit). || 15 Nov 5 pm (Chrome): Kensington page 1 read (12 listings): nothing at or under $350 for a long stay; cheapest long stays $375+. || 15 Nov: cloud fetch failed (client_error), as expected; Chrome-only source. || 15 Nov (Chrome): Kingsford page 1 only (one page per run): 12 listings, nothing at or under $350 for a long stay starting 15 Dec to 28 Feb (only $300 and $320 rooms, both short or available now). || 13 Nov (Chrome): Kensington page 1 only (12 listings + 6 nearby): nothing at or under $350 starting 15 Dec to 31 Jan. || 11 Nov (Chrome): Kingsford page 1 only (bot-check risk): nothing in budget starting 15 Dec to 31 Jan. || 9 Nov (Chrome): one page per run, Zetland: 6 Zetland rooms, all $520/wk or more; nothing in budget || 7 Nov 11:30 (Chrome): Kingsford and Kensington page 1: only 1179761 ($320, from 9 Nov, 1 month plus) at or under $350, the same room as Flatmates P1149222 (women only). || 7 Nov (Chrome): Randwick page 1 (12 listings): none at or under $350. Tracked 1198584 re-read ($350 singles, from 7 Nov, 3 months plus). || 6 Nov (Chrome): Coogee page 1 only (one page per run): 12 listings, none at or under $350. Tracked rooms 1198584 and 1571628 not re-read this run. || 6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
+   "note": "19 Nov: not checked (Chrome site permission not granted; prompts time out unattended). || 18 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out. || 17 Nov: not checked (Chrome site permission needed; one page per run limit). || 15 Nov 5 pm (Chrome): Kensington page 1 read (12 listings): nothing at or under $350 for a long stay; cheapest long stays $375+. || 15 Nov: cloud fetch failed (client_error), as expected; Chrome-only source. || 15 Nov (Chrome): Kingsford page 1 only (one page per run): 12 listings, nothing at or under $350 for a long stay starting 15 Dec to 28 Feb (only $300 and $320 rooms, both short or available now). || 13 Nov (Chrome): Kensington page 1 only (12 listings + 6 nearby): nothing at or under $350 starting 15 Dec to 31 Jan. || 11 Nov (Chrome): Kingsford page 1 only (bot-check risk): nothing in budget starting 15 Dec to 31 Jan. || 9 Nov (Chrome): one page per run, Zetland: 6 Zetland rooms, all $520/wk or more; nothing in budget || 7 Nov 11:30 (Chrome): Kingsford and Kensington page 1: only 1179761 ($320, from 9 Nov, 1 month plus) at or under $350, the same room as Flatmates P1149222 (women only). || 7 Nov (Chrome): Randwick page 1 (12 listings): none at or under $350. Tracked 1198584 re-read ($350 singles, from 7 Nov, 3 months plus). || 6 Nov (Chrome): Coogee page 1 only (one page per run): 12 listings, none at or under $350. Tracked rooms 1198584 and 1571628 not re-read this run. || 6 Nov: not checked. The Chrome site-permission prompt for flatmatefinders.com.au timed out (planned page: Randwick). || 4 Nov (Chrome): Kingsford page 1 only (one page per run). $320 room on 9 Nov is the same as Flatmates P1149222; everything else over $350 or a 1 to 3 week stay."
   },
   {
    "name": "Independent colleges on campus",
@@ -6048,7 +6048,7 @@
   },
   {
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -7555,7 +7555,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-18",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -11491,7 +11491,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-19",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13064,7 +13064,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -13911,7 +13911,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-21",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -17146,12 +17146,12 @@
    "source": "Down Under Stay",
    "source_rank": 3,
    "found_at": "2026-10-24",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "enquired",
    "closed": false,
    "verified": "✅",
-   "notes": "Shared twin room, $285/wk per person, about 7 minutes' walk to UNSW, in a smaller house (about 5 residents). The page says 'Available from 01 Aug 2026', but that date is 12 weeks old and the room is NOT on the main /rooms/ list, so it may be stale. Confirm it is open and can be held for late Dec 2026 or Jan 2027. Bills extra (about $25 per person per week). Bond 3 weeks, minimum 4 months. 26 Oct: the room page now says Occupied. 29 Oct: REOPENED. The room page read from the cloud says 'Available' again, still 'Available from 01 Aug 2026' (stale): Shared $285/wk, 2 people, deposit 3 weeks, minimum 4 months, 4 bedrooms, about 5 residents, 7 min walk to UNSW. Not on the operator's /rooms/ list today. Confirm it is open; the main run should re-check in Chrome. 31 Oct: room page read: 'Available', 'Available from 01 Aug 2026' (ask if it can be held), Shared Occupancy $285/wk, capacity 2, deposit 3 weeks ($855), minimum 4 months, '7 min walking' to UNSW; still not on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). Closed 2 Nov 2026: Down Under Stay now shows the room as Occupied. 4 Nov: page shows 'Available' at $285 shared but the date still reads 1 Aug 2026, so it looks stale; kept closed until a current date appears. 11 Nov 2026: room page back to Available Soon, from 11 Jan 2027, Shared Occupancy $285/wk (twin, 2 people), deposit 3 weeks, minimum 4 months; 4-bedroom house, 1.5 bathrooms, about 5 people, 7 min walk to UNSW; Wi-Fi not included. Reopened. 12 Nov 2026: enquiry sent by email to Down Under Stay (one email covering all 4 rooms; their Book an Inspection button did not work). 13 Nov 2026: room page now says available from 2027-01-05 (was 2027-01-11). 15 Nov: re-read, unchanged (5 Jan 2027, $285). 17 Nov: re-read, unchanged (5 Jan 2027, shared $285). 18 Nov 2026: room page now says shared occupancy $295/wk (was $285), from 5 Jan 2027, deposit 3 weeks, minimum 4 months. Same house is on Flatmates as P1602130 (Down Under Stay): Room 2 twin $295 per person + bills from 10 to 12 Jan 2027, 'Minimum stay: 4 months + 3 weeks', bond 3 weeks, cleaning shared between subtenants.",
+   "notes": "Shared twin room, $285/wk per person, about 7 minutes' walk to UNSW, in a smaller house (about 5 residents). The page says 'Available from 01 Aug 2026', but that date is 12 weeks old and the room is NOT on the main /rooms/ list, so it may be stale. Confirm it is open and can be held for late Dec 2026 or Jan 2027. Bills extra (about $25 per person per week). Bond 3 weeks, minimum 4 months. 26 Oct: the room page now says Occupied. 29 Oct: REOPENED. The room page read from the cloud says 'Available' again, still 'Available from 01 Aug 2026' (stale): Shared $285/wk, 2 people, deposit 3 weeks, minimum 4 months, 4 bedrooms, about 5 residents, 7 min walk to UNSW. Not on the operator's /rooms/ list today. Confirm it is open; the main run should re-check in Chrome. 31 Oct: room page read: 'Available', 'Available from 01 Aug 2026' (ask if it can be held), Shared Occupancy $285/wk, capacity 2, deposit 3 weeks ($855), minimum 4 months, '7 min walking' to UNSW; still not on the /rooms/ list. Unchanged. 2 Nov: could not re-check (Down Under Stay pages refused by WebFetch (PROVENANCE_REQUIRED); not loaded). Closed 2 Nov 2026: Down Under Stay now shows the room as Occupied. 4 Nov: page shows 'Available' at $285 shared but the date still reads 1 Aug 2026, so it looks stale; kept closed until a current date appears. 11 Nov 2026: room page back to Available Soon, from 11 Jan 2027, Shared Occupancy $285/wk (twin, 2 people), deposit 3 weeks, minimum 4 months; 4-bedroom house, 1.5 bathrooms, about 5 people, 7 min walk to UNSW; Wi-Fi not included. Reopened. 12 Nov 2026: enquiry sent by email to Down Under Stay (one email covering all 4 rooms; their Book an Inspection button did not work). 13 Nov 2026: room page now says available from 2027-01-05 (was 2027-01-11). 15 Nov: re-read, unchanged (5 Jan 2027, $285). 17 Nov: re-read, unchanged (5 Jan 2027, shared $285). 18 Nov 2026: room page now says shared occupancy $295/wk (was $285), from 5 Jan 2027, deposit 3 weeks, minimum 4 months. Same house is on Flatmates as P1602130 (Down Under Stay): Room 2 twin $295 per person + bills from 10 to 12 Jan 2027, 'Minimum stay: 4 months + 3 weeks', bond 3 weeks, cleaning shared between subtenants. 19 Nov 2026: DUS room page still $295 shared from 5 Jan 2027 (3 weeks deposit, minimum 4 months). Same room also on UNSW Study Stays as 381609 (Harbourne Rd, Kingsford: $295 single bed, bond $885, from 10 Jan 2027) and Flatmates P1602130 (12 Jan 2027). Three different start dates: confirm with Down Under Stay.",
    "suburb": "Kingsford",
    "distance_km": 0.8,
    "transit_min": 7,
@@ -21241,7 +21241,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-10-31",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -26612,7 +26612,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-11-04",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -29249,7 +29249,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-09",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -33700,7 +33700,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -35806,7 +35806,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -40196,12 +40196,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 11 Nov 2026 (scope widened to rooms about 15 to 30 min from UNSW Village by bus). Travel: Redfern about 28 min door to door ⚠️ estimate, not measured. 11 Nov 2026: travel re-measured on Google Maps (public transport, leave now, about 11:10 am, suburb centre): 30 min. 13 Nov 2026: closed, listing removed (page now redirects to the suburb search). 17 Nov 2026: REOPENED. The listing is live again with three beds: Room 8 Bed 2 (men, 6 Dec), Room 6 Bed 1 (women, 8 Dec) and Room 6 Bed 1 (men, 15 Dec), each $180/wk incl. bills, bond $360, minimum 1 month. Tracked as the 15 Dec men's bed (in window). 18 Nov 2026: rent now $160/wk (was $180). Bond now $320 (2 weeks).",
+   "notes": "New 11 Nov 2026 (scope widened to rooms about 15 to 30 min from UNSW Village by bus). Travel: Redfern about 28 min door to door ⚠️ estimate, not measured. 11 Nov 2026: travel re-measured on Google Maps (public transport, leave now, about 11:10 am, suburb centre): 30 min. 13 Nov 2026: closed, listing removed (page now redirects to the suburb search). 17 Nov 2026: REOPENED. The listing is live again with three beds: Room 8 Bed 2 (men, 6 Dec), Room 6 Bed 1 (women, 8 Dec) and Room 6 Bed 1 (men, 15 Dec), each $180/wk incl. bills, bond $360, minimum 1 month. Tracked as the 15 Dec men's bed (in window). 18 Nov 2026: rent now $160/wk (was $180). Bond now $320 (2 weeks). 19 Nov 2026: Room 8 Bed 1 (men only) still from 15 Dec at $160; Room 8 Bed 2 now from 6 Dec.",
    "suburb": "Redfern",
    "distance_km": 5.5,
    "transit_min": 30,
@@ -45979,7 +45979,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "enquired",
    "closed": false,
@@ -53010,7 +53010,7 @@
   },
   {
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "enquired",
    "closed": false,
@@ -53309,7 +53309,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -54308,7 +54308,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-11",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -54741,7 +54741,7 @@
   },
   {
    "found_at": "2026-11-12",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "enquired",
    "closed": false,
@@ -54895,7 +54895,7 @@
    "source": "UNSW Study Stays",
    "source_rank": 2,
    "found_at": "2026-11-12",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -55043,7 +55043,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-12",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "enquired",
    "closed": false,
@@ -55222,12 +55222,12 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-13",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
    "verified": "✅",
-   "notes": "New 13 Nov 2026. From the description of Flatmates P1366856 (the overview lists only the $350 room available now). 'End of December' recorded as 28 Dec 2026 (approximate). Bond not stated for this room (the $350 room's bond is $1400, 4 weeks). Bills not included (all 4 extra, about $27/wk ⚠️ estimate). Travel: Matraville about 26 min door to door (Google Maps, 11 Nov). 15 Nov: re-read in Chrome. Description unchanged: queen room \"from $320, available end of December\", smallest room \"available mid December\". Overview still shows only the $350 room available now (bond $1,400, bills not included). 17 Nov 2026: description still offers the $320 room 'available end of December'.",
+   "notes": "New 13 Nov 2026. From the description of Flatmates P1366856 (the overview lists only the $350 room available now). 'End of December' recorded as 28 Dec 2026 (approximate). Bond not stated for this room (the $350 room's bond is $1400, 4 weeks). Bills not included (all 4 extra, about $27/wk ⚠️ estimate). Travel: Matraville about 26 min door to door (Google Maps, 11 Nov). 15 Nov: re-read in Chrome. Description unchanged: queen room \"from $320, available end of December\", smallest room \"available mid December\". Overview still shows only the $350 room available now (bond $1,400, bills not included). 17 Nov 2026: description still offers the $320 room 'available end of December'. 19 Nov 2026: description unchanged (\"from $320 ... available end of December\"; \"smallest available mid December\").",
    "suburb": "Matraville",
    "distance_km": 5.5,
    "transit_min": 26,
@@ -55374,7 +55374,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-17",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -55530,7 +55530,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-17",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -55686,7 +55686,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-17",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -55864,7 +55864,7 @@
   },
   {
    "found_at": "2026-11-17",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -56019,10 +56019,10 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-18",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
-   "closed": false,
+   "closed": true,
    "verified": "✅",
    "suburb": "Redfern",
    "distance_km": 5.5,
@@ -56171,7 +56171,7 @@
     "mobile_on_listing": false
    },
    "enquiry_draft": "Hi Jessica, I'm Chaitanya, a UNSW Master of IT student: quiet, tidy, non-smoker. I'm interested in Room 8 in your Redfern listing (P1714615, $310 incl. bills, from 1 January). I'm after a long stay, ideally all of 2027, moving in on 1 January when my current place ends. 1) Can I stay 12 months on a written agreement? 2) What is the street address, how many people live there, and is it a registered boarding house? 3) Where is the bond lodged? 4) What does the utilities fair-use contribution cost? 5) Is there a washing machine? Could I inspect in person before paying anything? Thanks!",
-   "notes": "New 18 Nov 2026 (listing page read in Chrome). Room 8 $310/wk from 1 Jan 2027, the only in-window room in this 6-room ad (others start 29 Nov to 9 Dec). Same room also advertised as P1972425 and in P1692418's text. Redfern about 30 min from UNSW Village (earlier Google Maps measure for Redfern)."
+   "notes": "New 18 Nov 2026 (listing page read in Chrome). Room 8 $310/wk from 1 Jan 2027, the only in-window room in this 6-room ad (others start 29 Nov to 9 Dec). Same room also advertised as P1972425 and in P1692418's text. Redfern about 30 min from UNSW Village (earlier Google Maps measure for Redfern). 19 Nov 2026: CLOSED. Listing re-read in Chrome: Room 8 (1 Jan) is no longer on it; the remaining rooms start 29 Nov to 9 Dec, before the window."
   },
   {
    "id": "flatmates:P1972041",
@@ -56181,7 +56181,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-18",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -56322,7 +56322,7 @@
    "source": "Flatmates.com.au",
    "source_rank": 1,
    "found_at": "2026-11-18",
-   "last_seen_at": "2026-11-18",
+   "last_seen_at": "2026-11-19",
    "deadline": null,
    "status": "new",
    "closed": false,
@@ -56530,7 +56530,7 @@
  "requested_window": {
   "from": "2026-12-15",
   "to": "2027-02-28",
-  "asked": "2026-11-12",
+  "asked": "2026-11-19",
   "note": "Rooms whose start date falls 15 Dec 2026 to 28 Feb 2027 (asked \"15 Dec to Feb 31\"; February ends on the 28th)"
  }
 }
