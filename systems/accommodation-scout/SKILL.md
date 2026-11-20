@@ -1,6 +1,6 @@
 ---
 name: accommodation-scout
-description: Daily scout for long-stay rooms within about 15 min of UNSW Village under $350/wk, moving in by 28 Feb 2027. Records lease length, bills, NSW renting rules and scam flags; updates radar and Sheet.
+description: Daily scout for long-stay rooms within about 30 min of UNSW Village under $350/wk, starting 15 Dec 2026 to 28 Feb 2027, plus rooms free earlier or with no start date. Records lease length, bills, NSW renting rules and scam flags; updates radar and Sheet.
 ---
 
 # 🏠 accommodation-scout
@@ -19,7 +19,7 @@ Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chai
 |---|---|
 | Rent | **$350 per week or less** (ideally $300 or less). A room that rises above $350 is closed |
 | Travel scope | **Every room within about 15 minutes of UNSW Village** (public transport or walking, door to door). Suburbs in scope, by Google Maps transit time from UNSW Village to the suburb centre (9 Nov 2026): Kensington, Kingsford, Randwick (14), Moore Park (16), Daceyville (17), Eastlakes (18), Zetland (19), Waterloo (19), Rosebery (20), Eastgardens (20), plus Coogee incl. South Coogee (22) and Maroubra (23) kept from the original six. Out of scope: Surry Hills (24), Pagewood (27), Clovelly (30), Hillsdale (33), Centennial Park (34), Paddington (34), Redfern, Mascot and the CBD rows search sites pad results with. Record `transit_min` for every room |
-| Move-in | Any start date from today until **28 Feb 2027**. Rooms that start after 28 Feb are closed |
+| Move-in | Start any day **15 Dec 2026 to 28 Feb 2027**. Rooms free earlier and rooms with no start date are kept too (see "Start dates" below). Rooms that start after 28 Feb are closed |
 | Stay length | **Long stays are the target: 6 months or more possible** (`contract.longest_months` 6 or more, or `open_ended`). Rooms whose length is **unknown** count as possible long stays: keep them, mark "Lease length unknown", list them last, and ask the length. Shorter stays found by the normal searches stay in the data only if they last until at least 14 Jan 2027, but get no ranking, enquiry draft or summary line and are hidden by default |
 | Room types | Private room in a share house · Shared (twin) room · Studio · Student building · UNSW Village 2027 · Homestay |
 | Trusted and safe only | A room counts only if its source is trust tier A or B, its listing page was read (✅) and it has no 🔴 high flag. Rooms that fail are not considered at all: never on the site, never ranked, summarised or drafted for, kept out of the Sheet view, kept in the JSON as history only |
@@ -27,6 +27,18 @@ Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chai
 | Must-haves | None. Walking distance to UNSW ranks higher. Chaitanya needs a washing machine, so laundry is always recorded |
 
 Don't run separate short-stay searches unless asked.
+
+### 📅 Start dates: never drop a room because of its date (20 Nov 2026)
+
+Every room gets a `start_group`, shown as a chip on the site and used to group the run summary:
+
+| `start_group` | When | What to show and do |
+|---|---|---|
+| `in_window` | The listing gives a start date from 15 Dec 2026 to 28 Feb 2027 | List as normal |
+| `not_stated` | No start date anywhere: overview, description, "Who you'll be living with", provider terms | **Never ignore it.** Keep it, `available_from` null, chip "📅 Start date not stated: ask". Add "When can I move in, and can I start between mid-December and February?" to `inspection_questions` and the enquiry draft |
+| `earlier` | Free now or from a date before 15 Dec 2026 | **Never ignore it.** Keep it with its date, chip "📅 Available earlier: ask to hold". Add "Can you hold the room until mid-December or January, or let me start then?" to the questions and the draft. Drop it only if a fixed end date means it is over before about 14 Jan 2027 |
+
+Read descriptions for dates as well as the overview ("available end of December", "from 1st Jan"). Agent listings count too, even when the room is free now.
 
 ## 2. Sources (all, every run, in `shared/SOURCES.md` section 5 order)
 
@@ -97,4 +109,4 @@ Limits and sources live in the site's ⓘ guide (`RENT_GUIDE` in `docs/app.js`);
 
 - `docs/data/accommodation.json`: validate with `python3 -m json.tool`, one commit per run (`data(accommodation-scout): YYYY-MM-DD run, N new, M closed`), push. Site code changes: `site: ...`; skill and docs: `docs(accommodation-scout): ...` plus a `decisions/DECISION_LOG.md` line.
 - **Google Sheet tab Accommodation** (one row per room, matched by ID in the last column, Status in column A, never overwrite a Status Chaitanya set). Columns: Status, Listing, Suburb, Rent $/wk, Bills included (of 4), Bills included, Bills extra (you pay), Bills not mentioned, Est. extra bills $/wk, **Bills not included** (one ARRAYFORMULA in J1 built from the bill columns: never write values under it), Km, Transit min, Walkable, Room, Available from, Lease, Contract length, Contract group, **Longest stay allowed** ("Unknown length (the ad does not say)" when unknown), Furnished, Own bathroom, Laundry, Laundry evidence, Who can apply, Women only, Source trust, Risk, Flags (reasons), **NSW renting rules** (counts, then which rules break, need checking and are followed), In default view, Contact via, Contact name, Phone, Email, Link, Source, First seen, Closed, Checked, ID. In default view is `no` for closed, untrusted, women-only and short-stay rooms (longest stay under 6 months); unknown lengths stay `yes`. Write cells with `update_values`: a `repeatCell` batch skips rows the Sheet's filter hides. Write dates and phone numbers with a leading apostrophe.
-- **Run summary:** new trusted long-stay rooms; the best 5 (rent, contract and longest stay, bills not included, rules broken); rooms that break a renting rule; rooms closed and why; how many women-only and short-stay rooms are hidden; sources not checked and why. Leave out rooms that are not trusted and safe.
+- **Run summary:** list rooms in three groups (✅ starts in the window · 📅 start date not stated, ask · 📅 available earlier, ask them to hold it) and never leave out a trusted room because of its start date; new trusted long-stay rooms; the best 5 (rent, contract and longest stay, bills not included, rules broken); rooms that break a renting rule; rooms closed and why; how many women-only and short-stay rooms are hidden; sources not checked and why. Leave out rooms that are not trusted and safe.
