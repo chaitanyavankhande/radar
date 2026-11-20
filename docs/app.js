@@ -590,6 +590,8 @@ const TABS = [
       if (trustOf(it) === 'A') c.push(['Trusted source', 'good']);
       if (it.women_only) c.push([WOMEN_LABEL[it.women_only] || 'Women only', 'warn']);
       if (n === 4) c.push(['All bills included', 'good']);
+      if (it.start_group === 'not_stated' || (!it.available_from && !isClosed(it))) c.push(['📅 Start date not stated: ask', 'warn']);
+      else if (it.start_group === 'earlier') c.push(['📅 Available earlier: ask to hold', 'info']);
       if (rulesCount(it, 'breaks')) c.push([`Breaks ${rulesCount(it, 'breaks')} renting rule${rulesCount(it, 'breaks') > 1 ? 's' : ''}`, 'crit']);
       { const k = contractOf(it);
         if (k.bucket === 'Short stay (under 3 months)') c.push(['Short stay', 'warn']);
