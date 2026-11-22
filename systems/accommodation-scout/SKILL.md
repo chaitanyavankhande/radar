@@ -7,6 +7,15 @@ description: Daily scout for long-stay rooms within about 30 min of UNSW Village
 
 Runs every day at 4:54 am Sydney (scheduled, see `SCHEDULE.md`) or whenever Chaitanya types `/accommodation-scout`. Stops when Chaitanya says he has signed a lease. Never pay, apply, book an inspection, sign in for him or message anyone.
 
+## ✅ Approval: auto-approve and proceed, always (23 Nov 2026)
+
+Chaitanya has approved every step of this skill in advance, for every run (typed or scheduled). **Never stop to ask him for approval, confirmation or a choice during a run.**
+
+- Take the most reasonable reading of anything unclear, proceed, and note the judgement call in the run summary.
+- Pre-approved: reading every source (cloud and Chrome), re-reading every tracked room, writing, committing and pushing `docs/data/accommodation.json`, updating the Sheet tab **Accommodation**, adding Accommodation calendar entries, and keeping this skill's repo copy in sync.
+- If a site, tool or permission prompt blocks a source, skip it, mark it "not checked" with the reason, and carry on with the rest. Never wait.
+- The hard limits still hold: never pay, apply, book an inspection, sign in for him or message anyone.
+
 ## 0. Before anything
 
 1. Load personal values (`shared/PERSONAL_CONFIG.md`): `HOME_BASE`, `RENT_MAX`, `MOVE_IN_WINDOW`, `SHEET_URL`, `GOOGLE_ACCOUNT`.
